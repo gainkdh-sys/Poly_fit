@@ -3,21 +3,33 @@ import { categories, questions, electionsList, candidates } from './data.js';
 
 const DOM = { app: document.getElementById('app') };
 
-// V2 전면 개편 상태 관리 로직
 const state = {
   view: 'intro', 
-  district: '', // 검색된 지역구 이름
-  // 6대 카테고리 18문항에 대한 가중치 총합 (5점 척도 누적)
-  preferences: { welfare: 0, education: 0, transport: 0, culture: 0, housing: 0, environment: 0 },
-  currentPrefQuestion: 0,
-  selectedElectionId: null, // 다중 선거 선택 결과
-  finalRank: []
+  district: '', 
+  
+  // Phase 1 (18문항) - 뒤로 가기 복구를 위해 배열로 기록
+  prefAnswers: [], // { category: 'welfare', score: 5 }
+  
+  selectedElectionId: null, // 도지사, 시장 등
+  
+  // Phase 2 (블라인드 6문항) - 뒤로 가기 복구를 위해 배열로 기록
+  blindAnswers: [], // { candId: 101, catId: 'welfare' }
+  
+  finalRank: [],
+  isResultRevealed: false
 };
 
-// 뷰 라우팅(엔진)
+// ================= [Core Engine] =================
 function navigate(view) { 
   state.view = view; 
   render(); 
+}
+
+// 18문항 배열 값을 현재 가중치 객체로 환산
+function getPreferences() {
+  const prefs = { welfare: 0, education:0, transport:0, culture:0, housing:0, environment:0 };
+  state.prefAnswers.forEach(ans => prefs[ans.category] += ans.score);
+  return prefs;
 }
 
 function getCategoryName(catId) {
@@ -30,18 +42,56 @@ function render() {
   const container = document.createElement('div');
   container.className = 'container fade-in';
   
+  // 네비게이션 헤더 렌더링 (intro, loading 제외)
+  if (!['intro', 'loading'].includes(state.view)) {
+    const header = document.createElement('div');
+    header.className = 'nav-header';
+    const backBtn = document.createElement('button');
+    backBtn.className = 'btn-back';
+    backBtn.innerHTML = '<i>←</i> 이전으로';
+    backBtn.onclick = handleBack;
+    header.appendChild(backBtn);
+    DOM.app.appendChild(header);
+  }
+
+  // 뷰 마운트
   if (state.view === 'intro') container.appendChild(renderIntro());
   if (state.view === 'district') container.appendChild(renderDistrict());
   if (state.view === 'preference') container.appendChild(renderPreference());
+  if (state.view === 'prefSummary') container.appendChild(renderPrefSummary());
   if (state.view === 'electionList') container.appendChild(renderElectionList());
+  if (state.view === 'blindPledge') container.appendChild(renderBlindPledge());
   if (state.view === 'loading') {
       container.appendChild(renderLoading());
-      setTimeout(() => { calculateMatch(); navigate('result'); }, 2000);
+      setTimeout(() => { calculateMatch(); navigate('result'); }, 2200);
   }
   if (state.view === 'result') container.appendChild(renderResult());
 
   DOM.app.appendChild(container);
   window.scrollTo(0, 0);
+}
+
+// 공통 뒤로 가기 라우터
+function handleBack() {
+  if (state.view === 'district') navigate('intro');
+  else if (state.view === 'preference') {
+    if (state.prefAnswers.length > 0) { state.prefAnswers.pop(); navigate('preference'); }
+    else navigate('district');
+  }
+  else if (state.view === 'prefSummary') {
+    state.prefAnswers.pop(); // 마지막 문제 다시 풀기
+    navigate('preference');
+  }
+  else if (state.view === 'electionList') navigate('prefSummary');
+  else if (state.view === 'blindPledge') {
+    if (state.blindAnswers.length > 0) { state.blindAnswers.pop(); navigate('blindPledge'); }
+    else navigate('electionList');
+  }
+  else if (state.view === 'result') {
+    state.blindAnswers = [];
+    state.isResultRevealed = false;
+    navigate('electionList');
+  }
 }
 
 function createEl(tag, className, innerHTML = '') {
@@ -51,47 +101,49 @@ function createEl(tag, className, innerHTML = '') {
   return el;
 }
 
-// 1. 인트로 (MBTI 등 듀얼 모드 분할)
+const DUMMY_LOCATIONS = [
+  "서울특별시 강남구 역삼동", "서울특별시 마포구 서교동", "서울특별시 종로구 평창동", "서울특별시 영등포구 여의도동",
+  "부산광역시 해운대구 우동", "부산광역시 동래구 사직동", "인천광역시 연수구 송도동", "인천광역시 부평구 부평동",
+  "대구광역시 수성구 범어동", "광주광역시 북구 용봉동", "대전광역시 서구 둔산동", "울산광역시 남구 삼산동", 
+  "세종특별자치시 도담동", "경기도 성남시 분당구 정자동", "경기도 수원시 영통구 광교동", "강원특별자치도 춘천시 퇴계동", 
+  "충청북도 청주시 흥덕구 복대동", "충청남도 천안시 서북구 쌍용동", "전북특별자치도 전주시 완산구 효자동", 
+  "전라남도 여수시 웅천동", "경상북도 포항시 남구 지곡동", "경상남도 창원시 성산구 상남동", "제주특별자치도 제주시 노형동",
+  // 진주시 읍면동 상세 (최우선 요청)
+  "경상남도 진주시 문산읍", "경상남도 진주시 내동면", "경상남도 진주시 정촌면", "경상남도 진주시 금곡면", "경상남도 진주시 진성면",
+  "경상남도 진주시 일반성면", "경상남도 진주시 이반성면", "경상남도 진주시 사봉면", "경상남도 진주시 지수면", "경상남도 진주시 대곡면",
+  "경상남도 진주시 금산면", "경상남도 진주시 집현면", "경상남도 진주시 미천면", "경상남도 진주시 명석면", "경상남도 진주시 대평면",
+  "경상남도 진주시 수곡면", "경상남도 진주시 가호동", "경상남도 진주시 평거동", "경상남도 진주시 충무공동", "경상남도 진주시 판문동",
+  "경상남도 진주시 신안동", "경상남도 진주시 이현동", "경상남도 진주시 상평동", "경상남도 진주시 하대동", "경상남도 진주시 초장동"
+];
+
+// ================= [Views] =================
+
 function renderIntro() {
   const wrapper = createEl('div', 'view-wrapper intro-view center-all');
   wrapper.innerHTML = `
-    <div class="hero">
-      <div class="badge">Poly Fit v2.0</div>
-      <h1>나의 가치관에 딱 맞는<br><span class="highlight">최적의 정치인 찾기</span></h1>
-      <p>18개의 디테일한 질문을 통해<br>나에게 가장 필요한 정책을 펼칠 후보를 뽑아줍니다.</p>
+    <div class="hero mt-2">
+      <div class="badge">Poly Fit v3.0</div>
+      <h1>나의 가치관을 관통하는<br><span class="highlight">최적의 블라인드 매칭</span></h1>
+      <p>가치관 설문으로 중요도를 파악하고,<br>익명의 블라인드 공약을 골라 최고의 후보를 찾습니다.</p>
     </div>
-    <div class="dual-mode-grid">
-      <button class="btn-primary" id="btn-match">정치인 매칭 시스템 시작하기</button>
-      <button class="btn-secondary" id="btn-mbti">나의 정치 MBTI 알아보기 (준비 중)</button>
+    <div style="display:flex; flex-direction:column; gap:1rem; margin-top:2.5rem;">
+      <button class="btn-primary" onclick="window.navigateState('district')">매칭 시스템 시작하기</button>
+      <button class="btn-secondary" onclick="alert('정치 MBTI 기능은 현재 데이터를 준비 중입니다! 매칭 시스템을 이용해 주세요.')">나의 정치 MBTI 알아보기 (준비 중)</button>
     </div>
   `;
-  setTimeout(() => {
-    document.getElementById('btn-match').onclick = () => navigate('district');
-    document.getElementById('btn-mbti').onclick = () => alert("정치 MBTI 기능은 현재 열심히 준비 중입니다! 우선 매칭 시스템을 이용해 주세요.");
-  }, 0);
+  window.navigateState = navigate;
   return wrapper;
 }
 
-// 전국구 더미 검색 데이터셋
-const DUMMY_LOCATIONS = [
-  "서울특별시 강남구 역삼동", "서울특별시 마포구 서교동", "부산광역시 해운대구 우동",
-  "인천광역시 연수구 송도동", "세종특별자치시 보람동", "경기도 성남시 분당구 정자동",
-  "경기도 과천시 중앙동", "충청남도 천안시 서북구 쌍용동", "전북특별자치도 전주시 완산구 효자동",
-  "경상북도 포항시 남구 효자동", "경상남도 진주시 가호동", "경상남도 진주시 평거동",
-  "경상남도 진주시 충무공동", "경상남도 창원시 성산구 상남동", "제주특별자치도 제주시 노형동"
-];
-
-// 2. 전국구 지역 검색 (네이버 API 대체 텍스트 검색 모듈)
 function renderDistrict() {
   const wrapper = createEl('div', 'view-wrapper slide-up center-all');
   wrapper.innerHTML = `
-    <h2>어느 동네에<br>거주하고 계신가요?</h2>
-    <p>거주지에 출마할 선거 목록을 불러옵니다.<br>(동 단위로 지역를 검색해보세요)</p>
-    <div class="search-container">
-      <input type="text" id="district-search" class="search-input" placeholder="예: 가호동, 서교동, 정자동" autocomplete="off">
+    <h2>가장 궁금한 선거가 치러질<br>지역을 검색하세요</h2>
+    <p>전국의 읍, 면, 동 단위를 편하게 입력해주세요.</p>
+    <div class="search-container mt-2">
+      <input type="text" id="district-search" class="search-input" placeholder="예: 가호동, 집현면, 서교동" autocomplete="off">
       <div id="autocomplete-list" class="autocomplete-dropdown"></div>
     </div>
-    <p style="font-size:0.85rem; color:#94a3b8; margin-top:2rem;">네이버 지도 연동 전, 전국 텍스트 기반<br>자동완성 모의 버전으로 동작합니다.</p>
   `;
   
   setTimeout(() => {
@@ -108,18 +160,12 @@ function renderDistrict() {
         list.classList.add('active');
         matches.forEach(match => {
           const div = createEl('div', 'autocomplete-item', match);
-          div.onclick = () => {
-            state.district = match;
-            navigate('preference');
-          };
+          div.onclick = () => { state.district = match; navigate('preference'); };
           list.appendChild(div);
         });
-      } else {
-        list.classList.remove('active');
-      }
+      } else list.classList.remove('active');
     });
 
-    // 엔터키 직접 입력으로 없는 동네 강제 지정 가능
     input.addEventListener('keypress', (e) => {
       if(e.key === 'Enter' && input.value.trim().length > 1) {
         state.district = input.value.trim() + " 일대";
@@ -127,45 +173,34 @@ function renderDistrict() {
       }
     });
   }, 0);
-
   return wrapper;
 }
 
-// 3. 18문항 5점 리커트 척도 설문 루프
 function renderPreference() {
   const wrapper = createEl('div', 'view-wrapper slide-up');
-  const qInfo = questions[state.currentPrefQuestion];
+  const qIdx = state.prefAnswers.length;
+  const qInfo = questions[qIdx];
   
   wrapper.innerHTML = `
-    <div class="step-indicator">가치관 핏팅 질문 ${state.currentPrefQuestion + 1} / ${questions.length}</div>
+    <div class="step-indicator">1단계 : 정책 가중치 판별 (${qIdx + 1} / ${questions.length})</div>
     <div class="cat-badge"># ${getCategoryName(qInfo.category)}</div>
     <h2 class="q-title">${qInfo.text}</h2>
   `;
   
-  const likertGrid = createEl('div', 'likert-grid');
+  const likertGrid = createEl('div', 'likert-grid mt-2');
   const scales = [
-    { text: "매우 중요함", score: 5 },
-    { text: "중요함", score: 4 },
-    { text: "보통임", score: 3 },
-    { text: "덜 중요함", score: 2 },
-    { text: "전혀 중요하지 않음", score: 1 }
+    { text: "매우 중요함", score: 5 }, { text: "중요함", score: 4 }, { text: "보통임", score: 3 },
+    { text: "덜 중요함", score: 2 }, { text: "전혀 중요하지 않음", score: 1 }
   ];
 
   scales.forEach((scale, idx) => {
     const btn = createEl('button', 'likert-btn slide-up');
     btn.innerHTML = scale.text;
     btn.style.animationDelay = `${idx * 0.05}s`;
-    
     btn.onclick = () => {
-      // 해당 카테고리에 점수 즉시 누적
-      state.preferences[qInfo.category] += scale.score;
-      
-      if (state.currentPrefQuestion < questions.length - 1) {
-        state.currentPrefQuestion++;
-        navigate('preference');
-      } else {
-        navigate('electionList');
-      }
+      state.prefAnswers.push({ category: qInfo.category, score: scale.score });
+      if (state.prefAnswers.length < questions.length) navigate('preference');
+      else navigate('prefSummary');
     };
     likertGrid.appendChild(btn);
   });
@@ -174,13 +209,43 @@ function renderPreference() {
   return wrapper;
 }
 
-// 4. 설문 완료 후 [다중 선거 종류] 선택 라우터
+function renderPrefSummary() {
+  const wrapper = createEl('div', 'view-wrapper slide-up');
+  const prefs = getPreferences();
+  let total = Object.values(prefs).reduce((a,b) => a+b, 0);
+  
+  wrapper.innerHTML = `
+    <div class="step-indicator">가치관 진단 완료</div>
+    <h2 class="q-title">나의 정책 중요도 랭킹</h2>
+    <p>18문항의 응답을 분석하여 산출된 각 정책 분야별 비중 백분율입니다.</p>
+    <div class="summary-list mt-2"></div>
+    <button class="btn-primary mt-2" onclick="window.navigateState('electionList')">이 중요도를 들고 선거 고르러 가기 →</button>
+  `;
+  
+  const sList = wrapper.querySelector('.summary-list');
+  // 높은 가중치 순으로 정렬 표시
+  const sortedCats = categories.map(c => ({
+    name: c.name, pct: total > 0 ? Math.round((prefs[c.id]/total)*100) : 0
+  })).sort((a,b) => b.pct - a.pct);
+  
+  sortedCats.forEach(c => {
+    sList.innerHTML += `
+      <div class="summary-item">
+        <div class="summary-label"><span>${c.name}</span><span>${c.pct}%</span></div>
+        <div class="summary-bar-bg"><div class="summary-bar-fill slide-up" style="width: ${c.pct}%"></div></div>
+      </div>
+    `;
+  });
+  
+  return wrapper;
+}
+
 function renderElectionList() {
   const wrapper = createEl('div', 'view-wrapper slide-up');
   wrapper.innerHTML = `
-    <h2 style="font-size:1.4rem;">${state.district}<br>선거구를 위한 정치인 목록</h2>
-    <p>나의 가치관 데이터 수집이 끝났습니다!<br>매칭 결과를 조회할 선거 분류를 골라주세요.</p>
-    <div class="election-grid"></div>
+    <h2>${state.district}<br>선거 종류를 고르세요!</h2>
+    <p>본격적인 <b>이름을 가린 진짜 공약</b> 블라인드 선택이 이어집니다!</p>
+    <div class="election-grid mt-2"></div>
   `;
   
   const grid = wrapper.querySelector('.election-grid');
@@ -189,118 +254,163 @@ function renderElectionList() {
     card.style.animationDelay = `${idx * 0.08}s`;
     card.onclick = () => {
       state.selectedElectionId = elec.id;
-      navigate('loading');
+      state.blindAnswers = []; // 초기화
+      state.isResultRevealed = false;
+      navigate('blindPledge');
     };
     card.innerHTML = `
       <div>
         <div class="election-title">${elec.name}</div>
-        <div class="election-desc">내 가치관과 일치하는 핏(Fit) 보기</div>
+        <div class="election-desc">후보자 리스트 호출 및 블라인드 매칭</div>
       </div>
       <div class="election-arrow">→</div>
     `;
     grid.appendChild(card);
   });
+  return wrapper;
+}
+
+
+// ================= [블라인드 2-Stage 로직] =================
+function renderBlindPledge() {
+  const wrapper = createEl('div', 'view-wrapper slide-up');
+  const catIdx = state.blindAnswers.length;
+  const currentCat = categories[catIdx];
+  
+  // 선택한 선거의 예비 후보 5명을 모두 가져옴
+  const targetCandidates = candidates.filter(c => c.electionId === state.selectedElectionId);
+  // 누구 공약인지 모르도록 랜덤 셔플
+  const shuffledCands = [...targetCandidates].sort(() => Math.random() - 0.5);
+  
+  wrapper.innerHTML = `
+    <div class="step-indicator">2단계 : 진짜 공약 고르기 (${catIdx + 1} / ${categories.length})</div>
+    <div class="cat-badge"># ${currentCat.name} 부문</div>
+    <h2 class="q-title" style="font-size:1.3rem;">후보자들의 실제 ${currentCat.name} 공약입니다.<br>가장 마음에 드는 것을 고르세요!</h2>
+    <p style="font-size:0.9rem">선택지 순서는 무작위로 계속 섞여서 제공됩니다.</p>
+    <div class="pledge-list mt-2"></div>
+  `;
+  
+  const list = wrapper.querySelector('.pledge-list');
+  shuffledCands.forEach((cand, idx) => {
+    // 공약 텍스트
+    const pledgeText = cand.pledges[currentCat.id] || "해당 분야 공약 정보 없음";
+    const card = createEl('button', 'pledge-card');
+    card.innerHTML = `"${pledgeText}"`;
+    card.style.animationDelay = `${idx * 0.08}s`;
+    
+    card.onclick = () => {
+      state.blindAnswers.push({ candId: cand.id, catId: currentCat.id });
+      if (state.blindAnswers.length < categories.length) navigate('blindPledge');
+      else navigate('loading');
+    };
+    list.appendChild(card);
+  });
   
   return wrapper;
 }
 
-// 5. 로딩 (알고리즘 연산 시간 확보)
 function renderLoading() {
   const wrapper = createEl('div', 'view-wrapper center-all fade-in mt-2');
   wrapper.innerHTML = `
     <br><br><br><div class="loader"></div>
-    <h2 style="font-size: 1.6rem; margin-top: 1rem;">가치관 알고리즘 매치 중...</h2>
-    <p>18종의 가치관 스코어를 분석해 후보자의<br>공약 벡터와 일치율을 계산하고 있습니다</p>
+    <h2 style="font-size: 1.5rem; margin-top: 1rem;">최종 매칭 알고리즘 가동 중...</h2>
+    <p style="font-size:0.95rem;">'가치관 가중치'와 '선택한 블라인드 공약'을<br>조합하여 입체적으로 연산하고 있습니다.</p>
   `;
   return wrapper;
 }
 
-// 6. 100% 매칭 수식 (5점 척도 스케일링 보정)
+// V3.0 투스텝 곱셈 엔진 로직
 function calculateMatch() {
-  // 사용자가 고른 선거(예: 도지사)에 해당하는 후보들만 필터링
+  const prefs = getPreferences();
   const targetCandidates = candidates.filter(c => c.electionId === state.selectedElectionId);
+  const scoreMap = {};
+  targetCandidates.forEach(c => scoreMap[c.id] = 0);
   
-  // 사용자의 총점을 10점 만점 단위로 정규화 스케일링 변환 
-  // (3문제이므로 각 분야 최소 3점, 최대 15점) -> 이를 0~10 구간으로 변환
-  const normalizedUser = {};
-  categories.forEach(cat => {
-    const rawScore = state.preferences[cat.id];
-    let norm = ((rawScore - 3) / 12) * 10;
-    if(norm < 0) norm = 0;
-    normalizedUser[cat.id] = norm;
+  // 사용자가 각 6개 챕터에서 블라인드로 선택한 공약의 주인(candId)에게,
+  // 앞서 환산해둔 해당 챕터(catId)의 '가치관 점수'를 통째로 부과함.
+  state.blindAnswers.forEach(ans => {
+    const catWeight = prefs[ans.catId] || 0;
+    if (scoreMap[ans.candId] !== undefined) {
+      scoreMap[ans.candId] += catWeight;
+    }
   });
-
+  
+  // 사용자가 만약 모든 문제에서 1명의 후보 공약을 싹 다 골랐을 때 그 후보가 받는 '만점'
+  // (즉, 모든 분야 가치관 점수의 총합)
+  let maxScore = Object.values(prefs).reduce((a,b)=>a+b, 0);
+  
   state.finalRank = targetCandidates.map(c => {
-    let totalDiff = 0;
-    // 거리가 가까울수록(차이가 적을수록) 매칭률이 높음
-    categories.forEach(cat => {
-      totalDiff += Math.abs(normalizedUser[cat.id] - c.policyVector[cat.id]);
-    });
-    
-    // 최대 편차 60점 기준으로 100분위 환산
-    let matchRate = Math.round(100 - (totalDiff / 60) * 100);
-    if(matchRate < 0) matchRate = 0;
-    if(matchRate > 99) matchRate = 99; // 만점 방어
-    
+    let rawScore = scoreMap[c.id] || 0;
+    let matchRate = maxScore > 0 ? Math.round((rawScore / maxScore) * 100) : 0;
     return { ...c, matchRate };
   }).sort((a,b) => b.matchRate - a.matchRate);
 }
 
-// 7. 결과 화면 및 "다른 선거 다시 고르기" 회귀 로직
 function renderResult() {
   const wrapper = createEl('div', 'view-wrapper slide-up result-view center-all');
   const elecObj = electionsList.find(e => e.id === state.selectedElectionId);
   const elecName = elecObj ? elecObj.name : '선거';
   
   if(state.finalRank.length === 0) {
-    wrapper.innerHTML = `<h2>아직 해당 선거구의 데이터가 부족합니다.</h2><button class="btn-primary mt-2" onclick="location.reload()">처음으로</button>`;
+    wrapper.innerHTML = `<h2>후보가 없습니다.</h2><button class="btn-primary mt-2" onclick="location.reload()">처음으로</button>`;
     return wrapper;
   }
 
-  const topCandidate = state.finalRank[0];
+  const topC = state.finalRank[0];
   
+  if (!state.isResultRevealed) {
+    wrapper.innerHTML = `
+      <h2 style="margin-top:2rem;">알고리즘 연산 완료!</h2>
+      <p>나의 가치관과 공약을 매칭한<br>[${elecName}] 최종 순위가 도출되었습니다.</p>
+      <div class="result-hidden mt-2">
+        <div class="result-lock-icon">🔒</div>
+        <h3 style="color:var(--text); margin-bottom:1.5rem;">과연 1위 후보는 누구일까요?</h3>
+        <button class="btn-primary" id="btn-reveal">나의 가치관 랭킹 오픈하기</button>
+      </div>
+    `;
+    setTimeout(() => {
+      document.getElementById('btn-reveal').onclick = () => {
+        state.isResultRevealed = true;
+        navigate('result');
+      };
+    }, 0);
+    return wrapper;
+  }
+
   wrapper.innerHTML = `
-    <div class="match-header">
+    <div class="match-header fade-in">
       <div class="confetti">🎉</div>
-      <h3 style="color: var(--primary); font-size: 1.1rem; font-weight: 800; margin-bottom: 0.5rem; letter-spacing: -0.05em;">[${elecName}] 부문 베스트 솔루션</h3>
-      <p style="color: var(--text-muted); font-size: 0.95rem;">${state.district} 주민과 가장 핏(Fit)한 인물은</p>
+      <h3 style="color: var(--primary); font-size: 1.1rem; font-weight: 800; margin-bottom: 0.5rem;">[${elecName}] 부문 나의 원픽!</h3>
     </div>
     
-    <div class="result-card mt-2">
-      <div class="match-rate">가치관 스코어 일치율 <span>${topCandidate.matchRate}%</span></div>
-      <div class="party-badge">${topCandidate.party}</div>
-      <h1 class="cand-name">${topCandidate.name} <span class="cand-title">후보</span></h1>
-      <p class="cand-bio">${topCandidate.bio}</p>
-      <div class="cand-desc">"${topCandidate.desc}"</div>
+    <div class="result-card mt-2 slide-up">
+      <div class="match-rate">최종 핏팅률 <span>${topC.matchRate}%</span></div>
+      <div class="party-badge">${topC.party}</div>
+      <h1 class="cand-name">${topC.name} <span class="cand-title"></span></h1>
+      <p class="cand-bio">${topC.bio}</p>
+      <div style="background:#f1f5f9; padding:1rem; border-radius:12px; font-size:0.9rem; margin-top:1rem;">"${topC.desc}"</div>
     </div>
     
-    ${state.finalRank.length > 1 ? `
-    <h3 class="other-title">다른 예상 후보군과의 일치율 비교</h3>
-    <div class="other-list">
-      ${state.finalRank.slice(1).map(c => `
+    <h3 class="other-title slide-up" style="margin-top:2rem; font-size:1.1rem; text-align:left;">상세 순위표 (2~5위)</h3>
+    <div class="other-list slide-up">
+      ${state.finalRank.slice(1).map((c, idx) => `
         <div class="other-cand">
-          <div class="other-info"><span class="other-party">${c.party}</span><span class="other-name">${c.name} 후보</span></div>
+          <div class="other-info">
+            <span style="font-size:0.8rem; font-weight:800; color:var(--primary);">순위 ${idx + 2}</span>
+            <span class="other-name">${c.name} <span style="font-size:0.8rem;font-weight:600;color:gray;">(${c.party})</span></span>
+          </div>
           <div class="other-rate">${c.matchRate}%</div>
         </div>
       `).join('')}
-    </div>` : ''}
+    </div>
     
-    <div style="display:flex; flex-direction:column; gap:0.6rem; margin-bottom: 2rem; width:100%;">
-      <button class="btn-primary" id="btn-other-elec">👉 같은 지역구 **다른 선거** 결과도 매칭하기</button>
-      <button class="btn-secondary" onclick="location.reload()">테스트 아예 처음부터 다시하기 (질문지 초기화)</button>
+    <div class="slide-up" style="display:flex; flex-direction:column; gap:0.6rem; margin-bottom: 2rem; width:100%;">
+      <button class="btn-primary" onclick="window.navigateState('electionList')">동일 구역의 다른 선거 또 해보기</button>
+      <button class="btn-secondary" onclick="location.reload()">처음부터 다시하기 (질문 초기화)</button>
     </div>
   `;
-  
-  // 회귀 로직 연결장치 (새고로침 없이 선거 셀렉트 화면으로 바로 복귀)
-  setTimeout(() => {
-    document.getElementById('btn-other-elec').onclick = () => {
-      navigate('electionList');
-    };
-  }, 0);
-
   return wrapper;
 }
 
-// 브라우저 렌더링 동기화용 이중 안전 구조
 document.addEventListener('DOMContentLoaded', render);
 if (document.readyState === 'interactive' || document.readyState === 'complete') render();
