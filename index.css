@@ -124,9 +124,9 @@ p { color: #ffffff; font-size: 0.85rem; margin-bottom: 1.5rem; } /* 더 작게 �
 .jinju-label {
   fill: #ffffff;
   font-size: 9px;
-  font-weight: 800;
+  font-weight: 600;
   pointer-events: none;
-  text-shadow: 0 2px 8px rgba(0,0,0,1);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
 
 /* Form Elements */
