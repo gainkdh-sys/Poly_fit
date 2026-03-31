@@ -108,12 +108,13 @@ function renderIntro() {
   const wrapper = createEl('div', 'view-wrapper intro-view center-all');
   wrapper.innerHTML = `
     <div class="hero mt-2">
-      <div class="badge">Poly Fit v4.0 (전국망 연동형)</div>
+      <div class="badge">Poly Fit v5.0 (전국망 연동형)</div>
       <h1>나의 가치관을 관통하는<br><span class="highlight">최적의 블라인드 매칭</span></h1>
       <p>가치관 설문으로 중요도를 파악하고,<br>익명의 블라인드 공약을 골라 최고의 후보를 찾습니다.</p>
     </div>
-    <div style="display:flex; flex-direction:column; gap:1rem; margin-top:2.5rem;">
-      <button class="btn-primary" onclick="window.navigateState('district')">매칭 시스템 시작하기</button>
+    <div style="display:flex; flex-direction:column; gap:0.8rem; margin-top:2.5rem;">
+      <button class="btn-primary" onclick="window.navigateState('district')">🔥 블라인드 매칭 시스템 시작</button>
+      <button class="btn-secondary" onclick="alert('정치 MBTI 테스트는 현재 기능 고도화 개발 중입니다! 조금만 기다려주세요.')">🧠 정치 MBTI 테스트 (준비 중)</button>
     </div>
   `;
   window.navigateState = navigate;
