@@ -239,6 +239,17 @@ function renderElectionList() {
     const card = createEl('div', 'election-card slide-up');
     card.style.animationDelay = `${idx * 0.08}s`;
     card.onclick = () => {
+      // 선택 시 미리 지역별 후보자가 존재하는지 검사 (빈 화면 진입 전 원천 차단)
+      const targetCands = candidates.filter(c => {
+        return c.electionType === elec.id && 
+               c.region.some(r => state.district.includes(r));
+      });
+      
+      if(targetCands.length === 0) {
+        alert("알림: 현재 입력하신 지역(" + state.district + ")의 [" + elec.name + "] 부문에는 아직 선관위에 공식 등록(또는 언론 유력 조사)된 출마 예정자 명단이 없습니다.\\n다른 선거를 선택해 주세요.");
+        return; // 진행 중단 (navigate 호출 방지)
+      }
+
       state.selectedElectionId = elec.id;
       state.blindAnswers = []; // 초기화
       state.isResultRevealed = false;
@@ -268,20 +279,10 @@ function renderBlindPledge() {
 
   const currentCat = categories[catIdx];
   
-  // 핵심 매칭 구문: 사용자가 고른 '선거 종류'와 일치 && 사용자가 앞서 입력한 주소 문자열이 후보의 region 배열 문자를 품고 있는지 확인!
   const targetCandidates = candidates.filter(c => {
     return c.electionType === state.selectedElectionId && 
-           c.region.every(r => state.district.includes(r));
+           c.region.some(r => state.district.includes(r));
   });
-
-  // DB에 후보가 없으면 우아하게 차단! (더미 삭제 적용의 산출물)
-  if(targetCandidates.length === 0) {
-    alert("알림: 현재 입력하신 지역(" + state.district + ")의 " + 
-      (electionsList.find(x => x.id === state.selectedElectionId)?.name || '해당 선거') + 
-      " 부문에는 아직 선관위에 공식 등록(또는 유력 조사)된 출마 예정자 데이터가 수집되지 않았습니다.\\n다른 선거를 선택해 주세요!");
-    navigate('electionList');
-    return document.createElement('div');
-  }
 
   const wrapper = createEl('div', 'view-wrapper slide-up');
   // 100% 무작위 블라인드 섞기
@@ -331,7 +332,7 @@ function calculateMatch() {
   // 동일한 필터링 조건
   const targetCandidates = candidates.filter(c => {
     return c.electionType === state.selectedElectionId && 
-           c.region.every(r => state.district.includes(r));
+           c.region.some(r => state.district.includes(r));
   });
 
   const scoreMap = {};
