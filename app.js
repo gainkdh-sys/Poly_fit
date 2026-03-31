@@ -271,7 +271,7 @@ function renderBlindPledge() {
   // 핵심 매칭 구문: 사용자가 고른 '선거 종류'와 일치 && 사용자가 앞서 입력한 주소 문자열이 후보의 region 배열 문자를 품고 있는지 확인!
   const targetCandidates = candidates.filter(c => {
     return c.electionType === state.selectedElectionId && 
-           c.region.some(r => state.district.includes(r));
+           c.region.every(r => state.district.includes(r));
   });
 
   // DB에 후보가 없으면 우아하게 차단! (더미 삭제 적용의 산출물)
@@ -331,7 +331,7 @@ function calculateMatch() {
   // 동일한 필터링 조건
   const targetCandidates = candidates.filter(c => {
     return c.electionType === state.selectedElectionId && 
-           c.region.some(r => state.district.includes(r));
+           c.region.every(r => state.district.includes(r));
   });
 
   const scoreMap = {};
@@ -392,9 +392,12 @@ function renderResult() {
     
     <div class="result-card mt-2 slide-up">
       <div class="match-rate">최종 핏팅률 <span>${topC.matchRate}%</span></div>
-      <div class="party-badge">${topC.party}</div>
-      <h1 class="cand-name">${topC.name}</h1>
-      <p class="cand-bio">${topC.bio}</p>
+      <div class="result-card-header" style="display:flex; flex-direction:column; align-items:center; margin-top:1rem;">
+        <img src="${topC.imageUrl}" alt="프로필" class="cand-profile" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(topC.name)}&background=f1f5f9&color=475569&size=128'">
+        <div class="party-badge">${topC.party}</div>
+        <h1 class="cand-name">${topC.name}</h1>
+        <p class="cand-bio">${topC.bio}</p>
+      </div>
       <div style="background:#f1f5f9; padding:1rem; border-radius:12px; font-size:0.9rem; margin-top:1rem;">"${topC.desc}"</div>
     </div>
     
@@ -403,9 +406,12 @@ function renderResult() {
     <div class="other-list slide-up">
       ${state.finalRank.slice(1).map((c, idx) => `
         <div class="other-cand">
-          <div class="other-info">
-            <span style="font-size:0.8rem; font-weight:800; color:var(--primary);">순위 ${idx + 2}</span>
-            <span class="other-name">${c.name} <span style="font-size:0.8rem;font-weight:600;color:gray;">(${c.party})</span></span>
+          <div style="display:flex; align-items:center; gap:0.8rem;">
+            <img src="${c.imageUrl}" class="other-profile" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(c.name)}&background=f1f5f9&color=475569&size=128'">
+            <div class="other-info">
+              <span style="font-size:0.8rem; font-weight:800; color:var(--primary);">순위 ${idx + 2}</span>
+              <span class="other-name">${c.name} <span style="font-size:0.8rem;font-weight:600;color:gray;">(${c.party})</span></span>
+            </div>
           </div>
           <div class="other-rate">${c.matchRate}%</div>
         </div>
