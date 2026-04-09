@@ -1,0 +1,158 @@
+[
+  { 
+    "id": 1101, "electionType": "governor", "region": ["경상북도"], "name": "이철우", "party": "국민의힘", "bio": "현) 제34대 경상북도지사 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%B2%A0%EC%9A%B0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "경북의 자부심을 되살리는 지방시대 선도! 대구경북 통합으로 초강력 경제권 실현",
+    "pledges": {
+      "welfare": "지방주도형 복지 모델 '경북형 온종일 돌봄' 전 시군 확대",
+      "education": "대구경북 통합 대학 캠퍼스 조성 및 지역 고졸 인재 취업 매칭 강화",
+      "transport": "통합신공항 연결 철도망 및 동해선 복선 전철화 조기 완공",
+      "culture": "유교-불교-가야 3대 문화권 관광 자원화 및 글로벌 K-컬처 센터 유치",
+      "housing": "농촌 지역 '만원 주택' 등 청년 주거 파격 지원 정책 추진",
+      "environment": "SMR(소형모듈원전) 국가산단 조기 착공 및 원전 생태계 완전 복원"
+    }
+  },
+  { 
+    "id": 1102, "electionType": "governor", "region": ["경상북도"], "name": "김재원", "party": "국민의힘", "bio": "현) 국민의힘 최고위원 | 전) 3선 국회의원",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EC%9B%90&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "강력한 집권 여당의 힘으로 경북의 현안을 속 시원히 해결하겠습니다.",
+    "pledges": {
+      "welfare": "고령화 대비 시니어 의료 타운 대규모 조성 및 간급 돌봄 강화",
+      "education": "수도권 명문대 분교 유치 및 지역 인재 할당제 법제화 추진",
+      "transport": "중앙선 복선 전철화 조기 개통 및 시군별 광역 버스망 확충",
+      "culture": "경북 전통 문화의 현대적 브랜드화 및 K-콘텐츠 산업 단지 조성",
+      "housing": "은퇴자 및 귀농 귀촌인을 위한 프리미엄 전원 주거 단지 지원",
+      "environment": "지속 가능한 원전 산업 육성 및 수소 에너지 에너지 특화 단지 조성"
+    }
+  },
+  { 
+    "id": 1104, "electionType": "governor", "region": ["경상북도"], "name": "임미애", "party": "더불어민주당", "bio": "현) 제22대 국회의원 | 전) 민주당 경북도당 위원장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EB%AF%B8%EC%95%A4&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "일방통행이 아닌 균형과 공존의 경북! 지방 소멸 위기에 정면으로 대응하겠습니다.",
+    "pledges": {
+      "welfare": "기초단체별 공공 산후조리원 의무 설치 및 돌봄 노동자 처우 개선",
+      "education": "농어촌 지역 교육 격차 해소를 위한 온라인 튜터 제도 전면 시행",
+      "transport": "공공형 '경북 순환 버스' 도입을 통한 교통 소외 지역 제로화",
+      "culture": "지자체 매입 유휴 공간 활용 청년 예술가 창작 베이스캠프 구축",
+      "housing": "전세 사기 피해자 보호를 위한 경북형 주거 안정 기금 조성",
+      "environment": "기후 위기 대응 재생 에너지 전환 가속화 및 농민 수당 확대"
+    }
+  },
+  { 
+    "id": 1105, "electionType": "superintendent", "region": ["경상북도"], "name": "임종식", "party": "보수 진영", "bio": "현) 제18대 경상북도 교육감 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A2%85%EC%8B%9D&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "따뜻한 경북 교육, 세계 표준으로! 흔들림 없이 미래 교육을 완성하겠습니다.",
+    "pledges": {
+      "welfare": "학부모 부담 경감을 위한 현장 체험 학습비 및 졸업 앨범비 지원",
+      "education": "메타버스 기반 가상 학습 환경 조성 및 AI 교과서 연계 교육 강화",
+      "transport": "통학 차량 안전 관리 시스템 스마트 고도화 및 운영 확대",
+      "culture": "학생 1인 1동아리 활동비 파격 지원 및 진로 체험 센터 확충",
+      "housing": "산간 오지 교원 주거 여건 개선을 위한 최신식 관사 신축",
+      "environment": "미세먼지 없는 체육관 공기 정화 시스템 전 학교 설치 완료"
+    }
+  },
+  { 
+    "id": 1106, "electionType": "superintendent", "region": ["경상북도"], "name": "이용기", "party": "진보 진영", "bio": "현) 경북혁신교육연구소 공감 소장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9A%A9%EA%B8%B0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "학교를 바꾸는 힘, 아이들의 권리를 존중하는 민주적 학교 공동체 실현",
+    "pledges": {
+      "welfare": "무상 교복 및 체육복 구입비 전액 현실화 지원",
+      "education": "경쟁 중심 일제 고사 반대 및 학생 참여형 수업 비중 확대",
+      "transport": "원거리 통학 학생을 위한 교육청 직영 셔틀 운영 및 교통비 지원",
+      "culture": "학생 자치회 예산 편성권 보장 및 청소년 문화 공간 확대",
+      "housing": "신규 교사 주거 안정 지원 및 교권-학생 인권의 균형적 조례 제정",
+      "environment": "기후 정의 교육 정규화 및 학교 급식 로컬 푸드 무상 제공 확대"
+    }
+  },
+  { 
+    "id": 1201, "electionType": "mayor", "region": ["경상북도", "포항시"], "name": "문충운", "party": "국민의힘", "bio": "현) 환동해연구원 원장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%B6%A9%EC%9A%B4&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "글로벌 포항, 경제 심장이 다시 뜁니다! 신산업 엔진으로 포항의 내일을 엽니다.",
+    "pledges": {
+      "welfare": "포항형 스마트 복지 바우처 도입 및 응급 의료 사각지대 해소",
+      "education": "이차전지/수소 산업 특화 인재 양성 및 교육 국제화 특구 지정",
+      "transport": "영일만 대교 조기 착공 및 도심 상습 정체 구간 입체화",
+      "culture": "영일대 해수욕장 일대 글로벌 해양 관광 클러스터 조성",
+      "housing": "구도심 도시 재생 뉴딜 사업을 통한 정주 여건 대대적 개선",
+      "environment": "탄소 중립 실천 모범 도시 구현 및 미세먼지 차단 그린 벨트 확충"
+    }
+  },
+  { 
+    "id": 1202, "electionType": "mayor", "region": ["경상북도", "포항시"], "name": "박대기", "party": "국민의힘", "bio": "전) 국민의힘 경북도당 부위원장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%8C%80%EA%B8%B0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "시민의 눈높이에서 일하는 실천가! 포항의 자닥은 현장에 있습니다.",
+    "pledges": {
+      "welfare": "독거노인 밀착 돌봄 서비스 및 장애인 이동권 완전 보장",
+      "education": "찾아가는 이동식 도서관 및 청년 창업 지원 공간 확충",
+      "transport": "시내 버스 노선 전면 지능화 및 무료 환승 혜택 확대",
+      "culture": "지역 예술인 직접 지원금 제도 및 거리 공연 활성화",
+      "housing": "노후 연립 주택 단지 정기 안전 점검 및 보수 지원",
+      "environment": "생활 쓰레기 분리 배출 시스템 자동화 및 자원 순환 교육 강화"
+    }
+  },
+  { 
+    "id": 1203, "electionType": "mayor", "region": ["경상북도", "포항시"], "name": "박용선", "party": "국민의힘", "bio": "현) 경북도의회 부의장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%A9%EC%84%A0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "검증된 도정 관록! 포항 발전을 위한 실질적인 예산 확보 자신 있습니다.",
+    "pledges": {
+      "welfare": "권역별 공공 산후조리원 및 야간 소아 전담 병원 유치",
+      "education": "포스텍 연계 초·중등 과학교육 캠프 운영 및 장학금 확대",
+      "transport": "철강 산단 진입 전용 외곽 순환 도로 조기 완공",
+      "culture": "포항 호미곶 일대 역사 문화 체험파크 조성",
+      "housing": "재건축·재개발 규제 합리화 및 노후 단지 기반 시설 확충",
+      "environment": "형산강 수질 정화 프로젝트 가속화 및 친환경 수변 공간 조성"
+    }
+  },
+  { 
+    "id": 1204, "electionType": "mayor", "region": ["경상북도", "포항시"], "name": "안승대", "party": "국민의힘", "bio": "전) 행정안전부 지방행정국장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%EC%8A%B9%EB%8C%80&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "행정 전문가의 유연함과 혁신! 소통하는 시정으로 포항의 변화를 만듭니다.",
+    "pledges": {
+      "welfare": "1인가구 맞춤형 안심 케어 서비스 구축 및 제도 정비",
+      "education": "글로컬 교육 환경 조성을 위한 지자체 교육 협력 거버넌스 강화",
+      "transport": "스마트 교통 신호 체계 도입을 통한 도심 통행 속도 개선",
+      "culture": "구룡포 적산가옥 거리 등 역사 테마 관광 콘텐츠 고도화",
+      "housing": "빈집 매입을 통한 소규모 주차장 및 시민 휴식 공간 전환",
+      "environment": "재난 안전 피해 예방을 위한 빅데이터 기반 상시 예보 시스템"
+    }
+  },
+  { 
+    "id": 1301, "electionType": "mayor", "region": ["경상북도", "구미시"], "name": "김장호", "party": "국민의힘", "bio": "현) 제26대 구미시장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%A5%ED%98%B8&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "구미의 영광을 다시 한번! 반도체 특화단지와 방산 혁신 클러스터 완성",
+    "pledges": {
+      "welfare": "구미형 24시 아프면 언제나 어린이 병원 운영 내실화",
+      "education": "반도체 전문 인력 양성을 위한 학·연·산 융합 센터 가동",
+      "transport": "대구권 광역철도 개통 대비 환승 체계 완벽 구축",
+      "culture": "낙동강 축제 브랜드화 및 낭만적인 도시 야경 명소 조성",
+      "housing": "기업체 종사자 주거 안정을 위한 사택 부지 지원 및 특별 공급",
+      "environment": "친환경 스마트 그린 산단 전환을 통한 오염 저감 기술 도입"
+    }
+  },
+  { 
+    "id": 1401, "electionType": "mayor", "region": ["경상북도", "경주시"], "name": "주낙영", "party": "국민의힘", "bio": "현) 제34대 경주시장 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%A3%BC%EB%82%99%EC%98%81&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "역사와 미래가 공존하는 경주! APEC 정상회의 성공 개최로 글로벌 도시 도약",
+    "pledges": {
+      "welfare": "어르신 행복 택시 지원 사업 확대 및 맞춤형 건강 관리",
+      "education": "경주 역사 테마형 교육 클러스터 조성 및 장학 기금 1천억 조성",
+      "transport": "황리단길 일대 차 없는 거리 확대 및 복합 주차 타워 건설",
+      "culture": "신라 왕경 핵심 유적 복원 사업 가속화 및 가상 현실 체험 도입",
+      "housing": "도심 재생을 통한 정비 구역 규제 완화 및 주거 환경 개선",
+      "environment": "SMR 국가 산업 단지 유치 확정 및 미래 에너지 허브 구축"
+    }
+  },
+  { 
+    "id": 1501, "electionType": "mayor", "region": ["경상북도", "안동시"], "name": "권기창", "party": "국민의힘", "bio": "현) 제31대 안동시장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EA%B8%B0%EC%B0%BD&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "안동을 위대하게, 시민을 행복하게! 바이오·백신 산업의 메카로 육성",
+    "pledges": {
+      "welfare": "안동형 복지 카드 도입 및 사회복지시설 종사자 처우 개선",
+      "education": "글로컬 대학 연계 지자체 교육 투자 확대 및 인문 교육 강화",
+      "transport": "안동역-도심 연계 교통망 확충 및 주차난 해결 전담팀 가동",
+      "culture": "안동 하회마을 일대 야간 관광 명소화 및 사계절 축제 브랜드화",
+      "housing": "원도심 빈집 재건축 지원 및 생활 인프라 보강 사업 실효성 제고",
+      "environment": "낙동강 수변 공간 시민 공원화 및 친환경 에너지 실천 장려"
+    }
+  }
+]
