@@ -1,6 +1,7 @@
 import Component from '../core/Component.js';
 import { Router } from '../core/Router.js';
 import { appStore } from '../core/Store.js';
+import { fetchCandidatesByRegion } from '../utils/api.js';
 
 export default class DistrictView extends Component {
   template() {
@@ -14,6 +15,20 @@ export default class DistrictView extends Component {
         </div>
       </div>
     `;
+  }
+
+  async handleSelection(fullLocation) {
+    const regionName = fullLocation.split(' ')[0]; // 예: "경상남도"
+    
+    // 권역 데이터 동적 페치
+    const candidates = await fetchCandidatesByRegion(regionName);
+    
+    appStore.setState({ 
+      district: fullLocation,
+      candidates: candidates 
+    });
+    
+    Router.navigate('preference');
   }
 
   setEvent() {
@@ -31,7 +46,7 @@ export default class DistrictView extends Component {
         return;
       }
       
-      const matches = locations.filter(loc => loc.includes(val)).slice(0, 10); // 최대 10개만 표출
+      const matches = locations.filter(loc => loc.includes(val)).slice(0, 10);
       
       if (matches.length > 0) {
         list.classList.add('active');
@@ -40,8 +55,7 @@ export default class DistrictView extends Component {
           div.className = 'autocomplete-item';
           div.textContent = match;
           div.onclick = () => {
-            appStore.setState({ district: match });
-            Router.navigate('preference');
+            this.handleSelection(match);
           };
           list.appendChild(div);
         });
@@ -53,8 +67,7 @@ export default class DistrictView extends Component {
     // 엔터키 직접 입력 처리
     input.addEventListener('keypress', (e) => {
       if(e.key === 'Enter' && input.value.trim().length > 1) {
-        appStore.setState({ district: input.value.trim() + " 일대" });
-        Router.navigate('preference');
+        this.handleSelection(input.value.trim());
       }
     });
   }

@@ -1,0 +1,15 @@
+[
+  { 
+    "id": 301, "electionType": "governor", "region": ["부산광역시"], "name": "박형준", "party": "국민의힘", "bio": "현) 제39대 부산광역시장",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Park_Heong-joon.jpg",
+    "desc": "글로벌 허브 도시, 다시 태어나도 살고 싶은 메가시티 부산 완성",
+    "pledges": {
+      "welfare": "15분 도시 프로젝트 고도화 ➡️ 내 집 앞 15분 안착형 스마트 복지관 100개 조성",
+      "education": "영어하기 편한 도시 선포 및 전 초/중교 원어민 지원 확대",
+      "transport": "가덕도 신공항 패스트트랙 조기 완공 및 어반루프(도심 고속철) 마스터플랜 착수",
+      "culture": "오페라하우스 완공 및 글로벌 K-아레나 유치 기조 지속",
+      "housing": "북항 재개발 2단계 가속화로 국제 해양 비즈니스 & 고급 주거 콤플렉스 착수",
+      "environment": "낙동강 수질 획기적 개선안 및 취수원 다변화 추진"
+    }
+  }
+]

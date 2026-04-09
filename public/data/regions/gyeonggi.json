@@ -1,0 +1,41 @@
+[
+  { 
+    "id": 201, "electionType": "governor", "region": ["경기도"], "name": "김동연", "party": "더불어민주당", "bio": "현) 제36대 경기도지사 | 전) 경제부총리",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Kim_Dong-yeon_%282022%29.jpg",
+    "desc": "1,400만 도민의 삶을 바꾸는 실질적인 경제 해법 '김동연 노믹스'",
+    "pledges": {
+      "welfare": "기회소득(예술인/체육인/장애인) 대상자 전면 확대 및 현금성 바우처 강화",
+      "education": "반도체·AI 인재 양성을 위한 100조 기업 연계형 융합 계약학과 집중 육성",
+      "transport": "GTX 플러스(E·F·G 노선) 신설 및 똑버스(DRT) 등 수요응답형 대중교통 1천대 증차",
+      "culture": "경기 서·북부권 대형 문화콘텐츠 밸리 조성",
+      "housing": "시세의 50~70% 수준인 기본주택(지분적립형) 20만호 부지 확보 추진",
+      "environment": "RE100 비전 가속화로 공공기관 100% 신재생에너지 전환 달성"
+    }
+  },
+  { 
+    "id": 202, "electionType": "governor", "region": ["경기도"], "name": "추미애", "party": "더불어민주당", "bio": "현) 6선 국회의원 | 전) 법무부장관",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%B6%94%EB%AF%B8%EC%95%A4&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "강력한 리더십으로 낡은 행정 개혁, 도민 중심 민생 선봉장",
+    "pledges": {
+      "welfare": "의료 소외 지역(연천/가평 등) 도립 병원 신규 건립 및 필수 의료 책임 조례",
+      "education": "지자체 주관 친환경·유기농 무상 아침 급식 전면 시행",
+      "transport": "도내 광역버스 노선 공공 관리제 100% 조기 전환",
+      "culture": "대기업 스포츠/엔터테인먼트 구단 연고지 밀착 지원 특례 제정",
+      "housing": "1기 신도시(분당, 일산, 평촌) 특별법의 신속·공정 적용 및 세입자 이주 대책 의무화",
+      "environment": "팔당상수원 규제 합리화 ➡️ 수질 개선과 지역 경제 시너지 확보"
+    }
+  },
+  { 
+    "id": 203, "electionType": "governor", "region": ["경기도"], "name": "안철수", "party": "국민의힘", "bio": "현) 4선 국회의원 | 전) 20대 대통령직인수위원장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%EC%B2%A0%EC%88%98&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "IT 융합 전문가의 결단력! 경기도를 한국의 실리콘밸리로 탈바꿈",
+    "pledges": {
+      "welfare": "현금 살포 대신 헬스케어 기반 과학적 예방 의학 모니터링 인프라 전역 설치",
+      "education": "초등생 대상 도 직영 스팀(STEAM)·코딩 조기 코스 도입",
+      "transport": "판교테크노밸리식 완전 자율주행 승합차 시범 지역 도내 주요 도심 5곳 확대",
+      "culture": "글로벌 게임 전시회 / e스포츠 토너먼트 메가 허브 타운 육성",
+      "housing": "과도한 부동산 세제 완화 요청 및 청년 테크 종사자 전용 기숙 아파트 1만 호 분양",
+      "environment": "과학기술 기반 미세먼지 측정 촘촘한 센서망 구축 및 친환경 수소 인프라 선도"
+    }
+  }
+]

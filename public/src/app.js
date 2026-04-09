@@ -40,7 +40,6 @@ const App = {
     // 2. 상태 초기화
     appStore.setState({
       coreData: data.core,
-      candidates: data.candidates,
       locations: data.locations
     });
 
