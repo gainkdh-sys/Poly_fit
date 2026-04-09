@@ -1,0 +1,106 @@
+[
+  { 
+    "id": 3101, "electionType": "governor", "region": ["전북특별자치도"], "name": "김관영", "party": "더불어민주당", "bio": "현) 제36대 전북특별자치도지사 | 전) 국회의원 (2선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%80%EC%98%81&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "전북특별자치도의 성공적 안착! 새만금 이차전지 특화단지로 전북의 미래 먹거리 완성",
+    "pledges": {
+      "welfare": "전북형 '사회적 약자 돌봄 책임제' 도입 및 공공 의료인력 확충",
+      "education": "글로컬 대학 30 연계 지산학 핵심 인재 1만 명 양성 및 취업 지원",
+      "transport": "새만금 트라이포트(공항·항만·철도) 핵심 인프라 조기 구축 및 전북권 광역교통망 확충",
+      "culture": "전북 역사문화권 정비 및 케이(K)-문화 예술 파빌리온 조성",
+      "housing": "특별자치도 특례를 활용한 노후 원도심 재개발 규제 혁파 및 주거 복지 실현",
+      "environment": "친환경 상용차 자율주행 선도지구 지정 및 기후 위기 대응 농업 혁신"
+    }
+  },
+  { 
+    "id": 3102, "electionType": "governor", "region": ["전북특별자치도"], "name": "안호영", "party": "더불어민주당", "bio": "현) 제22대 국회의원 | 전) 민주당 수석대변인",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%ED%98%B8%EC%98%81&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "전북의 목소리를 중앙에! 강한 추진력으로 소외된 전북의 예산을 되찾아오겠습니다.",
+    "pledges": {
+      "welfare": "기초단체별 24시간 긴급 돌봄 센터 구축 및 농어촌 기본소득 단계적 도입",
+      "education": "지방 대학 중심의 R&D 예산 대폭 확대 및 지역 인재 채용 의무화 강화",
+      "transport": "전북권 순환 도로망 완성 및 소외 지역 행복 택시 전면 무상화 추진",
+      "culture": "전라북도의 소리 문화 자산 세계화 및 지역 예술인 창작 수당 보전",
+      "housing": "임대 주택 관리 체계 혁신 및 청년 주거 안정을 위한 전세 보증금 이자 지원",
+      "environment": "만경강·동진강 생태 복원 및 탄소 중립 산업 생태계로의 전환 가속화"
+    }
+  },
+  { 
+    "id": 3105, "electionType": "superintendent", "region": ["전북특별자치도"], "name": "천호성", "party": "진보 진영", "bio": "전) 전주교육대학교 교수 | 전) 전북미래교육연구소장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%B2%9C%ED%98%B8%EC%84%B1&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "아이들이 중심인 교육! 질문이 있는 교실, 학생의 인권이 존중받는 전북 교육",
+    "pledges": {
+      "welfare": "완전 무상 교육 (체육복, 준비물, 현장학습비 전액 지원) 및 아침 급식 제공",
+      "education": "기초학력 전담 교사제 도입 및 서열식 평가 대신 성장 중심 평가 정착",
+      "transport": "안심 통학 버스 마을 단위 확대 및 학교 주변 안전 구역 시설 고도화",
+      "culture": "학생 주도형 학생 의회 예산 편성권 실질 보장 및 청소년 문화 공간 확충",
+      "housing": "신규 교사 주거 안정 지원 조례 제정 및 교권-학습권 보호 시스템 구축",
+      "environment": "생태 전환 교육의 전 교과 반영 및 학교 내 태양광 발전 시설 확충"
+    }
+  },
+  { 
+    "id": 3201, "electionType": "mayor", "region": ["전북특별자치도", "전주시"], "name": "우범기", "party": "더불어민주당", "bio": "현) 제36대 전주시장 | 전) 전북도 정무부지사",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9A%B0%EB%B2%94%EA%B8%B0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "전주의 대변혁! 막힘 없는 추진력으로 한옥마을을 넘어 경제 심장부를 만듭니다.",
+    "pledges": {
+      "welfare": "어르신 병원 동행 서비스 및 장애인 전용 체육 시설 확충",
+      "education": "디지털 전환 인재 교육을 위한 전주 캠퍼스 혁신 파크 활성화",
+      "transport": "전주역 증축 연계 광역교통 허브 구축 및 시내 정체구간 우회도로 조기 완공",
+      "culture": "한옥마을 고도화 및 아중호수 관광지 개발을 통한 야간 관광 명소화",
+      "housing": "노후 주거지 재건축 활성화를 위한 고도 제한 완화 추진",
+      "environment": "전주천·삼천 명품 수변 공간 조성 및 미세먼지 저감 숲 확대"
+    }
+  },
+  { 
+    "id": 3301, "electionType": "mayor", "region": ["전북특별자치도", "익산시"], "name": "심보균", "party": "더불어민주당", "bio": "전) 행정안전부 차관 | 전) 전북도 행정부지사",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%AC%EB%B3%B4%EA%B7%A0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "준비된 행정 전문가! 실력과 경험으로 익산의 대전환을 완성하겠습니다.",
+    "pledges": {
+      "welfare": "익산형 생애 주기별 복지 지원 시스템 구축 및 공공의료 인프라 강화",
+      "education": "익산 교육 특구 지정을 통한 명문고 육성 및 평생 교육 지원 확대",
+      "transport": "익산역 유라시아 철도 거점 기틀 마련 및 시내 버스 노선 효율화",
+      "culture": "미륵사지·왕궁리 유적 세계 유산 연계 관광 브랜드 고도화",
+      "housing": "청년 신혼부부 전용 반값 아파트 공급 및 주거 안정 지원",
+      "environment": "친환경 스마트 그린 산단 인프라 구축 및 도시 숲 공간 확충"
+    }
+  },
+  { 
+    "id": 3304, "electionType": "mayor", "region": ["전북특별자치도", "익산시"], "name": "최정호", "party": "더불어민주당", "bio": "전) 국토교통부 차관 | 전) 전북개발공사 사장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%B2%B4%EC%A0%95%ED%98%B8&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "건설/교통 전문가의 익산 혁명! 사통팔달 교통의 요지, 익산의 지도를 바꿉니다.",
+    "pledges": {
+      "welfare": "맞벌이 부부를 위한 야간 긴급 돌봄 보호 시스템 전면 구축",
+      "education": "미래 산업 맞춤형 특성화 인재 양성 직업 학교 신설",
+      "transport": "익산역 주차난 해결 및 인근 부지 복합 개발을 통한 랜드마크화",
+      "culture": "보석 산업과 연계한 체험형 테마 관광 시설 대폭 유치",
+      "housing": "노후 아파트 리모델링 지원 및 소규모 정비 사업 규제 철폐",
+      "environment": "만경강 수변 공간 대규모 수변 공원화 및 친환경 산책로 조성"
+    }
+  },
+  { 
+    "id": 3401, "electionType": "mayor", "region": ["전북특별자치도", "군산시"], "name": "강임준", "party": "더불어민주당", "bio": "현) 제27대 군산시장 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%9E%84%EC%A4%80&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "중단 없는 군산 발전! 재생 에너지와 이차전지로 경제 중심 도시를 굳힙니다.",
+    "pledges": {
+      "welfare": "군산형 '동별 작은 도서관' 연계 공동체 돌봄 서비스 강화",
+      "education": "이차전지 특화 교육 클러스터 조성 및 지역 기업 연계 채용",
+      "transport": "새만금 국제공항 적기 완공 지원 및 배후 도로망 고도화",
+      "culture": "근대 역사 경관 보존과 연계한 '시간 여행 축제' 글로벌화",
+      "housing": "빈집 정비를 통한 소규모 포켓 공원 및 주차 공간 확충",
+      "environment": "태양광·해상풍력 시민 펀드 이익 공유제 확대 및 친환경 에너지 자립"
+    }
+  },
+  { 
+    "id": 3403, "electionType": "mayor", "region": ["전북특별자치도", "군산시"], "name": "이주현", "party": "조국혁신당", "bio": "현) 조국혁신당 군산 지역위원장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A3%BC%ED%98%84&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "군산의 새로운 선택! 당당한 변화의 시작, 시민의 삶을 바꾸는 정치를 실현하겠습니다.",
+    "pledges": {
+      "welfare": "사회적 약자를 위한 전용 키즈카페 및 종합 복지관 시설 보강",
+      "education": "지역 인재 유출 방지를 위한 전공 교육 비용 지원 확대",
+      "transport": "시내버스 노선 개선 및 대규모 공영 주차장 부지 확보",
+      "culture": "유휴 공업 공간을 예술 창작 클러스터로 재생 및 지원",
+      "housing": "청년 주택 공급 관리 기틀 마련을 위한 전담 행정 조직 신설",
+      "environment": "새만금 생태 환경 모니터링 강화 및 친환경 에너지 거점화 지원"
+    }
+  }
+]

@@ -1,0 +1,106 @@
+[
+  { 
+    "id": 5101, "electionType": "mayor", "region": ["광주광역시"], "name": "강기정", "party": "더불어민주당", "bio": "현) 제14대 광주광역시장 | 전) 대통령비서실 정무수석",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EA%B8%B0%EC%A0%95&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "당당한 광주의 대전환! 중단 없는 시정으로 5대 미래 산업과 복합쇼핑몰 시대를 완성합니다.",
+    "pledges": {
+      "welfare": "광주다움 통합 돌봄의 고도화 및 전 시민 24시간 긴급 의료 체계 구축",
+      "education": "인공지능(AI) 영재고 설립 및 지역 대학-산업 연계형 취업 보장제 확대",
+      "transport": "광주 지하철 2호선 적기 완공 및 자율주행 셔틀 도심 시범 구간 확대",
+      "culture": "아시아문화중심도시 고도화 및 복합쇼핑몰(현대/신세계/롯데) 조기 안착 및 소상공인 상생 모델 확립",
+      "housing": "군 공항 이전 후적지 '스마트 에어시티' 개발 및 도심 주거 환경 대대적 정비",
+      "environment": "탄소 중립 도시 선포에 따른 RE100 산단 조성 및 영산강 생태 역사 문화 벨트(Y-프로젝트) 완성"
+    }
+  },
+  { 
+    "id": 5102, "electionType": "mayor", "region": ["광주광역시"], "name": "민형배", "party": "더불어민주당", "bio": "현) 제22대 국회의원 | 전) 광산구청장 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EB%AF%BC%ED%98%95%EB%B0%BA&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "강한 광주, 새로운 변화! 중앙 정치의 강력한 추진력으로 광주의 자존심을 바로 세우겠습니다.",
+    "pledges": {
+      "welfare": "광주형 기본소득 도입 검토 및 마을 단위 공동체 복지 예산 2배 확대",
+      "education": "지역 거점대 교육비 무상화 추진 및 청년 창업 국가 책임제 실현",
+      "transport": "군 공항 이전 부지 활주로 활용 미래 모빌리티 실험 도시 구축",
+      "culture": "관 주도 문화 사업 혁파 ➡️ 시민 주도형 예술 창작 지원 및 복합쇼핑몰의 공격적 유치와 실질적 이익 지자체 환수",
+      "housing": "전세 사기 제로화 및 청년/신혼부부 전용 공공 임대 주택 5만 호 공급",
+      "environment": "에너지 민주주의 실현을 위한 시민 참여형 태양광 발전소 확대 및 기후 위기 징벌적 규제 도입"
+    }
+  },
+  { 
+    "id": 5103, "electionType": "superintendent", "region": ["광주광역시"], "name": "이정선", "party": "보수·중도 진영", "bio": "현) 제10대 광주광역시 교육감 | 전) 광주교육대학교 총장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%EC%84%A0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "함께 배우고 성장하는 광주 교육! 학생들의 실력을 키워 미래를 선도합니다.",
+    "pledges": {
+      "welfare": "초등학생 꿈 드리미 바우처 지급 및 학생 심리 상담 전담 전문가 배치",
+      "education": "기초학력 진단 및 보정 시스템 강화, 글로벌 해외 연수 프로그램 확대",
+      "transport": "안전 통학 버스 및 에듀버스 운영 체계 전국 최고 수준 고도화",
+      "culture": "학생 1인 1예술/체육 활동비 지원 및 학생 맞춤형 진로 체험 센터 운영",
+      "housing": "노후된 교원 숙소 현대화 및 교권 침해 방지를 위한 법률 지원단 상시 가동",
+      "environment": "친환경 그린 스마트 스쿨 전환 가속화 및 학교 내 안전 등급제 실시"
+    }
+  },
+  { 
+    "id": 5201, "electionType": "mayor", "region": ["광주광역시", "동구"], "name": "임택", "party": "더불어민주당", "bio": "현) 제18대 광주 동구청장 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%ED%83%9D&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "동구의 가치를 높이는 3선 구청장의 관록! 역사와 현대가 공존하는 문화 자치구",
+    "pledges": {
+      "welfare": "동구형 맞춤형 '마을 평생 돌봄' 체계 완성 및 치매 안심 센터 고도화",
+      "education": "인문 학술 도시 동구 육성 및 어린이 인문 교육 센터 운영",
+      "transport": "원도심 주차난 해결을 위한 공유 주차장 사업 확대 및 공영 주차 빌딩 건립",
+      "culture": "추억의 충장 축제 글로벌화 및 복합쇼핑몰 유치 시 동구 골목 상권 보호 전제 상생 협약 체결",
+      "housing": "재개발·재건축 구역 정주 여건 개선 및 노후 주거지 기반 시설 우선 투자",
+      "environment": "생활 쓰레기 수거 시스템 전면 친환경화 및 도심 속 녹색 소공원 확충"
+    }
+  },
+  { 
+    "id": 5301, "electionType": "mayor", "region": ["광주광역시", "서구"], "name": "김이강", "party": "더불어민주당", "bio": "현) 제8대 광주 서구청장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%B4%EA%B0%95&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "내 곁에 가장 가까운 서구! 소통과 혁신으로 서구의 변화를 주도합니다.",
+    "pledges": {
+      "welfare": "서구형 '단 한 사람도 소외되지 않는' 착한 셔틀 및 찾아가는 복지망",
+      "education": "청소년 창의 인재 교육 공간 '서구 에듀 센터' 설립 및 장학금 지원",
+      "transport": "상무지구 일대 상습 정체 해소를 위한 지능형 교통 체계 도입",
+      "culture": "광천동 복합쇼핑몰 유치와 연계한 대규모 문화 관광 광장 조성 및 교통 대책 수립",
+      "housing": "노후 아파트 정비 사업 지원단 운영 및 노후 상가 밀집 지역 보행 환경 정비",
+      "environment": "기후 위기 대응 주민 참여형 에너지 자립 마을 육성 및 쾌적한 도심 녹지 구축"
+    }
+  },
+  { 
+    "id": 5401, "electionType": "mayor", "region": ["광주광역시", "남구"], "name": "김병래", "party": "더불어민주당", "bio": "현) 제9대 광주 남구청장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B3%91%EB%9E%98&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "남구 부흥 시대 완성! 에너지 거점으로 도약하는 남구의 미래를 열겠습니다.",
+    "pledges": {
+      "welfare": "남구 안심 보건 센터 및 경로당 현대화 사업 전 지역 확대",
+      "education": "송암산단 연계 실감 콘텐츠 인재 양성 및 교육 국제화 특구 지정 추진",
+      "transport": "백운광장 지하차도 건설 조기 완공 및 보행자 중심 공중 보행로 활성화",
+      "culture": "양림동 근대 역사 문화 마을 인프라 고도화 및 남구형 복합쇼핑몰 분산 유치 검토",
+      "housing": "대규모 주거 단지 주변 교육·문화 복합 센터 건립 및 정주 여건 개선",
+      "environment": "도시 재생 뉴딜 사업을 통한 친환경 주거 단지 조성 및 에너지 자립 실천"
+    }
+  },
+  { 
+    "id": 5501, "electionType": "mayor", "region": ["광주광역시", "북구"], "name": "신수정", "party": "더불어민주당", "bio": "현) 광주광역시의원 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%88%98%EC%A0%95&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "따뜻한 북구, 일 잘하는 여전사! 어머니의 마음으로 촘촘한 북구 복지를 실현합니다.",
+    "pledges": {
+      "welfare": "북구형 생애 주기별 돌봄 시스템 구축 및 경력 단절 여성 재취업 지원",
+      "education": "꿈나무 도서관 확충 및 청소년 진로 멘토링 프로그램 강화",
+      "transport": "북구 일대 상습 정체 해소를 위한 우회 도로망 확충 및 연계 버스 개선",
+      "culture": "일곡동·본촌동 도심 속 문화 공원 고도화 및 전남대 인근 복합쇼핑몰 상생 존 구축",
+      "housing": "노후 단독 주택 단지 안심 소방로 확보 및 조명·CCTV 보급 확대",
+      "environment": "금호강 수변 생태 탐방로 정비 및 미세먼지 차단 그린 벨트 조성"
+    }
+  },
+  { 
+    "id": 5601, "electionType": "mayor", "region": ["광주광역시", "광산구"], "name": "박병규", "party": "더불어민주당", "bio": "현) 제17대 광주 광산구청장 | 전) 광주시 경제부시장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B2%B1%EA%B7%9C&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "광주 경제의 심장, 광산! 광주형 일자리 성공 신화를 광산구 전역으로 확산합니다.",
+    "pledges": {
+      "welfare": "중소기업 노동자 맞춤형 복지 서비스 및 24시간 돌봄 공백 제로화",
+      "education": "미래 모빌리티 산업 연계 기술 교육 지원 및 평생 학습 플랫폼 고도화",
+      "transport": "광주 송정역 복합 환승 센터 조기 안착 및 공항 인근 교통망 대개조",
+      "culture": "어등산 관광 단지 내 복합쇼핑몰 유치 및 지역 상권 직접 지원 기금 마련",
+      "housing": "신도시 정주 여건 개선을 위한 교육·행정 복합 센터 건립",
+      "environment": "수완·첨단 일대 탄소 중립 모델 도시 선포 및 태양광 이익 공유 사업 추진"
+    }
+  }
+]
