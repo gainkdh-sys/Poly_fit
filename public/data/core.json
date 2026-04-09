@@ -1,0 +1,37 @@
+{
+  "categories": [
+    { "id": "welfare", "name": "복지" },
+    { "id": "education", "name": "교육" },
+    { "id": "transport", "name": "교통 및 인프라" },
+    { "id": "culture", "name": "문화" },
+    { "id": "housing", "name": "주거" },
+    { "id": "environment", "name": "환경" }
+  ],
+  "questions": [
+    { "text": "국가 재정을 투입하여 모든 국민에게 기본소득을 정기적으로 지급해야 합니까?", "category": "welfare" },
+    { "text": "선별 복지 대신, 병원비 부담을 완전히 없애는 무상 공공의료 풀패키지가 우선입니까?", "category": "welfare" },
+    { "text": "출산율 반등을 위해 0세부터 영유아의 보육 시설과 비용을 국가가 100% 전담해야 합니까?", "category": "welfare" },
+    { "text": "서열화된 입시 구조 타파를 위해 자사고·특목고를 폐지하고 평등한 공교육을 실현해야 합니까?", "category": "education" },
+    { "text": "디지털 시대에 대응하기 위해 모든 초중고교생에게 개인별 태블릿PC 무상 지급이 시급합니까?", "category": "education" },
+    { "text": "출발선 평등을 위해 대학 등록금 완전 무상화를 앞당겨야 합니까?", "category": "education" },
+    { "text": "수익성이 저조해도 지역 불균형 해소를 위해 KTX/GTX 등 고속철도망을 100% 깔아야 합니까?", "category": "transport" },
+    { "text": "대중교통 이용객의 체감 부담을 줄이는 '시내버스/지역화폐 연계 전면 무료화'가 필수입니까?", "category": "transport" },
+    { "text": "지역 도심의 만성 교통 체증 해소를 위해 고가도로 및 지하 고속도로를 대대적으로 신축해야 합니까?", "category": "transport" },
+    { "text": "소외지역 없이 모든 동네 반경 1km 내 소규모 도서관, 체육관 등 생활 밀착 센터가 필수입니까?", "category": "culture" },
+    { "text": "도시 브랜드 가치 상승을 위해 다목적 컨벤션 센터, 대형 K-POP 전용 아레나를 최우선으로 지어야 합니까?", "category": "culture" },
+    { "text": "대규모 지역 관광 축제를 과감히 줄이고, 영세 문화예술인들에 대한 생활 수당을 대폭 늘려야 합니까?", "category": "culture" },
+    { "text": "민간 재개발/재건축을 가로막는 규제를 과감히 풀어 주택 시장 가격을 정상화해야 합니까?", "category": "housing" },
+    { "text": "정부가 직접 개입해, 원가에 가까운 파격적인 '반값 영구 공공임대아파트'를 대규모로 공급해야 합니까?", "category": "housing" },
+    { "text": "집주인보다 세입자의 권리를 극단적으로 보호하는 수준의 강력한 임대차 보장제가 더 필요합니까?", "category": "housing" },
+    { "text": "기업 입지 경쟁력이 떨어지더라도, 공장 탄소 배출세를 선진국 이상으로 강하게 물려야 합니까?", "category": "environment" },
+    { "text": "일자리와 경제 파급력이 우선이므로, 산림 보호구역(그린벨트)을 최대한 해제하여 산업 부지를 확보해야 합니까?", "category": "environment" },
+    { "text": "기후 위기 대응을 위해 내연기관차(경유/휘발유) 도심 진입 불허 시점을 원안보다 앞당겨야 합니까?", "category": "environment" }
+  ],
+  "electionsList": [
+    { "id": "governor", "name": "광역지방자치단체장 (도지사/시장 등)" },
+    { "id": "mayor", "name": "기초지방자치단체장 (구청장/시장 등)" },
+    { "id": "provincial_council", "name": "광역지방의회의원 (도/시의원 등)" },
+    { "id": "city_council", "name": "기초지방의회의원 (시/구/군의원 등)" },
+    { "id": "superintendent", "name": "시·도 교육감" }
+  ]
+}
