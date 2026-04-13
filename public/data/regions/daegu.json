@@ -1,6 +1,6 @@
 [
   { 
-    "id": 2101, "electionType": "mayor", "region": ["대구광역시"], "name": "홍준표", "party": "국민의힘", "bio": "현) 제35대 대구광역시장 | 전) 자유한국당 대표",
+    "id": 2101, "electionType": "governor", "region": ["대구광역시"], "name": "홍준표", "party": "국민의힘", "bio": "현) 제35대 대구광역시장 | 전) 자유한국당 대표",
     "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%A4%80%ED%91%9C&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "대구 굴기! 중남부권 도약의 거점, TK 신공항 완성과 5대 미래 산업 혁명",
     "pledges": {
@@ -9,11 +9,11 @@
       "transport": "대구경북 통합신공항 특별법 기조 하에 신공항-도심 직결 철도망 구축",
       "culture": "금호강 르네상스 프로젝트를 통한 도심 수변 관광 명소화 및 랜드마크 조성",
       "housing": "군 부대 이전 후적지 개발을 통한 미분양 해소 및 도심 주거 혁신",
-      "environment": "친환경 수소 상용차 보급 확대 및 도심 열섬 현상 완화 녹지 확충"
+      "environment": "행정 및 산업 혁신 ➡️ 대구·경북 행정통합 강력 추진(찬성) 및 통합신공항 배후 에어시티 조성, 친환경 수소 상용차 보급 확대"
     }
   },
   { 
-    "id": 2102, "electionType": "mayor", "region": ["대구광역시"], "name": "김부겸", "party": "더불어민주당", "bio": "전) 제47대 국무총리 | 전) 4선 국회의원 (대구 수성갑)",
+    "id": 2102, "electionType": "governor", "region": ["대구광역시"], "name": "김부겸", "party": "더불어민주당", "bio": "전) 제47대 국무총리 | 전) 4선 국회의원 (대구 수성갑)",
     "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B6%80%EA%B2%B8&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "공존과 상생의 대구! 중앙 정부와의 소통 능력으로 예산 확보와 민생 회복",
     "pledges": {
@@ -22,11 +22,11 @@
       "transport": "수도권 집중화 방안에 대응하는 남부권 광역 교통 허브 구축",
       "culture": "문화 분권 실현을 위한 대구형 문화 예술인 기본소득 시범 실시",
       "housing": "전세 사기 피해자 선구제 후회수 제도화 및 공공 임대 주택 확대",
-      "environment": "기후 위기 대응 신재생 에너지 전환 지원 및 탄소 중립 선도 도시"
+      "environment": "행정 및 환경 혁신 ➡️ 대구·경북 행정통합 신중론(도민 합의 및 균형 발전 전제) 및 기후 위기 대응 신재생 에너지 전환 지원"
     }
   },
   { 
-    "id": 2103, "electionType": "mayor", "region": ["대구광역시"], "name": "홍석준", "party": "국민의힘", "bio": "전) 제21대 국회의원 | 전) 대구시 경제국장",
+    "id": 2103, "electionType": "governor", "region": ["대구광역시"], "name": "홍석준", "party": "국민의힘", "bio": "전) 제21대 국회의원 | 전) 대구시 경제국장",
     "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%84%9D%EC%A4%80&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "경제 전문가의 실무 행정! 규제 혁파를 통한 일류 경제 도시 대구 건설",
     "pledges": {

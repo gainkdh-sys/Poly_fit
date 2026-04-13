@@ -1,0 +1,41 @@
+[
+  { 
+    "id": 12101, "electionType": "governor", "region": ["세종특별자치시"], "name": "최민호", "party": "국민의힘", "bio": "현) 제4대 세종특별자치시장 | 전) 행정중심복합도시건설청장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%AF%BC%ED%98%B8&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "미래전략수도 세종! 행정수도를 넘어 자족 기능을 갖춘 글로벌 선도 도시로 만듭니다.",
+    "pledges": {
+      "welfare": "세종형 '대중교통 무료화' (이응패스 지원 확대) 및 출산 장려금 3단계 파격 상향",
+      "education": "미래 사회 인재 양성을 위한 세종형 '코딩·AI 특화 교육 도시' 브랜드화",
+      "transport": "KTX 세종역 설치 완수 및 세종-대전-청주 공항을 잇는 충청권 광역철도 조기 구축",
+      "culture": "세종 빛 축제 글로벌화 및 금호강 르네상스 프로젝트와 연계한 도심 수변 관광 명소화",
+      "housing": "세종시 거주자 우선 분양 비율 확대 및 실거주자 중심의 주택 시장 안정화",
+      "environment": "행정수도 완성 ➡️ 대통령 제2집무실 및 국회 세종의사당 조기 건립을 통한 실질적 정치·행정의 중심지 구축"
+    }
+  },
+  { 
+    "id": 12102, "electionType": "governor", "region": ["세종특별자치시"], "name": "이춘희", "party": "더불어민주당", "bio": "전) 제2·3대 세종특별자치시장 | 전) 건설교통부 차관",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%B6%98%ED%9D%AC&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "세종을 설계한 사람, 세종을 완성할 리더! 시민이 주인인 '시민주권 특별자치시'를 완성하겠습니다.",
+    "pledges": {
+      "welfare": "시민주권 특별자치시 모델 고도화 및 모든 동네 1km 이내 공공 돌봄 센터 완비",
+      "education": "세종 혁신 교육 2.0 추진 및 마을 교육 공동체 '꿈의 학교' 전 구역 확충",
+      "transport": "정부청사역 중심의 ITX 세종선 도입 및 도심 내 자전거·보행 중심 교통 혁신",
+      "culture": "국립박물관단지 조기 활성화 및 로컬 문화 예술인 창작 지원금 전면적 확대",
+      "housing": "공공 임대 주택 공급 확대 및 세종형 전세 사기 피해자 보호 조례 강화",
+      "environment": "탄소 중립 녹색 도시 세종 선포 ➡️ 공공 건물의 에너지 제로화 및 친환경 로컬 푸드 공급망 전국 1위 달성"
+    }
+  },
+  { 
+    "id": 12105, "electionType": "superintendent", "region": ["세종특별자치시"], "name": "최교진", "party": "진보 진영", "bio": "현) 제3·4·5대 세종특별자치시 교육감",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EA%B5%90%EC%A7%84&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "아이들의 행복이 세종의 미래입니다. 새로운 학교, 행복한 아이들을 위한 12년의 약속.",
+    "pledges": {
+      "welfare": "학습 준비물 및 교복 무상 지원 범위 확대 및 방과 후 학교 자유수강권 전면 지원",
+      "education": "세종형 혁신학교 및 캠퍼스형 공동 교육과정 고도화로 공교육 경쟁력 강화",
+      "transport": "학생 안심 통학 택시 및 마을 버스 노선 학생 친화적 개편",
+      "culture": "청소년 문화 공간 '동네방네' 동별 설립 및 1학생 1예술 예술 교육 정례화",
+      "housing": "교직원 수급 정원 확보를 위한 교육부 협상 강화 및 사택 주거 환경 대폭 개선",
+      "environment": "기후 위기 대응 생태 교육 의무화 및 학교 급식 채식 선택제 보장"
+    }
+  }
+]

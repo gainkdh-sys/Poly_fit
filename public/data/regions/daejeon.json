@@ -1,0 +1,67 @@
+[
+  { 
+    "id": 13101, "electionType": "governor", "region": ["대전광역시"], "name": "이장우", "party": "국민의힘", "bio": "현) 제13대 대전광역시장 | 전) 국회의원 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%A5%EC%9A%B0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "일류 경제 도시 대전! 강력한 리더십으로 대전의 100년 미래 먹거리를 만들겠습니다.",
+    "pledges": {
+      "welfare": "어르신 시내버스 무상 이용 대상 확대 및 만 70세 이상 완전 무료화 정착",
+      "education": "일류 경제 도시 연계형 '대전형 과학-산업 인턴십' 대폭 확대 및 지역 대학 혁신 지원",
+      "transport": "도시철도 2호선(트램) 조기 착공 및 무가선 방식 전 구간 도입 완수, 유성터미널 복합 개발 가속화",
+      "culture": "보문산 권역 '보물산 프로젝트' (워터파크, 케이블카) 추진 및 0시 축제의 세계적 브랜드화",
+      "housing": "대전역세권 도심융합특구 조성 및 원도심 초고층 랜드마크 건설을 통한 주거·상업 복합 개발",
+      "environment": "대전-충남 행정통합 적극 찬성 ➡️ '대전충남특별자치도' 출범을 통해 수도권에 대응하는 강력한 경제·행정 공동체 구축"
+    }
+  },
+  { 
+    "id": 13102, "electionType": "governor", "region": ["대전광역시"], "name": "허태정", "party": "더불어민주당", "bio": "전) 제12대 대전광역시장 | 전) 유성구청장 (재선)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%ED%97%88%ED%83%9C%EC%A0%95&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "민생 우선, 균형 발전! 도약하는 대전을 위해 검증된 실력으로 다시 한번 뛰겠습니다.",
+    "pledges": {
+      "welfare": "지역화폐 '온통대전' 캐시백 10% 부활 및 소상공인 직접 지원 기금 조성",
+      "education": "공공 돌봄 체계 '대전 온마을 돌봄' 고도화 및 초등학생 학습 준비물 완전 무상화",
+      "transport": "트램 2028년 정시 개동 및 도시철도 3·4·5호선 순차적 추진 로드맵 수립",
+      "culture": "제2시립미술관 및 음악전당 조기 건립, 지역 예술인 창작 수당 연간 100만 원 지급 제도화",
+      "housing": "청년·신혼부부 전용 '대전형 반값 아파트' 공급 및 원도심 빈집 소규모 정비 사업 활성화",
+      "environment": "대전-충남 행정통합 신중론 ➡️ 단순한 통합보다는 '충청권 메가시티 특별연합'을 통한 실무적 협력과 단계적 통합 추진"
+    }
+  },
+  { 
+    "id": 13105, "electionType": "superintendent", "region": ["대전광역시"], "name": "성광진", "party": "진보 진영", "bio": "현) 대전교육연구소장 | 전) 교사",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%B1%EA%B4%91%EC%A7%84&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "교육을 교육답게, 학교를 학교답게! 대전에 첫 진보 교육감 시대를 열겠습니다.",
+    "pledges": {
+      "welfare": "유치원부터 고등학교까지 완전 무상 교육 및 급식 질 대폭 향상",
+      "education": "학급당 학생 수 20명 이하 단계적 감축 및 과밀 학급 해소 최우선 추진",
+      "transport": "안심 통학로 '옐로 카펫' 전 학교 설치 및 에듀버스 운영 체계 구축",
+      "culture": "학생 자치 예산 편성권 보장 및 지역사회 연계형 마을 학교 활성화",
+      "housing": "교직원 주거 안정 대책 마련 및 민주적 학교 운영 시스템 정착",
+      "environment": "기후 위기 대응 생태 시민 교육 정규 과정화 및 서열 중심 평가 제도 개혁"
+    }
+  },
+  { 
+    "id": 13501, "electionType": "mayor", "region": ["대전광역시", "유성구"], "name": "정용래", "party": "더불어민주당", "bio": "현) 제14·15대 대전 유성구청장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%9A%A9%EB%9E%98&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "다함께 만드는 유성, 더 좋은 미래! KAIST와 대덕단지가 있는 유성을 세계적 과학 도시로.",
+    "pledges": {
+      "welfare": "노인 생활 체육 시설 동별 확충 및 1인 가구 소셜 다이닝 안심 지원",
+      "education": "R&D 예산 삭감 대응 ➡️ 구 차원의 과학 인재 장학금 및 연구 환경 지원 특별 기금 조성",
+      "transport": "유성 광역 복합 환승 센터 조기 완공 협력 및 도안신도시 교통망 최적화",
+      "culture": "유성 온천 지구 관광 활성화 및 청년 예술인 '거리 공연' 상설화 지원",
+      "housing": "KAIST 인근 대학가 스마트 주거 정비 및 청년 창업 주택 공급 확대",
+      "environment": "과학 기술 특화 ➡️ KAIST 등 지역 대학 연계 실증 사업 확대 및 연구원 전용 생활 복지 카드 도입"
+    }
+  },
+  { 
+    "id": 13401, "electionType": "mayor", "region": ["대전광역시", "서구"], "name": "서철모", "party": "국민의힘", "bio": "현) 제13대 대전 서구청장 | 전) 대전시 행정부시장",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%B2%A0%EB%AA%A8&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "desc": "변화와 혁신, 활력 넘치는 서구! 행정 전문가의 실력으로 서구의 가치를 높이겠습니다.",
+    "pledges": {
+      "welfare": "서구 복합 커뮤니티 센터 조기 건립 및 보육 사각지대 제로화",
+      "education": "공적 학습 지원 서비스 '서구 멘토링' 대폭 강화 및 글로벌 인재 지원",
+      "transport": "둔산동 일대 상습 주차난 해결을 위한 지하 주차장 확충 및 스마트 교통 도입",
+      "culture": "서구 물길-공원 연결 에코 정원 도시 조성 및 구민 문화 생활 바우처 확대",
+      "housing": "둔산지구 노후 계획 도시 정비 선도 지구 지정 및 재건축 규제 합리적 완화",
+      "environment": "중구·남구 경계 지역 개발 연계 ➡️ 행정 부시장 경험을 살린 시-구 협력 기반 대규모 인프라 투자 유치"
+    }
+  }
+]

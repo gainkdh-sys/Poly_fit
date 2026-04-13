@@ -1,6 +1,7 @@
 import Component from '../core/Component.js';
 import { Router } from '../core/Router.js';
 import { appStore } from '../core/Store.js';
+import { filterCandidatesByDistrict } from '../utils/api.js';
 
 export default class ElectionListView extends Component {
   template() {
@@ -35,10 +36,7 @@ export default class ElectionListView extends Component {
         const elecName = e.currentTarget.querySelector('.election-title').textContent;
 
         // 선택 시 미리 지역별 후보자가 존재하는지 검사 (필터링 로직 강화)
-        const targetCands = candidates.filter(c => {
-          return c.electionType === elecId && 
-                 c.region.some(r => district.includes(r));
-        });
+        const targetCands = filterCandidatesByDistrict(candidates, district, elecId);
 
         if (targetCands.length === 0) {
           alert(`알림: 현재 입력하신 지역(${district})의 [${elecName}] 부문에는 아직 선관위에 공식 등록(또는 언론 유력 조사)된 출마 예정자 명단이 없습니다.\n다른 선거를 선택해 주세요.`);

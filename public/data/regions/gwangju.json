@@ -1,6 +1,6 @@
 [
   { 
-    "id": 5101, "electionType": "mayor", "region": ["광주광역시"], "name": "강기정", "party": "더불어민주당", "bio": "현) 제14대 광주광역시장 | 전) 대통령비서실 정무수석",
+    "id": 5101, "electionType": "governor", "region": ["광주광역시"], "name": "강기정", "party": "더불어민주당", "bio": "현) 제14대 광주광역시장 | 전) 대통령비서실 정무수석",
     "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EA%B8%B0%EC%A0%95&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "당당한 광주의 대전환! 중단 없는 시정으로 5대 미래 산업과 복합쇼핑몰 시대를 완성합니다.",
     "pledges": {
@@ -13,11 +13,11 @@
     }
   },
   { 
-    "id": 5102, "electionType": "mayor", "region": ["광주광역시"], "name": "민형배", "party": "더불어민주당", "bio": "현) 제22대 국회의원 | 전) 광산구청장 (재선)",
+    "id": 5102, "electionType": "governor", "region": ["광주광역시"], "name": "민형배", "party": "더불어민주당", "bio": "현) 제22대 국회의원 | 전) 광산구청장 (재선)",
     "imageUrl": "https://ui-avatars.com/api/?name=%EB%AF%BC%ED%98%95%EB%B0%BA&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "강한 광주, 새로운 변화! 중앙 정치의 강력한 추진력으로 광주의 자존심을 바로 세우겠습니다.",
     "pledges": {
-      "welfare": "광주형 기본소득 도입 검토 및 마을 단위 공동체 복지 예산 2배 확대",
+      "welfare": "광주형 기본소득 도입 검토 및 마을 단위 공동체 복지 예발 2배 확대",
       "education": "지역 거점대 교육비 무상화 추진 및 청년 창업 국가 책임제 실현",
       "transport": "군 공항 이전 부지 활주로 활용 미래 모빌리티 실험 도시 구축",
       "culture": "관 주도 문화 사업 혁파 ➡️ 시민 주도형 예술 창작 지원 및 복합쇼핑몰의 공격적 유치와 실질적 이익 지자체 환수",

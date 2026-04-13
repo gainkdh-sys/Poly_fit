@@ -62,3 +62,36 @@ export async function fetchCandidatesByRegion(regionName) {
     return [];
   }
 }
+
+/**
+ * 선거 유형 및 지역에 따른 후보자 정밀 필터링
+ * @param {Array} candidates - 전체 후보자 목록
+ * @param {string} district - 사용자 선택 지역 (예: "경상남도 진주시 가호동")
+ * @param {string} electionId - 선택한 선거 종류 ID (예: "governor", "mayor")
+ */
+export function filterCandidatesByDistrict(candidates, district, electionId) {
+  return candidates.filter(c => {
+    // 1. 선거 유형 일치 확인
+    if (c.electionType !== electionId) return false;
+
+    // 2. 지역 매칭 로직
+    // 광역 단위(도지사, 교육감) 등은 광역 지역명(배열 첫 번째)만 포함되면 오케이
+    if (['governor', 'superintendent'].includes(c.electionType)) {
+      return district.includes(c.region[0]);
+    }
+
+    // 기초 단위(시장, 군수, 구청장)
+    if (c.electionType === 'mayor') {
+      // 후보 지역이 하나뿐인 경우 (세종 등 특수 구조 대응)
+      if (c.region.length === 1) {
+        return district.includes(c.region[0]);
+      }
+      
+      // 구체적인 지역명(배열의 마지막 요소)이 포함되어야 함 (예: "진주시")
+      const specificRegion = c.region[c.region.length - 1];
+      return district.includes(specificRegion);
+    }
+
+    return false;
+  });
+}

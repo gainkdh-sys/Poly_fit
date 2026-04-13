@@ -1,17 +1,13 @@
 import Component from '../core/Component.js';
 import { Router } from '../core/Router.js';
-import { appStore } from '../core/Store.js';
-import { calculateMatch } from '../utils/matcher.js';
+import { filterCandidatesByDistrict } from '../utils/api.js';
 
 export default class LoadingView extends Component {
   setup() {
     const { prefAnswers, blindAnswers, candidates, selectedElectionId, district } = appStore.getState();
     
-    // 해당 선거구 후보자 필터링
-    const targetCandidates = candidates.filter(c => {
-      return c.electionType === selectedElectionId && 
-             c.region.some(r => district.includes(r));
-    });
+    // 해당 선거구 후보자 필터링 (개선된 필터 사용)
+    const targetCandidates = filterCandidatesByDistrict(candidates, district, selectedElectionId);
 
     // 매칭 알고리즘 가동
     const finalRank = calculateMatch(prefAnswers, blindAnswers, targetCandidates);

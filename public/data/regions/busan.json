@@ -1,6 +1,6 @@
 [
   { 
-    "id": 7101, "electionType": "mayor", "region": ["부산광역시"], "name": "박형준", "party": "국민의힘", "bio": "현) 제38·39대 부산광역시장 | 전) 국회의원 (17대)",
+    "id": 7101, "electionType": "governor", "region": ["부산광역시"], "name": "박형준", "party": "국민의힘", "bio": "현) 제38·39대 부산광역시장 | 전) 국회의원 (17대)",
     "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%95%EC%A4%80&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "부산을 다시 세계로! 검증된 행정 관록으로 '글로벌 허브 도시 부산'을 완성하겠습니다.",
     "pledges": {
@@ -13,7 +13,7 @@
     }
   },
   { 
-    "id": 7102, "electionType": "mayor", "region": ["부산광역시"], "name": "주진우", "party": "국민의힘", "bio": "현) 제22대 국회의원 | 전) 대통령비서실 법률비서관",
+    "id": 7102, "electionType": "governor", "region": ["부산광역시"], "name": "주진우", "party": "국민의힘", "bio": "현) 제22대 국회의원 | 전) 대통령비서실 법률비서관",
     "imageUrl": "https://ui-avatars.com/api/?name=%EC%A3%BC%EC%A7%84%EC%9A%B0&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "새로운 힘, 젊은 부산! 중앙 정부와의 직통 라인으로 부산의 판을 바꾸겠습니다.",
     "pledges": {
@@ -26,8 +26,8 @@
     }
   },
   { 
-    "id": 7103, "electionType": "mayor", "region": ["부산광역시"], "name": "전재수", "party": "더불어민주당", "bio": "현) 제22대 국회의원 | 전) 3선 국회의원 (부산 북구갑)",
-    "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%84%EC%92%AC%EC%88%98&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
+    "id": 7103, "electionType": "governor", "region": ["부산광역시"], "name": "전재수", "party": "더불어민주당", "bio": "현) 제22대 국회의원 | 전) 3선 국회의원 (부산 북구갑)",
+    "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%94%EC%92%AC%EC%88%98&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "이웃집 시장, 시민의 편! 민생을 가장 잘 아는 전재수가 부산의 삶을 챙깁니다.",
     "pledges": {
       "welfare": "전 시민 민생회복 균형 수당 지급 및 공공의료 인프라(침례병원 공공병원화 등) 완성",

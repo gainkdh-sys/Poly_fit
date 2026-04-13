@@ -1,6 +1,6 @@
 import Component from '../core/Component.js';
 import { Router } from '../core/Router.js';
-import { appStore } from '../core/Store.js';
+import { filterCandidatesByDistrict } from '../utils/api.js';
 
 export default class BlindPledgeView extends Component {
   setup() {
@@ -8,11 +8,8 @@ export default class BlindPledgeView extends Component {
     this.catIdx = blindAnswers.length;
     this.currentCat = coreData.categories[this.catIdx];
     
-    // 유효성 검사 및 필터링
-    this.targetCandidates = candidates.filter(c => {
-      return c.electionType === selectedElectionId && 
-             c.region.some(r => district.includes(r));
-    });
+    // 유효성 검사 및 필터링 (개선된 필터 사용)
+    this.targetCandidates = filterCandidatesByDistrict(candidates, district, selectedElectionId);
 
     // 셔플된 공약 리스트 생성
     this.shuffledCands = [...this.targetCandidates].sort(() => Math.random() - 0.5);

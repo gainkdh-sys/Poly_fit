@@ -1,6 +1,6 @@
 [
   { 
-    "id": 6101, "electionType": "mayor", "region": ["울산광역시"], "name": "김두겸", "party": "국민의힘", "bio": "현) 제8대 울산광역시장 | 전) 남구청장 (재선)",
+    "id": 6101, "electionType": "governor", "region": ["울산광역시"], "name": "김두겸", "party": "국민의힘", "bio": "현) 제8대 울산광역시장 | 전) 남구청장 (재선)",
     "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%91%90%EA%B2%B8&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "위대한 산업 수도 울산의 부활! 그린벨트 해제와 기업 유치로 울산의 대변혁을 주도합니다.",
     "pledges": {
@@ -13,7 +13,7 @@
     }
   },
   { 
-    "id": 6102, "electionType": "mayor", "region": ["울산광역시"], "name": "송철호", "party": "더불어민주당", "bio": "전) 제7대 울산광역시장 | 전) 국민고충처리위원회 위원장",
+    "id": 6102, "electionType": "governor", "region": ["울산광역시"], "name": "송철호", "party": "더불어민주당", "bio": "전) 제7대 울산광역시장 | 전) 국민고충처리위원회 위원장",
     "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%B2%A0%ED%98%B8&background=f1f5f9&color=475569&size=128&font-size=0.4&bold=true",
     "desc": "지속 가능한 미래 도시 울산! 부유식 해상풍력과 미래 에너지가 울산의 먹거리입니다.",
     "pledges": {
