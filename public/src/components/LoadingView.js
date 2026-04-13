@@ -1,5 +1,7 @@
 import Component from '../core/Component.js';
 import { Router } from '../core/Router.js';
+import { appStore } from '../core/Store.js';
+import { calculateMatch } from '../utils/matcher.js';
 import { filterCandidatesByDistrict } from '../utils/api.js';
 
 export default class LoadingView extends Component {
