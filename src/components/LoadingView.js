@@ -5,7 +5,7 @@ import { calculateMatch } from '../utils/matcher.js';
 
 export default class LoadingView extends Component {
   setup() {
-    const { prefAnswers, blindAnswers, candidates, selectedElectionId, district } = appStore.getState();
+    const { prefAnswers, blindAnswers, candidates, selectedElectionId, district, coreData } = appStore.getState();
     
     // 해당 선거구 후보자 필터링
     const targetCandidates = candidates.filter(c => {

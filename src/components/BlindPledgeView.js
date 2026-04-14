@@ -28,7 +28,8 @@ export default class BlindPledgeView extends Component {
     const qNumInGroup = sameGroupCats.findIndex(c => c.id === this.currentCat.id) + 1;
 
     const pledgesHtml = this.shuffledCands.map((cand, idx) => {
-      const pledgeText = cand.pledges[this.currentCat.id] || "해당 분야 공약 스크래핑 대기 중";
+      // 세부 분야 ID로 먼저 찾고, 없으면 대분류(group) ID로 폴백
+      const pledgeText = cand.pledges[this.currentCat.id] || cand.pledges[this.currentCat.group] || "해당 분야 공약 스크래핑 대기 중";
       return `
         <button class="pledge-card" style="animation-delay: ${idx * 0.08}s" data-cand-id="${cand.id}">
           "${pledgeText}"
