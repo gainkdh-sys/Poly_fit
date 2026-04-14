@@ -1,7 +1,6 @@
 import Component from '../core/Component.js';
 import { Router } from '../core/Router.js';
 import { appStore } from '../core/Store.js';
-import { filterCandidatesByDistrict } from '../utils/api.js';
 
 export default class BlindPledgeView extends Component {
   setup() {
@@ -9,8 +8,11 @@ export default class BlindPledgeView extends Component {
     this.catIdx = blindAnswers.length;
     this.currentCat = coreData.categories[this.catIdx];
     
-    // 유효성 검사 및 필터링 (개선된 필터 사용)
-    this.targetCandidates = filterCandidatesByDistrict(candidates, district, selectedElectionId);
+    // 유효성 검사 및 필터링
+    this.targetCandidates = candidates.filter(c => {
+      return c.electionType === selectedElectionId && 
+             c.region.some(r => district.includes(r));
+    });
 
     // 셔플된 공약 리스트 생성
     this.shuffledCands = [...this.targetCandidates].sort(() => Math.random() - 0.5);
@@ -19,7 +21,12 @@ export default class BlindPledgeView extends Component {
   template() {
     if (!this.currentCat) return '';
 
-    const { coreData } = appStore.getState();
+    const { coreData, blindAnswers } = appStore.getState();
+    
+    // 현재 그룹의 몇 번째 질문인지 계산
+    const sameGroupCats = coreData.categories.filter(c => c.group === this.currentCat.group);
+    const qNumInGroup = sameGroupCats.findIndex(c => c.id === this.currentCat.id) + 1;
+
     const pledgesHtml = this.shuffledCands.map((cand, idx) => {
       const pledgeText = cand.pledges[this.currentCat.id] || "해당 분야 공약 스크래핑 대기 중";
       return `
@@ -32,7 +39,7 @@ export default class BlindPledgeView extends Component {
     return `
       <div class="view-wrapper slide-up">
         <div class="step-indicator">2단계 : 진짜 공약 고르기 (${this.catIdx + 1} / ${coreData.categories.length})</div>
-        <div class="cat-badge"># ${this.currentCat.name} 부문</div>
+        <div class="cat-badge"># ${this.currentCat.name} 부문 (${qNumInGroup}/${sameGroupCats.length})</div>
         <h2 class="q-title" style="font-size:1.3rem;">실제 유력 출마자들의 ${this.currentCat.name} 공약입니다.<br>가장 마음에 드는 것을 고르세요!</h2>
         <p style="font-size:0.9rem">이름은 철저히 가려지며, 선택지 순서는 무작위로 계속 섞입니다.<br>(현재 해당 지역 실제 후보 수: ${this.targetCandidates.length}명)</p>
         <div class="pledge-list mt-2">

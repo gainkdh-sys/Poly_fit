@@ -33,6 +33,10 @@ const viewMap = {
  */
 const App = {
   async init() {
+    // 중복 초기화 방지
+    if (this._initialized) return;
+    this._initialized = true;
+
     // 1. 초기 데이터 로드
     const data = await fetchAppData();
     if (!data) return;
@@ -40,6 +44,7 @@ const App = {
     // 2. 상태 초기화
     appStore.setState({
       coreData: data.core,
+      candidates: data.candidates,
       locations: data.locations
     });
 

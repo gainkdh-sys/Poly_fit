@@ -6,7 +6,7 @@ export default class IntroView extends Component {
     return `
       <div class="view-wrapper intro-view center-all">
         <div class="hero mt-2">
-          <div class="badge">Poly Fit v5.1 (Vercel 최적화)</div>
+          <div class="badge">Poly Fit v5.0 (모듈형 아키텍처)</div>
           <h1>나의 가치관을 관통하는<br><span class="highlight">최적의 블라인드 매칭</span></h1>
           <p>가치관 설문으로 중요도를 파악하고,<br>익명의 블라인드 공약을 골라 최고의 후보를 찾습니다.</p>
         </div>
