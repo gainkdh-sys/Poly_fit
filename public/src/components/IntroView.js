@@ -12,7 +12,7 @@ export default class IntroView extends Component {
         </div>
         <div style="display:flex; flex-direction:column; gap:0.8rem; margin-top:2.5rem;">
           <button id="start-btn" class="btn-primary">🔥 블라인드 매칭 시스템 시작</button>
-          <button id="mbti-btn" class="btn-secondary">🧠 정치 MBTI 테스트 (준비 중)</button>
+          <button id="mbti-btn" class="btn-secondary">🧠 정치 MBTI 테스트</button>
         </div>
       </div>
     `;
@@ -24,7 +24,7 @@ export default class IntroView extends Component {
     });
 
     this.target.querySelector('#mbti-btn').addEventListener('click', () => {
-      alert('정치 MBTI 테스트는 현재 기능 고도화 개발 중입니다! 조금만 기다려주세요.');
+      window.location.href = 'https://political-mbti.vercel.app/';
     });
   }
 }
