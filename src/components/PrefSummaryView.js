@@ -6,27 +6,35 @@ export default class PrefSummaryView extends Component {
   template() {
     const { prefAnswers, coreData } = appStore.getState();
     
-    // 대분류(Group)별 가중치 합산 (6대 분야 통합)
-    const groupedResults = coreData.categories.reduce((acc, cat) => {
-      if (!acc[cat.group]) {
-        acc[cat.group] = { name: cat.name, score: 0 };
-      }
+    // 1. 6대 대분류 정의 (고정)
+    const categoryGroups = [
+      { id: 'welfare', name: '복지' },
+      { id: 'edu', name: '교육' },
+      { id: 'trans', name: '교통' },
+      { id: 'culture', name: '문화' },
+      { id: 'housing', name: '주거' },
+      { id: 'ind', name: '산업' }
+    ];
+
+    // 2. 각 그룹별 점수 합산
+    const groupScores = categoryGroups.reduce((acc, g) => {
+      acc[g.id] = 0;
       return acc;
     }, {});
 
     prefAnswers.forEach(ans => {
       const cat = coreData.categories.find(c => c.id === ans.category);
-      if (cat && groupedResults[cat.group]) {
-        groupedResults[cat.group].score += ans.score;
+      if (cat && groupScores[cat.group] !== undefined) {
+        groupScores[cat.group] += ans.score;
       }
     });
 
-    const total = Object.values(groupedResults).reduce((a, b) => a + b.score, 0);
+    const total = Object.values(groupScores).reduce((a, b) => a + b, 0);
 
-    // 높은 가중치 순으로 정렬된 6대 분야 리스트 생성
-    const sortedCats = Object.values(groupedResults).map(g => ({
+    // 3. 백분율 계산 및 정렬 (무조건 6개만 노출됨)
+    const sortedCats = categoryGroups.map(g => ({
       name: g.name,
-      pct: total > 0 ? Math.round((g.score / total) * 100) : 0
+      pct: total > 0 ? Math.round((groupScores[g.id] / total) * 100) : 0
     })).sort((a, b) => b.pct - a.pct);
 
     const summaryHtml = sortedCats.map(c => `
