@@ -1,7 +1,7 @@
 /**
  * Poly Fit v5.0 네비게이션 라우팅 유틸리티
  */
-import { appStore } from './Store.js';
+import { appStore } from './store.js';
 
 export const Router = {
   // 화면 전환 (히스토리 스택 관리 등)

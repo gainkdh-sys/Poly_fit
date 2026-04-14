@@ -1,5 +1,5 @@
-import { appStore } from './core/Store.js';
-import { Router } from './core/Router.js';
+import { appStore } from './core/store.js';
+import { Router } from './core/router.js';
 import { fetchAppData } from './utils/api.js';
 
 // 개별 컴포넌트 임포트

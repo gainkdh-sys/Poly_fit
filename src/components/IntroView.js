@@ -1,5 +1,5 @@
-import Component from '../core/Component.js';
-import { Router } from '../core/Router.js';
+import Component from '../core/component.js';
+import { Router } from '../core/router.js';
 
 export default class IntroView extends Component {
   template() {

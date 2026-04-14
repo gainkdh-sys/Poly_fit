@@ -1,6 +1,6 @@
-import Component from '../core/Component.js';
-import { Router } from '../core/Router.js';
-import { appStore } from '../core/Store.js';
+import Component from '../core/component.js';
+import { Router } from '../core/router.js';
+import { appStore } from '../core/store.js';
 
 export default class DistrictView extends Component {
   template() {
