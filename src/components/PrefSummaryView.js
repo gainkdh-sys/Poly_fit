@@ -6,24 +6,30 @@ export default class PrefSummaryView extends Component {
   template() {
     const { prefAnswers, coreData } = appStore.getState();
     
-    // 카테고리별 가중치 합산
-    const prefs = coreData.categories.reduce((acc, cat) => {
-      acc[cat.id] = 0;
-      return acc;
-    }, {});
+    // 대분류(Group)별 가중치 합산
+    const groupPrefs = {};
+    const groupNames = {};
     
-    prefAnswers.forEach(ans => {
-      if (prefs[ans.category] !== undefined) {
-        prefs[ans.category] += ans.score;
+    coreData.categories.forEach(cat => {
+      if (!groupPrefs[cat.group]) {
+        groupPrefs[cat.group] = 0;
+        groupNames[cat.group] = cat.name;
       }
     });
 
-    const total = Object.values(prefs).reduce((a, b) => a + b, 0);
+    prefAnswers.forEach(ans => {
+      const cat = coreData.categories.find(c => c.id === ans.category);
+      if (cat && groupPrefs[cat.group] !== undefined) {
+        groupPrefs[cat.group] += ans.score;
+      }
+    });
 
-    // 높은 가중치 순으로 정렬된 리스트 생성
-    const sortedCats = coreData.categories.map(c => ({
-      name: c.name,
-      pct: total > 0 ? Math.round((prefs[c.id] / total) * 100) : 0
+    const total = Object.values(groupPrefs).reduce((a, b) => a + b, 0);
+
+    // 높은 가중치 순으로 정렬된 6대 분야 리스트 생성
+    const sortedCats = Object.keys(groupPrefs).map(groupId => ({
+      name: groupNames[groupId],
+      pct: total > 0 ? Math.round((groupPrefs[groupId] / total) * 100) : 0
     })).sort((a, b) => b.pct - a.pct);
 
     const summaryHtml = sortedCats.map(c => `

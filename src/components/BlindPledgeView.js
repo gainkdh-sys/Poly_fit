@@ -21,7 +21,12 @@ export default class BlindPledgeView extends Component {
   template() {
     if (!this.currentCat) return '';
 
-    const { coreData } = appStore.getState();
+    const { coreData, blindAnswers } = appStore.getState();
+    
+    // 현재 그룹의 몇 번째 질문인지 계산
+    const sameGroupCats = coreData.categories.filter(c => c.group === this.currentCat.group);
+    const qNumInGroup = sameGroupCats.findIndex(c => c.id === this.currentCat.id) + 1;
+
     const pledgesHtml = this.shuffledCands.map((cand, idx) => {
       const pledgeText = cand.pledges[this.currentCat.id] || "해당 분야 공약 스크래핑 대기 중";
       return `
@@ -34,7 +39,7 @@ export default class BlindPledgeView extends Component {
     return `
       <div class="view-wrapper slide-up">
         <div class="step-indicator">2단계 : 진짜 공약 고르기 (${this.catIdx + 1} / ${coreData.categories.length})</div>
-        <div class="cat-badge"># ${this.currentCat.name} 부문</div>
+        <div class="cat-badge"># ${this.currentCat.name} 부문 (${qNumInGroup}/${sameGroupCats.length})</div>
         <h2 class="q-title" style="font-size:1.3rem;">실제 유력 출마자들의 ${this.currentCat.name} 공약입니다.<br>가장 마음에 드는 것을 고르세요!</h2>
         <p style="font-size:0.9rem">이름은 철저히 가려지며, 선택지 순서는 무작위로 계속 섞입니다.<br>(현재 해당 지역 실제 후보 수: ${this.targetCandidates.length}명)</p>
         <div class="pledge-list mt-2">

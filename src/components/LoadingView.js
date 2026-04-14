@@ -14,7 +14,7 @@ export default class LoadingView extends Component {
     });
 
     // 매칭 알고리즘 가동
-    const finalRank = calculateMatch(prefAnswers, blindAnswers, targetCandidates);
+    const finalRank = calculateMatch(prefAnswers, blindAnswers, targetCandidates, coreData);
 
     // 가상 가동 시간 부여 후 결과창 이동
     setTimeout(() => {
