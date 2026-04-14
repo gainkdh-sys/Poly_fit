@@ -77,12 +77,20 @@ const App = {
     // 해당 뷰 컴포넌트 인스턴스 생성 및 마운트
     const ViewComponent = viewMap[viewName];
     if (ViewComponent) {
+      console.log(`[App] Rendering view: ${viewName}`);
       new ViewComponent(container);
+    } else {
+      console.warn(`[App] View component not found: ${viewName}`);
     }
 
     DOM.app.appendChild(container);
   }
 };
 
-// 앱 가동
-App.init();
+// 앱 가동 (DOM 로드 후 안전하게 실행)
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('[App] DOMContentLoaded. Initializing app...');
+  App.init().catch(err => {
+    console.error('[App] Critical Initialization Error:', err);
+  });
+});
