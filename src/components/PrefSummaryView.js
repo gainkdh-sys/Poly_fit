@@ -9,11 +9,11 @@ export default class PrefSummaryView extends Component {
     // 1. 6대 대분류 정의 (고정)
     const categoryGroups = [
       { id: 'welfare', name: '복지' },
-      { id: 'edu', name: '교육' },
-      { id: 'trans', name: '교통' },
+      { id: 'education', name: '교육' },
+      { id: 'transport', name: '교통' },
       { id: 'culture', name: '문화' },
       { id: 'housing', name: '주거' },
-      { id: 'ind', name: '산업' }
+      { id: 'environment', name: '산업' }
     ];
 
     // 2. 각 그룹별 점수 합산

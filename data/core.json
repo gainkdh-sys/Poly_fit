@@ -2,16 +2,16 @@
   "categories": [
     { "id": "welfare_care", "name": "복지", "group": "welfare" },
     { "id": "welfare_income", "name": "복지", "group": "welfare" },
-    { "id": "edu_future", "name": "교육", "group": "edu" },
-    { "id": "edu_basic", "name": "교육", "group": "edu" },
-    { "id": "trans_mega", "name": "교통", "group": "trans" },
-    { "id": "trans_life", "name": "교통", "group": "trans" },
+    { "id": "edu_future", "name": "교육", "group": "education" },
+    { "id": "edu_basic", "name": "교육", "group": "education" },
+    { "id": "trans_mega", "name": "교통", "group": "transport" },
+    { "id": "trans_life", "name": "교통", "group": "transport" },
     { "id": "culture_brand", "name": "문화", "group": "culture" },
     { "id": "culture_citizen", "name": "문화", "group": "culture" },
     { "id": "housing_market", "name": "주거", "group": "housing" },
     { "id": "housing_social", "name": "주거", "group": "housing" },
-    { "id": "ind_growth", "name": "산업", "group": "ind" },
-    { "id": "ind_eco", "name": "산업", "group": "ind" }
+    { "id": "ind_growth", "name": "산업", "group": "environment" },
+    { "id": "ind_eco", "name": "산업", "group": "environment" }
   ],
   "questions": [
     { "text": "출산율 반등을 위해 0세부터 영유아의 보육 시설과 비용을 국가가 100% 전담해야 합니까?", "category": "welfare_care" },

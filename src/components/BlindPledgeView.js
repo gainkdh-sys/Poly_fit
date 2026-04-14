@@ -28,11 +28,28 @@ export default class BlindPledgeView extends Component {
     const qNumInGroup = sameGroupCats.findIndex(c => c.id === this.currentCat.id) + 1;
 
     const pledgesHtml = this.shuffledCands.map((cand, idx) => {
-      // 세부 분야 ID로 먼저 찾고, 없으면 대분류(group) ID로 폴백
-      const pledgeText = cand.pledges[this.currentCat.id] || cand.pledges[this.currentCat.group] || "해당 분야 공약 스크래핑 대기 중";
+      // 1. 대분류 기반 원본 공약 가져오기
+      const rawPledge = cand.pledges[this.currentCat.id] || cand.pledges[this.currentCat.group] || "해당 분야 공약 스크래핑 대기 중";
+      
+      // 2. 지능형 분할 로직 (Smart Splitting)
+      // 마운트된 문장이나 '및', '|' 기준으로 분리
+      const parts = rawPledge.split(/[.및|]/).map(s => s.trim()).filter(s => s.length > 5);
+      
+      let displayPledge = rawPledge;
+      if (parts.length >= 2) {
+        // 그룹 내 순서에 따라 분할된 문구 매칭 (첫 번째 질문 -> 앞부분, 두 번째 -> 뒷부분)
+        const partIdx = (qNumInGroup - 1) % parts.length;
+        displayPledge = parts[partIdx];
+        
+        // 너무 짧으면 다음 파트와 합침
+        if (displayPledge.length < 10 && parts[partIdx + 1]) {
+          displayPledge += " " + parts[partIdx + 1];
+        }
+      }
+
       return `
         <button class="pledge-card" style="animation-delay: ${idx * 0.08}s" data-cand-id="${cand.id}">
-          "${pledgeText}"
+          "${displayPledge}"
         </button>
       `;
     }).join('');
