@@ -4,9 +4,9 @@
 export async function fetchAppData() {
   try {
     const [coreRes, candRes, locRes] = await Promise.all([
-      fetch('./public/data/core.json'),
-      fetch('./public/data/candidates.json'),
-      fetch('./public/data/locations.json')
+      fetch('./data/core.json'),
+      fetch('./data/candidates.json'),
+      fetch('./data/locations.json')
     ]);
 
     if (!coreRes.ok || !candRes.ok || !locRes.ok) {
