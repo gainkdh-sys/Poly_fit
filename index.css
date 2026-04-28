@@ -79,6 +79,12 @@ p { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1.5rem; }
 .election-card:hover { border-color: var(--primary); transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .election-title { font-size: 1.15rem; font-weight: 800; color: var(--text); }
 .election-desc { font-size: 0.9rem; color: var(--text-muted); font-weight: 600; margin-top: 0.2rem;}
+.election-arrow { font-size: 1.2rem; color: var(--text-muted); font-weight: 700; flex-shrink: 0; }
+
+/* 데이터 없는 기초자치단체 카드 */
+.district-empty { opacity: 0.45; cursor: not-allowed; background: #f8fafc; }
+.district-empty:hover { border-color: var(--card-border); transform: none; box-shadow: var(--shadow-sm); }
+.district-empty .election-title { color: var(--text-muted); }
 
 .loader { width: 60px; height: 60px; border: 5px solid #e2e8f0; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 1.5rem auto; }
 

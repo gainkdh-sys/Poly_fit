@@ -5,19 +5,37 @@ import { calculateMatch } from '../utils/matcher.js';
 
 export default class LoadingView extends Component {
   setup() {
-    const { prefAnswers, blindAnswers, candidates, selectedElectionId, district, coreData } = appStore.getState();
-    
-    // 해당 선거구 후보자 필터링
-    const targetCandidates = candidates.filter(c => {
-      return c.electionType === selectedElectionId && 
-             c.region.some(r => district.includes(r));
-    });
+    const { prefAnswers, blindAnswers, regionData, selectedElectionId, district, coreData } = appStore.getState();
 
-    // 매칭 알고리즘 가동
-    const finalRank = calculateMatch(prefAnswers, blindAnswers, targetCandidates, coreData);
+    // 엣지 케이스: 필수 데이터 누락 시 결과 없이 이전 화면으로
+    if (!regionData || !selectedElectionId || !coreData) {
+      console.error('[LoadingView] 필수 상태 누락:', { regionData: !!regionData, selectedElectionId, coreData: !!coreData });
+      setTimeout(() => Router.navigate('electionList'), 500);
+      return;
+    }
 
-    // 가상 가동 시간 부여 후 결과창 이동
+    // 선거 종류별 후보 목록 추출
+    let targetCandidates = [];
+    if (selectedElectionId === 'governor') {
+      targetCandidates = regionData.governor || [];
+    } else if (selectedElectionId === 'superintendent') {
+      targetCandidates = regionData.superintendent || [];
+    } else {
+      // 기초 단위 선거 — 선택된 district에서 추출
+      const distData = (regionData.districts || {})[district] || {};
+      targetCandidates = distData[selectedElectionId] || [];
+    }
+
+    // 엣지 케이스: 후보가 없는 경우
+    if (targetCandidates.length === 0) {
+      console.warn('[LoadingView] 후보 없음 → electionList로 이동');
+      setTimeout(() => Router.navigate('electionList'), 800);
+      return;
+    }
+
+    // 매칭 알고리즘 실행 후 결과 화면으로 이동
     setTimeout(() => {
+      const finalRank = calculateMatch(prefAnswers, blindAnswers, targetCandidates, coreData);
       appStore.setState({ finalRank });
       Router.navigate('result');
     }, 2200);

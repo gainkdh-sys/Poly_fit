@@ -4,17 +4,33 @@ import { appStore } from '../core/store.js';
 
 export default class BlindPledgeView extends Component {
   setup() {
-    const { blindAnswers, coreData, district, selectedElectionId, candidates } = appStore.getState();
+    const { blindAnswers, coreData, district, selectedElectionId, regionData } = appStore.getState();
     this.catIdx = blindAnswers.length;
     this.currentCat = coreData.categories[this.catIdx];
-    
-    // 유효성 검사 및 필터링
-    this.targetCandidates = candidates.filter(c => {
-      return c.electionType === selectedElectionId && 
-             c.region.some(r => district.includes(r));
-    });
 
-    // 셔플된 공약 리스트 생성
+    // 엣지 케이스: 카테고리 초과 (이미 완료된 경우)
+    if (!this.currentCat) {
+      Router.navigate('loading');
+      return;
+    }
+
+    // 선거 종류별 후보 목록 추출 (regionData 기반)
+    if (!regionData) {
+      console.error('[BlindPledgeView] regionData 없음');
+      Router.navigate('electionList');
+      return;
+    }
+
+    if (selectedElectionId === 'governor') {
+      this.targetCandidates = regionData.governor || [];
+    } else if (selectedElectionId === 'superintendent') {
+      this.targetCandidates = regionData.superintendent || [];
+    } else {
+      const distData = (regionData.districts || {})[district] || {};
+      this.targetCandidates = distData[selectedElectionId] || [];
+    }
+
+    // 셔플된 공약 리스트 생성 (매 질문마다 순서 무작위화)
     this.shuffledCands = [...this.targetCandidates].sort(() => Math.random() - 0.5);
   }
 
@@ -22,28 +38,25 @@ export default class BlindPledgeView extends Component {
     if (!this.currentCat) return '';
 
     const { coreData, blindAnswers } = appStore.getState();
-    
-    // 현재 그룹의 몇 번째 질문인지 계산
+
+    // 현재 그룹 내 몇 번째 질문인지 계산
     const sameGroupCats = coreData.categories.filter(c => c.group === this.currentCat.group);
     const qNumInGroup = sameGroupCats.findIndex(c => c.id === this.currentCat.id) + 1;
 
     const pledgesHtml = this.shuffledCands.map((cand, idx) => {
-      // 1. 대분류 기반 원본 공약 가져오기
-      const rawPledge = cand.pledges[this.currentCat.id] || cand.pledges[this.currentCat.group] || "해당 분야 공약 스크래핑 대기 중";
-      
-      // 2. 지능형 분할 로직 (Smart Splitting)
-      // 마운트된 문장이나 '및', '|' 기준으로 분리
+      // 1. 세부 카테고리 → 대분류 그룹 폴백 순서로 공약 조회
+      const rawPledge = cand.pledges?.[this.currentCat.id]
+        || cand.pledges?.[this.currentCat.group]
+        || '해당 분야 공약 스크래핑 대기 중';
+
+      // 2. 지능형 분할 (Smart Splitting): 마침표·및·| 기준 분리
       const parts = rawPledge.split(/[.및|]/).map(s => s.trim()).filter(s => s.length > 5);
-      
       let displayPledge = rawPledge;
       if (parts.length >= 2) {
-        // 그룹 내 순서에 따라 분할된 문구 매칭 (첫 번째 질문 -> 앞부분, 두 번째 -> 뒷부분)
         const partIdx = (qNumInGroup - 1) % parts.length;
         displayPledge = parts[partIdx];
-        
-        // 너무 짧으면 다음 파트와 합침
         if (displayPledge.length < 10 && parts[partIdx + 1]) {
-          displayPledge += " " + parts[partIdx + 1];
+          displayPledge += ' ' + parts[partIdx + 1];
         }
       }
 
@@ -74,7 +87,7 @@ export default class BlindPledgeView extends Component {
       card.addEventListener('click', (e) => {
         const candId = parseInt(e.currentTarget.dataset.candId);
         const newBlindAnswers = [...blindAnswers, { candId, catId: this.currentCat.id }];
-        
+
         appStore.setState({ blindAnswers: newBlindAnswers });
 
         if (newBlindAnswers.length < coreData.categories.length) {

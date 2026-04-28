@@ -37,15 +37,14 @@ const App = {
     if (this._initialized) return;
     this._initialized = true;
 
-    // 1. 초기 데이터 로드
+    // 1. 초기 데이터 로드 (core + 광역 목록만, candidates는 지역 선택 후 Lazy Load)
     const data = await fetchAppData();
     if (!data) return;
 
     // 2. 상태 초기화
     appStore.setState({
       coreData: data.core,
-      candidates: data.candidates,
-      locations: data.locations
+      locations: data.locations   // [{ name, slug }] 광역 목록
     });
 
     // 3. 상태 변경 감시 (View 전환 시 렌더링)

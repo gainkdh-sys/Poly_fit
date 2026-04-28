@@ -14,7 +14,11 @@ export const Router = {
   handleBack() {
     const { view, prefAnswers, blindAnswers } = appStore.getState();
 
-    if (view === 'district') this.navigate('intro');
+    if (view === 'district') {
+      // district에서 intro로 돌아가면 광역 선택 상태 초기화
+      appStore.setState({ metro: '', district: '', regionData: null });
+      this.navigate('intro');
+    }
     else if (view === 'preference') {
       if (prefAnswers.length > 0) {
         const nextAnswers = [...prefAnswers];

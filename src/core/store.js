@@ -24,14 +24,15 @@ export class Store {
 // 애플리케이션 전역 상태 인스턴스
 export const appStore = new Store({
   view: 'intro',
-  district: '',
-  prefAnswers: [], // { category: 'welfare', score: 5 }
+  metro: '',       // 선택한 광역자치단체 슬러그 (예: 'gyeongnam')
+  district: '',    // 선택한 기초자치단체명 (예: '진주시')
+  regionData: null, // 해당 광역 JSON 전체 데이터 (Lazy Load)
+  prefAnswers: [], // { category: 'welfare_care', score: 5 }
   selectedElectionId: null,
-  blindAnswers: [], // { candId: 101, catId: 'welfare' }
+  blindAnswers: [], // { candId: 101, catId: 'welfare_care' }
   finalRank: [],
   isResultRevealed: false,
   // 공통 데이터 (초기 로딩 시 채워짐)
   coreData: null,
-  candidates: [],
-  locations: []
+  locations: []    // 광역자치단체 목록 [{ name, slug }]
 });
