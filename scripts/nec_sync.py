@@ -36,8 +36,8 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 REGION_DIR = ROOT_DIR / "data" / "regions"
 RAW_DIR = ROOT_DIR / "data" / "nec"
 
-CANDIDATE_BASE = "https://apis.data.go.kr/9760000/PofelcddInfoInqireService"
-PLEDGE_BASE = "https://apis.data.go.kr/9760000/ElecPrmsInfoInqireService"
+CANDIDATE_BASE = "http://apis.data.go.kr/9760000/PofelcddInfoInqireService"
+PLEDGE_BASE = "http://apis.data.go.kr/9760000/ElecPrmsInfoInqireService"
 PRE_CANDIDATE_ENDPOINT = f"{CANDIDATE_BASE}/getPoelpcddRegistSttusInfoInqire"
 CANDIDATE_ENDPOINT = f"{CANDIDATE_BASE}/getPofelcddRegistSttusInfoInqire"
 PLEDGE_ENDPOINT = f"{PLEDGE_BASE}/getCnddtElecPrmsInfoInqire"
@@ -196,11 +196,16 @@ def normalize_key(value: str) -> str:
     return "".join((value or "").split())
 
 
+def normalize_service_key(service_key: str) -> str:
+    # data.go.kr shows both encoded and decoded keys. Decode first, then urlencode
+    # once with the rest of the query so either copied form works.
+    return urllib.parse.unquote((service_key or "").strip())
+
+
 def build_url(endpoint: str, params: dict[str, Any], service_key: str) -> str:
-    query = urllib.parse.urlencode(params, doseq=True)
-    separator = "&" if query else ""
-    # The data.go.kr service key is often issued already URL-encoded. Keep it as-is.
-    return f"{endpoint}?{query}{separator}ServiceKey={service_key}"
+    query_params = {**params, "serviceKey": normalize_service_key(service_key)}
+    query = urllib.parse.urlencode(query_params, doseq=True)
+    return f"{endpoint}?{query}"
 
 
 def request_json(endpoint: str, params: dict[str, Any], service_key: str, timeout: int = 20) -> dict[str, Any]:
@@ -319,18 +324,22 @@ def fetch_nec_candidates(
     for sd_name in sd_names:
         for sg_typecode in sg_typecodes:
             log(f"NEC {candidate_source_label(kind)} 조회: {sd_name} / {ELECTION_TYPE_NAMES.get(sg_typecode, sg_typecode)}")
-            rows = fetch_paged(
-                endpoint,
-                {
-                    "resultType": "json",
-                    "sgId": sg_id,
-                    "sgTypecode": sg_typecode,
-                    "sdName": sd_name,
-                    "numOfRows": 100,
-                },
-                service_key,
-                pause,
-            )
+            try:
+                rows = fetch_paged(
+                    endpoint,
+                    {
+                        "resultType": "json",
+                        "sgId": sg_id,
+                        "sgTypecode": sg_typecode,
+                        "sdName": sd_name,
+                        "numOfRows": 100,
+                    },
+                    service_key,
+                    pause,
+                )
+            except RuntimeError as exc:
+                log(f"  조회 실패, 계속 진행: {exc}")
+                rows = []
             log(f"  수집 {len(rows)}건")
             all_rows.extend(rows)
             if pause:
