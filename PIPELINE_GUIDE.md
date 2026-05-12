@@ -75,6 +75,52 @@ git push
 
 ---
 
+### **2-1️⃣ 선관위 후보자 데이터 자동 동기화**
+
+**파일**:
+- `.github/workflows/nec-sync.yml`
+- `scripts/nec_sync.py`
+
+**사용 데이터**:
+- 중앙선거관리위원회_후보자 정보
+- 중앙선거관리위원회_선거공약 정보
+
+**작동 원리**:
+- 공공데이터포털 인증키(`NEC_SERVICE_KEY`)로 선관위 API 호출
+- 2026년 제9회 전국동시지방선거(`sgId=20260603`) 후보자/예비후보자 수집
+- 시·도지사, 구·시·군의 장, 시·도의원, 구·시·군의원, 교육감 데이터를 앱 포맷으로 변환
+- 공약 API가 제공되는 선거(시·도지사, 구·시·군의 장, 교육감)는 공약까지 병합
+- `data/regions/*.json`을 갱신하고 변경사항이 있으면 자동 커밋/푸시
+
+**중요 일정**:
+- 2026년 5월 13일까지: 예비후보자 API 중심
+- 2026년 5월 14일부터: 공식 후보자 API 중심
+- `--kind auto` 옵션은 위 날짜를 기준으로 자동 전환
+
+**GitHub Secrets 설정**:
+```bash
+NEC_SERVICE_KEY  # 공공데이터포털에서 발급받은 인증키
+```
+
+**로컬 실행 예시**:
+```bash
+# 전체 지역 자동 모드
+NEC_SERVICE_KEY="발급받은키" python3 scripts/nec_sync.py --kind auto --with-pledges
+
+# 서울만 예비후보자 데이터 확인, 파일은 쓰지 않음
+NEC_SERVICE_KEY="발급받은키" python3 scripts/nec_sync.py --kind pre --sd-name 서울특별시 --dry-run
+
+# 후보자 명부만 갱신하고 공약 API는 생략
+NEC_SERVICE_KEY="발급받은키" python3 scripts/nec_sync.py --kind candidate --no-pledges
+```
+
+**GitHub Actions 수동 실행**:
+```
+GitHub 저장소 → Actions → Sync NEC candidate data → Run workflow
+```
+
+---
+
 ### **3️⃣ 로컬 자동 백업 (선택사항)**
 
 **파일**: `scripts/auto_backup.sh`
@@ -192,6 +238,7 @@ python /Users/gainkdh/Desktop/Poly_fit/scripts/update_candidates.py
 |------|------|----------|
 | `.github/workflows/deploy.yml` | 푸시 시 Vercel 배포 | `git push` 할 때 |
 | `.github/workflows/auto_update.yml` | 주간 자동 데이터 갱신 | 매주 월요일 새벽 2시 |
+| `.github/workflows/nec-sync.yml` | 선관위 후보자 데이터 갱신 | 6시간마다/수동 실행 |
 | `scripts/auto_backup.sh` | 로컬 자동 백업 | 매일 저녁 6시 (선택) |
 
 **이제 팀원들과 안심하고 협업할 수 있어요!** 🎉

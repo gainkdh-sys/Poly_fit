@@ -1,0 +1,71 @@
+name: Sync NEC candidate data
+
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "NEC data kind"
+        required: true
+        default: "auto"
+        type: choice
+        options:
+          - auto
+          - pre
+          - candidate
+      with_pledges:
+        description: "Fetch pledge API too"
+        required: true
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+  schedule:
+    - cron: "15 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync NEC data
+        env:
+          NEC_SERVICE_KEY: ${{ secrets.NEC_SERVICE_KEY }}
+          INPUT_KIND: ${{ github.event.inputs.kind || 'auto' }}
+          INPUT_WITH_PLEDGES: ${{ github.event.inputs.with_pledges || 'true' }}
+        run: |
+          if [ -z "$NEC_SERVICE_KEY" ]; then
+            echo "NEC_SERVICE_KEY secret is not configured."
+            exit 1
+          fi
+
+          PLEDGE_FLAG="--no-pledges"
+          if [ "$INPUT_WITH_PLEDGES" = "true" ]; then
+            PLEDGE_FLAG="--with-pledges"
+          fi
+
+          python3 scripts/nec_sync.py --kind "$INPUT_KIND" $PLEDGE_FLAG --write-raw
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- data/regions data/nec; then
+            echo "No NEC data changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/regions data/nec
+          git commit -m "data: 선관위 후보자 데이터 자동 갱신"
+          git push
