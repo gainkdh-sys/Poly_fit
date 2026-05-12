@@ -10022,16 +10022,16 @@
           }
         },
         {
-          "id": 100154292,
+          "id": 100157328,
           "electionType": "city_council",
           "region": [
             "강원특별자치도",
             "속초시"
           ],
-          "name": "유인숙",
+          "name": "권덕수",
           "party": "국민의힘",
-          "bio": "자영업 | 부천공업전문대학 유아교육과 졸업(현 부천대학교) | (현)국민의힘 속초시 여성위원장 | (전)속초시 학부모연합회 회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%9D%B8%EC%88%99&background=ef4444&color=fff&size=128",
+          "bio": "정당인 | 관동대학교 전자공학과 졸업 | (전)속초시 공무원 | (전)속초관광수산시장 청년상인 사업단장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EB%8D%95%EC%88%98&background=ef4444&color=fff&size=128",
           "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -10045,12 +10045,12 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100154292",
+            "huboid": "100157328",
             "sggName": "속초시가선거구",
             "sdName": "강원특별자치도",
             "wiwName": "속초시",
             "status": "등록",
-            "regdate": "20260220",
+            "regdate": "20260306",
             "kind": "pre"
           }
         },
@@ -10220,6 +10220,39 @@
           }
         },
         {
+          "id": 100154292,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "속초시"
+          ],
+          "name": "유인숙",
+          "party": "국민의힘",
+          "bio": "자영업 | 부천공업전문대학 유아교육과 졸업(현 부천대학교) | (현)국민의힘 속초시 여성위원장 | (전)속초시 학부모연합회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%9D%B8%EC%88%99&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154292",
+            "sggName": "속초시나선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "속초시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
           "id": 100154297,
           "electionType": "city_council",
           "region": [
@@ -10282,39 +10315,6 @@
             "wiwName": "속초시",
             "status": "등록",
             "regdate": "20260227",
-            "kind": "pre"
-          }
-        },
-        {
-          "id": 100157328,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "속초시"
-          ],
-          "name": "권덕수",
-          "party": "국민의힘",
-          "bio": "정당인 | 관동대학교 전자공학과 졸업 | (전)속초시 공무원 | (전)속초관광수산시장 청년상인 사업단장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EB%8D%95%EC%88%98&background=ef4444&color=fff&size=128",
-          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157328",
-            "sggName": "속초시나선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "속초시",
-            "status": "등록",
-            "regdate": "20260306",
             "kind": "pre"
           }
         },
