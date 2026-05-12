@@ -7,10 +7,14 @@ Fetches candidate/pre-candidate data from the National Election Commission
 OpenAPI and writes Poly Fit region JSON files under data/regions.
 
 Required environment:
-  NEC_SERVICE_KEY  Public Data Portal service key
+  NEC_CANDIDATE_SERVICE_KEY  Candidate information API key
+  NEC_PLEDGE_SERVICE_KEY     Pledge information API key
+
+Backward-compatible fallback:
+  NEC_SERVICE_KEY            Use one key for both APIs, if allowed
 
 Common usage:
-  NEC_SERVICE_KEY=... python3 scripts/nec_sync.py --kind auto --with-pledges
+  NEC_CANDIDATE_SERVICE_KEY=... NEC_PLEDGE_SERVICE_KEY=... python3 scripts/nec_sync.py --kind auto --with-pledges
   python3 scripts/nec_sync.py --kind pre --sd-name 서울특별시 --dry-run
 """
 
@@ -641,7 +645,21 @@ def should_fetch_pledges(args: argparse.Namespace, kind: str) -> bool:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Sync NEC official candidate data into Poly Fit region JSON files.")
-    parser.add_argument("--service-key", default=os.environ.get("NEC_SERVICE_KEY"), help="Public Data Portal service key. Defaults to NEC_SERVICE_KEY.")
+    parser.add_argument(
+        "--service-key",
+        default=os.environ.get("NEC_SERVICE_KEY"),
+        help="Shared Public Data Portal service key. Used as a fallback for both APIs.",
+    )
+    parser.add_argument(
+        "--candidate-service-key",
+        default=os.environ.get("NEC_CANDIDATE_SERVICE_KEY") or os.environ.get("NEC_SERVICE_KEY"),
+        help="Candidate information API key. Defaults to NEC_CANDIDATE_SERVICE_KEY, then NEC_SERVICE_KEY.",
+    )
+    parser.add_argument(
+        "--pledge-service-key",
+        default=os.environ.get("NEC_PLEDGE_SERVICE_KEY") or os.environ.get("NEC_SERVICE_KEY"),
+        help="Pledge information API key. Defaults to NEC_PLEDGE_SERVICE_KEY, then NEC_SERVICE_KEY.",
+    )
     parser.add_argument("--sg-id", default=DEFAULT_SG_ID, help="Election ID. Defaults to 20260603.")
     parser.add_argument("--kind", choices=["auto", "pre", "candidate"], default="auto", help="Fetch pre-candidates, official candidates, or auto-switch by date.")
     parser.add_argument("--sd-name", action="append", choices=list(SD_NAME_TO_SLUG), help="Limit sync to a specific 시도명. Can be repeated.")
@@ -656,17 +674,31 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    if not args.service_key:
-        print("ERROR: NEC_SERVICE_KEY is required. Set it in your environment or pass --service-key.", file=sys.stderr)
+    if args.service_key:
+        args.candidate_service_key = args.candidate_service_key or args.service_key
+        args.pledge_service_key = args.pledge_service_key or args.service_key
+
+    if not args.candidate_service_key:
+        print(
+            "ERROR: candidate API key is required. Set NEC_CANDIDATE_SERVICE_KEY or NEC_SERVICE_KEY.",
+            file=sys.stderr,
+        )
         return 2
 
     kind = choose_kind(args.kind)
     sd_names = args.sd_name or [config["metro"] for config in METRO_CONFIG.values()]
     sg_typecodes = args.sg_typecode or list(ELECTION_TYPE_MAP)
     fetch_pledges = should_fetch_pledges(args, kind)
+    if fetch_pledges and not args.pledge_service_key:
+        print(
+            "ERROR: pledge API key is required when pledge sync is enabled. "
+            "Set NEC_PLEDGE_SERVICE_KEY, or run with --no-pledges.",
+            file=sys.stderr,
+        )
+        return 2
 
     log(f"NEC sync start: sgId={args.sg_id}, kind={kind}, pledges={fetch_pledges}, dryRun={args.dry_run}")
-    raw_rows = fetch_nec_candidates(args.service_key, args.sg_id, kind, sd_names, sg_typecodes, args.pause)
+    raw_rows = fetch_nec_candidates(args.candidate_service_key, args.sg_id, kind, sd_names, sg_typecodes, args.pause)
     log(f"NEC raw rows: {len(raw_rows)}")
 
     if args.write_raw and not args.dry_run:
@@ -685,7 +717,7 @@ def main() -> int:
 
         if fetch_pledges and huboid and sg_typecode in PLEDGE_SUPPORTED_CODES:
             try:
-                pledge_items = fetch_candidate_pledges(args.service_key, args.sg_id, sg_typecode, huboid, args.pause)
+                pledge_items = fetch_candidate_pledges(args.pledge_service_key, args.sg_id, sg_typecode, huboid, args.pause)
             except RuntimeError as exc:
                 log(f"  공약 조회 실패: {row.get('name', '?')} / {exc}")
 

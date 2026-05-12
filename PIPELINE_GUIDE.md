@@ -99,19 +99,22 @@ git push
 
 **GitHub Secrets 설정**:
 ```bash
-NEC_SERVICE_KEY  # 공공데이터포털에서 발급받은 인증키
+NEC_CANDIDATE_SERVICE_KEY  # 중앙선거관리위원회_후보자 정보 API 인증키
+NEC_PLEDGE_SERVICE_KEY     # 중앙선거관리위원회_선거공약 정보 API 인증키
 ```
+
+두 API가 같은 인증키를 공유하는 경우에는 `NEC_SERVICE_KEY` 하나만 등록해도 됩니다. 인증키가 각각 따로 발급되면 두 키를 한 Secret에 이어 붙이지 말고, 위 두 이름으로 각각 등록하세요.
 
 **로컬 실행 예시**:
 ```bash
 # 전체 지역 자동 모드
-NEC_SERVICE_KEY="발급받은키" python3 scripts/nec_sync.py --kind auto --with-pledges
+NEC_CANDIDATE_SERVICE_KEY="후보자정보키" NEC_PLEDGE_SERVICE_KEY="공약정보키" python3 scripts/nec_sync.py --kind auto --with-pledges
 
 # 서울만 예비후보자 데이터 확인, 파일은 쓰지 않음
-NEC_SERVICE_KEY="발급받은키" python3 scripts/nec_sync.py --kind pre --sd-name 서울특별시 --dry-run
+NEC_CANDIDATE_SERVICE_KEY="후보자정보키" python3 scripts/nec_sync.py --kind pre --sd-name 서울특별시 --dry-run --no-pledges
 
 # 후보자 명부만 갱신하고 공약 API는 생략
-NEC_SERVICE_KEY="발급받은키" python3 scripts/nec_sync.py --kind candidate --no-pledges
+NEC_CANDIDATE_SERVICE_KEY="후보자정보키" python3 scripts/nec_sync.py --kind candidate --no-pledges
 ```
 
 **GitHub Actions 수동 실행**:

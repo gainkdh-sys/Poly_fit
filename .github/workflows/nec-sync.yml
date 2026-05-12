@@ -42,11 +42,18 @@ jobs:
       - name: Sync NEC data
         env:
           NEC_SERVICE_KEY: ${{ secrets.NEC_SERVICE_KEY }}
+          NEC_CANDIDATE_SERVICE_KEY: ${{ secrets.NEC_CANDIDATE_SERVICE_KEY }}
+          NEC_PLEDGE_SERVICE_KEY: ${{ secrets.NEC_PLEDGE_SERVICE_KEY }}
           INPUT_KIND: ${{ github.event.inputs.kind || 'auto' }}
           INPUT_WITH_PLEDGES: ${{ github.event.inputs.with_pledges || 'true' }}
         run: |
-          if [ -z "$NEC_SERVICE_KEY" ]; then
-            echo "NEC_SERVICE_KEY secret is not configured."
+          if [ -z "$NEC_CANDIDATE_SERVICE_KEY" ] && [ -z "$NEC_SERVICE_KEY" ]; then
+            echo "NEC_CANDIDATE_SERVICE_KEY or NEC_SERVICE_KEY secret is not configured."
+            exit 1
+          fi
+
+          if [ "$INPUT_WITH_PLEDGES" = "true" ] && [ -z "$NEC_PLEDGE_SERVICE_KEY" ] && [ -z "$NEC_SERVICE_KEY" ]; then
+            echo "NEC_PLEDGE_SERVICE_KEY or NEC_SERVICE_KEY secret is required when pledge sync is enabled."
             exit 1
           fi
 
