@@ -1,16 +1,82 @@
 import Component from '../core/component.js';
 import { Router } from '../core/router.js';
 import { appStore } from '../core/store.js';
+import { createCampaignSearchUrl, getElectionLabel } from '../utils/elections.js';
+import { escapeHtml, getFromLocalStorage, saveToLocalStorage } from '../utils/helpers.js';
+
+const SCORE_LABELS = {
+  5: '매우 동의',
+  4: '동의',
+  3: '보통',
+  2: '비동의',
+  1: '매우 비동의'
+};
+
+function candidateImageFallback(name) {
+  return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=f1f5f9&color=475569&size=128`;
+}
 
 export default class ResultView extends Component {
+  getCandidateAnswers(candidateId) {
+    const { blindAnswers } = appStore.getState();
+
+    return blindAnswers
+      .filter(answer => answer.candId === candidateId)
+      .sort((a, b) => b.score - a.score);
+  }
+
+  renderPledgeRecap(candidateId, limit = 5) {
+    const answers = this.getCandidateAnswers(candidateId).slice(0, limit);
+
+    if (answers.length === 0) {
+      return '<p class="empty-copy">평가된 공약이 없습니다.</p>';
+    }
+
+    return answers.map(answer => `
+      <li class="policy-recap-item">
+        <div class="policy-recap-meta">
+          <span>${escapeHtml(answer.catName || '')}</span>
+          <strong>${SCORE_LABELS[answer.score] || '평가 완료'}</strong>
+        </div>
+        <p>${escapeHtml(answer.pledge)}</p>
+      </li>
+    `).join('');
+  }
+
+  renderCandidateRank(candidate, idx) {
+    const safeName = escapeHtml(candidate.name);
+    const safeParty = escapeHtml(candidate.party);
+    const safeBio = escapeHtml(candidate.bio || '');
+    const campaignUrl = candidate.campaignUrl || createCampaignSearchUrl(candidate);
+
+    return `
+      <article class="rank-card slide-up" style="animation-delay:${idx * 0.05}s">
+        <div class="rank-main">
+          <img src="${candidate.imageUrl}" alt="${safeName} 프로필" class="other-profile" onerror="this.src='${candidateImageFallback(candidate.name)}'">
+          <div class="other-info">
+            <span class="rank-eyebrow">순위 ${idx + 1}</span>
+            <span class="other-name">${safeName}</span>
+            <span class="other-party">${safeParty}</span>
+          </div>
+          <div class="other-rate">${candidate.matchRate}%</div>
+        </div>
+        <div class="match-meter" aria-hidden="true">
+          <div style="width:${candidate.matchRate}%"></div>
+        </div>
+        <p class="rank-bio">${safeBio}</p>
+        <a class="text-link" href="${campaignUrl}" target="_blank" rel="noopener">캠페인 정보 보기</a>
+      </article>
+    `;
+  }
+
   template() {
-    const { finalRank, selectedElectionId, isResultRevealed, coreData } = appStore.getState();
-    const elecName = coreData.electionsList.find(e => e.id === selectedElectionId)?.name || '선거';
+    const { finalRank, selectedElectionId, isResultRevealed } = appStore.getState();
+    const elecName = getElectionLabel(selectedElectionId);
 
     if (finalRank.length === 0) {
       return `
         <div class="view-wrapper center-all mt-2">
-          <h2>후보가 없습니다.</h2>
+          <h2>후보가 없습니다</h2>
           <button id="restart-btn" class="btn-primary mt-2">처음으로</button>
         </div>
       `;
@@ -18,62 +84,71 @@ export default class ResultView extends Component {
 
     const topC = finalRank[0];
 
-    // 결과 락(Lock) 화면
     if (!isResultRevealed) {
       return `
         <div class="view-wrapper slide-up result-view center-all">
-          <h2 style="margin-top:2rem;">알고리즘 연산 완료!</h2>
-          <p>나의 가치관과 공약을 매칭한<br>[${elecName}] 최종 순위가 도출되었습니다.</p>
+          <h2 style="margin-top:2rem;">정책 일치율 계산 완료</h2>
+          <p>${elecName} 후보들의 공약 평가를 바탕으로 최종 순위가 도출되었습니다.</p>
           <div class="result-hidden mt-2">
-            <div class="result-lock-icon">🔒</div>
-            <h3 style="color:var(--text); margin-bottom:1.5rem;">과연 1위 후보는 누구일까요?</h3>
-            <button class="btn-primary" id="btn-reveal">나의 가치관 랭킹 오픈하기</button>
+            <div class="result-lock-icon" aria-hidden="true">잠금</div>
+            <h3 style="color:var(--text); margin-bottom:1.5rem;">가장 높은 정책 핏 후보를 확인하세요</h3>
+            <button class="btn-primary" id="btn-reveal">결과 공개하기</button>
           </div>
         </div>
       `;
     }
 
-    // 결과 공개 화면
-    const otherCandsHtml = finalRank.slice(1).map((c, idx) => `
-      <div class="other-cand">
-        <div style="display:flex; align-items:center; gap:0.8rem;">
-          <img src="${c.imageUrl}" class="other-profile" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(c.name)}&background=f1f5f9&color=475569&size=128'">
-          <div class="other-info">
-            <span style="font-size:0.8rem; font-weight:800; color:var(--primary);">순위 ${idx + 2}</span>
-            <span class="other-name">${c.name} <span style="font-size:0.8rem;font-weight:600;color:gray;">(${c.party})</span></span>
-          </div>
-        </div>
-        <div class="other-rate">${c.matchRate}%</div>
-      </div>
-    `).join('');
+    const safeTopName = escapeHtml(topC.name);
+    const campaignUrl = topC.campaignUrl || createCampaignSearchUrl(topC);
+    const rankHtml = finalRank.map((candidate, idx) => this.renderCandidateRank(candidate, idx)).join('');
 
     return `
-      <div class="view-wrapper slide-up result-view center-all">
+      <div class="view-wrapper slide-up result-view">
         <div class="match-header fade-in">
-          <div class="confetti">🎉</div>
-          <h3 style="color: var(--primary); font-size: 1.1rem; font-weight: 800; margin-bottom: 0.5rem;">[${elecName}] 부문 나의 첫 번째 픽!</h3>
+          <div class="step-indicator">${elecName} 매칭 결과</div>
+          <h2>나와 가장 가까운<br>정책 후보</h2>
         </div>
-        
-        <div class="result-card mt-2 slide-up">
-          <div class="match-rate">최종 핏팅률 <span>${topC.matchRate}%</span></div>
-          <div class="result-card-header" style="display:flex; flex-direction:column; align-items:center; margin-top:1rem;">
-            <img src="${topC.imageUrl}" alt="프로필" class="cand-profile" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(topC.name)}&background=f1f5f9&color=475569&size=128'">
-            <div class="party-badge">${topC.party}</div>
-            <h1 class="cand-name">${topC.name}</h1>
-            <p class="cand-bio">${topC.bio}</p>
+
+        <section class="result-card mt-2 slide-up">
+          <div class="match-rate">정책 일치율 <span>${topC.matchRate}%</span></div>
+          <div class="result-card-header">
+            <img src="${topC.imageUrl}" alt="${safeTopName} 프로필" class="cand-profile" onerror="this.src='${candidateImageFallback(topC.name)}'">
+            <div class="party-badge">${escapeHtml(topC.party)}</div>
+            <h1 class="cand-name">${safeTopName}</h1>
+            <p class="cand-bio">${escapeHtml(topC.bio || '')}</p>
           </div>
-          <div style="background:#f1f5f9; padding:1rem; border-radius:12px; font-size:0.9rem; margin-top:1rem;">"${topC.desc || '혁신적인 시정으로 보답하겠습니다.'}"</div>
-        </div>
-        
-        ${finalRank.length > 1 ? `
-        <h3 class="other-title slide-up" style="margin-top:2rem; font-size:1.1rem; text-align:left;">상세 순위표 (2~${finalRank.length}위)</h3>
-        <div class="other-list slide-up">
-          ${otherCandsHtml}
-        </div>` : ''}
-        
-        <div class="slide-up" style="display:flex; flex-direction:column; gap:0.6rem; margin-bottom: 2rem; margin-top:1.5rem; width:100%;">
-          <button id="try-other-btn" class="btn-primary">동일 구역의 다른 선거 또 해보기</button>
-          <button id="restart-btn" class="btn-secondary">처음부터 다시하기 (질문 초기화)</button>
+          <p class="candidate-desc">"${escapeHtml(topC.desc || '상세 공약 정보를 확인해 주세요.')}"</p>
+          <a class="btn-link" href="${campaignUrl}" target="_blank" rel="noopener">캠페인 정보 보기</a>
+        </section>
+
+        <section class="result-section">
+          <h3>매칭에 활용된 주요 공약</h3>
+          <ul class="policy-recap-list">
+            ${this.renderPledgeRecap(topC.id)}
+          </ul>
+        </section>
+
+        <section class="result-section">
+          <h3>후보자별 정책 일치율</h3>
+          <div class="rank-list">
+            ${rankHtml}
+          </div>
+        </section>
+
+        <section class="feedback-panel">
+          <h3>만족도 설문</h3>
+          <p>결과와 공약 제시 방식에 대한 의견을 남겨 주세요.</p>
+          <div class="rating-row" role="group" aria-label="만족도">
+            ${[1, 2, 3, 4, 5].map(score => `<button class="rating-btn" data-rating="${score}" type="button">${score}</button>`).join('')}
+          </div>
+          <textarea id="feedback-text" class="feedback-textarea" rows="4" placeholder="개선점이나 좋았던 점을 적어 주세요."></textarea>
+          <button id="feedback-submit" class="btn-secondary compact-btn" type="button">피드백 제출</button>
+          <p id="feedback-status" class="form-status" aria-live="polite"></p>
+        </section>
+
+        <div class="slide-up result-actions">
+          <button id="try-other-btn" class="btn-primary">동일 구역의 다른 선거 평가</button>
+          <button id="restart-btn" class="btn-secondary">처음부터 다시하기</button>
         </div>
       </div>
     `;
@@ -86,13 +161,48 @@ export default class ResultView extends Component {
 
     this.target.querySelector('#btn-reveal')?.addEventListener('click', () => {
       appStore.setState({ isResultRevealed: true });
-      // view 자체는 유지하므로 수동 리렌더링 (또는 Router.navigate('result'))
-      this.render();
     });
 
     this.target.querySelector('#try-other-btn')?.addEventListener('click', () => {
-      appStore.setState({ blindAnswers: [], isResultRevealed: false });
+      appStore.setState({ blindAnswers: [], blindQueue: [], isResultRevealed: false });
       Router.navigate('electionList');
+    });
+
+    let selectedRating = null;
+
+    this.target.querySelectorAll('.rating-btn').forEach(button => {
+      button.addEventListener('click', (e) => {
+        selectedRating = parseInt(e.currentTarget.dataset.rating, 10);
+        this.target.querySelectorAll('.rating-btn').forEach(btn => {
+          btn.classList.toggle('active', btn === e.currentTarget);
+        });
+      });
+    });
+
+    this.target.querySelector('#feedback-submit')?.addEventListener('click', () => {
+      const status = this.target.querySelector('#feedback-status');
+      const text = this.target.querySelector('#feedback-text')?.value.trim() || '';
+
+      if (!selectedRating && !text) {
+        status.textContent = '만족도나 의견 중 하나를 입력해 주세요.';
+        status.className = 'form-status warn';
+        return;
+      }
+
+      const saved = getFromLocalStorage('polyfit_feedbacks', []);
+      const nextFeedbacks = [
+        ...saved,
+        {
+          rating: selectedRating,
+          text,
+          createdAt: new Date().toISOString()
+        }
+      ];
+
+      saveToLocalStorage('polyfit_feedbacks', nextFeedbacks);
+      status.textContent = '피드백이 저장되었습니다.';
+      status.className = 'form-status success';
+      this.target.querySelector('#feedback-text').value = '';
     });
   }
 }

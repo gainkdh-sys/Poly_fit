@@ -35,6 +35,28 @@ export async function fetchAppData() {
   }
 }
 
+function normalizeStandaloneRegion(slug, candidates) {
+  const metroName = candidates[0]?.region?.[0] || slug;
+  const districts = {};
+
+  candidates.forEach((candidate) => {
+    const districtName = candidate.region?.[1] || metroName;
+    if (!districts[districtName]) districts[districtName] = {};
+    if (!districts[districtName][candidate.electionType]) {
+      districts[districtName][candidate.electionType] = [];
+    }
+    districts[districtName][candidate.electionType].push(candidate);
+  });
+
+  return {
+    metro: metroName,
+    metroSlug: slug,
+    governor: candidates.filter(c => c.electionType === 'governor'),
+    superintendent: candidates.filter(c => c.electionType === 'superintendent'),
+    districts
+  };
+}
+
 /**
  * 광역자치단체 슬러그로 해당 광역 JSON 동적 로드 (Lazy Loading)
  * @param {string} slug - 광역 슬러그 (예: 'gyeongnam')
@@ -51,7 +73,7 @@ export async function fetchRegionData(slug) {
   const ALLOWED_SLUGS = [
     'seoul', 'busan', 'daegu', 'incheon', 'gwangju', 'daejeon', 'ulsan',
     'gyeonggi', 'gangwon', 'chungbuk', 'chungnam', 'jeonbuk', 'jeonnam',
-    'gyeongbuk', 'gyeongnam'
+    'gyeongbuk', 'gyeongnam', 'sejong', 'jeju'
   ];
   if (!ALLOWED_SLUGS.includes(slug)) {
     console.error(`[API] fetchRegionData: invalid slug '${slug}'`);
@@ -68,7 +90,10 @@ export async function fetchRegionData(slug) {
       throw new Error(`지역 데이터 로드 실패 (${slug}): HTTP ${res.status}`);
     }
 
-    const data = await res.json();
+    const rawData = await res.json();
+    const data = Array.isArray(rawData)
+      ? normalizeStandaloneRegion(slug, rawData)
+      : rawData;
 
     // 엣지 케이스: JSON 구조 검증
     if (!data.metro || !data.districts) {

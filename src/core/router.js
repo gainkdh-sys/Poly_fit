@@ -47,8 +47,11 @@ export const Router = {
       }
     }
     else if (view === 'result') {
-      appStore.setState({ blindAnswers: [], isResultRevealed: false });
+      appStore.setState({ blindAnswers: [], blindQueue: [], isResultRevealed: false });
       this.navigate('electionList');
+    }
+    else if (['learning', 'community'].includes(view)) {
+      this.navigate('intro');
     }
   }
 };

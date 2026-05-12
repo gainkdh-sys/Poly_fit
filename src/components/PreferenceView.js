@@ -18,7 +18,7 @@ export default class PreferenceView extends Component {
 
     return `
       <div class="view-wrapper slide-up">
-        <div class="step-indicator">1단계 : 정책 가중치 판별 (${this.qIdx + 1} / ${this.totalQs})</div>
+        <div class="step-indicator">관심사 중요도 설정 (${this.qIdx + 1} / ${this.totalQs})</div>
         <div class="cat-badge"># ${catName}</div>
         <h2 class="q-title">${this.qInfo.text}</h2>
         <div class="likert-grid mt-2">

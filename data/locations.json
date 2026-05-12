@@ -6,6 +6,7 @@
   { "name": "광주광역시", "slug": "gwangju" },
   { "name": "대전광역시", "slug": "daejeon" },
   { "name": "울산광역시", "slug": "ulsan" },
+  { "name": "세종특별자치시", "slug": "sejong" },
   { "name": "경기도", "slug": "gyeonggi" },
   { "name": "강원특별자치도", "slug": "gangwon" },
   { "name": "충청북도", "slug": "chungbuk" },
@@ -13,5 +14,6 @@
   { "name": "전북특별자치도", "slug": "jeonbuk" },
   { "name": "전라남도", "slug": "jeonnam" },
   { "name": "경상북도", "slug": "gyeongbuk" },
-  { "name": "경상남도", "slug": "gyeongnam" }
+  { "name": "경상남도", "slug": "gyeongnam" },
+  { "name": "제주특별자치도", "slug": "jeju" }
 ]

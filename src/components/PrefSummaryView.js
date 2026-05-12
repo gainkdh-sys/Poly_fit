@@ -54,7 +54,7 @@ export default class PrefSummaryView extends Component {
         <div class="summary-list mt-2">
           ${summaryHtml}
         </div>
-        <button id="next-btn" class="btn-primary mt-2">이 중요도를 들고 선거 고르러 가기 →</button>
+        <button id="next-btn" class="btn-primary mt-2">이 중요도로 선거 유형 고르기</button>
       </div>
     `;
   }

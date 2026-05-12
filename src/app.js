@@ -11,6 +11,8 @@ import ElectionListView from './components/ElectionListView.js';
 import BlindPledgeView from './components/BlindPledgeView.js';
 import LoadingView from './components/LoadingView.js';
 import ResultView from './components/ResultView.js';
+import LearningCenterView from './components/LearningCenterView.js';
+import CommunityView from './components/CommunityView.js';
 
 const DOM = {
   app: document.getElementById('app')
@@ -25,7 +27,9 @@ const viewMap = {
   electionList: ElectionListView,
   blindPledge: BlindPledgeView,
   loading: LoadingView,
-  result: ResultView
+  result: ResultView,
+  learning: LearningCenterView,
+  community: CommunityView
 };
 
 /**
@@ -67,7 +71,7 @@ const App = {
       header.className = 'nav-header';
       const backBtn = document.createElement('button');
       backBtn.className = 'btn-back';
-      backBtn.innerHTML = '<i>←</i> 이전으로';
+      backBtn.innerHTML = '<i aria-hidden="true">‹</i> 이전으로';
       backBtn.onclick = () => Router.handleBack();
       header.appendChild(backBtn);
       DOM.app.appendChild(header);

@@ -6,13 +6,15 @@ export default class IntroView extends Component {
     return `
       <div class="view-wrapper intro-view center-all">
         <div class="hero mt-2">
-          <div class="badge">Poly Fit v5.0 (모듈형 아키텍처)</div>
-          <h1>나의 가치관을 관통하는<br><span class="highlight">최적의 블라인드 매칭</span></h1>
-          <p>가치관 설문으로 중요도를 파악하고,<br>익명의 블라인드 공약을 골라 최고의 후보를 찾습니다.</p>
+          <div class="badge">2026 지방선거 정책 매칭</div>
+          <h1>정당과 이름을 가리고<br><span class="highlight">공약만으로 먼저 판단하세요</span></h1>
+          <p>내 관심사의 중요도를 정한 뒤 익명 공약에 동의도를 매기면, 정책 핏이 높은 후보를 보여드립니다.</p>
         </div>
-        <div style="display:flex; flex-direction:column; gap:0.8rem; margin-top:2.5rem;">
-          <button id="start-btn" class="btn-primary">🔥 블라인드 매칭 시스템 시작</button>
-          <button id="mbti-btn" class="btn-secondary">🧠 정치 MBTI 테스트</button>
+        <div class="intro-action-stack">
+          <button id="start-btn" class="btn-primary">블라인드 정책 매칭 시작</button>
+          <button id="learning-btn" class="btn-secondary">정치 학습 센터</button>
+          <button id="community-btn" class="btn-secondary">익명 정책 게시판</button>
+          <button id="mbti-btn" class="btn-ghost">정치 MBTI 테스트 열기</button>
         </div>
       </div>
     `;
@@ -21,6 +23,14 @@ export default class IntroView extends Component {
   setEvent() {
     this.target.querySelector('#start-btn').addEventListener('click', () => {
       Router.navigate('district');
+    });
+
+    this.target.querySelector('#learning-btn').addEventListener('click', () => {
+      Router.navigate('learning');
+    });
+
+    this.target.querySelector('#community-btn').addEventListener('click', () => {
+      Router.navigate('community');
     });
 
     this.target.querySelector('#mbti-btn').addEventListener('click', () => {

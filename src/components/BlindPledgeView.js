@@ -1,96 +1,101 @@
 import Component from '../core/component.js';
 import { Router } from '../core/router.js';
 import { appStore } from '../core/store.js';
+import {
+  buildBlindEvaluationQueue,
+  getCandidatesForElection,
+  getElectionLabel
+} from '../utils/elections.js';
+import { escapeHtml } from '../utils/helpers.js';
+
+const AGREEMENT_OPTIONS = [
+  { score: 5, label: '매우 동의' },
+  { score: 4, label: '동의' },
+  { score: 3, label: '보통' },
+  { score: 2, label: '비동의' },
+  { score: 1, label: '매우 비동의' }
+];
 
 export default class BlindPledgeView extends Component {
   setup() {
-    const { blindAnswers, coreData, district, selectedElectionId, regionData } = appStore.getState();
-    this.catIdx = blindAnswers.length;
-    this.currentCat = coreData.categories[this.catIdx];
+    const {
+      blindAnswers,
+      blindQueue,
+      coreData,
+      district,
+      selectedElectionId,
+      regionData
+    } = appStore.getState();
 
-    // 엣지 케이스: 카테고리 초과 (이미 완료된 경우)
-    if (!this.currentCat) {
+    this.answerIdx = blindAnswers.length;
+    this.queue = blindQueue;
+
+    if ((!this.queue || this.queue.length === 0) && coreData && regionData && selectedElectionId) {
+      const candidates = getCandidatesForElection(regionData, district, selectedElectionId);
+      this.queue = buildBlindEvaluationQueue(coreData, candidates);
+    }
+
+    this.currentItem = this.queue?.[this.answerIdx] || null;
+
+    if (!this.currentItem) {
       Router.navigate('loading');
-      return;
     }
-
-    // 선거 종류별 후보 목록 추출 (regionData 기반)
-    if (!regionData) {
-      console.error('[BlindPledgeView] regionData 없음');
-      Router.navigate('electionList');
-      return;
-    }
-
-    if (selectedElectionId === 'governor') {
-      this.targetCandidates = regionData.governor || [];
-    } else if (selectedElectionId === 'superintendent') {
-      this.targetCandidates = regionData.superintendent || [];
-    } else {
-      const distData = (regionData.districts || {})[district] || {};
-      this.targetCandidates = distData[selectedElectionId] || [];
-    }
-
-    // 셔플된 공약 리스트 생성 (매 질문마다 순서 무작위화)
-    this.shuffledCands = [...this.targetCandidates].sort(() => Math.random() - 0.5);
   }
 
   template() {
-    if (!this.currentCat) return '';
+    if (!this.currentItem) return '';
 
-    const { coreData, blindAnswers } = appStore.getState();
-
-    // 현재 그룹 내 몇 번째 질문인지 계산
-    const sameGroupCats = coreData.categories.filter(c => c.group === this.currentCat.group);
-    const qNumInGroup = sameGroupCats.findIndex(c => c.id === this.currentCat.id) + 1;
-
-    const pledgesHtml = this.shuffledCands.map((cand, idx) => {
-      // 1. 세부 카테고리 → 대분류 그룹 폴백 순서로 공약 조회
-      const rawPledge = cand.pledges?.[this.currentCat.id]
-        || cand.pledges?.[this.currentCat.group]
-        || '해당 분야 공약 스크래핑 대기 중';
-
-      // 2. 지능형 분할 (Smart Splitting): 마침표·및·| 기준 분리
-      const parts = rawPledge.split(/[.및|]/).map(s => s.trim()).filter(s => s.length > 5);
-      let displayPledge = rawPledge;
-      if (parts.length >= 2) {
-        const partIdx = (qNumInGroup - 1) % parts.length;
-        displayPledge = parts[partIdx];
-        if (displayPledge.length < 10 && parts[partIdx + 1]) {
-          displayPledge += ' ' + parts[partIdx + 1];
-        }
-      }
-
-      return `
-        <button class="pledge-card" style="animation-delay: ${idx * 0.08}s" data-cand-id="${cand.id}">
-          "${displayPledge}"
-        </button>
-      `;
-    }).join('');
+    const { selectedElectionId } = appStore.getState();
+    const progressPct = Math.round((this.answerIdx / this.queue.length) * 100);
+    const agreementHtml = AGREEMENT_OPTIONS.map((option, idx) => `
+      <button class="likert-btn agreement-btn slide-up"
+              style="animation-delay: ${idx * 0.04}s"
+              data-score="${option.score}">
+        ${option.label}
+      </button>
+    `).join('');
 
     return `
       <div class="view-wrapper slide-up">
-        <div class="step-indicator">2단계 : 진짜 공약 고르기 (${this.catIdx + 1} / ${coreData.categories.length})</div>
-        <div class="cat-badge"># ${this.currentCat.name} 부문 (${qNumInGroup}/${sameGroupCats.length})</div>
-        <h2 class="q-title" style="font-size:1.3rem;">실제 유력 출마자들의 ${this.currentCat.name} 공약입니다.<br>가장 마음에 드는 것을 고르세요!</h2>
-        <p style="font-size:0.9rem">이름은 철저히 가려지며, 선택지 순서는 무작위로 계속 섞입니다.<br>(현재 해당 지역 실제 후보 수: ${this.targetCandidates.length}명)</p>
-        <div class="pledge-list mt-2">
-          ${pledgesHtml}
+        <div class="step-indicator">블라인드 공약 평가 (${this.answerIdx + 1} / ${this.queue.length})</div>
+        <div class="progress-rail" aria-hidden="true">
+          <div class="progress-fill" style="width:${progressPct}%"></div>
+        </div>
+        <div class="cat-badge"># ${this.currentItem.catName}</div>
+        <p class="blind-election-label">${getElectionLabel(selectedElectionId)}</p>
+        <div class="blind-policy-card">
+          <div class="blind-chip">익명 후보 공약</div>
+          <h2 class="q-title">${escapeHtml(this.currentItem.pledge)}</h2>
+        </div>
+        <p style="font-size:0.95rem">이 공약이 내 지역 선택 기준과 얼마나 잘 맞는지 평가해 주세요.</p>
+        <div class="likert-grid agreement-grid mt-2">
+          ${agreementHtml}
         </div>
       </div>
     `;
   }
 
   setEvent() {
-    const { blindAnswers, coreData } = appStore.getState();
+    const { blindAnswers } = appStore.getState();
 
-    this.target.querySelectorAll('.pledge-card').forEach(card => {
-      card.addEventListener('click', (e) => {
-        const candId = parseInt(e.currentTarget.dataset.candId);
-        const newBlindAnswers = [...blindAnswers, { candId, catId: this.currentCat.id }];
+    this.target.querySelectorAll('.agreement-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const score = parseInt(e.currentTarget.dataset.score, 10);
+        const newBlindAnswers = [
+          ...blindAnswers,
+          {
+            candId: this.currentItem.candId,
+            catId: this.currentItem.catId,
+            catName: this.currentItem.catName,
+            group: this.currentItem.group,
+            pledge: this.currentItem.pledge,
+            score
+          }
+        ];
 
-        appStore.setState({ blindAnswers: newBlindAnswers });
+        appStore.setState({ blindQueue: this.queue, blindAnswers: newBlindAnswers });
 
-        if (newBlindAnswers.length < coreData.categories.length) {
+        if (newBlindAnswers.length < this.queue.length) {
           Router.navigate('blindPledge');
         } else {
           Router.navigate('loading');

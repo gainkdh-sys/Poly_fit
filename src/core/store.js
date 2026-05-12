@@ -29,9 +29,12 @@ export const appStore = new Store({
   regionData: null, // 해당 광역 JSON 전체 데이터 (Lazy Load)
   prefAnswers: [], // { category: 'welfare_care', score: 5 }
   selectedElectionId: null,
-  blindAnswers: [], // { candId: 101, catId: 'welfare_care' }
+  blindQueue: [], // { candId: 101, catId: 'welfare_care', pledge: '...' }
+  blindAnswers: [], // { candId: 101, catId: 'welfare_care', score: 5, pledge: '...' }
   finalRank: [],
   isResultRevealed: false,
+  feedbacks: [],
+  communityPosts: [],
   // 공통 데이터 (초기 로딩 시 채워짐)
   coreData: null,
   locations: []    // 광역자치단체 목록 [{ name, slug }]
