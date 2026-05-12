@@ -1,59 +1,3289 @@
-[
-  { 
-    "id": 28101, "electionType": "governor", "region": ["제주특별자치도"], "name": "오영훈", "party": "더불어민주당", "bio": "현) 제39대 제주특별자치도지사 | 전) 제20·21대 국회의원",
-    "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%98%81%ED%9B%88&background=1e40af&color=fff&size=128",
-    "desc": "다함께 미래로! 제주의 가치를 키우고 도민 정치를 실현하겠습니다.",
-    "pledges": {
-      "welfare_care": "제주형 생애주기별 돌봄 안전망 '제주가치 통합돌봄' 전면 시행",
-      "welfare_income": "제주형 청년 갭이어(Gap Year) 지원 및 어르신 사회 활동 장려 금 확대",
-      "edu_future": "제주 청년 희망 사다리 장학금 지원 및 대학-지자체-산업 연계 R&D 강화",
-      "edu_basic": "제주 교육 자치 내실화 및 학생 인권 보장을 위한 제도적 정비 안착",
-      "trans_mega": "제주 제2공항의 합리적 해법 모색 및 UAM(도심항공교통) 상용화 선도",
-      "trans_life": "제주 전역 시내버스 노선 전면 개편 및 교통 복지를 위한 어르신 무료 이용 확대",
-      "culture_brand": "제주 역사 문화 정체성 확립 및 글로벌 K-콘텐츠 융복합 관광단지 육성",
-      "culture_citizen": "제주 지역 화폐 '탐나는전' 발행 규모 확대 및 상생 협력 모델 강화",
-      "housing_market": "도민 주거 안정을 위한 토지임대부 공공분양 '공공 주택 7,000호' 차질 없는 공급",
-      "housing_social": "청년들의 사회 진출 지원을 위한 임대차 보증금 지원 및 사회 주택 확충",
-      "ind_growth": "그린 수소 및 우주 산업 등 제주의 미래 신성장 동력 산업 육성 가속화",
-      "ind_eco": "2035 탄소중립(Net-Zero) 제주 실현 및 제주 환경 자원 총량제 법제화"
+{
+  "metro": "제주특별자치도",
+  "metroSlug": "jeju",
+  "governor": [
+    {
+      "id": 100161675,
+      "electionType": "governor",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "오영훈",
+      "party": "더불어민주당",
+      "bio": "정치인 | 제주대학교 경영대학원 경영학과 졸업(경영학석사) | (전)제20대, 제21대 국회의원 | (현)제주특별자치도지사",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%98%81%ED%9B%88&background=1e40af&color=fff&size=128",
+      "desc": "다함께 미래로! 제주의 가치를 키우고 도민 정치를 실현하겠습니다.",
+      "pledges": {
+        "welfare_care": "제주형 생애주기별 돌봄 안전망 '제주가치 통합돌봄' 전면 시행",
+        "welfare_income": "제주형 청년 갭이어(Gap Year) 지원 및 어르신 사회 활동 장려 금 확대",
+        "edu_future": "제주 청년 희망 사다리 장학금 지원 및 대학-지자체-산업 연계 R&D 강화",
+        "edu_basic": "제주 교육 자치 내실화 및 학생 인권 보장을 위한 제도적 정비 안착",
+        "trans_mega": "제주 제2공항의 합리적 해법 모색 및 UAM(도심항공교통) 상용화 선도",
+        "trans_life": "제주 전역 시내버스 노선 전면 개편 및 교통 복지를 위한 어르신 무료 이용 확대",
+        "culture_brand": "제주 역사 문화 정체성 확립 및 글로벌 K-콘텐츠 융복합 관광단지 육성",
+        "culture_citizen": "제주 지역 화폐 '탐나는전' 발행 규모 확대 및 상생 협력 모델 강화",
+        "housing_market": "도민 주거 안정을 위한 토지임대부 공공분양 '공공 주택 7,000호' 차질 없는 공급",
+        "housing_social": "청년들의 사회 진출 지원을 위한 임대차 보증금 지원 및 사회 주택 확충",
+        "ind_growth": "그린 수소 및 우주 산업 등 제주의 미래 신성장 동력 산업 육성 가속화",
+        "ind_eco": "2035 탄소중립(Net-Zero) 제주 실현 및 제주 환경 자원 총량제 법제화"
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100161675",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "사퇴",
+        "regdate": "20260403",
+        "kind": "pre"
+      }
+    },
+    {
+      "id": 100163197,
+      "electionType": "governor",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "위성곤",
+      "party": "더불어민주당",
+      "bio": "정치인 | 제주대학교 행정대학원 정치외교학과 정치학전공 석사과정 수료 | (전) 국회의원 3선 (제20대, 제21대, 제22대) | (전) 이재명 정부 국정기획위원회 기획위원 (경제2분과)",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%84%EC%84%B1%EA%B3%A4&background=1e40af&color=fff&size=128",
+      "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100163197",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "20260430",
+        "kind": "pre"
+      }
+    },
+    {
+      "id": 100157851,
+      "electionType": "governor",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "문성유",
+      "party": "국민의힘",
+      "bio": "정당인 | 맨체스터대학교 경제사회학(개발경제학 전공) 석사(1997.09~1998.12) | (전)기획재정부 기획조정실장 | (전)한국자산관리공사 사장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%84%B1%EC%9C%A0&background=ef4444&color=fff&size=128",
+      "desc": "제주의 경제 혁명! 강력한 추진력으로 제주를 동북아의 보석으로 만들겠습니다.",
+      "pledges": {
+        "welfare_care": "공공 돌봄 서비스 민간 위탁 고도화 및 고령층 대상 디지털 의료 기기 지원",
+        "welfare_income": "직접 지원보다는 규제 완화를 통한 기업 유치로 양질의 일자리 생산 환경 조성",
+        "edu_future": "글로벌 혁신 대학 유치 및 AI·핀테크 전용 인재 양성 지원 강화",
+        "edu_basic": "학업 성취도 평가 강화 및 기초 학력 보장을 위한 권역별 학습 지원 센터 상설화",
+        "trans_mega": "제주 제2공항 조기 착공 주도 및 제주신항만 건설 사업 가속화",
+        "trans_life": "도심 교통 체증 해소를 위한 우회 도로 신설 및 공영 주차장 대폭 확충",
+        "culture_brand": "글로벌 복합 리조트 연계 관광 메카 및 한류 문화 테마파크 유치",
+        "culture_citizen": "전통시장 현대화 및 소상공인 무이자 대출 보전 규모 대폭 확대",
+        "housing_market": "주거 지역 고도 제한 완화 및 재건축·재개발 활성화를 통한 공급 확대",
+        "housing_social": "청년들의 제주 정착을 위한 '청년 창업 농가' 및 맞춤형 공공 주택 보급 확대",
+        "ind_growth": "관광 산업의 고부가가치화 및 데이터 산업 기반의 첨단 기업 유치",
+        "ind_eco": "탄소 배출 저감을 위한 전기차 인프라 고도화 및 생태 자원 활용 관광 거점화"
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100157851",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "20260311",
+        "kind": "pre"
+      }
+    },
+    {
+      "id": 100153982,
+      "electionType": "governor",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "김명호",
+      "party": "진보당",
+      "bio": "정당인 | 울산대학교 건축학과 3년 제적 (1986년 3월 ~ 1994년 5월) | (전) 전국서비스산업노동조합연맹 제주지역본부 본부장 | (현) 진보당 제주특별자치도당 위원장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AA%85%ED%98%B8&background=7c3aed&color=fff&size=128",
+      "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100153982",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "20260213",
+        "kind": "pre"
+      }
+    },
+    {
+      "id": 100153886,
+      "electionType": "governor",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "양윤녕",
+      "party": "무소속",
+      "bio": "무직 | 단국대학교 경영대학원 경영학과 졸업 (경영학 석사) | (전)소나무당(대표 송영길) 제주특별자치도당 위원장 | (전)새정치국민회의(총재 김대중) 기획조정국장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%9C%A4%EB%85%95&background=64748b&color=fff&size=128",
+      "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100153886",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "20260212",
+        "kind": "pre"
+      }
     }
-  },
-  { 
-    "id": 28102, "electionType": "governor", "region": ["제주특별자치도"], "name": "문성유", "party": "국민의힘", "bio": "현) 국민의힘 제주도당 위원장 | 전) 한국자산관리공사 사장",
-    "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%84%B1%EC%9C%A0&background=ef4444&color=fff&size=128",
-    "desc": "제주의 경제 혁명! 강력한 추진력으로 제주를 동북아의 보석으로 만들겠습니다.",
-    "pledges": {
-      "welfare_care": "공공 돌봄 서비스 민간 위탁 고도화 및 고령층 대상 디지털 의료 기기 지원",
-      "welfare_income": "직접 지원보다는 규제 완화를 통한 기업 유치로 양질의 일자리 생산 환경 조성",
-      "edu_future": "글로벌 혁신 대학 유치 및 AI·핀테크 전용 인재 양성 지원 강화",
-      "edu_basic": "학업 성취도 평가 강화 및 기초 학력 보장을 위한 권역별 학습 지원 센터 상설화",
-      "trans_mega": "제주 제2공항 조기 착공 주도 및 제주신항만 건설 사업 가속화",
-      "trans_life": "도심 교통 체증 해소를 위한 우회 도로 신설 및 공영 주차장 대폭 확충",
-      "culture_brand": "글로벌 복합 리조트 연계 관광 메카 및 한류 문화 테마파크 유치",
-      "culture_citizen": "전통시장 현대화 및 소상공인 무이자 대출 보전 규모 대폭 확대",
-      "housing_market": "주거 지역 고도 제한 완화 및 재건축·재개발 활성화를 통한 공급 확대",
-      "housing_social": "청년들의 제주 정착을 위한 '청년 창업 농가' 및 맞춤형 공공 주택 보급 확대",
-      "ind_growth": "관광 산업의 고부가가치화 및 데이터 산업 기반의 첨단 기업 유치",
-      "ind_eco": "탄소 배출 저감을 위한 전기차 인프라 고도화 및 생태 자원 활용 관광 거점화"
+  ],
+  "superintendent": [
+    {
+      "id": 100153761,
+      "electionType": "superintendent",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "송문석",
+      "party": "무소속",
+      "bio": "무직 | 제주대학교대학원 국어국문학과 졸업 (문학박사) | (전)서귀중앙여자중학교 교장 | (전)제주특별자치도교육청 교육연구관",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EB%AC%B8%EC%84%9D&background=64748b&color=fff&size=128",
+      "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100153761",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "20260203",
+        "kind": "pre"
+      }
+    },
+    {
+      "id": 100156980,
+      "electionType": "superintendent",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "고의숙",
+      "party": "무소속",
+      "bio": "무직 | 제주교육대학교 교육대학원 졸업(교육학 석사) | (전)남광초등학교교감 | (전)제12대 제주특별자치도의회교육의원",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%9D%98%EC%88%99&background=64748b&color=fff&size=128",
+      "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100156980",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "20260304",
+        "kind": "pre"
+      }
+    },
+    {
+      "id": 100162806,
+      "electionType": "superintendent",
+      "region": [
+        "제주특별자치도"
+      ],
+      "name": "김광수",
+      "party": "무소속",
+      "bio": "공무원 | 고려대학교 교육대학원 졸업(교육학석사) | (현)제17대 제주특별자치도교육청 교육감",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%91%EC%88%98&background=64748b&color=fff&size=128",
+      "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100162806",
+        "sggName": "제주특별자치도",
+        "sdName": "제주특별자치도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "20260423",
+        "kind": "pre"
+      }
     }
-  },
-  {
-    "id": 28301, "electionType": "provincial_council", "region": ["제주특별자치도"], "name": "강한별", "party": "국민의힘", "bio": "현) 제주특별자치도의원 후보 | 정당인",
-    "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%ED%95%9C%EB%B3%84&background=ef4444&color=fff&size=128",
-    "desc": "제주의 힘, 미래 도시 제주를 만들겠습니다! 도민의 목소리를 도정에 반영하고 정주 여건 개선을 위해 최선을 다하겠습니다.",
-    "pledges": {
-      "welfare_care": "제주도 내 24시간 아이 돌봄 센터 동별 유치 및 시니어 디지털 교육 센터 확충",
-      "welfare_income": "제주 소상공인 경영 안정 지원금 상향 및 전통시장 주차 타워 조속 완공 예산 확보",
-      "edu_future": "제주 관내 학교 AI 기반 인재 육성 교실 현대화 지원 및 코딩 캠프 정례화",
-      "edu_basic": "방과 후 학교 질적 상향을 위한 지역 우수 강사 풀 구축 및 소외 계층 학습 지원 강화",
-      "trans_mega": "제주 제2공항 조기 착공 지원 및 주변 역세권 복합 개발 추진 조력",
-      "trans_life": "제주도 내 상습 정체 구간 교차로 정비 및 대중교통 노선 체계의 효율적 개편 촉구",
-      "culture_brand": "제주 관광 세계화 지원 및 원도심 연계 역사 문화 관광 벨트 강화",
-      "culture_citizen": "제주 탐나는전 발행 규모 유지 노력 및 로컬 푸드 매장 연계 상권 활성화 지원",
-      "housing_market": "제주도 내 노후 주거 단지 재개발/재건축 규제 완화 및 주거 환경 개선 예산 확보",
-      "housing_social": "청년들의 제주 정착을 위한 '제주형 리브투게더' 주택 1,000호 공급 추진",
-      "ind_growth": "제주 미래 모빌리티 산단 조기 안착 지원 및 지역 청년 의무 채용 비율 확대 조례",
-      "ind_eco": "제주도 내 도시 숲 조성 가속화 및 미세먼지 저감을 위한 친환경 버스 도입 확대"
+  ],
+  "districts": {
+    "제주시": {
+      "provincial_council": [
+        {
+          "id": 100162508,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "한권",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회 의원 | 제주대학교 행정대학원 석사과정 수료 | (현) 제12대 제주특별자치도의회 의원 | (전) 제12대 제주특별자치도의회 전반기 4.3특별위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EA%B6%8C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162508",
+            "sggName": "제주특별자치도 제주시 일도1동·이도1동·건입동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260416",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155862,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김희현",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 대학원 관광개발학과 박사과정수료 | (전)제주특별자치도의회의원 | (전)제주특별자치도 정무부지사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%9D%AC%ED%98%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155862",
+            "sggName": "제주특별자치도 제주시 일도2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260224",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158867,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "박호형",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회 의원 | 제주국제대학교 사회복지임상치료대학원 졸업(사회복지학 석사) | (현)제주특별자치도의회 행정자치위원회 위원장 | (전)제주전문대학 총학생회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%B8%ED%98%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158867",
+            "sggName": "제주특별자치도 제주시 일도2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260319",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100163412,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "박현욱",
+          "party": "국민의힘",
+          "bio": "공인중개사 | 제주대학교 해양생산과학전공 졸업 | (전)사단법인 블록체인협회 사무국장 | (현)코로나 진상규명 시민연대 제주지회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%84%EC%9A%B1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163412",
+            "sggName": "제주특별자치도 제주시 일도2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260504",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155245,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강순아",
+          "party": "정의당",
+          "bio": "요양보호사 | 제주대학교 가정관리학과 졸업 | (현) 정의당 제주특별자치도당 위원장 | (전) 제22대 국회의원선거 제주시을선거구 후보자",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%88%9C%EC%95%84&background=facc15&color=111827&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155245",
+            "sggName": "제주특별자치도 제주시 일도2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100163106,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김기환",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 제주대학교 경영대학원 관광경영학과 석사과정 휴학 | (현)제주특별자치도의회 의원 | (현)제주특별자치도의회 4.3특별위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B8%B0%ED%99%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163106",
+            "sggName": "제주특별자치도 제주시 이도2동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260428",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100153927,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "현길자",
+          "party": "더불어민주당",
+          "bio": "자영업 | 제주대학교 대학원 회계학과 박사과정 수료 | (현)더불어민주당 제주도당 나눔봉사특별위원회 위원장 | (전)제주시자원봉사센터장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%98%84%EA%B8%B8%EC%9E%90&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100153927",
+            "sggName": "제주특별자치도 제주시 이도2동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100157802,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "한동수",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 연세대학교 행정대학원 졸업(행정학 석사, 지방자치·도시행정전공) | (전)청와대 대통령비서실 정책실장실 | (전)대한민국 제19대 국회 농림축산식품위원장실",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EB%8F%99%EC%88%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157802",
+            "sggName": "제주특별자치도 제주시 이도2동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260310",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154878,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "송경남",
+          "party": "진보당",
+          "bio": "택배 배송기사 | 제주간호보건전문대학 방사선과 졸업 | (현) 전국택배노동조합 제주지부장 | (현) 진보당 제주시을 지역위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EA%B2%BD%EB%82%A8&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154878",
+            "sggName": "제주특별자치도 제주시 이도2동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155556,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강원근",
+          "party": "더불어민주당",
+          "bio": "자영업 | 제주대학교 산업응용경제학과 졸업 | (현)삼도2동 체육회 회장 | (전)더불어민주당 제주시 갑 지역 청년위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%9B%90%EA%B7%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155556",
+            "sggName": "제주특별자치도 제주시 삼도1동·삼도2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260223",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100159188,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "정민구",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회 의원 | 제주대학교 무역학과 졸업 | (현)제주특별자치도의회 의원 | (전)제주주민자치연대 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EB%AF%BC%EA%B5%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159188",
+            "sggName": "제주특별자치도 제주시 삼도1동·삼도2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260320",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156369,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "윤용팔",
+          "party": "국민의힘",
+          "bio": "(주)도연전기 공동 대표이사 | 대정고등학교졸업 | (전) 제주특별자치도 주민자치위원회협의회 회장 | (현) 삼도1동장애인지원협의회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%9A%A9%ED%8C%94&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156369",
+            "sggName": "제주특별자치도 제주시 삼도1동·삼도2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260226",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155979,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "이창민",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 해양환경공학과 졸업 | (전)주식회사 호텔신라 근무 | (현)더불어민주당 제주시갑지역위원회 상무위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%B0%BD%EB%AF%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155979",
+            "sggName": "제주특별자치도 제주시 용담1동·용담2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260224",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100157717,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김영심",
+          "party": "더불어민주당",
+          "bio": "제주담은협동조합 대표 | 제주대학교 사학과 졸업 | (현)제주시 용담2동 용마마을 회장 | (전)공무원연금공단 상임이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%8B%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157717",
+            "sggName": "제주특별자치도 제주시 용담1동·용담2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260310",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161315,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김황국",
+          "party": "국민의힘",
+          "bio": "제주특별자치도의회의원 | 제주대학교 행정대학원 졸업(행정학 석사) | (현)제주도의회 의원 | (현)제주특별자치도의회 국민의힘 원내대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%99%A9%EA%B5%AD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161315",
+            "sggName": "제주특별자치도 제주시 용담1동·용담2동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260401",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154827,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "고성만",
+          "party": "더불어민주당",
+          "bio": "글벗입시학원 학원장 | 제주대학교 물리학과 졸업 | (전)사단법인 한국학원총연합회 제주특별자치도지회 회장 | (현)더불어민주당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%84%B1%EB%A7%8C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154827",
+            "sggName": "제주특별자치도 제주시 화북동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100157833,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강성의",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 이화여자대학교 대학원 여성학과 졸업(문학석사) | (현)제12대제주도의회보건복지안전위원회 위원 | (전)제11대제주도의회환경도시위원회위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%84%B1%EC%9D%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157833",
+            "sggName": "제주특별자치도 제주시 화북동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260311",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155671,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "박안수",
+          "party": "더불어민주당",
+          "bio": "회사원 | 제주관광대학교 사회복지과 졸업 | (전) 삼양동연합청년회장 | (전) 더불어민주당 중앙당 원내대표 특보",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%95%88%EC%88%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155671",
+            "sggName": "제주특별자치도 제주시 삼양동·봉개동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260223",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100157707,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김태관",
+          "party": "더불어민주당",
+          "bio": "제주대학교강사 | 추계예술대학교 대학원 문화예술학과 졸업(문화예술학 박사) | (전) 제주도 문화예술진흥원장 | (현) 더불어민주당 중앙당 문화예술특별위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EA%B4%80&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157707",
+            "sggName": "제주특별자치도 제주시 삼양동·봉개동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260310",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161591,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "박두화",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 제주대학교 사회과학대학 경영학과 졸업 | (현)제주특별자치도의회 의원 | (현)더불어민주당 중앙당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%91%90%ED%99%94&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161591",
+            "sggName": "제주특별자치도 제주시 삼양동·봉개동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260403",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154766,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김봉현",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 일반대학원 경영학과 졸업(경영학박사) | (현)제주대학교 경영학과 겸임교수 | (전)대한민국 국회 문대림의원실 선임비서관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B4%89%ED%98%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154766",
+            "sggName": "제주특별자치도 제주시 아라동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100157670,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "홍인숙",
+          "party": "더불어민주당",
+          "bio": "정치인 | 제주대학교 대학원 체육학과 졸업(체육학박사) | (현) 제12대 제주특별자치도의회 의원 | (현) 더불어민주당 여성지방의원협의회부대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%9D%B8%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157670",
+            "sggName": "제주특별자치도 제주시 아라동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260309",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154851,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "정현철",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 공과대학 전기공학과 졸업 | (현)더불어민주당 제주특별자치도당 청년위원장 | (전)국회의원 김한규의원실 선임비서관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%ED%98%84%EC%B2%A0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154851",
+            "sggName": "제주특별자치도 제주시 아라동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161320,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "양영수",
+          "party": "진보당",
+          "bio": "회사원 (제주대학교병원) | 제주대학교 대학원 정보공학과 졸업(공학석사) | (현)제주특별자치도의회 의원 | (현)제주특별자치도의회 예산결산특별위원회 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%98%81%EC%88%98&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161320",
+            "sggName": "제주특별자치도 제주시 아라동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260401",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154696,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강정범",
+          "party": "더불어민주당",
+          "bio": "정당인 | 단국대학교 도예과졸업 | (현)더불어민주당 당대표 특별보좌역 지방자치특보(중앙당) | (전)제22대 문대림 국회의원 비서관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%A0%95%EB%B2%94&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154696",
+            "sggName": "제주특별자치도 제주시 오라동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100157918,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "이승아",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 대학원 경영학과 박사과정 수료 | (전) 제11대 제주특별자치도의회의원 | (현) 제12대 제주특별자치도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%8A%B9%EC%95%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157918",
+            "sggName": "제주특별자치도 제주시 오라동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260311",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154850,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "부람준",
+          "party": "진보당",
+          "bio": "택시기사 | 속초중학교 졸업 | (전)오라동 연합청년회 사무국장 | (현)전국민주택시노동조합 제주지역 본부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B6%80%EB%9E%8C%EC%A4%80&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154850",
+            "sggName": "제주특별자치도 제주시 오라동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154718,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강권종",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 법정대학 정치외교학과 졸업 | (전)제21대 대선 이재명제주선대위 공보본부장 | (전)제주특별자치도 대변인 메시지팀장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EA%B6%8C%EC%A2%85&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154718",
+            "sggName": "제주특별자치도 제주시 연동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155454,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "황경남",
+          "party": "더불어민주당",
+          "bio": "주식회사나눔 대표이사 | 제주대학교 행정대학원 행정학과 졸업(행정학석사) | (현) 연동청소년지도협의회장 | (현) 주식회사 나눔 대표이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EA%B2%BD%EB%82%A8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155454",
+            "sggName": "제주특별자치도 제주시 연동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260223",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155881,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "이성재",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 인문대학 사학과 졸업 | (전) 제주청년센터장 | (전) 더불어민주당 중앙위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%84%B1%EC%9E%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155881",
+            "sggName": "제주특별자치도 제주시 연동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260224",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156846,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "이정석",
+          "party": "더불어민주당",
+          "bio": "지휘자 | 제주대학교 대학원 경영학과 졸업(경영학 박사) | (전)이재명 대통령후보 새로운 연동특별위원장 | (현)한국관악협회 제주특별자치도지회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%EC%84%9D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156846",
+            "sggName": "제주특별자치도 제주시 연동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260303",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158886,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "양영식",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 중앙대학교 정경대학 정치외교학과 졸업 | (현)신제주초등학교운영위원 | (현)제12대제주특별자치도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%98%81%EC%8B%9D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158886",
+            "sggName": "제주특별자치도 제주시 연동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260319",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156775,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강경문",
+          "party": "국민의힘",
+          "bio": "제주특별자치도의회의원 | 제주대학교 대학원 에너지응용시스템학부 박사과정수료(기계공학전공) | (현)제12대 제주특별자치도의회 의원 | (전)서귀포시 대정읍 도시재생현장지원센터 센터장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EA%B2%BD%EB%AC%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156775",
+            "sggName": "제주특별자치도 제주시 연동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260303",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161868,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강철남",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회 의원 | 제주대학교 행정대학원 수료(지방자치전공 석사과정) | (전) 제주특별자치도의회 행정자치위원회 위원장 | (전) 제주특별자치도의회 문화체육관광위원회 의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%B2%A0%EB%82%A8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161868",
+            "sggName": "제주특별자치도 제주시 연동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260407",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156433,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김지은",
+          "party": "국민의힘",
+          "bio": "정당인 | 제주대학교 행정대학원 행정학과 갈등관리전공 재학(석사과정) | (현)국민의힘 제주도당 청년위원장 | (현)국민의힘 제주도당 대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%80%EC%9D%80&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156433",
+            "sggName": "제주특별자치도 제주시 연동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260226",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154803,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "정근효",
+          "party": "진보당",
+          "bio": "무직 | 고등학교 졸업학력 검정고시 합격 | (전)우리동네 소식지 '연동의 별' 편집장 | (전)제1·2기 제주청소년기후평화행동 상임단장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EA%B7%BC%ED%9A%A8&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154803",
+            "sggName": "제주특별자치도 제주시 연동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100162383,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "양경호",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회 의원 | 제주대학교 경영대학원 졸업(경영학 석사) | (현)제주특별자치도의회 의원 | (전)한국노총제주도지역본부 사무처장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EA%B2%BD%ED%98%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162383",
+            "sggName": "제주특별자치도 제주시 노형동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260415",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161354,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김세훈",
+          "party": "국민의힘",
+          "bio": "운수업 | 제주대학교 졸업(증식학 전공) | (전)대통령 자문기관 제주도 제2의 건국범국민추진위원회 근무 | (전)제주도관광협회 근무",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B8%ED%9B%88&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161354",
+            "sggName": "제주특별자치도 제주시 노형동갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260401",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156748,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "현지홍",
+          "party": "더불어민주당",
+          "bio": "정치인 | 제주대학교 자연과학대학 체육학과 졸업 | (현)제12대 제주특별자치도의회의원 | (전)문재인정부 대통령비서실 행정관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%98%84%EC%A7%80%ED%99%8D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156748",
+            "sggName": "제주특별자치도 제주시 노형동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "사퇴",
+            "regdate": "20260303",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158495,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "이경심",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회 의원 | 제주대학교 행정대학원 행정학과 재학(석사과정) | (현)제12대 제주특별자치도의회 의원 | (전)인권교육연구센터 모다들엉 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B2%BD%EC%8B%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158495",
+            "sggName": "제주특별자치도 제주시 노형동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260316",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155355,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "이건우",
+          "party": "개혁신당",
+          "bio": "부마정치연구소장 | 부산대학교 행정대학원 행정학과 졸업(행정학 석사) | (현)개혁신당 노형동 지역발전특별위원회 위원장 | (전)부산MBC 보도국 뉴스PD",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B1%B4%EC%9A%B0&background=f97316&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155355",
+            "sggName": "제주특별자치도 제주시 노형동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154720,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "고민수",
+          "party": "무소속",
+          "bio": "정치인 | 서울 스포츠 대학원 대학교 스포츠 산업경영학과 졸업(경영학 석사) | (전)KCTV 제주방송 부장 | (전)대기고등학교 총동문회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EB%AF%BC%EC%88%98&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154720",
+            "sggName": "제주특별자치도 제주시 노형동을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155769,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "고연종",
+          "party": "더불어민주당",
+          "bio": "자영업 | 제주대학교 에너지공학과 졸업 | (전)제주시연합청년회장 | (전)이호동주민자치위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%97%B0%EC%A2%85&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155769",
+            "sggName": "제주특별자치도 제주시 외도동·이호동·도두동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260223",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158663,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "송창권",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 제주대학교 대학원 정치외교학과 박사과정 수료 | (현)제주특별자치도의회 더불어민주당 원내대표 | (전)이재명 대통령후보 중앙선대위 지방분권혁신위원장(공동)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%B0%BD%EA%B6%8C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158663",
+            "sggName": "제주특별자치도 제주시 외도동·이호동·도두동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260318",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156605,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "양해두",
+          "party": "개혁신당",
+          "bio": "정당인 | 행정전문학사(사회복지전공) | (현)개혁신당 제주시갑 당협위원장 | (전)외도초등학교 운영위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%ED%95%B4%EB%91%90&background=f97316&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156605",
+            "sggName": "제주특별자치도 제주시 외도동·이호동·도두동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260227",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154788,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김형미",
+          "party": "진보당",
+          "bio": "심리상담사 | 서울사이버대학교 대학원 졸업(상담심리학 석사) | (현)김형미의 돌봄사랑방의 대표 | (현)진보당 제주도당 제주시(갑)위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%95%EB%AF%B8&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154788",
+            "sggName": "제주특별자치도 제주시 외도동·이호동·도두동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100163495,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김도엽",
+          "party": "더불어민주당",
+          "bio": "금융인 | 경희대학교 경영학부 졸업 | (전)한국투자증권 근무 | (현)미래에셋증권 MFA",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%84%EC%97%BD&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163495",
+            "sggName": "제주특별자치도 제주시 한림읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260506",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161246,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "이남근",
+          "party": "국민의힘",
+          "bio": "정당인 | 제주대학교 관광융복합학과 졸업 | (현)제주특별자치도의회 의원 | (전)귀덕1리 이장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%82%A8%EA%B7%BC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161246",
+            "sggName": "제주특별자치도 제주시 한림읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260331",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154920,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "장정훈",
+          "party": "더불어민주당",
+          "bio": "사단법인 제주융복합관광연구소 이사장 | 제주대학교 대학원 관광경영학과 졸업 (관광학 박사) | (전)제주대학교 산학협력단 link사업단 산학교수 | (현)제주한라대학교 관광영어과 비전임조교수",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%A0%95%ED%9B%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154920",
+            "sggName": "제주특별자치도 제주시 애월읍갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154682,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강재섭",
+          "party": "국민의힘",
+          "bio": "정당인 | 인하대학교 화학과 졸업 | (전)애월읍장 | (전)제주특별자치도 농축산식품국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%9E%AC%EC%84%AD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154682",
+            "sggName": "제주특별자치도 제주시 애월읍갑선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155846,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김영익",
+          "party": "더불어민주당",
+          "bio": "제주자원연구소 대표 | 제주대학교 대학원 경영정보학과 졸업(경영정보학 박사) | (현)제주대학교 BK21데이터 사이언스 연구단 산학교수 | (전)주식회사 제주넷 대표이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%9D%B5&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155846",
+            "sggName": "제주특별자치도 제주시 애월읍을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260224",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161045,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강봉직",
+          "party": "더불어민주당",
+          "bio": "농업 | 제주대학교 부동산관리학과 졸업 | (전) 애월읍연합청년회장 | (현) 제주특별자치도의회 의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%B4%89%EC%A7%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161045",
+            "sggName": "제주특별자치도 제주시 애월읍을선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260330",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154916,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "강동우",
+          "party": "더불어민주당",
+          "bio": "무직 | 제주대학교 대학원 물리학과 졸업(이학박사) | (전)제12대 제주특별자치도의회 교육의원 | (전)제주시교육지원청 교육장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%8F%99%EC%9A%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154916",
+            "sggName": "제주특별자치도 제주시 구좌읍·우도면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154899,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "원성현",
+          "party": "더불어민주당",
+          "bio": "농업 | 제주대학교 경영대학원 경영학과 졸업(경영학석사) | (현)사)대한파크골프연맹 제주도회장 | (전)제21대 대통령선거 이재명 후보 조직본부 문화관광위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9B%90%EC%84%B1%ED%98%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154899",
+            "sggName": "제주특별자치도 제주시 구좌읍·우도면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록무효",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156101,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "양정철",
+          "party": "조국혁신당",
+          "bio": "제주문화마을연구소 대표 | 제주대학교 대학원 졸업(행정학 박사) | (전) 제주특별자치도의회 행정자치위원회 연구위원 | (현) 제주문화마을연구소 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%A0%95%EC%B2%A0&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156101",
+            "sggName": "제주특별자치도 제주시 구좌읍·우도면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260225",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155623,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "부지성",
+          "party": "무소속",
+          "bio": "농업 | 제주한라대학교 e-경영정보과 졸업 | (전)구좌읍 세화리장 | (전)세화마을협동조합 이사장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B6%80%EC%A7%80%EC%84%B1&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155623",
+            "sggName": "제주특별자치도 제주시 구좌읍·우도면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260223",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100162923,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김대승",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 대학원 수의학과 졸업(수의학석사) | (현) 더불어민주당 제주도당 청년위원회 사무국장 | (전) 신촌초등학교 학교운영위원장(2024-2025)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%EC%8A%B9&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162923",
+            "sggName": "제주특별자치도 제주시 조천읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260424",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100163024,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김석진",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 대학원 법학과 박사과정 수료 | (전) 제주동부경찰서 감사실장 | (현) 제주제일고등학교 제30회 수석부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%9D%EC%A7%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163024",
+            "sggName": "제주특별자치도 제주시 조천읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260427",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154750,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김덕홍",
+          "party": "무소속",
+          "bio": "농업 | 제주산업정보대학(현 제주국제대학교) 관광과 졸업 | (전)조천읍장 | (전)아라동장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8D%95%ED%99%8D&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154750",
+            "sggName": "제주특별자치도 제주시 조천읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161799,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김승준",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회 의원 | 탐라대학교(현 제주국제대학교) 관광경영학과 졸업 | (현)제주특별자치도의회 더불어민주당 원내대표단 수석부대표 | (현)제주특별자치도의회 예산결산특별위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%8A%B9%EC%A4%80&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161799",
+            "sggName": "제주특별자치도 제주시 한경면·추자면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260406",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100159954,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "제주시"
+          ],
+          "name": "김원찬",
+          "party": "국민의힘",
+          "bio": "농업인 | 세종대학교 인문과학대학 영어영문학과 졸업 | (전)국민의힘 중앙위원회 제주도당연합회 회장 | (전)대통령직속 국가균형발전위원회 국민소통 위원회 특별위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9B%90%EC%B0%AC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159954",
+            "sggName": "제주특별자치도 제주시 한경면·추자면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "제주시",
+            "status": "등록",
+            "regdate": "20260323",
+            "kind": "pre"
+          }
+        }
+      ]
+    },
+    "서귀포시": {
+      "provincial_council": [
+        {
+          "id": 100156123,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "오정훈",
+          "party": "더불어민주당",
+          "bio": "농업 | 제주산업정보대학(현,제주국제대학교) 실내건축과 졸업 | (전) 한국4-H중앙연합회장 | (현) 더불어민주당 영천동당원협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%A0%95%ED%9B%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156123",
+            "sggName": "제주특별자치도 서귀포시 송산동·효돈동·영천동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260225",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100160280,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "강충룡",
+          "party": "국민의힘",
+          "bio": "제주특별자치도의회의원 | 탐라대학교(현, 제주국제대학교) 경영학과 졸업 | (현) 제12대 제주특별자치도의회 부의장 | (전) 제11대 제주특별자치도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%B6%A9%EB%A3%A1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160280",
+            "sggName": "제주특별자치도 서귀포시 송산동·효돈동·영천동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260324",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154130,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "김권형",
+          "party": "더불어민주당",
+          "bio": "자영업 | 제주산업정보대학 전자계산과 졸업 | (전) 서홍동연합청년회장 | (현) 법무부 청소년범죄예방위원회 제주지역협의회 청소년분과위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B6%8C%ED%98%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154130",
+            "sggName": "제주특별자치도 서귀포시 정방동·중앙동·천지동·서홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154081,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "김봉삼",
+          "party": "더불어민주당",
+          "bio": "1급체육지도자 | 제주국제대학교 골프학과 졸업 | (현) 서귀포시 청소년지도협의회 회장 | (현) 더불어민주당 전국장애인위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B4%89%EC%82%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154081",
+            "sggName": "제주특별자치도 서귀포시 정방동·중앙동·천지동·서홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "사퇴",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100162977,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "오은초",
+          "party": "더불어민주당",
+          "bio": "자영업 | 제주대학교 통번역대학원(석사) 한중과 수료 | (전) 녹지그룹 한국지사(녹지코리아) 근무 | (현) 카페봄봄 서귀포혁신도시점, 칠십리점 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%9D%80%EC%B4%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162977",
+            "sggName": "제주특별자치도 서귀포시 정방동·중앙동·천지동·서홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260427",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100159033,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "강하영",
+          "party": "국민의힘",
+          "bio": "제주특별자치도의회의원 | 제주산업정보대학(현, 제주국제대학교) 행정과 졸업 | (전) 국민의힘제주도당여성위원장 | (현) 제주특별자치도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%ED%95%98%EC%98%81&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159033",
+            "sggName": "제주특별자치도 서귀포시 정방동·중앙동·천지동·서홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260323",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100160964,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "강상수",
+          "party": "무소속",
+          "bio": "제주특별자치도의회의원 | 한림공업고등학교(현, 한림항공우주고등학교) 졸업 | (전) 서홍동주민자치위원장 | (현) 제주특별자치도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%83%81%EC%88%98&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160964",
+            "sggName": "제주특별자치도 서귀포시 정방동·중앙동·천지동·서홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260330",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154146,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "현용탁",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 생명자원과학대학 원예생명과학부 원예과학전공 졸업 | (전) 국회의원 비서관 | (전) 제주대학교 총학생회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%98%84%EC%9A%A9%ED%83%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154146",
+            "sggName": "제주특별자치도 서귀포시 동홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록무효",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156221,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "김형준",
+          "party": "더불어민주당",
+          "bio": "행정사 | 제주대학교 대학원 관광경영학과 졸업(관광학박사) | (전) 제주관광대학 호텔경영과 겸임교수 | (전) 제주특별자치도 컨벤션뷰로 사무국장(지방서기관)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%95%EC%A4%80&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156221",
+            "sggName": "제주특별자치도 서귀포시 동홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록무효",
+            "regdate": "20260226",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156636,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "김주용",
+          "party": "더불어민주당",
+          "bio": "정당인 | 제주대학교 법정대학 법학과 졸업 | (전) 제주워터월드 대표이사 | (전) 더불어민주당 중앙당 환경특별위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A3%BC%EC%9A%A9&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156636",
+            "sggName": "제주특별자치도 서귀포시 동홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록무효",
+            "regdate": "20260227",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100159032,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "김대진",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 제주대학교 경영대학원 경영학과 졸업(경영학석사) | (전) 제12대 제주특별자치도의회 전반기 부의장 | (전) 김재윤 국회의원 비서관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%EC%A7%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159032",
+            "sggName": "제주특별자치도 서귀포시 동홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260324",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155923,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "오현승",
+          "party": "국민의힘",
+          "bio": "농업 | 한양사이버대학교 법학과 졸업 | (전) 동홍동연합청년회장 | (현) 국민의힘 제주도당 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%ED%98%84%EC%8A%B9&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155923",
+            "sggName": "제주특별자치도 서귀포시 동홍동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260224",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154119,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "강명균",
+          "party": "더불어민주당",
+          "bio": "무직 | 제주대학교 사범대학 과학교육과 생물교육전공 졸업 | (전) 서귀포시 청정환경국장 | (전) 제주특별자치도 환경정책과장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%AA%85%EA%B7%A0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154119",
+            "sggName": "제주특별자치도 서귀포시 대륜동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155945,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "강소연",
+          "party": "더불어민주당",
+          "bio": "농업 | 서울사이버대학교 휴먼서비스대학원 졸업(사회복지학 석사) | (전) 대한간호조무사협회 제주특별자치도회 회장 | (현) 더불어민주당 제주특별자치도당 보건복지특별위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%86%8C%EC%97%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155945",
+            "sggName": "제주특별자치도 서귀포시 대륜동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록무효",
+            "regdate": "20260225",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100159022,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "이정엽",
+          "party": "국민의힘",
+          "bio": "제주특별자치도의원 | 원광대학교 농과대학 농화학과 졸업 | (전) 제주특별자치도 주민자치위원장 협의회 회장 | (현) 제주특별자치도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%EC%97%BD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159022",
+            "sggName": "제주특별자치도 서귀포시 대륜동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260323",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100155955,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "노승진",
+          "party": "더불어민주당",
+          "bio": "자영업 | 제주산업정보대학 컴퓨터정보계열 멀티미디어전공 졸업(현, 제주국제대학교) | (전) 더불어민주당 정책위원회 부의장 | (전) 제주지구JC 지구회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%85%B8%EC%8A%B9%EC%A7%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155955",
+            "sggName": "제주특별자치도 서귀포시 대천동·중문동·예래동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록무효",
+            "regdate": "20260225",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158090,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "임정은",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의원 | 탐라대학교(현, 제주국제대학교) 호텔경영학과 졸업 | (전) 중문동지역사회보장협의체위원장 | (현) 제주특별자치도의회 운영위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A0%95%EC%9D%80&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158090",
+            "sggName": "제주특별자치도 서귀포시 대천동·중문동·예래동선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260313",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154122,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "김나솔",
+          "party": "더불어민주당",
+          "bio": "경영인 | 고려대학교 경영대학원 석사과정 졸업(경영학 석사) | (현) 더불어민주당 정책위원회 부의장 | (현) 더불어민주당 제주도당 중소벤처기업특별위원회위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%82%98%EC%86%94&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154122",
+            "sggName": "제주특별자치도 서귀포시 대정읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록무효",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156351,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "이경철",
+          "party": "더불어민주당",
+          "bio": "경영인 | 제주대학교 산업대학원 전자전기공학과 수료(전기공학전공) | (전) 대정고등학교 총동창회장 | (현) 한국전기공업협동조합 이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B2%BD%EC%B2%A0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156351",
+            "sggName": "제주특별자치도 서귀포시 대정읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260227",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158668,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "양병우",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 탐라대학교(현, 제주국제대학교) 토목환경공학과 졸업 | (현) 제주특별자치도의회의원 | (전) 대정읍장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EB%B3%91%EC%9A%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158668",
+            "sggName": "제주특별자치도 서귀포시 대정읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "사퇴",
+            "regdate": "20260318",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100162938,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "이향",
+          "party": "국민의힘",
+          "bio": "자영업 | 홍익대학교 섬유미술과 졸업 | (현) 제주도민연대 대표 | (현) 나라사랑어머니회 제주지부 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%96%A5&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162938",
+            "sggName": "제주특별자치도 서귀포시 대정읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260429",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100156355,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "송호철",
+          "party": "무소속",
+          "bio": "행정사 | 제주대학교 법정대학 행정학과 제적(1997.3.~2000.6.) | (전) 대정읍장 | (전) 행정안전부 제주4.3사건처리과 팀장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%ED%98%B8%EC%B2%A0&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156355",
+            "sggName": "제주특별자치도 서귀포시 대정읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260227",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100162785,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "송영훈",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 제주한라대학 응급구조과 졸업 | (현) 제12대 제주특별자치도의회 의회운영위원회 위원장 | (현) 제12대 제주특별자치도의회 더불어민주당 원내대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%98%81%ED%9B%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162785",
+            "sggName": "제주특별자치도 서귀포시 남원읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260423",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161698,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "양홍식",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 제주대학교 해양과학대학 어로학과 졸업 | (현) 제12대 제주특별자치도의회의원 | (현) 더불어민주당 제주도당 해양수산특별위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%ED%99%8D%EC%8B%9D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161698",
+            "sggName": "제주특별자치도 서귀포시 성산읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260406",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100159929,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "현기종",
+          "party": "국민의힘",
+          "bio": "제주특별자치도의회의원 | 제주대학교행정대학원(석사) 행정학과 지방자치전공 수료 | (현) 제주특별자치도의회의원 | (전) 제주특별자치도 연합청년회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%98%84%EA%B8%B0%EC%A2%85&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159929",
+            "sggName": "제주특별자치도 서귀포시 성산읍선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260324",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100161116,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "하성용",
+          "party": "더불어민주당",
+          "bio": "제주특별자치도의회의원 | 탐라대학교(현, 제주국제대학교) 관광산업학과 졸업 | (현) 더불어민주당 제주 기본사회위원회 부위원장 | (현) 더불어민주당 당대표 특별보좌역 지방자치특보",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%98%EC%84%B1%EC%9A%A9&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161116",
+            "sggName": "제주특별자치도 서귀포시 안덕면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260331",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158546,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "조훈배",
+          "party": "국민의힘",
+          "bio": "자영업 | 제주한라대학교 사회복지과 졸업 | (전) 제주특별자치도 11대 도의회의원 | (현) 서귀포시 걷기협회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%ED%9B%88%EB%B0%B0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158546",
+            "sggName": "제주특별자치도 서귀포시 안덕면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260317",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100154071,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "한동훈",
+          "party": "더불어민주당",
+          "bio": "정당인 | 성균관대학교 경영학과 졸업 | (전) 현대자동차 근무 | (현) 더불어민주당 제주특별자치도당 청년위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EB%8F%99%ED%9B%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154071",
+            "sggName": "제주특별자치도 서귀포시 표선면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260220",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100157777,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "현경주",
+          "party": "국민의힘",
+          "bio": "정당인 | 국민대학교 경영대학원 경영학과 졸업(경영학 석사) | (전) 국회의원 보좌관 | (현) 민주평화통일자문회의 자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%98%84%EA%B2%BD%EC%A3%BC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157777",
+            "sggName": "제주특별자치도 서귀포시 표선면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260311",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100158431,
+          "electionType": "provincial_council",
+          "region": [
+            "제주특별자치도",
+            "서귀포시"
+          ],
+          "name": "이성인",
+          "party": "무소속",
+          "bio": "자영업 | 표선상업고등학교(현, 표선고등학교) 졸업 | (전) 공무원 | (전) 표선면 리장단 협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%84%B1%EC%9D%B8&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158431",
+            "sggName": "제주특별자치도 서귀포시 표선면선거구",
+            "sdName": "제주특별자치도",
+            "wiwName": "서귀포시",
+            "status": "등록",
+            "regdate": "20260317",
+            "kind": "pre"
+          }
+        }
+      ]
     }
   }
-]
+}
