@@ -273,8 +273,10 @@ def fetch_paged(endpoint: str, params: dict[str, Any], service_key: str, pause: 
     num_of_rows = int(params.get("numOfRows", 100))
     rows: list[dict[str, Any]] = []
 
+    max_pages = int(params.get("maxPages", 20))
     while True:
         page_params = {**params, "pageNo": page_no, "numOfRows": num_of_rows}
+        page_params.pop("maxPages", None)
         payload = request_json(endpoint, page_params, service_key)
         items, total_count = extract_items(payload)
         rows.extend(items)
@@ -284,7 +286,9 @@ def fetch_paged(endpoint: str, params: dict[str, Any], service_key: str, pause: 
             if msg and msg not in {"NORMAL SERVICE", "INFO-00", "00"}:
                 log(f"  API message: {msg}")
 
-        if total_count <= len(rows) or not items:
+        if total_count <= len(rows) or not items or page_no >= max_pages:
+            if page_no >= max_pages and total_count > len(rows):
+                log(f"  페이지 상한 도달: {len(rows)}/{total_count}건만 수집")
             break
 
         page_no += 1
@@ -333,6 +337,7 @@ def fetch_nec_candidates(
                         "sgTypecode": sg_typecode,
                         "sdName": sd_name,
                         "numOfRows": 100,
+                        "maxPages": 5,
                     },
                     service_key,
                     pause,

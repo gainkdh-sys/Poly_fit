@@ -15,7 +15,7 @@ on:
       with_pledges:
         description: "Fetch pledge API too"
         required: true
-        default: "true"
+        default: "false"
         type: choice
         options:
           - "true"
@@ -29,6 +29,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -45,7 +46,7 @@ jobs:
           NEC_CANDIDATE_SERVICE_KEY: ${{ secrets.NEC_CANDIDATE_SERVICE_KEY }}
           NEC_PLEDGE_SERVICE_KEY: ${{ secrets.NEC_PLEDGE_SERVICE_KEY }}
           INPUT_KIND: ${{ github.event.inputs.kind || 'auto' }}
-          INPUT_WITH_PLEDGES: ${{ github.event.inputs.with_pledges || 'true' }}
+          INPUT_WITH_PLEDGES: ${{ github.event.inputs.with_pledges || 'false' }}
         run: |
           if [ -z "$NEC_CANDIDATE_SERVICE_KEY" ] && [ -z "$NEC_SERVICE_KEY" ]; then
             echo "NEC_CANDIDATE_SERVICE_KEY or NEC_SERVICE_KEY secret is not configured."
