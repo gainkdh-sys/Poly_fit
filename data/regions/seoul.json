@@ -10534,7 +10534,7 @@
             "sggName": "성북구",
             "sdName": "서울특별시",
             "wiwName": "성북구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "20260220",
             "kind": "pre"
           }
@@ -18032,7 +18032,7 @@
             "sggName": "서대문구",
             "sdName": "서울특별시",
             "wiwName": "서대문구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260305",
             "kind": "pre"
           }
@@ -18595,7 +18595,7 @@
             "sggName": "서대문구제4선거구",
             "sdName": "서울특별시",
             "wiwName": "서대문구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260324",
             "kind": "pre"
           }

@@ -15144,6 +15144,39 @@
           }
         },
         {
+          "id": 100163987,
+          "electionType": "provincial_council",
+          "region": [
+            "경기도",
+            "안산시"
+          ],
+          "name": "박은경",
+          "party": "더불어민주당",
+          "bio": "안산시의회의원 | 전남대학교 사범대학 지리교육과 졸업 | (전)안산시의회 의장 | (전)더불어민주당 경기도당 기초의회원내대표협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9D%80%EA%B2%BD&background=1e40af&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163987",
+            "sggName": "안산시제6선거구",
+            "sdName": "경기도",
+            "wiwName": "안산시단원구",
+            "status": "등록",
+            "regdate": "20260513",
+            "kind": "pre"
+          }
+        },
+        {
           "id": 100163274,
           "electionType": "provincial_council",
           "region": [
@@ -16163,7 +16196,7 @@
             "sggName": "안산시라선거구",
             "sdName": "경기도",
             "wiwName": "안산시상록구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "20260303",
             "kind": "pre"
           }
@@ -21865,7 +21898,7 @@
             "sggName": "남양주시제8선거구",
             "sdName": "경기도",
             "wiwName": "남양주시",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "20260220",
             "kind": "pre"
           }
@@ -28643,39 +28676,6 @@
           }
         },
         {
-          "id": 100160966,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "용인시"
-          ],
-          "name": "정선일",
-          "party": "자유와혁신",
-          "bio": "정당인 | 서강대학교 대학원 졸업 (부동산학 석사) | (현)자유와혁신 분당(을) 당협위원장 | (현)자유연구원 사무국장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%84%A0%EC%9D%BC&background=64748b&color=fff&size=128",
-          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160966",
-            "sggName": "용인시사선거구",
-            "sdName": "경기도",
-            "wiwName": "용인시수지구",
-            "status": "등록",
-            "regdate": "20260327",
-            "kind": "pre"
-          }
-        },
-        {
           "id": 100163004,
           "electionType": "city_council",
           "region": [
@@ -28802,7 +28802,7 @@
             "sggName": "용인시자선거구",
             "sdName": "경기도",
             "wiwName": "용인시수지구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "20260304",
             "kind": "pre"
           }
@@ -28969,6 +28969,39 @@
             "wiwName": "용인시수지구",
             "status": "등록",
             "regdate": "20260427",
+            "kind": "pre"
+          }
+        },
+        {
+          "id": 100160966,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "용인시"
+          ],
+          "name": "정선일",
+          "party": "자유와혁신",
+          "bio": "정당인 | 서강대학교 대학원 졸업 (부동산학 석사) | (현)자유와혁신 분당(을) 당협위원장 | (현)자유연구원 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%84%A0%EC%9D%BC&background=64748b&color=fff&size=128",
+          "desc": "선관위 예비후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "예비후보자 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160966",
+            "sggName": "용인시자선거구",
+            "sdName": "경기도",
+            "wiwName": "용인시수지구",
+            "status": "등록",
+            "regdate": "20260327",
             "kind": "pre"
           }
         },
@@ -33025,7 +33058,7 @@
             "sggName": "화성시다선거구",
             "sdName": "경기도",
             "wiwName": "화성시동탄구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "20260423",
             "kind": "pre"
           }

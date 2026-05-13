@@ -11535,7 +11535,7 @@
             "sggName": "사하구다선거구",
             "sdName": "부산광역시",
             "wiwName": "사하구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "20260325",
             "kind": "pre"
           }
@@ -11601,7 +11601,7 @@
             "sggName": "사하구다선거구",
             "sdName": "부산광역시",
             "wiwName": "사하구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "20260305",
             "kind": "pre"
           }
@@ -15898,7 +15898,7 @@
             "sggName": "사상구가선거구",
             "sdName": "부산광역시",
             "wiwName": "사상구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260312",
             "kind": "pre"
           }
@@ -16228,7 +16228,7 @@
             "sggName": "사상구다선거구",
             "sdName": "부산광역시",
             "wiwName": "사상구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260423",
             "kind": "pre"
           }
