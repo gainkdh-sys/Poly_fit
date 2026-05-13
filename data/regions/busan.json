@@ -6693,7 +6693,7 @@
             "sggName": "남구나선거구",
             "sdName": "부산광역시",
             "wiwName": "남구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260323",
             "kind": "pre"
           }
@@ -7988,7 +7988,7 @@
             "sggName": "북구나선거구",
             "sdName": "부산광역시",
             "wiwName": "북구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260306",
             "kind": "pre"
           }
@@ -8054,7 +8054,7 @@
             "sggName": "북구나선거구",
             "sdName": "부산광역시",
             "wiwName": "북구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260323",
             "kind": "pre"
           }
