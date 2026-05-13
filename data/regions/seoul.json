@@ -23437,7 +23437,7 @@
             "sggName": "강서구제1선거구",
             "sdName": "서울특별시",
             "wiwName": "강서구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260326",
             "kind": "pre"
           }
@@ -23536,7 +23536,7 @@
             "sggName": "강서구제2선거구",
             "sdName": "서울특별시",
             "wiwName": "강서구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260310",
             "kind": "pre"
           }
@@ -25258,7 +25258,7 @@
             "sggName": "구로구",
             "sdName": "서울특별시",
             "wiwName": "구로구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260220",
             "kind": "pre"
           }
@@ -25889,7 +25889,7 @@
             "sggName": "구로구가선거구",
             "sdName": "서울특별시",
             "wiwName": "구로구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260413",
             "kind": "pre"
           }
@@ -26714,7 +26714,7 @@
             "sggName": "구로구마선거구",
             "sdName": "서울특별시",
             "wiwName": "구로구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260310",
             "kind": "pre"
           }
@@ -28112,7 +28112,7 @@
             "sggName": "영등포구",
             "sdName": "서울특별시",
             "wiwName": "영등포구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260227",
             "kind": "pre"
           }
@@ -28145,7 +28145,7 @@
             "sggName": "영등포구",
             "sdName": "서울특별시",
             "wiwName": "영등포구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260227",
             "kind": "pre"
           }
@@ -28178,7 +28178,7 @@
             "sggName": "영등포구",
             "sdName": "서울특별시",
             "wiwName": "영등포구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "20260406",
             "kind": "pre"
           }
