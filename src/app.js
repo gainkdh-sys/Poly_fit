@@ -48,7 +48,8 @@ const App = {
     // 2. 상태 초기화
     appStore.setState({
       coreData: data.core,
-      locations: data.locations   // [{ name, slug }] 광역 목록
+      locations: data.locations,   // [{ name, slug }] 광역 목록
+      candidatePhotos: data.candidatePhotos
     });
 
     // 3. 상태 변경 감시 (View 전환 시 렌더링)

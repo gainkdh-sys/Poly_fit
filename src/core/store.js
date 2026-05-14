@@ -37,5 +37,6 @@ export const appStore = new Store({
   communityPosts: [],
   // 공통 데이터 (초기 로딩 시 채워짐)
   coreData: null,
-  locations: []    // 광역자치단체 목록 [{ name, slug }]
+  locations: [],    // 광역자치단체 목록 [{ name, slug }]
+  candidatePhotos: { photos: {} }
 });

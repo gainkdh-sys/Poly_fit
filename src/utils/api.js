@@ -11,9 +11,10 @@ export async function fetchAppData() {
   console.log('[API] Loading initial application data...');
   try {
     const t = Date.now();
-    const [coreRes, locRes] = await Promise.all([
+    const [coreRes, locRes, photoRes] = await Promise.all([
       fetch(`./data/core.json?t=${t}`),
-      fetch(`./data/locations.json?t=${t}`)
+      fetch(`./data/locations.json?t=${t}`),
+      fetch(`./data/candidate-photos.json?t=${t}`).catch(() => null)
     ]);
 
     if (!coreRes.ok || !locRes.ok) {
@@ -23,7 +24,8 @@ export async function fetchAppData() {
 
     const data = {
       core: await coreRes.json(),
-      locations: await locRes.json()
+      locations: await locRes.json(),
+      candidatePhotos: photoRes?.ok ? await photoRes.json() : { photos: {} }
     };
 
     console.log('[API] Initial data loaded successfully');

@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-14T05:23:11+00:00",
+  "candidates": [
+    {
+      "key": "충청남도|예산군|mayor|조한영",
+      "name": "조한영",
+      "party": "더불어민주당",
+      "electionType": "mayor",
+      "region": [
+        "충청남도",
+        "예산군"
+      ],
+      "status": "needs_review",
+      "officialSearchUrl": "https://www.google.com/search?q=%EC%A1%B0%ED%95%9C%EC%98%81%20%EB%8D%94%EB%B6%88%EC%96%B4%EB%AF%BC%EC%A3%BC%EB%8B%B9%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%98%88%EC%82%B0%EA%B5%B0%20%ED%9B%84%EB%B3%B4%20%EC%82%AC%EC%A7%84",
+      "commonsCandidates": [],
+      "note": "라이선스와 동일 인물 여부를 확인한 뒤 data/candidate-photos.json에 approved로 옮기세요."
+    },
+    {
+      "key": "충청남도|예산군|mayor|최재구",
+      "name": "최재구",
+      "party": "국민의힘",
+      "electionType": "mayor",
+      "region": [
+        "충청남도",
+        "예산군"
+      ],
+      "status": "needs_review",
+      "officialSearchUrl": "https://www.google.com/search?q=%EC%B5%9C%EC%9E%AC%EA%B5%AC%20%EA%B5%AD%EB%AF%BC%EC%9D%98%ED%9E%98%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%98%88%EC%82%B0%EA%B5%B0%20%ED%9B%84%EB%B3%B4%20%EC%82%AC%EC%A7%84",
+      "commonsCandidates": [],
+      "note": "라이선스와 동일 인물 여부를 확인한 뒤 data/candidate-photos.json에 approved로 옮기세요."
+    },
+    {
+      "key": "경상남도|함양군|mayor|진병영",
+      "name": "진병영",
+      "party": "국민의힘",
+      "electionType": "mayor",
+      "region": [
+        "경상남도",
+        "함양군"
+      ],
+      "status": "needs_review",
+      "officialSearchUrl": "https://www.google.com/search?q=%EC%A7%84%EB%B3%91%EC%98%81%20%EA%B5%AD%EB%AF%BC%EC%9D%98%ED%9E%98%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%96%91%EA%B5%B0%20%ED%9B%84%EB%B3%B4%20%EC%82%AC%EC%A7%84",
+      "commonsCandidates": [],
+      "note": "라이선스와 동일 인물 여부를 확인한 뒤 data/candidate-photos.json에 approved로 옮기세요."
+    },
+    {
+      "key": "경상남도|함양군|mayor|김재웅",
+      "name": "김재웅",
+      "party": "무소속",
+      "electionType": "mayor",
+      "region": [
+        "경상남도",
+        "함양군"
+      ],
+      "status": "needs_review",
+      "officialSearchUrl": "https://www.google.com/search?q=%EA%B9%80%EC%9E%AC%EC%9B%85%20%EB%AC%B4%EC%86%8C%EC%86%8D%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%96%91%EA%B5%B0%20%ED%9B%84%EB%B3%B4%20%EC%82%AC%EC%A7%84",
+      "commonsCandidates": [
+        {
+          "title": "File:Kim Jae-Woong.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kim_Jae-Woong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kim_Jae-Woong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kim_Jae-Woong.jpg",
+          "license": "CC BY 4.0",
+          "attribution": "ⓒ블루포토 홍준기",
+          "usageTerms": "Creative Commons Attribution 4.0"
+        },
+        {
+          "title": "File:Kim Jae-Woong.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kim_Jae-Woong.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kim_Jae-Woong.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kim_Jae-Woong.png",
+          "license": "CC BY 3.0",
+          "attribution": "OSEN SPORTS",
+          "usageTerms": "Creative Commons Attribution 3.0"
+        }
+      ],
+      "note": "라이선스와 동일 인물 여부를 확인한 뒤 data/candidate-photos.json에 approved로 옮기세요."
+    },
+    {
+      "key": "경상남도|함양군|mayor|이철우",
+      "name": "이철우",
+      "party": "무소속",
+      "electionType": "mayor",
+      "region": [
+        "경상남도",
+        "함양군"
+      ],
+      "status": "needs_review",
+      "officialSearchUrl": "https://www.google.com/search?q=%EC%9D%B4%EC%B2%A0%EC%9A%B0%20%EB%AC%B4%EC%86%8C%EC%86%8D%20%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%96%91%EA%B5%B0%20%ED%9B%84%EB%B3%B4%20%EC%82%AC%EC%A7%84",
+      "commonsCandidates": [
+        {
+          "title": "File:DM-SD-03-15003.jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/DM-SD-03-15003.jpeg/330px-DM-SD-03-15003.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/DM-SD-03-15003.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:DM-SD-03-15003.jpeg",
+          "license": "Public domain",
+          "attribution": "SGT Johnathan B. Stoller, Usmc",
+          "usageTerms": "Public domain"
+        },
+        {
+          "title": "File:Lee Cheol-woo 이철우.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Lee_Cheol-woo_%EC%9D%B4%EC%B2%A0%EC%9A%B0.png/330px-Lee_Cheol-woo_%EC%9D%B4%EC%B2%A0%EC%9A%B0.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Lee_Cheol-woo_%EC%9D%B4%EC%B2%A0%EC%9A%B0.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Lee_Cheol-woo_%EC%9D%B4%EC%B2%A0%EC%9A%B0.png",
+          "license": "CC BY 3.0",
+          "attribution": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.youtube.com/@cgbcgbcgb\">https://www.youtube.com/@cgbcgbcgb</a>",
+          "usageTerms": "Creative Commons Attribution 3.0"
+        }
+      ],
+      "note": "라이선스와 동일 인물 여부를 확인한 뒤 data/candidate-photos.json에 approved로 옮기세요."
+    }
+  ]
+}

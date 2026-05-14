@@ -1,0 +1,52 @@
+name: Enrich candidate photos
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum candidates to scan. 0 means all."
+        required: true
+        default: "50"
+      commons_limit:
+        description: "Commons image candidates per candidate"
+        required: true
+        default: "5"
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Enrich photo registry
+        env:
+          INPUT_LIMIT: ${{ github.event.inputs.limit || '50' }}
+          INPUT_COMMONS_LIMIT: ${{ github.event.inputs.commons_limit || '5' }}
+        run: |
+          python3 scripts/enrich_candidate_photos.py \
+            --limit "$INPUT_LIMIT" \
+            --commons-limit "$INPUT_COMMONS_LIMIT"
+
+      - name: Commit photo registry updates
+        run: |
+          if git diff --quiet -- data/candidate-photos.json data/candidate-photo-review.json; then
+            echo "No candidate photo changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidate-photos.json data/candidate-photo-review.json
+          git commit -m "data: 후보자 사진 후보 자동 보강"
+          git push

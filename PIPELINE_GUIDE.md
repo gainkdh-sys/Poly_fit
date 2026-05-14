@@ -124,6 +124,43 @@ GitHub 저장소 → Actions → Sync NEC candidate data → Run workflow
 
 ---
 
+### **2-2️⃣ 후보자 사진 보강**
+
+**파일**:
+- `.github/workflows/photo-enrich.yml`
+- `scripts/enrich_candidate_photos.py`
+- `data/candidate-photos.json`
+- `data/candidate-photo-review.json`
+
+**작동 원리**:
+- 앱은 후보 사진을 다음 순서로 표시합니다.
+  1. `data/candidate-photos.json`에 승인된 사진
+  2. 후보 데이터에 이미 포함된 직접 이미지 URL
+  3. 정당 색상 기반 자동 아바타
+- 사진 보강 스크립트는 Wikimedia Commons를 검색합니다.
+- `CC0`, `Public domain`, `CC BY`, `CC BY-SA`처럼 재사용 가능한 라이선스이고 후보 이름과 강하게 일치하는 경우만 자동 승인합니다.
+- 애매한 사진 후보와 공식 홈페이지/SNS 검색 링크는 `data/candidate-photo-review.json`에 검수 대기로 저장합니다.
+
+**GitHub Actions 수동 실행**:
+```
+GitHub 저장소 → Actions → Enrich candidate photos → Run workflow
+```
+
+**로컬 실행 예시**:
+```bash
+# 후보자 50명까지 사진 후보 검색 후 registry/review 파일 갱신
+python3 scripts/enrich_candidate_photos.py --limit 50
+
+# 파일을 쓰지 않고 확인만 하기
+python3 scripts/enrich_candidate_photos.py --limit 10 --dry-run
+```
+
+**주의**:
+- 나무위키 사진은 파일별 라이선스가 불명확할 수 있어 자동 노출하지 않습니다.
+- 공식 캠프/홈페이지 사진도 명시적 사용 조건이 없으면 검수 후 수동 등록하는 것을 원칙으로 합니다.
+
+---
+
 ### **3️⃣ 로컬 자동 백업 (선택사항)**
 
 **파일**: `scripts/auto_backup.sh`
@@ -242,6 +279,7 @@ python /Users/gainkdh/Desktop/Poly_fit/scripts/update_candidates.py
 | `.github/workflows/deploy.yml` | 푸시 시 Vercel 배포 | `git push` 할 때 |
 | `.github/workflows/auto_update.yml` | 주간 자동 데이터 갱신 | 매주 월요일 새벽 2시 |
 | `.github/workflows/nec-sync.yml` | 선관위 후보자 데이터 갱신 | 6시간마다/수동 실행 |
+| `.github/workflows/photo-enrich.yml` | 후보자 사진 후보 보강 | 수동 실행 |
 | `scripts/auto_backup.sh` | 로컬 자동 백업 | 매일 저녁 6시 (선택) |
 
 **이제 팀원들과 안심하고 협업할 수 있어요!** 🎉

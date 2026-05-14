@@ -3,6 +3,11 @@ import { Router } from '../core/router.js';
 import { appStore } from '../core/store.js';
 import { createCampaignSearchUrl, getElectionLabel } from '../utils/elections.js';
 import { escapeHtml, getFromLocalStorage, saveToLocalStorage } from '../utils/helpers.js';
+import {
+  getPartyAvatarUrl,
+  resolveCandidateImage,
+  resolveCandidatePhotoMeta
+} from '../utils/photos.js';
 
 const SCORE_LABELS = {
   5: '매우 동의',
@@ -11,10 +16,6 @@ const SCORE_LABELS = {
   2: '비동의',
   1: '매우 비동의'
 };
-
-function candidateImageFallback(name) {
-  return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=f1f5f9&color=475569&size=128`;
-}
 
 export default class ResultView extends Component {
   getCandidateAnswers(candidateId) {
@@ -48,11 +49,14 @@ export default class ResultView extends Component {
     const safeParty = escapeHtml(candidate.party);
     const safeBio = escapeHtml(candidate.bio || '');
     const campaignUrl = candidate.campaignUrl || createCampaignSearchUrl(candidate);
+    const { candidatePhotos } = appStore.getState();
+    const imageUrl = resolveCandidateImage(candidate, candidatePhotos);
+    const photoMeta = resolveCandidatePhotoMeta(candidate, candidatePhotos);
 
     return `
       <article class="rank-card slide-up" style="animation-delay:${idx * 0.05}s">
         <div class="rank-main">
-          <img src="${candidate.imageUrl}" alt="${safeName} 프로필" class="other-profile" onerror="this.src='${candidateImageFallback(candidate.name)}'">
+          <img src="${imageUrl}" alt="${safeName} 프로필" class="other-profile" onerror="this.src='${getPartyAvatarUrl(candidate)}'">
           <div class="other-info">
             <span class="rank-eyebrow">순위 ${idx + 1}</span>
             <span class="other-name">${safeName}</span>
@@ -64,6 +68,7 @@ export default class ResultView extends Component {
           <div style="width:${candidate.matchRate}%"></div>
         </div>
         <p class="rank-bio">${safeBio}</p>
+        ${photoMeta ? `<p class="photo-credit">${escapeHtml(photoMeta.license)} · ${escapeHtml(photoMeta.attribution || photoMeta.source)}</p>` : ''}
         <a class="text-link" href="${campaignUrl}" target="_blank" rel="noopener">캠페인 정보 보기</a>
       </article>
     `;
@@ -100,6 +105,9 @@ export default class ResultView extends Component {
 
     const safeTopName = escapeHtml(topC.name);
     const campaignUrl = topC.campaignUrl || createCampaignSearchUrl(topC);
+    const { candidatePhotos } = appStore.getState();
+    const topImageUrl = resolveCandidateImage(topC, candidatePhotos);
+    const topPhotoMeta = resolveCandidatePhotoMeta(topC, candidatePhotos);
     const rankHtml = finalRank.map((candidate, idx) => this.renderCandidateRank(candidate, idx)).join('');
 
     return `
@@ -112,10 +120,11 @@ export default class ResultView extends Component {
         <section class="result-card mt-2 slide-up">
           <div class="match-rate">정책 일치율 <span>${topC.matchRate}%</span></div>
           <div class="result-card-header">
-            <img src="${topC.imageUrl}" alt="${safeTopName} 프로필" class="cand-profile" onerror="this.src='${candidateImageFallback(topC.name)}'">
+            <img src="${topImageUrl}" alt="${safeTopName} 프로필" class="cand-profile" onerror="this.src='${getPartyAvatarUrl(topC)}'">
             <div class="party-badge">${escapeHtml(topC.party)}</div>
             <h1 class="cand-name">${safeTopName}</h1>
             <p class="cand-bio">${escapeHtml(topC.bio || '')}</p>
+            ${topPhotoMeta ? `<p class="photo-credit">${escapeHtml(topPhotoMeta.license)} · ${escapeHtml(topPhotoMeta.attribution || topPhotoMeta.source)}</p>` : ''}
           </div>
           <p class="candidate-desc">"${escapeHtml(topC.desc || '상세 공약 정보를 확인해 주세요.')}"</p>
           <a class="btn-link" href="${campaignUrl}" target="_blank" rel="noopener">캠페인 정보 보기</a>

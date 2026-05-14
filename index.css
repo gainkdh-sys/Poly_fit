@@ -143,6 +143,7 @@ p { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1.5rem; }
 .rank-main { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 0.75rem; }
 .rank-eyebrow { font-size: 0.78rem; color: var(--primary); font-weight: 900; }
 .rank-bio { font-size: 0.92rem; margin: 0.8rem 0 0.4rem; color: var(--text-muted); }
+.photo-credit { margin: 0.2rem 0 0.5rem; font-size: 0.75rem; color: #64748b; font-weight: 700; }
 .match-meter { width: 100%; height: 8px; background: #e2e8f0; border-radius: 8px; overflow: hidden; margin-top: 0.8rem; }
 .match-meter div { height: 100%; background: var(--policy); border-radius: 8px; }
 .feedback-panel, .community-form { border-top: 1px solid #e2e8f0; padding-top: 1.3rem; }
