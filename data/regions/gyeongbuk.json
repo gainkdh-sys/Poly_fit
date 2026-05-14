@@ -9,7 +9,309 @@
     "김천시": {},
     "안동시": {},
     "구미시": {},
-    "영주시": {},
+    "영주시": {
+      "mayor": [
+        {
+          "id": 100162018,
+          "electionType": "mayor",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "우창윤",
+          "party": "더불어민주당",
+          "bio": "건축사 | 서울대학교 대학원 건축학과 박사과정 수료 | (전) 서울특별시의회 의원 | (전) 더불어민주당 전국장애인위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9A%B0%EC%B0%BD%EC%9C%A4&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100162018",
+            "sggName": "영주시",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100153885,
+          "electionType": "mayor",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "황병직",
+          "party": "국민의힘",
+          "bio": "정치인 | 경북대학교 행정대학원 졸업(행정학석사) | (전) 제5대·6대 영주시의회의원 | (전) 경상북도의회 문화환경위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EB%B3%91%EC%A7%81&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100153885",
+            "sggName": "영주시",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163565,
+          "electionType": "mayor",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "황선종",
+          "party": "무소속",
+          "bio": "전기기술자 | 영남대학교 전기공학과 졸업 | (현)내성천보존회 사무국장 | (현)영주납폐기물제련공장반대대책위 간사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%84%A0%EC%A2%85&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100163565",
+            "sggName": "영주시",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ],
+      "provincial_council": [
+        {
+          "id": 100160118,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "우충무",
+          "party": "국민의힘",
+          "bio": "정치인 | 경북대학교 농업개발대학원 환경조경학전공 졸업(농학석사) | (현) 제9대 영주시의회 시민행복위원장 | (전) 제8대 영주시의회 의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9A%B0%EC%B6%A9%EB%AC%B4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160118",
+            "sggName": "영주시제1선거구",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163894,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "최인식",
+          "party": "더불어민주당",
+          "bio": "건설업 | 상주산업대학교 산림자원학과 졸업 | (전) 영주시 3대 시의원 | (현) 바르게 살기 휴천1동 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%9D%B8%EC%8B%9D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163894",
+            "sggName": "영주시제2선거구",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156833,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "임무석",
+          "party": "국민의힘",
+          "bio": "정당인 | 한양대학교 행정대학원 행정학과 졸업(행정학석사) | (전) 제11대 경상북도의회의원 | (전) 영주시보건소장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EB%AC%B4%EC%84%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156833",
+            "sggName": "영주시제2선거구",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163599,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "김덕환",
+          "party": "무소속",
+          "bio": "한의사 | 동국대학교 한의학전공 졸업 | (전) 대한 한의사협회 대의원 | (현) 납공장반대 대책위 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8D%95%ED%99%98&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163599",
+            "sggName": "영주시제2선거구",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163939,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "이재형",
+          "party": "무소속",
+          "bio": "바른냉동공조시스템 대표 | 서울사이버대학교 금융보험학과 졸업 | (전) 영주시의회 7대, 8대 의원 | (현) 재영 경주이씨 화수회 청년회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%ED%98%95&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163939",
+            "sggName": "영주시제2선거구",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165205,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "영주시"
+          ],
+          "name": "임병하",
+          "party": "무소속",
+          "bio": "경상북도의회의원 | 성균관대학교 약학과 졸업 | (현) 경상북도의회의원 | (현) 경상북도약사회 수석부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EB%B3%91%ED%95%98&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100165205",
+            "sggName": "영주시제2선거구",
+            "sdName": "경상북도",
+            "wiwName": "영주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ]
+    },
     "영천시": {},
     "상주시": {},
     "문경시": {},
@@ -22,7 +324,575 @@
     "고령군": {},
     "성주군": {},
     "칠곡군": {},
-    "예천군": {},
+    "예천군": {
+      "mayor": [
+        {
+          "id": 100159478,
+          "electionType": "mayor",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "윤동춘",
+          "party": "더불어민주당",
+          "bio": "정당인 | 한양대학교 대학원 졸업(법학 석사) | (전)경상북도경찰청장 | (전)대통령비서실 행정관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EB%8F%99%EC%B6%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100159478",
+            "sggName": "예천군",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159497,
+          "electionType": "mayor",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "안병윤",
+          "party": "국민의힘",
+          "bio": "교수 | 연세대학교 대학원 졸업(행정학박사) | (전)부산광역시 행정부시장 | (전)청와대 대통령비서실 선임행정관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%EB%B3%91%EC%9C%A4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100159497",
+            "sggName": "예천군",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ],
+      "provincial_council": [
+        {
+          "id": 100156670,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "김재환",
+          "party": "국민의힘",
+          "bio": "농업 | 경북도립대학교 지방행정과 졸업(행정전문학사) | (전)국제라이온스협회 356-E(경북)지구 32대 총재 | (현)예천군체육회 부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%ED%99%98&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156670",
+            "sggName": "예천군제1선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160907,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "정광주",
+          "party": "더불어민주당",
+          "bio": "정당인 | 경북도립대학교(현 국립경국대학교) 지방행정과(야) 졸업 | (현)민주평화통일자문회의 예천군협의회 자문위원 | (전)예천군 아픈아이 병원동행 서비스센터 센터장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EA%B4%91%EC%A3%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160907",
+            "sggName": "예천군제2선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160103,
+          "electionType": "provincial_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "최병욱",
+          "party": "국민의힘",
+          "bio": "예천군의회의원 | 경북도립대학 행정복지계열 지방행정전공(야) 졸업 | (전)제9대 예천군의회 전반기 의장 | (현)예천군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%B3%91%EC%9A%B1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160103",
+            "sggName": "예천군제2선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ],
+      "city_council": [
+        {
+          "id": 100160973,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "신향순",
+          "party": "국민의힘",
+          "bio": "예천군의회의원 | 경도대학 뷰티디자인과 졸업 | (전)8대 예천군의회 부의장 | (현)9대 예천군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%ED%96%A5%EC%88%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160973",
+            "sggName": "예천군가선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163180,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "권도식",
+          "party": "무소속",
+          "bio": "회사원 | 경도대학 토목환경학과 졸업 | (전)예천군 축구협회장 | (현)예천군 파크골프협회 부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EB%8F%84%EC%8B%9D&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163180",
+            "sggName": "예천군가선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163669,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "이성환",
+          "party": "무소속",
+          "bio": "자영업 | 단국대학교대학원 환경원예·조경학과 조경학 공학박사 졸업 | (전)(주)G.T.S 회장 | (현)자영업",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%84%B1%ED%99%98&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163669",
+            "sggName": "예천군가선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161891,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "장삼규",
+          "party": "무소속",
+          "bio": "예천군의회의원 | 경도대학 행정복지계열 지방행정전공 졸업 | (전)경도대학 총학생회장 | (현)예천군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%82%BC%EA%B7%9C&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161891",
+            "sggName": "예천군가선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161628,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "김홍년",
+          "party": "국민의힘",
+          "bio": "농업 | 상주대학교 생명자원과학대학 축산학과 졸업 | (전)농업경영인 예천군 연합회 회장 | (현)예천군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%99%8D%EB%85%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161628",
+            "sggName": "예천군나선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163671,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "강영구",
+          "party": "무소속",
+          "bio": "예천군의회의원 | 경도대학 산업디자인과 졸업 | (현)예천군의회 후반기 의장 | (현)예천군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%98%81%EA%B5%AC&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163671",
+            "sggName": "예천군나선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161049,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "박종철",
+          "party": "무소속",
+          "bio": "농업 | 호산대학교 휴먼복지학부(2년제) 노인보건복지전공 졸업 | (전)제8대 예천군의회의원 | (전)사)한국농업경영인 예천군연합회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%A2%85%EC%B2%A0&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161049",
+            "sggName": "예천군나선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161120,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "이동화",
+          "party": "더불어민주당",
+          "bio": "예천군의회의원 | 일본 동양대학교 대학원 사회학연구과 박사전기과정수료 사회학석사(1994.4.-1996.3.) | (전)호명읍주민자치위원회 자치분과위원장 | (전)예천문화원 신도청지부 지부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%8F%99%ED%99%94&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161120",
+            "sggName": "예천군다선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159749,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "권동우",
+          "party": "국민의힘",
+          "bio": "자영업자 | 중앙대학교 국악관현악과 졸업 | (현) 새움로 골목형상점가 상인회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EB%8F%99%EC%9A%B0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159749",
+            "sggName": "예천군다선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160805,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "박재길",
+          "party": "국민의힘",
+          "bio": "예천군의회의원 | 경북전문대학 관광통역과 졸업 | (현)예천군의회의원 하반기 부의장 | (전)예천군 자율방범대 연합대장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9E%AC%EA%B8%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160805",
+            "sggName": "예천군다선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159510,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "김은수",
+          "party": "무소속",
+          "bio": "정치인 | 경운대학교 사회복지대학원 문학석사 졸업(상담심리학) | (전) 제7대 예천군의회의원(예천군라선거구) | (전) 제8대 예천군의회후반기의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%80%EC%88%98&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159510",
+            "sggName": "예천군다선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159952,
+          "electionType": "city_council",
+          "region": [
+            "경상북도",
+            "예천군"
+          ],
+          "name": "임휘삼",
+          "party": "무소속",
+          "bio": "한국미술협회예천지부장 | 안동대학교 일반대학원 사학과 한국사전공 석사과정 수료 | (전) 예천군학원연합회장 | (현)한국미술협회예천지부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%ED%9C%98%EC%82%BC&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159952",
+            "sggName": "예천군다선거구",
+            "sdName": "경상북도",
+            "wiwName": "예천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ]
+    },
     "봉화군": {},
     "울진군": {},
     "울릉군": {}

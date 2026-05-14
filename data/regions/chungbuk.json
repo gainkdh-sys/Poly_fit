@@ -13,7 +13,575 @@
     "증평군": {},
     "진천군": {},
     "괴산군": {},
-    "음성군": {},
+    "음성군": {
+      "mayor": [
+        {
+          "id": 100162677,
+          "electionType": "mayor",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "조병옥",
+          "party": "더불어민주당",
+          "bio": "음성군수 | 충북대학교 행정대학원 졸업(행정학석사) | (전)38대 음성군수 | (현)39대 음성군수",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EB%B3%91%EC%98%A5&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100162677",
+            "sggName": "음성군",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159438,
+          "electionType": "mayor",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "임택수",
+          "party": "국민의힘",
+          "bio": "정당인 | 충북대학교 행정대학원 졸업(행정학석사) | (전)청와대행정관 | (전)청주시부시장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%ED%83%9D%EC%88%98&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100159438",
+            "sggName": "음성군",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ],
+      "provincial_council": [
+        {
+          "id": 100158681,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "곽상선",
+          "party": "더불어민주당",
+          "bio": "기아자동차 서비스업 | 강동대학교 창업경영학과 졸업 | (전)충청북도 주민자치회장 | (전)음성군 주민자치협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%BD%EC%83%81%EC%84%A0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158681",
+            "sggName": "음성군제1선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159010,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "안해성",
+          "party": "국민의힘",
+          "bio": "음성군의회의원 | 음성고등학교 졸업 | (전)제9대음성군의회 전반기의장 | (현)음성군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%ED%95%B4%EC%84%B1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159010",
+            "sggName": "음성군제1선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154166,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "김기창",
+          "party": "더불어민주당",
+          "bio": "정당인 | 강동대학교 창업경영학과 졸업 | (전)충청북도 의회의원 | (전)음성군 체육회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B8%B0%EC%B0%BD&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154166",
+            "sggName": "음성군제2선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156162,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "노금식",
+          "party": "국민의힘",
+          "bio": "정당인 | 한국방송통신대학교 농학과 졸업 | (현)충청광역연합의회의장 | (전)충청북도의회행정문화위원회위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%85%B8%EA%B8%88%EC%8B%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156162",
+            "sggName": "음성군제2선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ],
+      "city_council": [
+        {
+          "id": 100159752,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "서형석",
+          "party": "더불어민주당",
+          "bio": "정당인 | 강동대학교 창업경영학과 졸업 | (전)제8대 음성군의회의원 | (전)음성군의회 예산결산특별위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%ED%98%95%EC%84%9D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159752",
+            "sggName": "음성군가선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159980,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "서효석",
+          "party": "더불어민주당",
+          "bio": "음성군의회의원 | 수원대학교 교육대학원 졸업 | (현)음성군의회의원 | (현)음성여자중학교 운영위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%ED%9A%A8%EC%84%9D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159980",
+            "sggName": "음성군가선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159791,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "박흥식",
+          "party": "국민의힘",
+          "bio": "음성군의회 부의장 | 강동대학교 창업경영학과 졸업 | (현)음성군의회 9대 의원 | (현)제41회 대한민국 신지식인 선정",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%9D%A5%EC%8B%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159791",
+            "sggName": "음성군가선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162538,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "장용식",
+          "party": "국민의힘",
+          "bio": "오제이피(주) 이사 | 충북대학교 지역건설공학과 졸업 | (전) 전 국회의원 경대수 5급 비서관 | (현) 국민의힘 충북도당 대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%9A%A9%EC%8B%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162538",
+            "sggName": "음성군가선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159757,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "이천규",
+          "party": "정의당",
+          "bio": "정치활동가 | 충주대학교(현 국립한국교통대학교) 전기공학과 졸업 | (전)음성군 자율방범 연합대 6대 연합대장 | (현)정의당 음성지역위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%B2%9C%EA%B7%9C&background=facc15&color=111827&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159757",
+            "sggName": "음성군가선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158870,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "강영훈",
+          "party": "더불어민주당",
+          "bio": "자영업 | 연세대학교 정경대학원 (경영학) 석사 | (현)음성군 씨름협회 회장 | (전)더불어민주당 중부3군 지역위원회 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%98%81%ED%9B%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158870",
+            "sggName": "음성군나선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158876,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "송병림",
+          "party": "더불어민주당",
+          "bio": "농업 | 극동정보대학(현 강동대학교) 졸업 행정전문학사 | (현)금왕장학회 이사 | (전)바르게살기운동 음성군협의회 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EB%B3%91%EB%A6%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158876",
+            "sggName": "음성군나선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159767,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "송춘홍",
+          "party": "국민의힘",
+          "bio": "음성군의회의원 | 한국방송통신대학교 경영학과 중퇴 (2002.3. ~ 2003.8.) | (전)생극면주민자치위원장 | (현)음성군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%B6%98%ED%99%8D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159767",
+            "sggName": "음성군나선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158865,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "오영훈",
+          "party": "더불어민주당",
+          "bio": "농업 | 충북대학교 대학원 경영학과 박사과정 수료 | (전)국회의원 김종대의원실 비서관(5급상당) | (전)음성군청 신활력플러스사업 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%98%81%ED%9B%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158865",
+            "sggName": "음성군다선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159743,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "허재영",
+          "party": "더불어민주당",
+          "bio": "농업인 | 한국방송통신대학교 경영학과 졸업(경영학사) | (전)사단법인 한국쌀전업농 충청북도연합회장 | (현)더불어민주당 전국농어민위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%97%88%EC%9E%AC%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159743",
+            "sggName": "음성군다선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159441,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "음성군"
+          ],
+          "name": "서대석",
+          "party": "국민의힘",
+          "bio": "농업인 | 연암축산원예전문대학 (현 연암대학교) 원예과 졸업 | (현)국민의힘 충북도당 환경대책 특별위원장 | (현)음성군 배구협회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EB%8C%80%EC%84%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159441",
+            "sggName": "음성군다선거구",
+            "sdName": "충청북도",
+            "wiwName": "음성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ]
+    },
     "단양군": {}
   }
 }
