@@ -1,9 +1,1393 @@
 {
   "metro": "세종특별자치시",
   "metroSlug": "sejong",
-  "governor": [],
-  "superintendent": [],
+  "governor": [
+    {
+      "id": 100153754,
+      "electionType": "governor",
+      "region": [
+        "세종특별자치시"
+      ],
+      "name": "조상호",
+      "party": "더불어민주당",
+      "bio": "정당인 | 고려대학교 대학원 박사과정 수료(정치외교학과) | (전) 이재명 정부 국정기획위원 | (전) 더불어민주당 당대표 정무조정실장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EC%83%81%ED%98%B8&background=1e40af&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100153754",
+        "sggName": "세종특별자치시",
+        "sdName": "세종특별자치시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100161690,
+      "electionType": "governor",
+      "region": [
+        "세종특별자치시"
+      ],
+      "name": "최민호",
+      "party": "국민의힘",
+      "bio": "세종특별자치시장 | 단국대학교 대학원 졸업(행정학 박사) | (전) 행정중심복합도시건설청장 | (현) 세종특별자치시장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%AF%BC%ED%98%B8&background=ef4444&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100161690",
+        "sggName": "세종특별자치시",
+        "sdName": "세종특별자치시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100158883,
+      "electionType": "governor",
+      "region": [
+        "세종특별자치시"
+      ],
+      "name": "하헌휘",
+      "party": "개혁신당",
+      "bio": "변호사 | 서울대학교 법과대학 법학부 졸업 | (현) 변호사 | (현) 개혁신당 세종시당 창당준비위원장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%98%ED%97%8C%ED%9C%98&background=f97316&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100158883",
+        "sggName": "세종특별자치시",
+        "sdName": "세종특별자치시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    }
+  ],
+  "superintendent": [
+    {
+      "id": 100153756,
+      "electionType": "superintendent",
+      "region": [
+        "세종특별자치시"
+      ],
+      "name": "강미애",
+      "party": "무소속",
+      "bio": "세종미래교육연구소 대표 | 고려대학교 행정전문대학원 박사과정 수료(정책학과) | (전) 세종특별자치시교원단체총연합회 회장 | (전) 세종도원초등학교 교장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%AF%B8%EC%95%A0&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100153756",
+        "sggName": "세종특별자치시",
+        "sdName": "세종특별자치시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100153760,
+      "electionType": "superintendent",
+      "region": [
+        "세종특별자치시"
+      ],
+      "name": "안광식",
+      "party": "무소속",
+      "bio": "미기재 | 충남대학교 대학원 졸업(교육학박사) | (전) 세종시교육청 진로교육원장 | (전) 세종시교육청 교육정책연구소장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%EA%B4%91%EC%8B%9D&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100153760",
+        "sggName": "세종특별자치시",
+        "sdName": "세종특별자치시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100153759,
+      "electionType": "superintendent",
+      "region": [
+        "세종특별자치시"
+      ],
+      "name": "원성수",
+      "party": "무소속",
+      "bio": "미기재 | 미국 텍사스주립대학교 알링톤 철학박사(1995.08.15.~1997.12.13.) | (전) 국립공주대학교 총장 | (현) 총리실 산하 세종특별자치시 지원위원",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%9B%90%EC%84%B1%EC%88%98&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100153759",
+        "sggName": "세종특별자치시",
+        "sdName": "세종특별자치시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100153758,
+      "electionType": "superintendent",
+      "region": [
+        "세종특별자치시"
+      ],
+      "name": "임전수",
+      "party": "무소속",
+      "bio": "교육운동가 | 경북대학교 교육대학원 졸업(교육학 석사) | (전) 최교진 교육감 3기 인수위원 및 집행위원장 | (전) 세종특별자치시교육청 교육정책국장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A0%84%EC%88%98&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100153758",
+        "sggName": "세종특별자치시",
+        "sdName": "세종특별자치시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    }
+  ],
   "districts": {
-    "세종특별자치시": {}
+    "세종특별자치시": {
+      "provincial_council": [
+        {
+          "id": 100154035,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "정연희",
+          "party": "더불어민주당",
+          "bio": "합자회사 두리항공여행사 대표 | 충청대학교 평생교육융합학부 졸업 | (현) 더불어민주당 세종시당 부위원장 | (현) 세종특별자치시 관광협회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%97%B0%ED%9D%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154035",
+            "sggName": "세종특별자치시제1선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159007,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김충식",
+          "party": "국민의힘",
+          "bio": "세종특별자치시의회의원 | 충북대학교 경영대학원 졸업(경영학석사) | (전) 세종특별자치시 조치원읍 이통장협의회 회장 | (전) 제4대 세종특별자치시의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B6%A9%EC%8B%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159007",
+            "sggName": "세종특별자치시제1선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155975,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "임재옥",
+          "party": "자유와혁신",
+          "bio": "고려대학교 세종캠퍼스 약학대학 강사 | 고려대학교 대학원 경제통계학과 졸업(경제학박사) | (전) 한국과학기술정보연구원 대전본원 박사후연구원 | (현) 고려대학교 세종캠퍼스 약학대학 강사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%9E%AC%EC%98%A5&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155975",
+            "sggName": "세종특별자치시제1선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154052,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "홍순기",
+          "party": "조국혁신당",
+          "bio": "미기재 | 충북대학교 행정대학원 졸업(행정학석사) | (전) 세종특별자치시 조치원읍장 | (현) 한국생활연극협회 세종시지부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%88%9C%EA%B8%B0&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154052",
+            "sggName": "세종특별자치시제2선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156507,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "황관영",
+          "party": "더불어민주당",
+          "bio": "회사원 | 건양대학교 보건복지대학원 석사 졸업(보건학과) | (전) 세종시의회의장 비서실장 | (전) 더불어민주당 세종갑 국회의원 보좌진",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EA%B4%80%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156507",
+            "sggName": "세종특별자치시제3선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161077,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김동빈",
+          "party": "국민의힘",
+          "bio": "세종특별자치시의회의원 | 대전대학교 사회복지학과 졸업 | (현) 세종특별자치시의회부의장(시의원) | (현) 세종특별자치시 도시계획위원회 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%EB%B9%88&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161077",
+            "sggName": "세종특별자치시제3선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162838,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "노종용",
+          "party": "더불어민주당",
+          "bio": "중소기업인 | 단국대학교 정보융합기술·창업대학원 졸업 [창업학석사(글로벌벤처창업)] | (전) 제3대 세종시의회 부의장 | (전) 더불어민주당 중앙당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%85%B8%EC%A2%85%EC%9A%A9&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162838",
+            "sggName": "세종특별자치시제4선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162166,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "윤지성",
+          "party": "국민의힘",
+          "bio": "세종특별자치시의회의원 | 중부대학교 원격대학원 교육행정경영학과 졸업(교육학석사) | (현) 세종특별자치시의회의원 | (전) 한국학원총연합회세종시지회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%A7%80%EC%84%B1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162166",
+            "sggName": "세종특별자치시제4선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155664,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김순주",
+          "party": "개혁신당",
+          "bio": "마을활동가 | 경북대학교 경영학부 졸업 | (현) 해밀(산울)동 체육회 이사 | (현) 한국방송통신대학교 세종·공주 학생회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%88%9C%EC%A3%BC&background=f97316&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155664",
+            "sggName": "세종특별자치시제4선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154127,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김종철",
+          "party": "더불어민주당",
+          "bio": "정당인 | 충청대학 졸업(사회복지전문학사) | (현) 더불어민주당 당대표 특별보좌역 | (전) 세종특별자치시경찰청 세종북부경찰서 경비안보과장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A2%85%EC%B2%A0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154127",
+            "sggName": "세종특별자치시제5선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154123,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김학서",
+          "party": "국민의힘",
+          "bio": "세종특별자치시의회의원 | 연세대학교 정경대학 산업교육학부 국제관계학 졸업(정치학사) | (전) 세종시의회 부의장 | (전) SK하이닉스 근무(24년)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%95%99%EC%84%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154123",
+            "sggName": "세종특별자치시제5선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162215,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "안신일",
+          "party": "더불어민주당",
+          "bio": "세종특별자치시의회의원 | 한밭대학교 산업경영공학과 졸업 | (현) 세종특별자치시의회의원 | (현) 세종특별자치시의회 더불어민주당 교섭단체 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%EC%8B%A0%EC%9D%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162215",
+            "sggName": "세종특별자치시제6선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162356,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김대곤",
+          "party": "국민의힘",
+          "bio": "정당인 | 국립공주대학교 정책융합전문대학원 재학중(석사과정) | (전) 세종특별자치시청 정책수석 | (현) 세종보가동 주민협의체 대외협력정책국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%EA%B3%A4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162356",
+            "sggName": "세종특별자치시제6선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160431,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "이순열",
+          "party": "더불어민주당",
+          "bio": "세종특별자치시의회 의원 | 경북대학교 행정학과 졸업 | (전) 세종시의회 의장 | (현) 세종시의회 의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%88%9C%EC%97%B4&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160431",
+            "sggName": "세종특별자치시제7선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154316,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "최원석",
+          "party": "국민의힘",
+          "bio": "세종특별자치시의회의원 | 광운대학교 전자공학과 졸업 | (현) 국민의힘 세종시당 청년위원장 | (전) 중국 천진유한공사 프렌차이즈 사업본부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%9B%90%EC%84%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154316",
+            "sggName": "세종특별자치시제7선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160800,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김효숙",
+          "party": "더불어민주당",
+          "bio": "세종특별자치시의회의원 | 한남대학교 사회문화·행정복지대학원 석사과정 수료(언론홍보광고학과) | (현) 세종시의회 부의장 | (현) 더불어민주당 중앙당 정책위 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%9A%A8%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160800",
+            "sggName": "세종특별자치시제8선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154102,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "박병남",
+          "party": "더불어민주당",
+          "bio": "정당인 | 한국방송통신대학교 법학과 졸업 | (현) 더불어민주당 중앙당 정책위원회 부의장 | (전) 한국생활개선세종특별자치시 연합회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B3%91%EB%82%A8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154102",
+            "sggName": "세종특별자치시제9선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163082,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "박범종",
+          "party": "더불어민주당",
+          "bio": "감정평가사 | 건국대학교 부동산대학원 졸업(부동산학 석사) | (현) 더불어민주당 세종시당 수석대변인 | (현) 감정평가법인 세종 감정평가사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B2%94%EC%A2%85&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163082",
+            "sggName": "세종특별자치시제10선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156639,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "이규영",
+          "party": "국민의힘",
+          "bio": "정당인 | 상동고등학교 졸업 | (현) 정당인 | (전) 택배기사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B7%9C%EC%98%81&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156639",
+            "sggName": "세종특별자치시제10선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154116,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "이재준",
+          "party": "더불어민주당",
+          "bio": "정당인 | 고려대학교 융합과학대학원 재학중(석사과정) | (전) 더불어민주당 세종시당 부위원장 | (전) 고운동체육회 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%EC%A4%80&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154116",
+            "sggName": "세종특별자치시제11선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154114,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "양진호",
+          "party": "국민의힘",
+          "bio": "정당인 | 한남대학교 사범대학 졸업(미술교육과) | (현) 가락마을6단지 입주자대표회의 회장 | (현) 세종특별자치시 청원심의회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%A7%84%ED%98%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154114",
+            "sggName": "세종특별자치시제11선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161795,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김재형",
+          "party": "더불어민주당",
+          "bio": "세종특별자치시의원 | 고려대학교 문화스포츠대학원 스포츠비즈니스학 졸업(체육학석사) | (현) 세종특별자치시의원 | (현) 더불어민주당 세종시당 청년위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%ED%98%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161795",
+            "sggName": "세종특별자치시제12선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154031,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "서용숙",
+          "party": "국민의힘",
+          "bio": "국민의힘 세종시당 세종미래환경정책위원회 위원장 | 서울시립대학교 일반대학원 환경공학과 졸업(공학석사) | (전) 국립안동대학교 토목환경공학과 시간강사 | (현) 국민의힘 세종특별자치시당 세종미래환경정책위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%9A%A9%EC%88%99&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154031",
+            "sggName": "세종특별자치시제12선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161086,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "유인호",
+          "party": "더불어민주당",
+          "bio": "세종특별자치시의회의원 | 공주대학교 정책융합전문대학원 졸업(정책학석사) | (현) 세종특별자치시의회의원 | (현) 제1대 충청광역연합의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%9D%B8%ED%98%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161086",
+            "sggName": "세종특별자치시제13선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154039,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "박윤경",
+          "party": "국민의힘",
+          "bio": "더블루엔터테인먼트 대표 | 홍익대학교대학원 박사과정 수료(문화예술경영학과) | (전) 세종시주민자치연합회장 | (현) 보람동지역사회보장협의체위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9C%A4%EA%B2%BD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154039",
+            "sggName": "세종특별자치시제13선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158768,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "이계호",
+          "party": "자유와혁신",
+          "bio": "자유와혁신 세종특별자치시 갑 당협위원장 | 공주대학교 영상예술대학원 광응용과학전공(이학석사) | (전) KT대전통신운용센터장 | (현) 자유와혁신 세종특별자치시 갑 당협위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B3%84%ED%98%B8&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158768",
+            "sggName": "세종특별자치시제13선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161825,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "홍나영",
+          "party": "국민의힘",
+          "bio": "세종특별자치시의회 의원 | 목원대학교대학원 석사과정 수료(사회복지학과) | (현) 세종시의회 국민의힘 원내대표 | (현) 국민의힘 세종시당 여성위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EB%82%98%EC%98%81&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161825",
+            "sggName": "세종특별자치시제14선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154049,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김길모",
+          "party": "조국혁신당",
+          "bio": "한국교원대학교 책임연구원 | 한국교원대학교 대학원 졸업(교육학 박사) | (현) 조국혁신당 세종시지역위원장 | (현) 한국교원대학교 책임연구원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B8%B8%EB%AA%A8&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154049",
+            "sggName": "세종특별자치시제14선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154056,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김창연",
+          "party": "더불어민주당",
+          "bio": "기업인 | 충남대학교 경영대학원 졸업(경영학석사) | (현) 반곡중학교 운영위원장 | (현) 더불어민주당 세종갑지역위원회 교육연수위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B0%BD%EC%97%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154056",
+            "sggName": "세종특별자치시제15선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154286,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "이미경",
+          "party": "국민의힘",
+          "bio": "프리랜서(강사) | 국립군산대학교 대학원 졸업(다문화학박사) | (전) 민선4기 세종특별자치시장직 인수위원(한글문화수도TF간사) | (현) 다문화사회전문가협회 충남·세종대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%AF%B8%EA%B2%BD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154286",
+            "sggName": "세종특별자치시제15선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160899,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "김동호",
+          "party": "더불어민주당",
+          "bio": "정당인 | 목원대학교 산업정보언론대학원 졸업(부동산학석사) | (전) 더불어민주당 중앙당 정책위원회 부의장 | (전) 더불어민주당 중앙당 국민통합위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%ED%98%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160899",
+            "sggName": "세종특별자치시제16선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154061,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "정영원",
+          "party": "국민의힘",
+          "bio": "사회복지 및 상담사 | 한남대학교 사회복지학과 졸업(복수전공 광고홍보학) | (전) 세종정신건강복지센터 위기개입팀 팀원 | (전) 대전광역정신건강복지센터 위기개입팀 팀장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%98%81%EC%9B%90&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154061",
+            "sggName": "세종특별자치시제16선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154070,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "손인수",
+          "party": "더불어민주당",
+          "bio": "정당인 | 한국개발연구원 국제정책대학원 국가정책학 석사과정 재학중 | (전) 제3대 세종특별자치시의회의원 | (전) 더불어민주당 중앙당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EC%9D%B8%EC%88%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154070",
+            "sggName": "세종특별자치시제17선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157128,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "한민정",
+          "party": "국민의힘",
+          "bio": "교육서비스업 | 국민대학교 교육대학원 교육학과 체육교육전공(야) 졸업 (교육학 석사) | (현) 세종특별자치시교육협회 회장 | (현) 세종학진흥위원회 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EB%AF%BC%EC%A0%95&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157128",
+            "sggName": "세종특별자치시제17선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162498,
+          "electionType": "provincial_council",
+          "region": [
+            "세종특별자치시",
+            "세종특별자치시"
+          ],
+          "name": "정은주",
+          "party": "국민의힘",
+          "bio": "과학기술서비스업 | 서강대학교 영상대학원 박사수료 | (전) 농림축산식품부 서기관 | (전) 지역 KBS 라디오 진행자",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%9D%80%EC%A3%BC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162498",
+            "sggName": "세종특별자치시제18선거구",
+            "sdName": "세종특별자치시",
+            "wiwName": "세종특별자치시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ]
+    }
   }
 }
