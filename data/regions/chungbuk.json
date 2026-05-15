@@ -69,6 +69,38 @@
   ],
   "superintendent": [
     {
+      "id": 100162804,
+      "electionType": "superintendent",
+      "region": [
+        "충청북도"
+      ],
+      "name": "윤건영",
+      "party": "무소속",
+      "bio": "충청북도교육감 | 서울대학교 대학원 졸업(교육학박사) | (현)충청북도교육감 | (전)청주교육대학교 총장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EA%B1%B4%EC%98%81&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100162804",
+        "sggName": "충청북도",
+        "sdName": "충청북도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
       "id": 100153743,
       "electionType": "superintendent",
       "region": [
@@ -124,38 +156,6 @@
         "sgId": "20260603",
         "sgTypecode": "11",
         "huboid": "100153825",
-        "sggName": "충청북도",
-        "sdName": "충청북도",
-        "wiwName": "",
-        "status": "등록",
-        "regdate": "",
-        "kind": "candidate"
-      }
-    },
-    {
-      "id": 100162804,
-      "electionType": "superintendent",
-      "region": [
-        "충청북도"
-      ],
-      "name": "윤건영",
-      "party": "무소속",
-      "bio": "충청북도교육감 | 서울대학교 대학원 졸업(교육학박사) | (현)충청북도교육감 | (전)청주교육대학교 총장",
-      "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EA%B1%B4%EC%98%81&background=64748b&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-      "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-      },
-      "source": "nec",
-      "nec": {
-        "sgId": "20260603",
-        "sgTypecode": "11",
-        "huboid": "100162804",
         "sggName": "충청북도",
         "sdName": "충청북도",
         "wiwName": "",
@@ -226,6 +226,39 @@
             "sgId": "20260603",
             "sgTypecode": "4",
             "huboid": "100162973",
+            "sggName": "청주시",
+            "sdName": "충청북도",
+            "wiwName": "청주시상당구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163217,
+          "electionType": "mayor",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "한현구",
+          "party": "무소속",
+          "bio": "교육공무직(당직전담사) | 글로벌사이버대학교 뇌교육학과 졸업 | (현)율량사천동 사회보장협의체 위원 | (전)청주시 공무원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%ED%98%84%EA%B5%AC&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100163217",
             "sggName": "청주시",
             "sdName": "충청북도",
             "wiwName": "청주시상당구",
@@ -534,6 +567,39 @@
           }
         },
         {
+          "id": 100157424,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "채수민",
+          "party": "국민의힘",
+          "bio": "정당인 | 충북대학교 법무대학원 졸업(법학석사) | (전) 청주시 재향군인회 회장 | (현) 국민의힘 충북도당 국가안보위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B1%84%EC%88%98%EB%AF%BC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157424",
+            "sggName": "청주시제5선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시서원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100160814,
           "electionType": "provincial_council",
           "region": [
@@ -625,6 +691,72 @@
             "sgTypecode": "5",
             "huboid": "100155943",
             "sggName": "청주시제7선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165855,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "이숙원",
+          "party": "국민의힘",
+          "bio": "농업경영인 | 경희대학교 경영대학원 융합경영학과 석사과정 5학기 재학중 | (전)(사)한국여성농업인중앙연합회·충청북도연합회 회장 | (전)대통령소속 농어업농어촌 특별위원회 위원 (농업분과 위원장)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%88%99%EC%9B%90&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100165855",
+            "sggName": "청주시제7선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160240,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "이윤재",
+          "party": "더불어민주당",
+          "bio": "정당인 | 연세대학교 행정대학원 정치행정리더십전공 졸업(정치학 석사) | (전)국회의원 이연희 선임비서관 | (전)더불어민주당 청년대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9C%A4%EC%9E%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160240",
+            "sggName": "청주시제8선거구",
             "sdName": "충청북도",
             "wiwName": "청주시흥덕구",
             "status": "등록",
@@ -765,6 +897,39 @@
           }
         },
         {
+          "id": 100165529,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "이화정",
+          "party": "국민의힘",
+          "bio": "청주시의회의원 | 청주대학교 대학원 사회복지학과 졸업(사회복지학박사) | (현)청주시의회의원 | (현)국민의힘 충청북도당 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%99%94%EC%A0%95&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100165529",
+            "sggName": "청주시제10선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161392,
           "electionType": "provincial_council",
           "region": [
@@ -856,6 +1021,72 @@
             "sgTypecode": "5",
             "huboid": "100157825",
             "sggName": "청주시제12선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시청원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155271,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "최진현",
+          "party": "국민의힘",
+          "bio": "국민의힘 충북도당 부위원장 | 건국대학교 일반대학원 정치학과 석사과정 수료 | (전)충청북도 정무수석보좌관 | (전)청주시의회의원(3선)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%A7%84%ED%98%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155271",
+            "sggName": "청주시제12선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시청원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157711,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "신민정",
+          "party": "더불어민주당",
+          "bio": "고마운주간보호센터 대표 | 서원대학교 비전학부 졸업(사회복지학전공) | (전)우암동 주민자치위원회 위원장 | (현)민주평화통일자문회의 청주시협의회 한반도평화 분과위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EB%AF%BC%EC%A0%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157711",
+            "sggName": "청주시제13선거구",
             "sdName": "충청북도",
             "wiwName": "청주시청원구",
             "status": "등록",
@@ -1064,39 +1295,6 @@
       ],
       "city_council": [
         {
-          "id": 100161319,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "남일현",
-          "party": "더불어민주당",
-          "bio": "청주시의회의원 | 충청대학교 도시건설정보과 졸업 | (현)제1대~제3대 통합청주시의회의원 | (현)청주시의회 농업정책위원회위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EC%9D%BC%ED%98%84&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161319",
-            "sggName": "청주시가선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시상당구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157001,
           "electionType": "city_council",
           "region": [
@@ -1130,16 +1328,16 @@
           }
         },
         {
-          "id": 100163486,
+          "id": 100161319,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "청주시"
           ],
-          "name": "김정일",
-          "party": "국민의힘",
-          "bio": "충청북도의회의원 | 호서대학교 일반대학원 졸업(철학박사) | (전)충북보건과학대학교 청소년문화복지과 교수 | (현)충청북도의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%EC%9D%BC&background=ef4444&color=fff&size=128",
+          "name": "남일현",
+          "party": "더불어민주당",
+          "bio": "청주시의회의원 | 충청대학교 도시건설정보과 졸업 | (현)제1대~제3대 통합청주시의회의원 | (현)청주시의회 농업정책위원회위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EC%9D%BC%ED%98%84&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1153,7 +1351,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100163486",
+            "huboid": "100161319",
             "sggName": "청주시가선거구",
             "sdName": "충청북도",
             "wiwName": "청주시상당구",
@@ -1196,6 +1394,39 @@
           }
         },
         {
+          "id": 100163486,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "김정일",
+          "party": "국민의힘",
+          "bio": "충청북도의회의원 | 호서대학교 일반대학원 졸업(철학박사) | (전)충북보건과학대학교 청소년문화복지과 교수 | (현)충청북도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%EC%9D%BC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163486",
+            "sggName": "청주시가선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시상당구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100156079,
           "electionType": "city_council",
           "region": [
@@ -1221,39 +1452,6 @@
             "sgTypecode": "6",
             "huboid": "100156079",
             "sggName": "청주시가선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시상당구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100157885,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "이재숙",
-          "party": "더불어민주당",
-          "bio": "정당인 | 충북대학교 세종 국가정책대학원 정책학석사 졸업 | (전)청주시의회의원 | (현)더불어민주당 충북도당 대변인",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%EC%88%99&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157885",
-            "sggName": "청주시나선거구",
             "sdName": "충청북도",
             "wiwName": "청주시상당구",
             "status": "등록",
@@ -1295,16 +1493,16 @@
           }
         },
         {
-          "id": 100161397,
+          "id": 100157885,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "청주시"
           ],
-          "name": "박봉규",
-          "party": "국민의힘",
-          "bio": "청주시의회의원 | 충북대학교 산업대학원(석사) 건설공학과 졸업 | (현)청주시의회의원 | (전)청주시 축구협회 부회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B4%89%EA%B7%9C&background=ef4444&color=fff&size=128",
+          "name": "이재숙",
+          "party": "더불어민주당",
+          "bio": "정당인 | 충북대학교 세종 국가정책대학원 정책학석사 졸업 | (전)청주시의회의원 | (현)더불어민주당 충북도당 대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%EC%88%99&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1318,7 +1516,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100161397",
+            "huboid": "100157885",
             "sggName": "청주시나선거구",
             "sdName": "충청북도",
             "wiwName": "청주시상당구",
@@ -1352,6 +1550,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161746",
+            "sggName": "청주시나선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시상당구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161397,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "박봉규",
+          "party": "국민의힘",
+          "bio": "청주시의회의원 | 충북대학교 산업대학원(석사) 건설공학과 졸업 | (현)청주시의회의원 | (전)청주시 축구협회 부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B4%89%EA%B7%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161397",
             "sggName": "청주시나선거구",
             "sdName": "충청북도",
             "wiwName": "청주시상당구",
@@ -1427,39 +1658,6 @@
           }
         },
         {
-          "id": 100156334,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "김미자",
-          "party": "국민의힘",
-          "bio": "정당인 | 우석대학교 경영학과 졸업 | (전)제2대 청주시의회의원 | (현)국민의힘 청주시상당구 당원협의회 보건환경특별위원회 위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%B8%EC%9E%90&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156334",
-            "sggName": "청주시다선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시상당구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161850,
           "electionType": "city_council",
           "region": [
@@ -1484,6 +1682,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161850",
+            "sggName": "청주시다선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시상당구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156334,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "김미자",
+          "party": "국민의힘",
+          "bio": "정당인 | 우석대학교 경영학과 졸업 | (전)제2대 청주시의회의원 | (현)국민의힘 청주시상당구 당원협의회 보건환경특별위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%B8%EC%9E%90&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156334",
             "sggName": "청주시다선거구",
             "sdName": "충청북도",
             "wiwName": "청주시상당구",
@@ -1592,39 +1823,6 @@
           }
         },
         {
-          "id": 100154176,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "김진석",
-          "party": "더불어민주당",
-          "bio": "태연푸드트레이딩 대표 | 서원대학교 비전학부 졸업(사회복지학전공) | (전) 수곡2동 주민자치위원장 | (전) 더불어민주당 충북도당 직능위원회 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%84%EC%84%9D&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154176",
-            "sggName": "청주시마선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시서원구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156737,
           "electionType": "city_council",
           "region": [
@@ -1658,16 +1856,16 @@
           }
         },
         {
-          "id": 100158885,
+          "id": 100154176,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "청주시"
           ],
-          "name": "김태순",
-          "party": "국민의힘",
-          "bio": "청주시의회의원 | 청주대학교 행정대학원 졸업(사회복지학석사) | (현) 국민의힘 충북도당 언론대책위원장 | (현) 청주시의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EC%88%9C&background=ef4444&color=fff&size=128",
+          "name": "김진석",
+          "party": "더불어민주당",
+          "bio": "태연푸드트레이딩 대표 | 서원대학교 비전학부 졸업(사회복지학전공) | (전) 수곡2동 주민자치위원장 | (전) 더불어민주당 충북도당 직능위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%84%EC%84%9D&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1681,7 +1879,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100158885",
+            "huboid": "100154176",
             "sggName": "청주시마선거구",
             "sdName": "충청북도",
             "wiwName": "청주시서원구",
@@ -1715,6 +1913,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158880",
+            "sggName": "청주시마선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시서원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158885,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "김태순",
+          "party": "국민의힘",
+          "bio": "청주시의회의원 | 청주대학교 행정대학원 졸업(사회복지학석사) | (현) 국민의힘 충북도당 언론대책위원장 | (현) 청주시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EC%88%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158885",
             "sggName": "청주시마선거구",
             "sdName": "충청북도",
             "wiwName": "청주시서원구",
@@ -1790,39 +2021,6 @@
           }
         },
         {
-          "id": 100157633,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "박대용",
-          "party": "더불어민주당",
-          "bio": "정당인 | 충북대학교 대학원(통합) 정부재정회계협동과정(석사, 박사 통합과정) 수료 | (현) 더불어민주당 문화예술특별위원회 부위원장 | (현) 청주서부소방서 의용소방대 전문교관",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%8C%80%EC%9A%A9&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157633",
-            "sggName": "청주시바선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시서원구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160177,
           "electionType": "city_council",
           "region": [
@@ -1847,6 +2045,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160177",
+            "sggName": "청주시바선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시서원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157633,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "박대용",
+          "party": "더불어민주당",
+          "bio": "정당인 | 충북대학교 대학원(통합) 정부재정회계협동과정(석사, 박사 통합과정) 수료 | (현) 더불어민주당 문화예술특별위원회 부위원장 | (현) 청주서부소방서 의용소방대 전문교관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%8C%80%EC%9A%A9&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157633",
             "sggName": "청주시바선거구",
             "sdName": "충청북도",
             "wiwName": "청주시서원구",
@@ -1955,39 +2186,6 @@
           }
         },
         {
-          "id": 100155413,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "김병년",
-          "party": "더불어민주당",
-          "bio": "정당인 | 충청대학 건설환경시스템과 졸업 | (전)청주시 공무원 | (현)흥덕구 지역위원회 소상공인부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B3%91%EB%85%84&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155413",
-            "sggName": "청주시사선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시흥덕구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154497,
           "electionType": "city_council",
           "region": [
@@ -2012,6 +2210,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154497",
+            "sggName": "청주시사선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155413,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "김병년",
+          "party": "더불어민주당",
+          "bio": "정당인 | 충청대학 건설환경시스템과 졸업 | (전)청주시 공무원 | (현)흥덕구 지역위원회 소상공인부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B3%91%EB%85%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155413",
             "sggName": "청주시사선거구",
             "sdName": "충청북도",
             "wiwName": "청주시흥덕구",
@@ -2186,6 +2417,39 @@
           }
         },
         {
+          "id": 100163533,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "최서진",
+          "party": "국민의힘",
+          "bio": "정당인 | 주성대학(현 충북보건과학대학교) 스포츠복지과 졸업 | (전)경대수 국회의원 비서 | (현)국민의힘 흥덕구당원협의회청년지회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%84%9C%EC%A7%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163533",
+            "sggName": "청주시아선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161330,
           "electionType": "city_council",
           "region": [
@@ -2219,39 +2483,6 @@
           }
         },
         {
-          "id": 100163452,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "노순옥",
-          "party": "더불어민주당",
-          "bio": "정당인 | 충북대학교 교육대학원 교육학석사(유아교육) 졸업 | (전)신봉 어린이집 원장(보육경력 26년) | (현)더불어민주당 정책위원회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%85%B8%EC%88%9C%EC%98%A5&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163452",
-            "sggName": "청주시자선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시흥덕구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154994,
           "electionType": "city_council",
           "region": [
@@ -2276,6 +2507,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154994",
+            "sggName": "청주시자선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163452,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "노순옥",
+          "party": "더불어민주당",
+          "bio": "정당인 | 충북대학교 교육대학원 교육학석사(유아교육) 졸업 | (전)신봉 어린이집 원장(보육경력 26년) | (현)더불어민주당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%85%B8%EC%88%9C%EC%98%A5&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163452",
             "sggName": "청주시자선거구",
             "sdName": "충청북도",
             "wiwName": "청주시흥덕구",
@@ -2351,39 +2615,6 @@
           }
         },
         {
-          "id": 100161395,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "김은숙",
-          "party": "더불어민주당",
-          "bio": "청주시의회의원 | 충북대학교 행정대학원 행정학과 졸업 [행정학석사(행정학)] | (현)청주시의회 농업정책위원회 부위원장 | (전)청주시의회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%80%EC%88%99&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161395",
-            "sggName": "청주시차선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시흥덕구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157007,
           "electionType": "city_council",
           "region": [
@@ -2417,6 +2648,39 @@
           }
         },
         {
+          "id": 100161395,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "김은숙",
+          "party": "더불어민주당",
+          "bio": "청주시의회의원 | 충북대학교 행정대학원 행정학과 졸업 [행정학석사(행정학)] | (현)청주시의회 농업정책위원회 부위원장 | (전)청주시의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%80%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161395",
+            "sggName": "청주시차선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100156861,
           "electionType": "city_council",
           "region": [
@@ -2441,6 +2705,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156861",
+            "sggName": "청주시차선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시흥덕구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154843,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "민춘기",
+          "party": "국민의힘",
+          "bio": "정당인 | 우석대학교 소방행정학과 4학년 재학 중 | (현)국민의힘 중앙당 충청북도연합회 부회장 | (현)국민의힘 충청북도당 소상공인 특별위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AF%BC%EC%B6%98%EA%B8%B0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154843",
             "sggName": "청주시차선거구",
             "sdName": "충청북도",
             "wiwName": "청주시흥덕구",
@@ -2582,16 +2879,16 @@
           }
         },
         {
-          "id": 100157309,
+          "id": 100156974,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "청주시"
           ],
-          "name": "송병호",
+          "name": "허희",
           "party": "더불어민주당",
-          "bio": "청주시의회의원 | 청주대학교 일어일문학과 졸업 | (현)청주시의회의원 | (현)양청고등학교 운영위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EB%B3%91%ED%98%B8&background=1e40af&color=fff&size=128",
+          "bio": "정당인 | 광양여자고등학교 졸업 | (전)오창읍 이장단협의회 사무국장 | (현)더불어민주당 전략기획위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%97%88%ED%9D%AC&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -2605,7 +2902,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100157309",
+            "huboid": "100156974",
             "sggName": "청주시타선거구",
             "sdName": "충청북도",
             "wiwName": "청주시청원구",
@@ -2648,16 +2945,16 @@
           }
         },
         {
-          "id": 100156974,
+          "id": 100157309,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "청주시"
           ],
-          "name": "허희",
+          "name": "송병호",
           "party": "더불어민주당",
-          "bio": "정당인 | 광양여자고등학교 졸업 | (전)오창읍 이장단협의회 사무국장 | (현)더불어민주당 전략기획위원회 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%ED%97%88%ED%9D%AC&background=1e40af&color=fff&size=128",
+          "bio": "청주시의회의원 | 청주대학교 일어일문학과 졸업 | (현)청주시의회의원 | (현)양청고등학교 운영위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EB%B3%91%ED%98%B8&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -2671,7 +2968,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100156974",
+            "huboid": "100157309",
             "sggName": "청주시타선거구",
             "sdName": "충청북도",
             "wiwName": "청주시청원구",
@@ -2714,39 +3011,6 @@
           }
         },
         {
-          "id": 100160567,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "상병남",
-          "party": "무소속",
-          "bio": "주식회사 우성참미트 대표 | 장항공업고등학교 졸업 | (전)오창읍 소각장반대대책위원회 위원장 | (전)오창읍 주민자치위원회 위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%83%81%EB%B3%91%EB%82%A8&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160567",
-            "sggName": "청주시타선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시청원구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162670,
           "electionType": "city_council",
           "region": [
@@ -2771,6 +3035,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162670",
+            "sggName": "청주시타선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시청원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160567,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "상병남",
+          "party": "무소속",
+          "bio": "주식회사 우성참미트 대표 | 장항공업고등학교 졸업 | (전)오창읍 소각장반대대책위원회 위원장 | (전)오창읍 주민자치위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%83%81%EB%B3%91%EB%82%A8&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160567",
             "sggName": "청주시타선거구",
             "sdName": "충청북도",
             "wiwName": "청주시청원구",
@@ -2912,39 +3209,6 @@
           }
         },
         {
-          "id": 100153985,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "청주시"
-          ],
-          "name": "김광복",
-          "party": "무소속",
-          "bio": "자영업 | 청주기계공업고등학교 졸업 | (현)청원경찰서 범죄피해자 지원협의회 위원 | (현)우암초등학교 총동문회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%91%EB%B3%B5&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100153985",
-            "sggName": "청주시파선거구",
-            "sdName": "충청북도",
-            "wiwName": "청주시청원구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100158060,
           "electionType": "city_council",
           "region": [
@@ -2969,6 +3233,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158060",
+            "sggName": "청주시파선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시청원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100153985,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "김광복",
+          "party": "무소속",
+          "bio": "자영업 | 청주기계공업고등학교 졸업 | (현)청원경찰서 범죄피해자 지원협의회 위원 | (현)우암초등학교 총동문회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%91%EB%B3%B5&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100153985",
             "sggName": "청주시파선거구",
             "sdName": "충청북도",
             "wiwName": "청주시청원구",
@@ -3035,6 +3332,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161729",
+            "sggName": "청주시하선거구",
+            "sdName": "충청북도",
+            "wiwName": "청주시청원구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158984,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "청주시"
+          ],
+          "name": "이인숙",
+          "party": "개혁신당",
+          "bio": "정당인 | 서원대학교 비전학부 졸업(사회복지학전공) | (전)청주시의회 농업정책위원회 위원 | (전)국민의힘 충북도당 아동청소년정책특별위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9D%B8%EC%88%99&background=f97316&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158984",
             "sggName": "청주시하선거구",
             "sdName": "충청북도",
             "wiwName": "청주시청원구",
@@ -4809,39 +5139,6 @@
           }
         },
         {
-          "id": 100158162,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "제천시"
-          ],
-          "name": "김진환",
-          "party": "국민의힘",
-          "bio": "제천시의회의원 | 충현고등학교(현 세명고등학교) 졸업 | (현) 제천시의회의원(산업건설위원장) | (전) 대한적십자사 제천지구협의회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%84%ED%99%98&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158162",
-            "sggName": "제천시나선거구",
-            "sdName": "충청북도",
-            "wiwName": "제천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100163509,
           "electionType": "city_council",
           "region": [
@@ -4866,6 +5163,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100163509",
+            "sggName": "제천시나선거구",
+            "sdName": "충청북도",
+            "wiwName": "제천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158162,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "제천시"
+          ],
+          "name": "김진환",
+          "party": "국민의힘",
+          "bio": "제천시의회의원 | 충현고등학교(현 세명고등학교) 졸업 | (현) 제천시의회의원(산업건설위원장) | (전) 대한적십자사 제천지구협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%84%ED%99%98&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158162",
             "sggName": "제천시나선거구",
             "sdName": "충청북도",
             "wiwName": "제천시",
@@ -4974,39 +5304,6 @@
           }
         },
         {
-          "id": 100154489,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "제천시"
-          ],
-          "name": "김태호",
-          "party": "더불어민주당",
-          "bio": "자영업 | 서울산업대학교(현 서울과학기술대학교) 전자정보공학과 졸업 | (현) 민주평화통일자문회의 제천시협의회 자문위원 | (현) 제천시육상연맹 이사",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%ED%98%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154489",
-            "sggName": "제천시라선거구",
-            "sdName": "충청북도",
-            "wiwName": "제천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155831,
           "electionType": "city_council",
           "region": [
@@ -5040,16 +5337,16 @@
           }
         },
         {
-          "id": 100158756,
+          "id": 100154489,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "제천시"
           ],
-          "name": "박영기",
-          "party": "국민의힘",
-          "bio": "제천시의회의원 | 대원대학(현 대원대학교) 사회복지과 졸업 | (전) 제천시청 32년 근무(1987. 11. 1. ~ 2019. 6. 30.) | (현) 제천시의회 의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%98%81%EA%B8%B0&background=ef4444&color=fff&size=128",
+          "name": "김태호",
+          "party": "더불어민주당",
+          "bio": "자영업 | 서울산업대학교(현 서울과학기술대학교) 전자정보공학과 졸업 | (현) 민주평화통일자문회의 제천시협의회 자문위원 | (현) 제천시육상연맹 이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%ED%98%B8&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -5063,7 +5360,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100158756",
+            "huboid": "100154489",
             "sggName": "제천시라선거구",
             "sdName": "충청북도",
             "wiwName": "제천시",
@@ -5106,16 +5403,16 @@
           }
         },
         {
-          "id": 100157951,
+          "id": 100158756,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "제천시"
           ],
-          "name": "문교영",
-          "party": "더불어민주당",
-          "bio": "(주)토광포장 대표 | 건국대학교 일반대학원 사회복지학전공 제3학기 휴학(박사과정) | (현) 제천시 주민자치위원협의회 회장 | (현) 대한적십자사봉사회 제천시협의회 부회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EA%B5%90%EC%98%81&background=1e40af&color=fff&size=128",
+          "name": "박영기",
+          "party": "국민의힘",
+          "bio": "제천시의회의원 | 대원대학(현 대원대학교) 사회복지과 졸업 | (전) 제천시청 32년 근무(1987. 11. 1. ~ 2019. 6. 30.) | (현) 제천시의회 의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%98%81%EA%B8%B0&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -5129,8 +5426,8 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100157951",
-            "sggName": "제천시마선거구",
+            "huboid": "100158756",
+            "sggName": "제천시라선거구",
             "sdName": "충청북도",
             "wiwName": "제천시",
             "status": "등록",
@@ -5163,6 +5460,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155839",
+            "sggName": "제천시마선거구",
+            "sdName": "충청북도",
+            "wiwName": "제천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157951,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "제천시"
+          ],
+          "name": "문교영",
+          "party": "더불어민주당",
+          "bio": "(주)토광포장 대표 | 건국대학교 일반대학원 사회복지학전공 제3학기 휴학(박사과정) | (현) 제천시 주민자치위원협의회 회장 | (현) 대한적십자사봉사회 제천시협의회 부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EA%B5%90%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157951",
             "sggName": "제천시마선거구",
             "sdName": "충청북도",
             "wiwName": "제천시",
@@ -5238,39 +5568,6 @@
           }
         },
         {
-          "id": 100163507,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "제천시"
-          ],
-          "name": "김대호",
-          "party": "국민의힘",
-          "bio": "정당인 | 연세대학교 정경대학원 정치학전공 석사과정 제3학기재학중 | (전) 제천시 정책보좌관 | (전) 국민의힘 충북도당 대변인",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%ED%98%B8&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163507",
-            "sggName": "제천시바선거구",
-            "sdName": "충청북도",
-            "wiwName": "제천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160315,
           "electionType": "city_council",
           "region": [
@@ -5295,6 +5592,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160315",
+            "sggName": "제천시바선거구",
+            "sdName": "충청북도",
+            "wiwName": "제천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163507,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "제천시"
+          ],
+          "name": "김대호",
+          "party": "국민의힘",
+          "bio": "정당인 | 연세대학교 정경대학원 정치학전공 석사과정 제3학기재학중 | (전) 제천시 정책보좌관 | (전) 국민의힘 충북도당 대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%ED%98%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163507",
             "sggName": "제천시바선거구",
             "sdName": "충청북도",
             "wiwName": "제천시",
@@ -5349,7 +5679,7 @@
           ],
           "name": "하유정",
           "party": "더불어민주당",
-          "bio": "영재음악학원장 | 이탈리아 니콜로 파가니니 국립음악원 졸업(1993년 10월~1995년 6월) | (전) 제6,7대 보은군의회의원 | (전) 제11대 충청북도의회의원",
+          "bio": "영재음악학원장 | 이탈리아 파가니니 국립음악원 졸업(성악)(DIPLOMA)(1993년 10월~1995년 6월) | (전) 제6,7대 보은군의회의원 | (전) 제11대 충청북도의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%98%EC%9C%A0%EC%A0%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -6112,39 +6442,6 @@
       ],
       "city_council": [
         {
-          "id": 100158293,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "옥천군"
-          ],
-          "name": "박영웅",
-          "party": "더불어민주당",
-          "bio": "자영업 | 한남대학교 사회문화 대학원 졸업(도시계획학 석사) | (전)민선8기 충청북도의회의원 | (전)이원새마을금고 이사장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%98%81%EC%9B%85&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158293",
-            "sggName": "옥천군가선거구",
-            "sdName": "충청북도",
-            "wiwName": "옥천군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100158345,
           "electionType": "city_council",
           "region": [
@@ -6211,16 +6508,16 @@
           }
         },
         {
-          "id": 100159321,
+          "id": 100158293,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "옥천군"
           ],
-          "name": "손준제",
-          "party": "국민의힘",
-          "bio": "대학생 | 충북도립대학교 환경보건학과 졸업 | (전)충북도립대학교 총학생회장 | (현)국민의힘중앙위원회 청년분과 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EC%A4%80%EC%A0%9C&background=ef4444&color=fff&size=128",
+          "name": "박영웅",
+          "party": "더불어민주당",
+          "bio": "자영업 | 한남대학교 사회문화 대학원 졸업(도시계획학 석사) | (전)민선8기 충청북도의회의원 | (전)이원새마을금고 이사장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%98%81%EC%9B%85&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -6234,7 +6531,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159321",
+            "huboid": "100158293",
             "sggName": "옥천군가선거구",
             "sdName": "충청북도",
             "wiwName": "옥천군",
@@ -6268,6 +6565,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158990",
+            "sggName": "옥천군가선거구",
+            "sdName": "충청북도",
+            "wiwName": "옥천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159321,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "옥천군"
+          ],
+          "name": "손준제",
+          "party": "국민의힘",
+          "bio": "대학생 | 충북도립대학교 환경보건학과 졸업 | (전)충북도립대학교 총학생회장 | (현)국민의힘중앙위원회 청년분과 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EC%A4%80%EC%A0%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159321",
             "sggName": "옥천군가선거구",
             "sdName": "충청북도",
             "wiwName": "옥천군",
@@ -6367,6 +6697,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158323",
+            "sggName": "옥천군나선거구",
+            "sdName": "충청북도",
+            "wiwName": "옥천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158800,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "옥천군"
+          ],
+          "name": "최은식",
+          "party": "국민의힘",
+          "bio": "청산면민협의회장 | 청산고등학교 졸업 | (전) 판수리이장 | (현) 청산면민협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%9D%80%EC%8B%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158800",
             "sggName": "옥천군나선거구",
             "sdName": "충청북도",
             "wiwName": "옥천군",
@@ -7786,6 +8149,39 @@
           }
         },
         {
+          "id": 100160316,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "진천군"
+          ],
+          "name": "임정열",
+          "party": "더불어민주당",
+          "bio": "진천군의회의원 | 인천전문대학 (현 인천대학교) 무도과 졸업 | (현)진천군의회의원 | (현)진천군교육행정협의회 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A0%95%EC%97%B4&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160316",
+            "sggName": "진천군나선거구",
+            "sdName": "충청북도",
+            "wiwName": "진천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100158532,
           "electionType": "city_council",
           "region": [
@@ -7843,39 +8239,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159315",
-            "sggName": "진천군나선거구",
-            "sdName": "충청북도",
-            "wiwName": "진천군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100160316,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "진천군"
-          ],
-          "name": "임정열",
-          "party": "더불어민주당",
-          "bio": "진천군의회의원 | 인천전문대학 (현 인천대학교) 무도과 졸업 | (현)진천군의회의원 | (현)진천군교육행정협의회 위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A0%95%EC%97%B4&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160316",
             "sggName": "진천군나선거구",
             "sdName": "충청북도",
             "wiwName": "진천군",
@@ -9192,6 +9555,74 @@
           }
         }
       ],
+      "provincial_council": [
+        {
+          "id": 100162571,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "단양군"
+          ],
+          "name": "정상례",
+          "party": "더불어민주당",
+          "bio": "단계 서예문인화연구소 대표 | 한국방송통신대학교 교육과 졸업(교육학사) | (전) 제6대 단양군의회의원 | (현) 청주지방법원 제천지원 단양군법원 민사조정위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%83%81%EB%A1%80&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162571",
+            "sggName": "단양군선거구",
+            "sdName": "충청북도",
+            "wiwName": "단양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159084,
+          "electionType": "provincial_council",
+          "region": [
+            "충청북도",
+            "단양군"
+          ],
+          "name": "조성룡",
+          "party": "국민의힘",
+          "bio": "단양군의회의원 | 동양대학교 정보대학원 졸업(사회복지학석사) | (전) 제9대 단양군의회 전반기 의장 | (현) 단양군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EC%84%B1%EB%A3%A1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159084",
+            "sggName": "단양군선거구",
+            "sdName": "충청북도",
+            "wiwName": "단양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        }
+      ],
       "city_council": [
         {
           "id": 100161638,
@@ -9218,39 +9649,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161638",
-            "sggName": "단양군가선거구",
-            "sdName": "충청북도",
-            "wiwName": "단양군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100161138,
-          "electionType": "city_council",
-          "region": [
-            "충청북도",
-            "단양군"
-          ],
-          "name": "김혜숙",
-          "party": "국민의힘",
-          "bio": "단양군의회의원 | 한국방송통신대학교 행정학과 석사학위과정 제적(4학기이수)(2021.9.~2023.8.) | (전) 제9대 단양군의회 전반기 부의장 | (현) 단양군의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%9C%EC%88%99&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161138",
             "sggName": "단양군가선거구",
             "sdName": "충청북도",
             "wiwName": "단양군",
@@ -9293,6 +9691,39 @@
           }
         },
         {
+          "id": 100161138,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "단양군"
+          ],
+          "name": "김혜숙",
+          "party": "국민의힘",
+          "bio": "단양군의회의원 | 한국방송통신대학교 행정학과 석사학위과정 제적(4학기이수)(2021.9.~2023.8.) | (전) 제9대 단양군의회 전반기 부의장 | (현) 단양군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%9C%EC%88%99&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161138",
+            "sggName": "단양군가선거구",
+            "sdName": "충청북도",
+            "wiwName": "단양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100159138,
           "electionType": "city_council",
           "region": [
@@ -9326,16 +9757,16 @@
           }
         },
         {
-          "id": 100160648,
+          "id": 100162823,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "단양군"
           ],
-          "name": "김영길",
+          "name": "최병만",
           "party": "무소속",
-          "bio": "단양군의회 부의장 | 단양고등학교 졸업 | (전) 단양군 학교운영위원장 협의회 회장 | (현) 단양군의회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EA%B8%B8&background=64748b&color=fff&size=128",
+          "bio": "농업 | 상지대학교 관광학부 졸업 | (전) 단양군지방행정사무관대우(단양군청) | (전) 한국수자원공사단양수도관리단장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%B3%91%EB%A7%8C&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -9349,7 +9780,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100160648",
+            "huboid": "100162823",
             "sggName": "단양군가선거구",
             "sdName": "충청북도",
             "wiwName": "단양군",
@@ -9392,16 +9823,16 @@
           }
         },
         {
-          "id": 100158662,
+          "id": 100160648,
           "electionType": "city_council",
           "region": [
             "충청북도",
             "단양군"
           ],
-          "name": "강미숙",
-          "party": "더불어민주당",
-          "bio": "단양군의회의원 | 동국대학교 불교대학원 졸업(사회복지학 석사) | (전) 세경대학교 미술치료과 강사 | (현) 단양군의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%AF%B8%EC%88%99&background=1e40af&color=fff&size=128",
+          "name": "김영길",
+          "party": "무소속",
+          "bio": "단양군의회 부의장 | 단양고등학교 졸업 | (전) 단양군 학교운영위원장 협의회 회장 | (현) 단양군의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EA%B8%B8&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -9415,8 +9846,8 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100158662",
-            "sggName": "단양군나선거구",
+            "huboid": "100160648",
+            "sggName": "단양군가선거구",
             "sdName": "충청북도",
             "wiwName": "단양군",
             "status": "등록",
@@ -9449,6 +9880,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162163",
+            "sggName": "단양군나선거구",
+            "sdName": "충청북도",
+            "wiwName": "단양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158662,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "단양군"
+          ],
+          "name": "강미숙",
+          "party": "더불어민주당",
+          "bio": "단양군의회의원 | 동국대학교 불교대학원 졸업(사회복지학 석사) | (전) 세경대학교 미술치료과 강사 | (현) 단양군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%AF%B8%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158662",
             "sggName": "단양군나선거구",
             "sdName": "충청북도",
             "wiwName": "단양군",
@@ -9548,6 +10012,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159064",
+            "sggName": "단양군나선거구",
+            "sdName": "충청북도",
+            "wiwName": "단양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163054,
+          "electionType": "city_council",
+          "region": [
+            "충청북도",
+            "단양군"
+          ],
+          "name": "전혜란",
+          "party": "무소속",
+          "bio": "보떼네일대표 | 강릉영동대학 미용예술과(야간) 졸업 | (전) 충청북도학교학부모 연합회장 | (현) 충청북도교육청특별고문",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%84%ED%98%9C%EB%9E%80&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163054",
             "sggName": "단양군나선거구",
             "sdName": "충청북도",
             "wiwName": "단양군",

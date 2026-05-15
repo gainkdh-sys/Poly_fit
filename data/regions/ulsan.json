@@ -67,6 +67,38 @@
       }
     },
     {
+      "id": 100153854,
+      "electionType": "governor",
+      "region": [
+        "울산광역시"
+      ],
+      "name": "김종훈",
+      "party": "진보당",
+      "bio": "정당인 | 울산대학교 국어국문학과 졸업 | (전)제6대, 9대 울산광역시 동구청장 | (전)제20대 국회의원(울산광역시 동구)",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A2%85%ED%9B%88&background=7c3aed&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100153854",
+        "sggName": "울산광역시",
+        "sdName": "울산광역시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
       "id": 100157730,
       "electionType": "governor",
       "region": [
@@ -133,38 +165,6 @@
       }
     },
     {
-      "id": 100156317,
-      "electionType": "superintendent",
-      "region": [
-        "울산광역시"
-      ],
-      "name": "김주홍",
-      "party": "무소속",
-      "bio": "울산대학교 명예교수 | 서울대학교 대학원 졸업(정치학박사) | (전)울산대학교 교수 | (현)울산대학교 명예교수",
-      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A3%BC%ED%99%8D&background=64748b&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-      "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-      },
-      "source": "nec",
-      "nec": {
-        "sgId": "20260603",
-        "sgTypecode": "11",
-        "huboid": "100156317",
-        "sggName": "울산광역시",
-        "sdName": "울산광역시",
-        "wiwName": "",
-        "status": "등록",
-        "regdate": "",
-        "kind": "candidate"
-      }
-    },
-    {
       "id": 100160241,
       "electionType": "superintendent",
       "region": [
@@ -188,6 +188,38 @@
         "sgId": "20260603",
         "sgTypecode": "11",
         "huboid": "100160241",
+        "sggName": "울산광역시",
+        "sdName": "울산광역시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100156317,
+      "electionType": "superintendent",
+      "region": [
+        "울산광역시"
+      ],
+      "name": "김주홍",
+      "party": "무소속",
+      "bio": "울산대학교 명예교수 | 서울대학교 대학원 졸업(정치학박사) | (전)울산대학교 교수 | (현)울산대학교 명예교수",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A3%BC%ED%99%8D&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100156317",
         "sggName": "울산광역시",
         "sdName": "울산광역시",
         "wiwName": "",
@@ -258,6 +290,39 @@
             "sgId": "20260603",
             "sgTypecode": "4",
             "huboid": "100162960",
+            "sggName": "중구",
+            "sdName": "울산광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100164128,
+          "electionType": "mayor",
+          "region": [
+            "울산광역시",
+            "중구"
+          ],
+          "name": "고호근",
+          "party": "무소속",
+          "bio": "정치인 | 울산대학교 행정학과 졸업 | (전) 제7대 울산광역시의회 부의장(전반기) | (전) 울산도시공사 본부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%ED%98%B8%EA%B7%BC&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100164128",
             "sggName": "중구",
             "sdName": "울산광역시",
             "wiwName": "중구",
@@ -531,6 +596,39 @@
             "regdate": "",
             "kind": "candidate"
           }
+        },
+        {
+          "id": 100160124,
+          "electionType": "provincial_council",
+          "region": [
+            "울산광역시",
+            "중구"
+          ],
+          "name": "강혜순",
+          "party": "국민의힘",
+          "bio": "울산광역시 중구의회 의원 | 계명대학교 대학원 박사과정 음악학 수료 | (전) 울산광역시의회의원 | (전) 울산광역시 중구의회 전반기의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%ED%98%9C%EC%88%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100160124",
+            "sggName": "중구제4선거구",
+            "sdName": "울산광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
         }
       ],
       "city_council": [
@@ -667,39 +765,6 @@
           }
         },
         {
-          "id": 100161252,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "중구"
-          ],
-          "name": "김도운",
-          "party": "국민의힘",
-          "bio": "울산중구 구의원 | 영산대학교 노인복지상담학과 재학중 | (전) 병영 2동 주민자치위원장 | (현) 울산중구의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%84%EC%9A%B4&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161252",
-            "sggName": "중구나선거구",
-            "sdName": "울산광역시",
-            "wiwName": "중구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157262,
           "electionType": "city_council",
           "region": [
@@ -733,16 +798,16 @@
           }
         },
         {
-          "id": 100155461,
+          "id": 100161252,
           "electionType": "city_council",
           "region": [
             "울산광역시",
             "중구"
           ],
-          "name": "김수정",
-          "party": "더불어민주당",
-          "bio": "무직 | 울산과학대학교 사회복지상담학과 졸업 | (현)더불어민주당중구여성위원장 | (현)더불어민주당 울산시당 여성위원회부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%88%98%EC%A0%95&background=1e40af&color=fff&size=128",
+          "name": "김도운",
+          "party": "국민의힘",
+          "bio": "울산중구 구의원 | 영산대학교 노인복지상담학과 재학중 | (전) 병영 2동 주민자치위원장 | (현) 울산중구의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%84%EC%9A%B4&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -756,8 +821,8 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100155461",
-            "sggName": "중구다선거구",
+            "huboid": "100161252",
+            "sggName": "중구나선거구",
             "sdName": "울산광역시",
             "wiwName": "중구",
             "status": "등록",
@@ -799,16 +864,16 @@
           }
         },
         {
-          "id": 100160649,
+          "id": 100155461,
           "electionType": "city_council",
           "region": [
             "울산광역시",
             "중구"
           ],
-          "name": "문기호",
-          "party": "국민의힘",
-          "bio": "중구의회의원 | 울산대학교 산업대학원 체육학석사 | (현)중구의회 의원 | (전)태화동 주민자치회 위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EA%B8%B0%ED%98%B8&background=ef4444&color=fff&size=128",
+          "name": "김수정",
+          "party": "더불어민주당",
+          "bio": "무직 | 울산과학대학교 사회복지상담학과 졸업 | (현)더불어민주당중구여성위원장 | (현)더불어민주당 울산시당 여성위원회부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%88%98%EC%A0%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -822,7 +887,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100160649",
+            "huboid": "100155461",
             "sggName": "중구다선거구",
             "sdName": "울산광역시",
             "wiwName": "중구",
@@ -856,6 +921,72 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158697",
+            "sggName": "중구다선거구",
+            "sdName": "울산광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161254,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "중구"
+          ],
+          "name": "박경흠",
+          "party": "국민의힘",
+          "bio": "중구의원 | 울산대학교 인문대학 문학사(철학) | (전)울산중구의회 의회운영위원장 | (현)울산중구의회 의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EA%B2%BD%ED%9D%A0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161254",
+            "sggName": "중구다선거구",
+            "sdName": "울산광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160649,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "중구"
+          ],
+          "name": "문기호",
+          "party": "국민의힘",
+          "bio": "중구의회의원 | 울산대학교 산업대학원 체육학석사 | (현)중구의회 의원 | (전)태화동 주민자치회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EA%B8%B0%ED%98%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160649",
             "sggName": "중구다선거구",
             "sdName": "울산광역시",
             "wiwName": "중구",
@@ -931,39 +1062,6 @@
           }
         },
         {
-          "id": 100154942,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "중구"
-          ],
-          "name": "김햇살",
-          "party": "국민의힘",
-          "bio": "정당인 | 울산대학교 경영학부졸업 | (현)국민의힘 울산시당 차세대여성위원장 | (현)중울산청년회의소 지역사회관리 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%96%87%EC%82%B4&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154942",
-            "sggName": "중구라선거구",
-            "sdName": "울산광역시",
-            "wiwName": "중구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155840,
           "electionType": "city_council",
           "region": [
@@ -988,6 +1086,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155840",
+            "sggName": "중구라선거구",
+            "sdName": "울산광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154942,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "중구"
+          ],
+          "name": "김햇살",
+          "party": "국민의힘",
+          "bio": "정당인 | 울산대학교 경영학부졸업 | (현)국민의힘 울산시당 차세대여성위원장 | (현)중울산청년회의소 지역사회관리 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%96%87%EC%82%B4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154942",
             "sggName": "중구라선거구",
             "sdName": "울산광역시",
             "wiwName": "중구",
@@ -2793,6 +2924,39 @@
           }
         },
         {
+          "id": 100155430,
+          "electionType": "provincial_council",
+          "region": [
+            "울산광역시",
+            "동구"
+          ],
+          "name": "권기백",
+          "party": "진보당",
+          "bio": "정당인 | 울산대학교 조선및해양공학과 졸업 | (전)김종훈 국회의원 지역사무소 노동팀장 | (현)진보당 동구노동위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EA%B8%B0%EB%B0%B1&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155430",
+            "sggName": "동구제1선거구",
+            "sdName": "울산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100155679,
           "electionType": "provincial_council",
           "region": [
@@ -2850,6 +3014,39 @@
             "sgId": "20260603",
             "sgTypecode": "5",
             "huboid": "100162364",
+            "sggName": "동구제2선거구",
+            "sdName": "울산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161043,
+          "electionType": "provincial_council",
+          "region": [
+            "울산광역시",
+            "동구"
+          ],
+          "name": "황성순",
+          "party": "진보당",
+          "bio": "시민사회단체 활동가 | 울산대학교 경영학과 2학년 제적(1991.03~1993.07) | (전)민주노총 울산지역본부 조직1국장 | (현)내란청산 사회대개혁 울산운동본부 집행위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%84%B1%EC%88%9C&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161043",
             "sggName": "동구제2선거구",
             "sdName": "울산광역시",
             "wiwName": "동구",
@@ -2923,6 +3120,39 @@
             "regdate": "",
             "kind": "candidate"
           }
+        },
+        {
+          "id": 100155434,
+          "electionType": "provincial_council",
+          "region": [
+            "울산광역시",
+            "동구"
+          ],
+          "name": "이은주",
+          "party": "진보당",
+          "bio": "정당인 | 이화여자대학교 영어영문학과 졸업 | (전) 울산광역시의회 의원 | (현) 진보당 울산동구지역위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9D%80%EC%A3%BC&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155434",
+            "sggName": "동구제3선거구",
+            "sdName": "울산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
         }
       ],
       "city_council": [
@@ -2951,6 +3181,72 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155226",
+            "sggName": "동구가선거구",
+            "sdName": "울산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161405,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "동구"
+          ],
+          "name": "임채윤",
+          "party": "국민의힘",
+          "bio": "동구의회 의원 | 한양사이버대학교 경영대학원 IT MBA전공(경영학석사) | (현)동구의회 의원 | (전)민주평화통일자문회의 동구협의회 간사(19기)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%B1%84%EC%9C%A4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161405",
+            "sggName": "동구가선거구",
+            "sdName": "울산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155423,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "동구"
+          ],
+          "name": "조성희",
+          "party": "진보당",
+          "bio": "정당인 | 울산대학교 국어국문학과 4학년 제적(1995.03~1999.01) | (현)진보당동구여성위원장 · 사무국장 | (현)울산 동구살리기 주민대회 교육돌봄위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EC%84%B1%ED%9D%AC&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155423",
             "sggName": "동구가선거구",
             "sdName": "울산광역시",
             "wiwName": "동구",
@@ -3026,6 +3322,39 @@
           }
         },
         {
+          "id": 100155415,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "동구"
+          ],
+          "name": "이성규",
+          "party": "진보당",
+          "bio": "택배기사 | 울산대학교 물리학과 4학년 중퇴(1988.03~1996.10) | (전)울산동구주민회 공동대표 | (현)전국택배노동조합 울산지부 부지부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%84%B1%EA%B7%9C&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155415",
+            "sggName": "동구나선거구",
+            "sdName": "울산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100157416,
           "electionType": "city_council",
           "region": [
@@ -3083,6 +3412,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157148",
+            "sggName": "동구다선거구",
+            "sdName": "울산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155555,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "동구"
+          ],
+          "name": "박인경",
+          "party": "진보당",
+          "bio": "정당인 | 울산대학교 사회과학부 졸업(정치외교학 전공 · 사회복지학 복수전공) | (전) 울산동구 청년센터장 | (현) 민주노총 울산지역본부 청년위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9D%B8%EA%B2%BD&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155555",
             "sggName": "동구다선거구",
             "sdName": "울산광역시",
             "wiwName": "동구",
@@ -3496,39 +3858,6 @@
           }
         },
         {
-          "id": 100159079,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "북구"
-          ],
-          "name": "송승엽",
-          "party": "국민의힘",
-          "bio": "정당인 | 고려대학교 사범대학 체육교육과 졸업 | (현)국민의힘 울산시당 디지털미디어위원회 위원장 | (현)울산 북구 바르게살기협의회 청년회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%8A%B9%EC%97%BD&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159079",
-            "sggName": "북구가선거구",
-            "sdName": "울산광역시",
-            "wiwName": "북구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156950,
           "electionType": "city_council",
           "region": [
@@ -3553,6 +3882,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156950",
+            "sggName": "북구가선거구",
+            "sdName": "울산광역시",
+            "wiwName": "북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159079,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "북구"
+          ],
+          "name": "송승엽",
+          "party": "국민의힘",
+          "bio": "정당인 | 고려대학교 사범대학 체육교육과 졸업 | (현)국민의힘 울산시당 디지털미디어위원회 위원장 | (현)울산 북구 바르게살기협의회 청년회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%8A%B9%EC%97%BD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159079",
             "sggName": "북구가선거구",
             "sdName": "울산광역시",
             "wiwName": "북구",
@@ -3595,39 +3957,6 @@
           }
         },
         {
-          "id": 100154370,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "북구"
-          ],
-          "name": "김철우",
-          "party": "더불어민주당",
-          "bio": "회사원(울산알루미늄(주)) | 한국방송통신대학교 대학원 행정학과(석사과정) 재학 중 | (전) 천곡초등학교 운영위원장 | (전) 울산알루미늄노동조합 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B2%A0%EC%9A%B0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154370",
-            "sggName": "북구나선거구",
-            "sdName": "울산광역시",
-            "wiwName": "북구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156831,
           "electionType": "city_council",
           "region": [
@@ -3652,6 +3981,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156831",
+            "sggName": "북구나선거구",
+            "sdName": "울산광역시",
+            "wiwName": "북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154370,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "북구"
+          ],
+          "name": "김철우",
+          "party": "더불어민주당",
+          "bio": "회사원(울산알루미늄(주)) | 한국방송통신대학교 대학원 행정학과(석사과정) 재학 중 | (전) 천곡초등학교 운영위원장 | (전) 울산알루미늄노동조합 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B2%A0%EC%9A%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154370",
             "sggName": "북구나선거구",
             "sdName": "울산광역시",
             "wiwName": "북구",
@@ -3760,39 +4122,6 @@
           }
         },
         {
-          "id": 100154371,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "북구"
-          ],
-          "name": "엄기윤",
-          "party": "더불어민주당",
-          "bio": "자영업 | 울산대학교 중어중문학과 졸업 | (현)더불어민주당 울산광역시당 북구지역위원회 교육연수위원장 | (전)울산광역시 북구 주민자치협의회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%97%84%EA%B8%B0%EC%9C%A4&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154371",
-            "sggName": "북구다선거구",
-            "sdName": "울산광역시",
-            "wiwName": "북구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154860,
           "electionType": "city_council",
           "region": [
@@ -3826,16 +4155,16 @@
           }
         },
         {
-          "id": 100160617,
+          "id": 100154371,
           "electionType": "city_council",
           "region": [
             "울산광역시",
             "북구"
           ],
-          "name": "손옥선",
-          "party": "국민의힘",
-          "bio": "울산광역시 북구의회의원 | 한국방송통신대학교 청소년 교육과(현, 청소년교육복지상담학과)졸업 | (현)명촌초등학교 운영위원회 위원장 | (현)사단법인 한국원자력 국민연대 울산본부 북구지부장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EC%98%A5%EC%84%A0&background=ef4444&color=fff&size=128",
+          "name": "엄기윤",
+          "party": "더불어민주당",
+          "bio": "자영업 | 울산대학교 중어중문학과 졸업 | (현)더불어민주당 울산광역시당 북구지역위원회 교육연수위원장 | (전)울산광역시 북구 주민자치협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%97%84%EA%B8%B0%EC%9C%A4&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -3849,7 +4178,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100160617",
+            "huboid": "100154371",
             "sggName": "북구다선거구",
             "sdName": "울산광역시",
             "wiwName": "북구",
@@ -3883,6 +4212,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156396",
+            "sggName": "북구다선거구",
+            "sdName": "울산광역시",
+            "wiwName": "북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160617,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "북구"
+          ],
+          "name": "손옥선",
+          "party": "국민의힘",
+          "bio": "울산광역시 북구의회의원 | 한국방송통신대학교 청소년 교육과(현, 청소년교육복지상담학과)졸업 | (현)명촌초등학교 운영위원회 위원장 | (현)사단법인 한국원자력 국민연대 울산본부 북구지부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EC%98%A5%EC%84%A0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160617",
             "sggName": "북구다선거구",
             "sdName": "울산광역시",
             "wiwName": "북구",
@@ -4019,6 +4381,39 @@
             "sgId": "20260603",
             "sgTypecode": "4",
             "huboid": "100163313",
+            "sggName": "울주군",
+            "sdName": "울산광역시",
+            "wiwName": "울주군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160472,
+          "electionType": "mayor",
+          "region": [
+            "울산광역시",
+            "울주군"
+          ],
+          "name": "강상규",
+          "party": "진보당",
+          "bio": "정당인 | 울산대학교 철학과 졸업 | (전) 전국플랜트건설노동조합 울산지부장 | (현) 진보당울산시당 \"아이키우기좋은울주군\"군립병원만들기운동본부공동본부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%83%81%EA%B7%9C&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100160472",
             "sggName": "울주군",
             "sdName": "울산광역시",
             "wiwName": "울주군",
@@ -4263,39 +4658,6 @@
       ],
       "city_council": [
         {
-          "id": 100161992,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "울주군"
-          ],
-          "name": "정혜원",
-          "party": "더불어민주당",
-          "bio": "주식회사 케이알산업 대표 | 경남공업고등학교 졸업 | (전) 울주군체육회사무국장 | (현) 쌍용하나빌리지입주자대표회의 회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%ED%98%9C%EC%9B%90&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161992",
-            "sggName": "울주군가선거구",
-            "sdName": "울산광역시",
-            "wiwName": "울주군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100159071,
           "electionType": "city_council",
           "region": [
@@ -4362,16 +4724,16 @@
           }
         },
         {
-          "id": 100160553,
+          "id": 100161992,
           "electionType": "city_council",
           "region": [
             "울산광역시",
             "울주군"
           ],
-          "name": "김상용",
-          "party": "국민의힘",
-          "bio": "울주군의회의원 | 김해건설공업고등학교 졸업 | (현) 제8대 울주군의회 후반기 원전특별위원회 위원장 | (전) 제7대 울주군의회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%83%81%EC%9A%A9&background=ef4444&color=fff&size=128",
+          "name": "정혜원",
+          "party": "더불어민주당",
+          "bio": "주식회사 케이알산업 대표 | 경남공업고등학교 졸업 | (전) 울주군체육회사무국장 | (현) 쌍용하나빌리지입주자대표회의 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%ED%98%9C%EC%9B%90&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -4385,7 +4747,40 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100160553",
+            "huboid": "100161992",
+            "sggName": "울주군가선거구",
+            "sdName": "울산광역시",
+            "wiwName": "울주군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159378,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "울주군"
+          ],
+          "name": "황윤대",
+          "party": "국민의힘",
+          "bio": "농업인 | 현대공업고등학교 졸업 | (현) 국민의힘 울주당협 읍면협의회 회장 | (현) 울산광역시 4-H본부 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%9C%A4%EB%8C%80&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159378",
             "sggName": "울주군가선거구",
             "sdName": "울산광역시",
             "wiwName": "울주군",
@@ -4428,16 +4823,16 @@
           }
         },
         {
-          "id": 100159378,
+          "id": 100160553,
           "electionType": "city_council",
           "region": [
             "울산광역시",
             "울주군"
           ],
-          "name": "황윤대",
+          "name": "김상용",
           "party": "국민의힘",
-          "bio": "농업인 | 현대공업고등학교 졸업 | (현) 국민의힘 울주당협 읍면협의회 회장 | (현) 울산광역시 4-H본부 회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%9C%A4%EB%8C%80&background=ef4444&color=fff&size=128",
+          "bio": "울주군의회의원 | 김해건설공업고등학교 졸업 | (현) 제8대 울주군의회 후반기 원전특별위원회 위원장 | (전) 제7대 울주군의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%83%81%EC%9A%A9&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -4451,7 +4846,40 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159378",
+            "huboid": "100160553",
+            "sggName": "울주군가선거구",
+            "sdName": "울산광역시",
+            "wiwName": "울주군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159387,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "울주군"
+          ],
+          "name": "윤장혁",
+          "party": "진보당",
+          "bio": "정당인 | 강릉명륜고등학교 졸업 | (전) 전국금속노동조합 위원장 | (현) 진보당울산시당 \"아이키우기좋은울주군\"군립병원만들기운동본부 공동본부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%9E%A5%ED%98%81&background=7c3aed&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159387",
             "sggName": "울주군가선거구",
             "sdName": "울산광역시",
             "wiwName": "울주군",
@@ -4560,6 +4988,39 @@
           }
         },
         {
+          "id": 100160993,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "울주군"
+          ],
+          "name": "정우식",
+          "party": "국민의힘",
+          "bio": "정당인 | 동의대학교 수학과 졸업 | (전)제7대 울주군의회의원 | (현)제8대 울주군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%9A%B0%EC%8B%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160993",
+            "sggName": "울주군나선거구",
+            "sdName": "울산광역시",
+            "wiwName": "울주군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100159653,
           "electionType": "city_council",
           "region": [
@@ -4617,6 +5078,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100165417",
+            "sggName": "울주군나선거구",
+            "sdName": "울산광역시",
+            "wiwName": "울주군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165856,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "울주군"
+          ],
+          "name": "이원옥",
+          "party": "무소속",
+          "bio": "행정사 | 울산대학교 정책대학원 졸업(행정학 석사) | (현) 범서행정사무소 행정사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9B%90%EC%98%A5&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165856",
             "sggName": "울주군나선거구",
             "sdName": "울산광역시",
             "wiwName": "울주군",

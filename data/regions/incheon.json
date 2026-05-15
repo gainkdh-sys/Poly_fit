@@ -65,6 +65,38 @@
         "regdate": "",
         "kind": "candidate"
       }
+    },
+    {
+      "id": 100153769,
+      "electionType": "governor",
+      "region": [
+        "인천광역시"
+      ],
+      "name": "이기붕",
+      "party": "개혁신당",
+      "bio": "정당인 | 고려대학교 대학원 생명공학과 박사과정 수료 | (현) 개혁신당 인천광역시당 위원장 | (전) 연세대학교 객원교수",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B8%B0%EB%B6%95&background=f97316&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "3",
+        "huboid": "100153769",
+        "sggName": "인천광역시",
+        "sdName": "인천광역시",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
     }
   ],
   "superintendent": [
@@ -470,39 +502,6 @@
       ],
       "city_council": [
         {
-          "id": 100155721,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "중구"
-          ],
-          "name": "유형숙",
-          "party": "더불어민주당",
-          "bio": "정당인 | 호원대학교 컴퓨터학부 졸업 | (전) 제8대 중구의회의원 | (현) 민주당 중강옹 여성위원회 수석부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%ED%98%95%EC%88%99&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155721",
-            "sggName": "제물포구가선거구",
-            "sdName": "인천광역시",
-            "wiwName": "제물포구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155830,
           "electionType": "city_council",
           "region": [
@@ -527,6 +526,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155830",
+            "sggName": "제물포구가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "제물포구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155721,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "중구"
+          ],
+          "name": "유형숙",
+          "party": "더불어민주당",
+          "bio": "정당인 | 호원대학교 컴퓨터학부 졸업 | (전) 제8대 중구의회의원 | (현) 민주당 중강옹 여성위원회 수석부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%ED%98%95%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155721",
             "sggName": "제물포구가선거구",
             "sdName": "인천광역시",
             "wiwName": "제물포구",
@@ -701,39 +733,6 @@
           }
         },
         {
-          "id": 100159346,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "중구"
-          ],
-          "name": "이재진",
-          "party": "더불어민주당",
-          "bio": "드라마 조연출(프리랜서) | 영진전문대학 산업정보계열 경영전문학사 졸업 | (전)영종 무료통행 시민추진단 공동대표 | (현)더불어 민주당 중구 강화군 옹진군 지역위원회 운영위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%EC%A7%84&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159346",
-            "sggName": "영종구나선거구",
-            "sdName": "인천광역시",
-            "wiwName": "영종구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160447,
           "electionType": "city_council",
           "region": [
@@ -767,16 +766,16 @@
           }
         },
         {
-          "id": 100157054,
+          "id": 100159346,
           "electionType": "city_council",
           "region": [
             "인천광역시",
             "중구"
           ],
-          "name": "김선홍",
-          "party": "국민의힘",
-          "bio": "세무사 | 서강대학교 경영학과 졸업 | (현)세무법인 솔 영종지사 세무사 | (현)인천광역시 중구 문화재단 비상임감사",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%ED%99%8D&background=ef4444&color=fff&size=128",
+          "name": "이재진",
+          "party": "더불어민주당",
+          "bio": "드라마 조연출(프리랜서) | 영진전문대학 산업정보계열 경영전문학사 졸업 | (전)영종 무료통행 시민추진단 공동대표 | (현)더불어 민주당 중구 강화군 옹진군 지역위원회 운영위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%EC%A7%84&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -790,7 +789,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100157054",
+            "huboid": "100159346",
             "sggName": "영종구나선거구",
             "sdName": "인천광역시",
             "wiwName": "영종구",
@@ -824,6 +823,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161050",
+            "sggName": "영종구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "영종구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157054,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "중구"
+          ],
+          "name": "김선홍",
+          "party": "국민의힘",
+          "bio": "세무사 | 서강대학교 경영학과 졸업 | (현)세무법인 솔 영종지사 세무사 | (현)인천광역시 중구 문화재단 비상임감사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%ED%99%8D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157054",
             "sggName": "영종구나선거구",
             "sdName": "인천광역시",
             "wiwName": "영종구",
@@ -1237,39 +1269,6 @@
           }
         },
         {
-          "id": 100162634,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "동구"
-          ],
-          "name": "송광식",
-          "party": "더불어민주당",
-          "bio": "정당인 | 미기재 | (전) 7대, 8대 동구의회의원 | (전) 인천시 군·구의회 의장협의회 회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EA%B4%91%EC%8B%9D&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100162634",
-            "sggName": "제물포구다선거구",
-            "sdName": "인천광역시",
-            "wiwName": "제물포구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156316,
           "electionType": "city_council",
           "region": [
@@ -1303,6 +1302,39 @@
           }
         },
         {
+          "id": 100162634,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "동구"
+          ],
+          "name": "송광식",
+          "party": "더불어민주당",
+          "bio": "정당인 | 미기재 | (전) 7대, 8대 동구의회의원 | (전) 인천시 군·구의회 의장협의회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EA%B4%91%EC%8B%9D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162634",
+            "sggName": "제물포구다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "제물포구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100160935,
           "electionType": "city_council",
           "region": [
@@ -1327,6 +1359,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160935",
+            "sggName": "제물포구다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "제물포구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165727,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "동구"
+          ],
+          "name": "원태근",
+          "party": "국민의힘",
+          "bio": "인천 동구의회 의원 | 한국방송통신대학교 행정학과 졸업 | (전) 제9대 인천 동구의회 전반기 부의장 | (전) 인천 동구청 자치행정국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9B%90%ED%83%9C%EA%B7%BC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165727",
             "sggName": "제물포구다선거구",
             "sdName": "인천광역시",
             "wiwName": "제물포구",
@@ -1773,6 +1838,39 @@
           }
         },
         {
+          "id": 100165854,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "미추홀구"
+          ],
+          "name": "이지용",
+          "party": "국민의힘",
+          "bio": "자영업자 | 광성고등학교 졸업 | (현)주안동 261-4번지 재건축 추진위원회 대표자 | (전)하은빌라 입주민 동대표 역임",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A7%80%EC%9A%A9&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165854",
+            "sggName": "미추홀구가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "미추홀구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161280,
           "electionType": "city_council",
           "region": [
@@ -1872,39 +1970,6 @@
           }
         },
         {
-          "id": 100160425,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "미추홀구"
-          ],
-          "name": "박봉관",
-          "party": "국민의힘",
-          "bio": "정당인 | 한국방송통신대학교 영어영문학과 졸업 | (전)미추홀구 주민참여예산위원회 도시재생분과위원장 | (현)주안2동 바르게살기운동위원회 위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B4%89%EA%B4%80&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160425",
-            "sggName": "미추홀구나선거구",
-            "sdName": "인천광역시",
-            "wiwName": "미추홀구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162381,
           "electionType": "city_council",
           "region": [
@@ -1929,6 +1994,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162381",
+            "sggName": "미추홀구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "미추홀구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160425,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "미추홀구"
+          ],
+          "name": "박봉관",
+          "party": "국민의힘",
+          "bio": "정당인 | 한국방송통신대학교 영어영문학과 졸업 | (전)미추홀구 주민참여예산위원회 도시재생분과위원장 | (현)주안2동 바르게살기운동위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B4%89%EA%B4%80&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160425",
             "sggName": "미추홀구나선거구",
             "sdName": "인천광역시",
             "wiwName": "미추홀구",
@@ -2004,39 +2102,6 @@
           }
         },
         {
-          "id": 100160454,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "미추홀구"
-          ],
-          "name": "김수경",
-          "party": "국민의힘",
-          "bio": "정당인 | 덕성여자대학교 교육대학원 졸업 (교육학 석사) | (현)국민의힘 인천광역시당 대변인 | (현)민주평화통일자문회의 미추홀구협의회 자문위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%88%98%EA%B2%BD&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160454",
-            "sggName": "미추홀구다선거구",
-            "sdName": "인천광역시",
-            "wiwName": "미추홀구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162379,
           "electionType": "city_council",
           "region": [
@@ -2061,6 +2126,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162379",
+            "sggName": "미추홀구다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "미추홀구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160454,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "미추홀구"
+          ],
+          "name": "김수경",
+          "party": "국민의힘",
+          "bio": "정당인 | 덕성여자대학교 교육대학원 졸업 (교육학 석사) | (현)국민의힘 인천광역시당 대변인 | (현)민주평화통일자문회의 미추홀구협의회 자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%88%98%EA%B2%BD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160454",
             "sggName": "미추홀구다선거구",
             "sdName": "인천광역시",
             "wiwName": "미추홀구",
@@ -2103,39 +2201,6 @@
           }
         },
         {
-          "id": 100160347,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "미추홀구"
-          ],
-          "name": "김영근",
-          "party": "더불어민주당",
-          "bio": "정당인 | 국민대학교 종합예술대학원 졸업 (영화학 석사) | (현)제9대 인천광역시 미추홀구의회 의원 | (전)용인송담대학교 방송영화제작과 외래교수",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EA%B7%BC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160347",
-            "sggName": "미추홀구라선거구",
-            "sdName": "인천광역시",
-            "wiwName": "미추홀구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160083,
           "electionType": "city_council",
           "region": [
@@ -2160,6 +2225,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160083",
+            "sggName": "미추홀구라선거구",
+            "sdName": "인천광역시",
+            "wiwName": "미추홀구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160347,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "미추홀구"
+          ],
+          "name": "김영근",
+          "party": "더불어민주당",
+          "bio": "정당인 | 국민대학교 종합예술대학원 졸업 (영화학 석사) | (현)제9대 인천광역시 미추홀구의회 의원 | (전)용인송담대학교 방송영화제작과 외래교수",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EA%B7%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160347",
             "sggName": "미추홀구라선거구",
             "sdName": "인천광역시",
             "wiwName": "미추홀구",
@@ -2903,39 +3001,6 @@
           }
         },
         {
-          "id": 100154561,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "연수구"
-          ],
-          "name": "김일중",
-          "party": "국민의힘",
-          "bio": "정당인 | 인천전문대학 체육과 졸업(현 인천대학교) | (현) 연수구교육혁신운영위원회 위원 | (현) 연수구맨발걷기협회 회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%BC%EC%A4%91&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154561",
-            "sggName": "연수구나선거구",
-            "sdName": "인천광역시",
-            "wiwName": "연수구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161119,
           "electionType": "city_council",
           "region": [
@@ -2960,6 +3025,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161119",
+            "sggName": "연수구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154561,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "김일중",
+          "party": "국민의힘",
+          "bio": "정당인 | 인천전문대학 체육과 졸업(현 인천대학교) | (현) 연수구교육혁신운영위원회 위원 | (현) 연수구맨발걷기협회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%BC%EC%A4%91&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154561",
             "sggName": "연수구나선거구",
             "sdName": "인천광역시",
             "wiwName": "연수구",
@@ -3035,39 +3133,6 @@
           }
         },
         {
-          "id": 100157739,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "연수구"
-          ],
-          "name": "이원우",
-          "party": "국민의힘",
-          "bio": "회사원 | 한국방송통신대학교 법학과졸업 | (전) 연수구 옥련1동 주민자치회 회장 | (현) 인천공단소방서 옥련의용소방대 감사",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9B%90%EC%9A%B0&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157739",
-            "sggName": "연수구다선거구",
-            "sdName": "인천광역시",
-            "wiwName": "연수구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154796,
           "electionType": "city_council",
           "region": [
@@ -3092,6 +3157,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154796",
+            "sggName": "연수구다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157739,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "이원우",
+          "party": "국민의힘",
+          "bio": "회사원 | 한국방송통신대학교 법학과졸업 | (전) 연수구 옥련1동 주민자치회 회장 | (현) 인천공단소방서 옥련의용소방대 감사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9B%90%EC%9A%B0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157739",
             "sggName": "연수구다선거구",
             "sdName": "인천광역시",
             "wiwName": "연수구",
@@ -3901,39 +3999,6 @@
       ],
       "city_council": [
         {
-          "id": 100160817,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "남동구"
-          ],
-          "name": "김용호",
-          "party": "더불어민주당",
-          "bio": "주식회사 음악놀이터 상임지휘자 | 한세대학교 음악학부 음악과 졸업 | (현)더불어민주당 인천남동구갑 사회적경제위원회 위원장 | (현)주식회사 음악놀이터 상임지휘자",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%A9%ED%98%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160817",
-            "sggName": "남동구가선거구",
-            "sdName": "인천광역시",
-            "wiwName": "남동구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100158890,
           "electionType": "city_council",
           "region": [
@@ -3991,6 +4056,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154943",
+            "sggName": "남동구가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "남동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160817,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "남동구"
+          ],
+          "name": "김용호",
+          "party": "더불어민주당",
+          "bio": "주식회사 음악놀이터 상임지휘자 | 한세대학교 음악학부 음악과 졸업 | (현)더불어민주당 인천남동구갑 사회적경제위원회 위원장 | (현)주식회사 음악놀이터 상임지휘자",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%A9%ED%98%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160817",
             "sggName": "남동구가선거구",
             "sdName": "인천광역시",
             "wiwName": "남동구",
@@ -4363,39 +4461,6 @@
           }
         },
         {
-          "id": 100158211,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "남동구"
-          ],
-          "name": "반미선",
-          "party": "더불어민주당",
-          "bio": "남동구의회의원 | 광운대학교 경영대학원 서비스경영학과 심리안전경영전공 졸업(경영학 석사) | (현)제9대 남동구의회의원(전반기의회운영위원장) | (현)더불어민주당 남동구을 여성위원회 위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%98%EB%AF%B8%EC%84%A0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158211",
-            "sggName": "남동구다선거구",
-            "sdName": "인천광역시",
-            "wiwName": "남동구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157206,
           "electionType": "city_council",
           "region": [
@@ -4420,6 +4485,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157206",
+            "sggName": "남동구다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "남동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158211,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "남동구"
+          ],
+          "name": "반미선",
+          "party": "더불어민주당",
+          "bio": "남동구의회의원 | 광운대학교 경영대학원 서비스경영학과 심리안전경영전공 졸업(경영학 석사) | (현)제9대 남동구의회의원(전반기의회운영위원장) | (현)더불어민주당 남동구을 여성위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%98%EB%AF%B8%EC%84%A0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158211",
             "sggName": "남동구다선거구",
             "sdName": "인천광역시",
             "wiwName": "남동구",
@@ -4528,39 +4626,6 @@
           }
         },
         {
-          "id": 100156557,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "남동구"
-          ],
-          "name": "이영주",
-          "party": "더불어민주당",
-          "bio": "양마니푸드 대표 | 한국방송통신대학교 경영학과 졸업 | (현)더불어민주당 인천시당 소상공인부위원장 | (전)장승백이 전통시장 상인회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%98%81%EC%A3%BC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156557",
-            "sggName": "남동구라선거구",
-            "sdName": "인천광역시",
-            "wiwName": "남동구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156167,
           "electionType": "city_council",
           "region": [
@@ -4585,6 +4650,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156167",
+            "sggName": "남동구라선거구",
+            "sdName": "인천광역시",
+            "wiwName": "남동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156557,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "남동구"
+          ],
+          "name": "이영주",
+          "party": "더불어민주당",
+          "bio": "양마니푸드 대표 | 한국방송통신대학교 경영학과 졸업 | (현)더불어민주당 인천시당 소상공인부위원장 | (전)장승백이 전통시장 상인회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%98%81%EC%A3%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156557",
             "sggName": "남동구라선거구",
             "sdName": "인천광역시",
             "wiwName": "남동구",
@@ -5262,39 +5360,6 @@
           }
         },
         {
-          "id": 100160852,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "부평구"
-          ],
-          "name": "남성훈",
-          "party": "더불어민주당",
-          "bio": "자영업 | 재능대학(현 재능대학교) 경영계열 중국비즈니스전공(야) 졸업 | (현)더불어민주당 부평갑 문화체육위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EC%84%B1%ED%9B%88&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160852",
-            "sggName": "부평구나선거구",
-            "sdName": "인천광역시",
-            "wiwName": "부평구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157164,
           "electionType": "city_council",
           "region": [
@@ -5319,6 +5384,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157164",
+            "sggName": "부평구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "부평구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160852,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "부평구"
+          ],
+          "name": "남성훈",
+          "party": "더불어민주당",
+          "bio": "자영업 | 재능대학(현 재능대학교) 경영계열 중국비즈니스전공(야) 졸업 | (현)더불어민주당 부평갑 문화체육위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EC%84%B1%ED%9B%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160852",
             "sggName": "부평구나선거구",
             "sdName": "인천광역시",
             "wiwName": "부평구",
@@ -5994,6 +6092,39 @@
           }
         },
         {
+          "id": 100158124,
+          "electionType": "provincial_council",
+          "region": [
+            "인천광역시",
+            "계양구"
+          ],
+          "name": "김인희",
+          "party": "국민의힘",
+          "bio": "비영리단체 인천의꿈대한민국의미래 대표이사 | 숭실사이버대학교 상담심리학과 졸업 | (현)인천광역시 인권위원회 위원 | (현)인천광역시의회 윤리심사자문위원회 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%B8%ED%9D%AC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158124",
+            "sggName": "계양구제3선거구",
+            "sdName": "인천광역시",
+            "wiwName": "계양구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161902,
           "electionType": "provincial_council",
           "region": [
@@ -6194,39 +6325,6 @@
           }
         },
         {
-          "id": 100161753,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "계양구"
-          ],
-          "name": "박재성",
-          "party": "국민의힘",
-          "bio": "JSP 대표 | 국민대학교 삼림과학대학 산림자원학과 졸업 | (현)국민의힘 계양구갑 당원협의회 청년위원장 | (현)국민의힘 인천광역시당 미래전략특별위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9E%AC%EC%84%B1&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161753",
-            "sggName": "계양구나선거구",
-            "sdName": "인천광역시",
-            "wiwName": "계양구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100165109,
           "electionType": "city_council",
           "region": [
@@ -6251,6 +6349,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100165109",
+            "sggName": "계양구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "계양구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161753,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "계양구"
+          ],
+          "name": "박재성",
+          "party": "국민의힘",
+          "bio": "JSP 대표 | 국민대학교 삼림과학대학 산림자원학과 졸업 | (현)국민의힘 계양구갑 당원협의회 청년위원장 | (현)국민의힘 인천광역시당 미래전략특별위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9E%AC%EC%84%B1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161753",
             "sggName": "계양구나선거구",
             "sdName": "인천광역시",
             "wiwName": "계양구",
@@ -6350,6 +6481,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162335",
+            "sggName": "계양구라선거구",
+            "sdName": "인천광역시",
+            "wiwName": "계양구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156852,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "계양구"
+          ],
+          "name": "김재성",
+          "party": "더불어민주당",
+          "bio": "사회복지사 | 인하대학교 정책대학원 사회복지학과 졸업(석사과정) | (현)경인교대 입법학센터 연구원 | (현)더불어민주당 인천시당 사회복지특위 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EC%84%B1&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156852",
             "sggName": "계양구라선거구",
             "sdName": "인천광역시",
             "wiwName": "계양구",
@@ -7192,6 +7356,72 @@
           }
         },
         {
+          "id": 100161082,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "서구"
+          ],
+          "name": "이세리",
+          "party": "국민의힘",
+          "bio": "정당인 | 이화여자대학교 음악대학 졸업(음악학사) | (현) 국민의힘 인천광역시당 차세대여성위원장 | (현) 대통령직속 민주평화통일자문회의 서구협의회 자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%84%B8%EB%A6%AC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161082",
+            "sggName": "서구가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163603,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "서구"
+          ],
+          "name": "김동익",
+          "party": "국민의힘",
+          "bio": "(주)한양자동차운전전문학원 학과강사 | 조선대학교병설공업전문대학(현 조선이공대학교)졸업 | (전) 서구의회의원 | (전) 경찰공무원 정년퇴직(경감)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%EC%9D%B5&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163603",
+            "sggName": "서구가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100156474,
           "electionType": "city_council",
           "region": [
@@ -7217,6 +7447,39 @@
             "sgTypecode": "6",
             "huboid": "100156474",
             "sggName": "서구가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154531,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "서구"
+          ],
+          "name": "김태형",
+          "party": "더불어민주당",
+          "bio": "회사원 | 한국열린사이버대학교 사회복지학과 2학년 재학중 | (현)더불어민주당 중앙당 정책위원회 부의장 | (현)더불어민주당 인천서구갑 홍보소통위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%ED%98%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154531",
+            "sggName": "서구나선거구",
             "sdName": "인천광역시",
             "wiwName": "서구",
             "status": "등록",
@@ -7357,39 +7620,6 @@
           }
         },
         {
-          "id": 100163590,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "서구"
-          ],
-          "name": "서지영",
-          "party": "더불어민주당",
-          "bio": "서구의회 의원 | 인천대학교 생물학과 졸업 | (현)서구의회 환경경제안전위원회 위원장 | (전)인하대학교 의과학연구소 연구원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%A7%80%EC%98%81&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163590",
-            "sggName": "서구다선거구",
-            "sdName": "인천광역시",
-            "wiwName": "서구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156998,
           "electionType": "city_council",
           "region": [
@@ -7414,6 +7644,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156998",
+            "sggName": "서구다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163590,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "서구"
+          ],
+          "name": "서지영",
+          "party": "더불어민주당",
+          "bio": "서구의회 의원 | 인천대학교 생물학과 졸업 | (현)서구의회 환경경제안전위원회 위원장 | (전)인하대학교 의과학연구소 연구원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%A7%80%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163590",
             "sggName": "서구다선거구",
             "sdName": "인천광역시",
             "wiwName": "서구",
@@ -7555,39 +7818,6 @@
           }
         },
         {
-          "id": 100164239,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "서구"
-          ],
-          "name": "김춘수",
-          "party": "더불어민주당",
-          "bio": "정당인 | 청운대학교 실용음악과 졸업 | (현)서구의회 의원 | (현)대인고등학교 운영위원회 지역위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B6%98%EC%88%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100164239",
-            "sggName": "서구라선거구",
-            "sdName": "인천광역시",
-            "wiwName": "서구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161066,
           "electionType": "city_council",
           "region": [
@@ -7612,6 +7842,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161066",
+            "sggName": "서구라선거구",
+            "sdName": "인천광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100164239,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "서구"
+          ],
+          "name": "김춘수",
+          "party": "더불어민주당",
+          "bio": "정당인 | 청운대학교 실용음악과 졸업 | (현)서구의회 의원 | (현)대인고등학교 운영위원회 지역위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B6%98%EC%88%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100164239",
             "sggName": "서구라선거구",
             "sdName": "인천광역시",
             "wiwName": "서구",
@@ -7753,39 +8016,6 @@
           }
         },
         {
-          "id": 100162200,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "서구"
-          ],
-          "name": "박용갑",
-          "party": "국민의힘",
-          "bio": "서구의회의원 | 명지대학교 물리학과 졸업 | (현) 서구의회 부의장 | (현) 인천지방법원 조정위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%A9%EA%B0%91&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100162200",
-            "sggName": "검단구가선거구",
-            "sdName": "인천광역시",
-            "wiwName": "검단구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162300,
           "electionType": "city_council",
           "region": [
@@ -7819,16 +8049,16 @@
           }
         },
         {
-          "id": 100157462,
+          "id": 100162200,
           "electionType": "city_council",
           "region": [
             "인천광역시",
             "서구"
           ],
-          "name": "백진기",
-          "party": "더불어민주당",
-          "bio": "개인사업자 | 영락고등학교 졸업 | (전)검단주민총연합회장 | (현)더불어민주당 인천서구병지역위원회 자치분권위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%EC%A7%84%EA%B8%B0&background=1e40af&color=fff&size=128",
+          "name": "박용갑",
+          "party": "국민의힘",
+          "bio": "서구의회의원 | 명지대학교 물리학과 졸업 | (현) 서구의회 부의장 | (현) 인천지방법원 조정위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%A9%EA%B0%91&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -7842,8 +8072,8 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100157462",
-            "sggName": "검단구나선거구",
+            "huboid": "100162200",
+            "sggName": "검단구가선거구",
             "sdName": "인천광역시",
             "wiwName": "검단구",
             "status": "등록",
@@ -7885,16 +8115,16 @@
           }
         },
         {
-          "id": 100164481,
+          "id": 100157462,
           "electionType": "city_council",
           "region": [
             "인천광역시",
             "서구"
           ],
-          "name": "윤현숙",
-          "party": "국민의힘",
-          "bio": "주부 | 한서대학교 컴퓨터응용물리학과 졸업 | 미기재",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%ED%98%84%EC%88%99&background=ef4444&color=fff&size=128",
+          "name": "백진기",
+          "party": "더불어민주당",
+          "bio": "개인사업자 | 영락고등학교 졸업 | (전)검단주민총연합회장 | (현)더불어민주당 인천서구병지역위원회 자치분권위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%EC%A7%84%EA%B8%B0&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -7908,7 +8138,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100164481",
+            "huboid": "100157462",
             "sggName": "검단구나선거구",
             "sdName": "인천광역시",
             "wiwName": "검단구",
@@ -7942,6 +8172,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161059",
+            "sggName": "검단구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "검단구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100164481,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "서구"
+          ],
+          "name": "윤현숙",
+          "party": "국민의힘",
+          "bio": "주부 | 한서대학교 컴퓨터응용물리학과 졸업 | 미기재",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%ED%98%84%EC%88%99&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100164481",
             "sggName": "검단구나선거구",
             "sdName": "인천광역시",
             "wiwName": "검단구",
@@ -8289,39 +8552,6 @@
           }
         },
         {
-          "id": 100158401,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "강화군"
-          ],
-          "name": "구본호",
-          "party": "국민의힘",
-          "bio": "휴먼노인대학 주간보호센터 대표 | 순천향대학교 전산학과 졸업 | (전) 제28보병사단 소령 | (현) 강화군 재향군인회 이사",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B5%AC%EB%B3%B8%ED%98%B8&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158401",
-            "sggName": "강화군가선거구",
-            "sdName": "인천광역시",
-            "wiwName": "강화군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161971,
           "electionType": "city_council",
           "region": [
@@ -8346,6 +8576,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161971",
+            "sggName": "강화군가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "강화군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158401,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "강화군"
+          ],
+          "name": "구본호",
+          "party": "국민의힘",
+          "bio": "휴먼노인대학 주간보호센터 대표 | 순천향대학교 전산학과 졸업 | (전) 제28보병사단 소령 | (현) 강화군 재향군인회 이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B5%AC%EB%B3%B8%ED%98%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158401",
             "sggName": "강화군가선거구",
             "sdName": "인천광역시",
             "wiwName": "강화군",
@@ -9023,39 +9286,6 @@
           }
         },
         {
-          "id": 100163213,
-          "electionType": "city_council",
-          "region": [
-            "인천광역시",
-            "옹진군"
-          ],
-          "name": "김규성",
-          "party": "무소속",
-          "bio": "제9대옹진군의회의원 | 성균관대학교 법과대학 법학과 졸업 | (현) 제9대옹진군의회의원 | (현) 제9대 옹진군의회운영위원장(전.후반기)",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B7%9C%EC%84%B1&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163213",
-            "sggName": "옹진군다선거구",
-            "sdName": "인천광역시",
-            "wiwName": "옹진군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161137,
           "electionType": "city_council",
           "region": [
@@ -9080,6 +9310,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161137",
+            "sggName": "옹진군다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "옹진군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163213,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "옹진군"
+          ],
+          "name": "김규성",
+          "party": "무소속",
+          "bio": "제9대옹진군의회의원 | 성균관대학교 법과대학 법학과 졸업 | (현) 제9대옹진군의회의원 | (현) 제9대 옹진군의회운영위원장(전.후반기)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B7%9C%EC%84%B1&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163213",
             "sggName": "옹진군다선거구",
             "sdName": "인천광역시",
             "wiwName": "옹진군",

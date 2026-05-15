@@ -69,38 +69,6 @@
   ],
   "superintendent": [
     {
-      "id": 100153814,
-      "electionType": "superintendent",
-      "region": [
-        "충청남도"
-      ],
-      "name": "김영춘",
-      "party": "무소속",
-      "bio": "국립공주대학교 명예교수 | 명지대학교 대학원 전기공학과 졸업(공학박사) | (현)대통령직속지방시대위원 | (전)국립 공주대학교 부총장",
-      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%B6%98&background=64748b&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-      "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-      },
-      "source": "nec",
-      "nec": {
-        "sgId": "20260603",
-        "sgTypecode": "11",
-        "huboid": "100153814",
-        "sggName": "충청남도",
-        "sdName": "충청남도",
-        "wiwName": "",
-        "status": "등록",
-        "regdate": "",
-        "kind": "candidate"
-      }
-    },
-    {
       "id": 100153788,
       "electionType": "superintendent",
       "region": [
@@ -156,6 +124,70 @@
         "sgId": "20260603",
         "sgTypecode": "11",
         "huboid": "100153791",
+        "sggName": "충청남도",
+        "sdName": "충청남도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100153814,
+      "electionType": "superintendent",
+      "region": [
+        "충청남도"
+      ],
+      "name": "김영춘",
+      "party": "무소속",
+      "bio": "국립공주대학교 명예교수 | 명지대학교 대학원 전기공학과 졸업(공학박사) | (현)대통령직속지방시대위원 | (전)국립 공주대학교 부총장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%B6%98&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100153814",
+        "sggName": "충청남도",
+        "sdName": "충청남도",
+        "wiwName": "",
+        "status": "등록",
+        "regdate": "",
+        "kind": "candidate"
+      }
+    },
+    {
+      "id": 100158164,
+      "electionType": "superintendent",
+      "region": [
+        "충청남도"
+      ],
+      "name": "이명수",
+      "party": "무소속",
+      "bio": "상명대학교 천안산학협력단 특임교수 | 성균관대학교 대학원 행정학과 졸업(행정학 박사) | (전)국회의원 4선 | (전)나사렛대 부총장",
+      "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%AA%85%EC%88%98&background=64748b&color=fff&size=128",
+      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "pledges": {
+        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+      },
+      "source": "nec",
+      "nec": {
+        "sgId": "20260603",
+        "sgTypecode": "11",
+        "huboid": "100158164",
         "sggName": "충청남도",
         "sdName": "충청남도",
         "wiwName": "",
@@ -600,6 +632,39 @@
           }
         },
         {
+          "id": 100155082,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "김선홍",
+          "party": "더불어민주당",
+          "bio": "자영업 | 단국대학교 대학원 공공정책학과 박사과정 재학중 | (전)천안시의원 | (현)더불어민주당 정책연구특별위원회 총괄위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%ED%99%8D&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155082",
+            "sggName": "천안시제6선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161735,
           "electionType": "provincial_council",
           "region": [
@@ -625,6 +690,39 @@
             "sgTypecode": "5",
             "huboid": "100161735",
             "sggName": "천안시제6선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155123,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "진성범",
+          "party": "더불어민주당",
+          "bio": "정당인 | 공주대학교 사범대학 일반사회교육과 졸업 | (현)더불어민주당 정책위원회 부위원장 | (현)충청남도교육청 도민감사관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A7%84%EC%84%B1%EB%B2%94&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155123",
+            "sggName": "천안시제7선거구",
             "sdName": "충청남도",
             "wiwName": "천안시서북구",
             "status": "등록",
@@ -726,6 +824,39 @@
             "sggName": "천안시제8선거구",
             "sdName": "충청남도",
             "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154743,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "지정근",
+          "party": "더불어민주당",
+          "bio": "정당인 | 단국대학교 정책경영대학원 경영학과 졸업(경영학석사) | (전)제11대 충청남도의회의원 | (전)더불어민주당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A7%80%EC%A0%95%EA%B7%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100154743",
+            "sggName": "천안시제9선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시동남구",
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
@@ -1031,6 +1162,39 @@
           }
         },
         {
+          "id": 100162070,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "복아영",
+          "party": "더불어민주당",
+          "bio": "천안시의회의원 | 단국대학교 대학원 공공관리학과 석사과정 수료 | (전)노무현재단 대전세종충남지역위원회 운영위원 | (현)천안시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B3%B5%EC%95%84%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162070",
+            "sggName": "천안시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시동남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100163632,
           "electionType": "city_council",
           "region": [
@@ -1064,39 +1228,6 @@
           }
         },
         {
-          "id": 100158378,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "천안시"
-          ],
-          "name": "김강진",
-          "party": "국민의힘",
-          "bio": "천안시의원 | 공주대학교(현 국립공주대학교) 환경공학과 졸업 | (전)천안시의회 국민의힘 원내대표 | (전)공주대학교 총학생회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B0%95%EC%A7%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158378",
-            "sggName": "천안시다선거구",
-            "sdName": "충청남도",
-            "wiwName": "천안시동남구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155634,
           "electionType": "city_council",
           "region": [
@@ -1121,6 +1252,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155634",
+            "sggName": "천안시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시동남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158378,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "김강진",
+          "party": "국민의힘",
+          "bio": "천안시의원 | 공주대학교(현 국립공주대학교) 환경공학과 졸업 | (전)천안시의회 국민의힘 원내대표 | (전)공주대학교 총학생회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B0%95%EC%A7%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158378",
             "sggName": "천안시다선거구",
             "sdName": "충청남도",
             "wiwName": "천안시동남구",
@@ -1220,6 +1384,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156970",
+            "sggName": "천안시라선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165598,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "최혜선",
+          "party": "더불어민주당",
+          "bio": "정당인 | 숭실대학교 중소기업대학원 졸업(경영학석사) | (전)더불어민주당 중앙위원 | (현)더불어민주당 충남도당 여성위원회 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%ED%98%9C%EC%84%A0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165598",
             "sggName": "천안시라선거구",
             "sdName": "충청남도",
             "wiwName": "천안시서북구",
@@ -1394,16 +1591,16 @@
           }
         },
         {
-          "id": 100158006,
+          "id": 100157338,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "천안시"
           ],
-          "name": "김철환",
-          "party": "국민의힘",
-          "bio": "정당인 | 고려대학교 행정전문대학원 정책학과 석사과정 3학기 재학중 | (현)천안시의회 의원 | (전)제8대 천안시의회 전반기 경제산업위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B2%A0%ED%99%98&background=ef4444&color=fff&size=128",
+          "name": "윤철상",
+          "party": "더불어민주당",
+          "bio": "정당인 | 천안외국어대학 경영과 졸업(현 백석문화대학교) | (전)충남도의회의원 | (전)더불어민주당 충남도당 부대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%B2%A0%EC%83%81&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1417,7 +1614,40 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100158006",
+            "huboid": "100157338",
+            "sggName": "천안시마선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165536,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "육종영",
+          "party": "더불어민주당",
+          "bio": "천안시의회의원 | 공주대학교 테크노융합대학원 졸업(공학석사) | (전)제8대 천안시의회의원 | (현)제9대 천안시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A1%EC%A2%85%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165536",
             "sggName": "천안시마선거구",
             "sdName": "충청남도",
             "wiwName": "천안시서북구",
@@ -1451,6 +1681,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160376",
+            "sggName": "천안시마선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158006,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "김철환",
+          "party": "국민의힘",
+          "bio": "정당인 | 고려대학교 행정전문대학원 정책학과 석사과정 3학기 재학중 | (현)천안시의회 의원 | (전)제9대 천안시의회 전반기 경제산업위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B2%A0%ED%99%98&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158006",
             "sggName": "천안시마선거구",
             "sdName": "충청남도",
             "wiwName": "천안시서북구",
@@ -1617,6 +1880,105 @@
             "sgTypecode": "6",
             "huboid": "100163016",
             "sggName": "천안시바선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163906,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "이해성",
+          "party": "개혁신당",
+          "bio": "정당인 | 한국방송통신대학교 법학과 1학년 재학중 | (현)개혁신당 충남도당 사무처장 | (현)개혁신당 충남도당 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%95%B4%EC%84%B1&background=f97316&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163906",
+            "sggName": "천안시바선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159229,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "이영재",
+          "party": "더불어민주당",
+          "bio": "정당인 | 사회복지전문학사과정 이수중 | (현)더불어민주당 충남도당 교육정책특위 공동위원장 | (전)더불어민주당 천안을 부성2동 당협회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%98%81%EC%9E%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159229",
+            "sggName": "천안시사선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161261,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "배성민",
+          "party": "더불어민주당",
+          "bio": "천안시의회의원 | 한국방송통신대학교 법학과 졸업 | (현)제9대 천안시의회의원 | (전)대한민국 국회의원 보좌관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B0%EC%84%B1%EB%AF%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161261",
+            "sggName": "천안시사선거구",
             "sdName": "충청남도",
             "wiwName": "천안시서북구",
             "status": "등록",
@@ -1823,6 +2185,72 @@
           }
         },
         {
+          "id": 100154327,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "김재구",
+          "party": "더불어민주당",
+          "bio": "건설업 | 행정전문학사(사회복지전공) | (전)천안시 청룡동 주민자치위원회 위원장 | (현)더불어민주당 천안시갑 청룡동 당원협의회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EA%B5%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154327",
+            "sggName": "천안시차선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시동남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154338,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "강환봉",
+          "party": "더불어민주당",
+          "bio": "회사원 | 행정전문학사(사회복지전공) | (현)더불어민주당 천안시갑 직능위원장 | (현)천안시축구협회 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%ED%99%98%EB%B4%89&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154338",
+            "sggName": "천안시차선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시동남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100154329,
           "electionType": "city_council",
           "region": [
@@ -1949,6 +2377,39 @@
             "sggName": "천안시차선거구",
             "sdName": "충청남도",
             "wiwName": "천안시동남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158476,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "천안시"
+          ],
+          "name": "유영채",
+          "party": "더불어민주당",
+          "bio": "천안시의회 의원 | 호서대학교 문화복지상담대학원 졸업(사회복지학석사) | (전)천안용암초등학교 학교운영위원회 위원장 | (현)제9대 천안시의회 의원(전반기 행정안전위원회 위원장)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%98%81%EC%B1%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158476",
+            "sggName": "천안시카선거구",
+            "sdName": "충청남도",
+            "wiwName": "천안시서북구",
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
@@ -2159,6 +2620,39 @@
           }
         },
         {
+          "id": 100155229,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "공주시"
+          ],
+          "name": "권흥길",
+          "party": "더불어민주당",
+          "bio": "정당인 | 공주고등학교 졸업 | (전)국회의원 박수현의원 보좌관 | (현)공주시 상가번영회 대외협력위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%ED%9D%A5%EA%B8%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100155229",
+            "sggName": "공주시제2선거구",
+            "sdName": "충청남도",
+            "wiwName": "공주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100160513,
           "electionType": "provincial_council",
           "region": [
@@ -2193,6 +2687,39 @@
         }
       ],
       "city_council": [
+        {
+          "id": 100160594,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "공주시"
+          ],
+          "name": "구본길",
+          "party": "더불어민주당",
+          "bio": "공주시의회의원 | 호서대학교 경영학사(경영학 전공) | (현) 공주시의회의원 | (현) 공주시지속발전가능위원회 심의위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B5%AC%EB%B3%B8%EA%B8%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160594",
+            "sggName": "공주시가선거구",
+            "sdName": "충청남도",
+            "wiwName": "공주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
         {
           "id": 100158492,
           "electionType": "city_council",
@@ -2284,6 +2811,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154978",
+            "sggName": "공주시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "공주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157275,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "공주시"
+          ],
+          "name": "조휘제",
+          "party": "더불어민주당",
+          "bio": "농·축산업 | 공주대학교(현 국립공주대학교) 동물자원학과 대학원 수료 | (현)더불어민주당 정책위원회 부의장 | (현)더불어민주당 공주지역위원회 청년국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%ED%9C%98%EC%A0%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157275",
             "sggName": "공주시나선거구",
             "sdName": "충청남도",
             "wiwName": "공주시",
@@ -2524,6 +3084,39 @@
           }
         },
         {
+          "id": 100157556,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "공주시"
+          ],
+          "name": "김경수",
+          "party": "국민의힘",
+          "bio": "농업 | 공주농업고등학교(현 공주생명과학고등학교) 졸업 | (전)제8대 공주시의회의원 | (현)공주시사회복지협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B2%BD%EC%88%98&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157556",
+            "sggName": "공주시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "공주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100155505,
           "electionType": "city_council",
           "region": [
@@ -2590,39 +3183,6 @@
           }
         },
         {
-          "id": 100156582,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "공주시"
-          ],
-          "name": "권경운",
-          "party": "국민의힘",
-          "bio": "공주시의회의원 | 청주대학교 사회복지학과 졸업 | (현)공주시의회의원 | (현)공주시의회 운영위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EA%B2%BD%EC%9A%B4&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156582",
-            "sggName": "공주시라선거구",
-            "sdName": "충청남도",
-            "wiwName": "공주시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157211,
           "electionType": "city_council",
           "region": [
@@ -2647,6 +3207,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157211",
+            "sggName": "공주시라선거구",
+            "sdName": "충청남도",
+            "wiwName": "공주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156582,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "공주시"
+          ],
+          "name": "권경운",
+          "party": "국민의힘",
+          "bio": "공주시의회의원 | 청주대학교 사회복지학과 졸업 | (현)공주시의회의원 | (현)공주시의회 운영위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EA%B2%BD%EC%9A%B4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156582",
             "sggName": "공주시라선거구",
             "sdName": "충청남도",
             "wiwName": "공주시",
@@ -2684,6 +3277,39 @@
             "sgId": "20260603",
             "sgTypecode": "4",
             "huboid": "100153989",
+            "sggName": "보령시",
+            "sdName": "충청남도",
+            "wiwName": "보령시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156967,
+          "electionType": "mayor",
+          "region": [
+            "충청남도",
+            "보령시"
+          ],
+          "name": "엄승용",
+          "party": "국민의힘",
+          "bio": "보령시 발전협의회 회장 | 영국 뉴캐슬대학교 정치학 박사(2000.01. - 2010.08.) | (전)청와대 비서관 | (전)국제연합(UN) 한국대표부 외교관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%97%84%EC%8A%B9%EC%9A%A9&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100156967",
             "sggName": "보령시",
             "sdName": "충청남도",
             "wiwName": "보령시",
@@ -3126,39 +3752,6 @@
           }
         },
         {
-          "id": 100154360,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "보령시"
-          ],
-          "name": "김정명",
-          "party": "더불어민주당",
-          "bio": "농업 | 천북중학교 졸업 | (전)천북면 하만2리 이장 | (전)천북면 주민자치위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%EB%AA%85&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154360",
-            "sggName": "보령시다선거구",
-            "sdName": "충청남도",
-            "wiwName": "보령시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154361,
           "electionType": "city_council",
           "region": [
@@ -3183,6 +3776,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154361",
+            "sggName": "보령시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "보령시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154360,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "보령시"
+          ],
+          "name": "김정명",
+          "party": "더불어민주당",
+          "bio": "농업 | 천북중학교 졸업 | (전)천북면 하만2리 이장 | (전)천북면 주민자치위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%EB%AA%85&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154360",
             "sggName": "보령시다선거구",
             "sdName": "충청남도",
             "wiwName": "보령시",
@@ -3225,39 +3851,6 @@
           }
         },
         {
-          "id": 100157561,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "보령시"
-          ],
-          "name": "백성현",
-          "party": "국민의힘",
-          "bio": "보령시의회의원 | 군산대학교 대학원 수산과학과 졸업(수산학박사) | (전)보령시체육회 바둑협회장 | (현)제9대 보령시의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%EC%84%B1%ED%98%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157561",
-            "sggName": "보령시다선거구",
-            "sdName": "충청남도",
-            "wiwName": "보령시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157649,
           "electionType": "city_council",
           "region": [
@@ -3282,6 +3875,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157649",
+            "sggName": "보령시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "보령시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157561,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "보령시"
+          ],
+          "name": "백성현",
+          "party": "국민의힘",
+          "bio": "보령시의회의원 | 군산대학교 대학원 수산과학과 졸업(수산학박사) | (전)보령시체육회 바둑협회장 | (현)제9대 보령시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%EC%84%B1%ED%98%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157561",
             "sggName": "보령시다선거구",
             "sdName": "충청남도",
             "wiwName": "보령시",
@@ -3627,6 +4253,39 @@
           }
         },
         {
+          "id": 100162122,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "김응규",
+          "party": "국민의힘",
+          "bio": "정당인 | 단국대학교 행정대학원 도시행정학과 도시행정 졸업(행정학석사) | (전)아산시의회의장 | (현)충청남도의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%91%EA%B7%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162122",
+            "sggName": "아산시제2선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100154460,
           "electionType": "provincial_council",
           "region": [
@@ -3717,6 +4376,39 @@
             "sgId": "20260603",
             "sgTypecode": "5",
             "huboid": "100158395",
+            "sggName": "아산시제4선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162117,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "손도신",
+          "party": "국민의힘",
+          "bio": "(주)소명비제이씨 대표 | 충남산업대학교(현청운대학교) 경영학과 1년 제적 (1997.03~1997.11) | (전) 제6,7회 지방선거 옹진군수 무소속 후보 | (전) 제8회 지방선거 충남도의회 아산시제5선거구 후보",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EB%8F%84%EC%8B%A0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162117",
             "sggName": "아산시제4선거구",
             "sdName": "충청남도",
             "wiwName": "아산시",
@@ -3926,6 +4618,72 @@
           }
         },
         {
+          "id": 100158799,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "신미진",
+          "party": "국민의힘",
+          "bio": "아산시의회의원 | 호서대학교 경영대학원졸업(경영학석사) | (전)국민의힘 충남도당 부대변인 | (현)아산시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EB%AF%B8%EC%A7%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158799",
+            "sggName": "아산시가선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156298,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "윤영숙",
+          "party": "더불어민주당",
+          "bio": "아산시 관광통역가이드 | 순천향대학교 중어중문학과 졸업 | (현)더불어민주당 중앙당 정책위원회 부의장 | (현)더불어민주당 충남도당 원도심활성화특위 공동위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%98%81%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156298",
+            "sggName": "아산시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100154449,
           "electionType": "city_council",
           "region": [
@@ -3959,39 +4717,6 @@
           }
         },
         {
-          "id": 100158597,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "아산시"
-          ],
-          "name": "박효진",
-          "party": "국민의힘",
-          "bio": "정당인 | 순천향대학교 일반대학원 법학과 졸업(석사과정) | (전)국회의원 비서 | (현)아산시의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%9A%A8%EC%A7%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158597",
-            "sggName": "아산시나선거구",
-            "sdName": "충청남도",
-            "wiwName": "아산시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100159362,
           "electionType": "city_council",
           "region": [
@@ -4016,6 +4741,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159362",
+            "sggName": "아산시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158597,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "박효진",
+          "party": "국민의힘",
+          "bio": "정당인 | 순천향대학교 일반대학원 법학과 졸업(석사과정) | (전)국회의원 비서 | (현)아산시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%9A%A8%EC%A7%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158597",
             "sggName": "아산시나선거구",
             "sdName": "충청남도",
             "wiwName": "아산시",
@@ -4083,6 +4841,39 @@
             "sgTypecode": "6",
             "huboid": "100164671",
             "sggName": "아산시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158045,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "김민규",
+          "party": "더불어민주당",
+          "bio": "(주)그린넷 대표 | 백제예술대학(현 백제예술대학교) 미술학과 졸업 | (현)더불어민주당 충남도당 신도시개발 특별위원회 공동위원장 | (현)대통령직속민주평화통일자문회의 아산시협의회 자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%BC%EA%B7%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158045",
+            "sggName": "아산시라선거구",
             "sdName": "충청남도",
             "wiwName": "아산시",
             "status": "등록",
@@ -4256,6 +5047,39 @@
           }
         },
         {
+          "id": 100162178,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "이춘호",
+          "party": "더불어민주당",
+          "bio": "아산시의회의원 | 순천향대학교 국어국문학과 졸업 | (전)더불어민주당 아산을 지역위원회 배방읍협의회장 | (현)제9대아산시의회의원(문화복지환경위원장)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%B6%98%ED%98%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162178",
+            "sggName": "아산시마선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100158787,
           "electionType": "city_council",
           "region": [
@@ -4280,6 +5104,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158787",
+            "sggName": "아산시마선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160719,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "최민수",
+          "party": "국민의힘",
+          "bio": "자영업 | 백석문화대학교 사회복지학과 졸업 | (전)아산시주민자치 연합회 회장 | (현)충청남도 정책 특별보좌관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%AF%BC%EC%88%98&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160719",
             "sggName": "아산시마선거구",
             "sdName": "충청남도",
             "wiwName": "아산시",
@@ -4322,39 +5179,6 @@
           }
         },
         {
-          "id": 100158270,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "아산시"
-          ],
-          "name": "윤예숙",
-          "party": "국민의힘",
-          "bio": "유원대학교 협력교수 | 나사렛대학교 일반대학원 졸업(재활학박사) | (현)유원대학교 협력교수 | (현)국민의힘 충남도당 대변인",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%98%88%EC%88%99&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158270",
-            "sggName": "아산시바선거구",
-            "sdName": "충청남도",
-            "wiwName": "아산시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155119,
           "electionType": "city_council",
           "region": [
@@ -4379,6 +5203,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155119",
+            "sggName": "아산시바선거구",
+            "sdName": "충청남도",
+            "wiwName": "아산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158270,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "아산시"
+          ],
+          "name": "윤예숙",
+          "party": "국민의힘",
+          "bio": "유원대학교 협력교수 | 나사렛대학교 일반대학원 졸업(재활학박사) | (현)유원대학교 협력교수 | (현)국민의힘 충남도당 대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%98%88%EC%88%99&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158270",
             "sggName": "아산시바선거구",
             "sdName": "충청남도",
             "wiwName": "아산시",
@@ -5823,39 +6680,6 @@
           }
         },
         {
-          "id": 100158393,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "논산시"
-          ],
-          "name": "서승필",
-          "party": "더불어민주당",
-          "bio": "정당인 | 건양사이버대학 보건의료복지학과 졸업 | (현)논산시의회의원 | (현)새순상사 대표",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%8A%B9%ED%95%84&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158393",
-            "sggName": "논산시가선거구",
-            "sdName": "충청남도",
-            "wiwName": "논산시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157371,
           "electionType": "city_council",
           "region": [
@@ -5889,16 +6713,16 @@
           }
         },
         {
-          "id": 100158404,
+          "id": 100158393,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "논산시"
           ],
-          "name": "윤금숙",
+          "name": "서승필",
           "party": "더불어민주당",
-          "bio": "논산시의회의원 | 부여여자고등학교 졸업 | (현)논산시의회의원 | (전)논산시 강경읍 새마을 부녀회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EA%B8%88%EC%88%99&background=1e40af&color=fff&size=128",
+          "bio": "정당인 | 건양사이버대학 보건의료복지학과 졸업 | (현)논산시의회의원 | (현)새순상사 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%8A%B9%ED%95%84&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -5912,7 +6736,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100158404",
+            "huboid": "100158393",
             "sggName": "논산시가선거구",
             "sdName": "충청남도",
             "wiwName": "논산시",
@@ -5955,16 +6779,16 @@
           }
         },
         {
-          "id": 100156716,
+          "id": 100158404,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "논산시"
           ],
-          "name": "김재광",
-          "party": "국민의힘",
-          "bio": "농업회사법인(주)논산딸기빵 대표이사 | 건양사이버대학교 보건의료복지학과 졸업 | (전)연무중학교 운영위원장 | (현)연무읍새마을지도자 총무",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EA%B4%91&background=ef4444&color=fff&size=128",
+          "name": "윤금숙",
+          "party": "더불어민주당",
+          "bio": "논산시의회의원 | 부여여자고등학교 졸업 | (현)논산시의회의원 | (전)논산시 강경읍 새마을 부녀회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EA%B8%88%EC%88%99&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -5978,40 +6802,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100156716",
-            "sggName": "논산시가선거구",
-            "sdName": "충청남도",
-            "wiwName": "논산시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100161444,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "논산시"
-          ],
-          "name": "이상구",
-          "party": "국민의힘",
-          "bio": "논산시의회의원 | 동국대학교 인도철학과 졸업 | (현)제9대 논산시의회의원 | (전)제6대 후반기 논산시의회의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%83%81%EA%B5%AC&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161444",
+            "huboid": "100158404",
             "sggName": "논산시가선거구",
             "sdName": "충청남도",
             "wiwName": "논산시",
@@ -6054,6 +6845,72 @@
           }
         },
         {
+          "id": 100161444,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "논산시"
+          ],
+          "name": "이상구",
+          "party": "국민의힘",
+          "bio": "논산시의회의원 | 동국대학교 인도철학과 졸업 | (현)제9대 논산시의회의원 | (전)제6대 후반기 논산시의회의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%83%81%EA%B5%AC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161444",
+            "sggName": "논산시가선거구",
+            "sdName": "충청남도",
+            "wiwName": "논산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156716,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "논산시"
+          ],
+          "name": "김재광",
+          "party": "국민의힘",
+          "bio": "농업회사법인(주)논산딸기빵 대표이사 | 건양사이버대학교 보건의료복지학과 졸업 | (전)연무중학교 운영위원장 | (현)연무읍새마을지도자 총무",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EA%B4%91&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156716",
+            "sggName": "논산시가선거구",
+            "sdName": "충청남도",
+            "wiwName": "논산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100157658,
           "electionType": "city_council",
           "region": [
@@ -6087,39 +6944,6 @@
           }
         },
         {
-          "id": 100163895,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "논산시"
-          ],
-          "name": "김형준",
-          "party": "더불어민주당",
-          "bio": "자영업 | 중앙대학교 예술대학원 예술경영학과 졸업(예술경영학 석사) | (현)더불어민주당 논산 국방클러스터조성 특별위원회 공동위원장 | (현)충남대학교 행정대학원 행정학과 석사과정 재학중",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%95%EC%A4%80&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163895",
-            "sggName": "논산시나선거구",
-            "sdName": "충청남도",
-            "wiwName": "논산시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157141,
           "electionType": "city_council",
           "region": [
@@ -6144,6 +6968,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157141",
+            "sggName": "논산시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "논산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163895,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "논산시"
+          ],
+          "name": "김형준",
+          "party": "더불어민주당",
+          "bio": "자영업 | 중앙대학교 예술대학원 예술경영학과 졸업(예술경영학 석사) | (현)더불어민주당 논산 국방클러스터조성 특별위원회 공동위원장 | (현)충남대학교 행정대학원 행정학과 석사과정 재학중",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%95%EC%A4%80&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163895",
             "sggName": "논산시나선거구",
             "sdName": "충청남도",
             "wiwName": "논산시",
@@ -6252,39 +7109,6 @@
           }
         },
         {
-          "id": 100154938,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "논산시"
-          ],
-          "name": "김태성",
-          "party": "더불어민주당",
-          "bio": "논산시청 공무직 | 건양대학교 경영사회복지대학원 경영학과 졸업(경영학 석사) | (현)민주평화통일 자문회의 자문위원 | (전)더불어민주당 논산계룡금산 지역위원회 청년위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EC%84%B1&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154938",
-            "sggName": "논산시다선거구",
-            "sdName": "충청남도",
-            "wiwName": "논산시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157034,
           "electionType": "city_council",
           "region": [
@@ -6309,6 +7133,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157034",
+            "sggName": "논산시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "논산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154938,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "논산시"
+          ],
+          "name": "김태성",
+          "party": "더불어민주당",
+          "bio": "논산시청 공무직 | 건양대학교 경영사회복지대학원 경영학과 졸업(경영학 석사) | (현)민주평화통일 자문회의 자문위원 | (전)더불어민주당 논산계룡금산 지역위원회 청년위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EC%84%B1&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154938",
             "sggName": "논산시다선거구",
             "sdName": "충청남도",
             "wiwName": "논산시",
@@ -6375,6 +7232,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161764",
+            "sggName": "논산시다선거구",
+            "sdName": "충청남도",
+            "wiwName": "논산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158987,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "논산시"
+          ],
+          "name": "문지희",
+          "party": "국민의힘",
+          "bio": "정당인 | 혜천대학 졸업(방송영상전공) | (현)논산화지중앙시장 상인회 부회장 | (현)충청남도 정책특별보좌관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%A7%80%ED%9D%AC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158987",
             "sggName": "논산시다선거구",
             "sdName": "충청남도",
             "wiwName": "논산시",
@@ -6520,9 +7410,108 @@
             "regdate": "",
             "kind": "candidate"
           }
+        },
+        {
+          "id": 100156216,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "이재운",
+          "party": "국민의힘",
+          "bio": "충청남도의회의원 | 대전대학교 대학원 사회복지학과 졸업(사회복지학석사) | (전)계룡시의회 의장 | (현)충청남도의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%EC%9A%B4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100156216",
+            "sggName": "계룡시선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165728,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "조기성",
+          "party": "무소속",
+          "bio": "무직 | 건양사이버대학교 산업안전소방학과 졸업(소방학사) | (전)심대평도지사 비서 | (현)재향군인회 회원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EA%B8%B0%EC%84%B1&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100165728",
+            "sggName": "계룡시선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
         }
       ],
       "city_council": [
+        {
+          "id": 100163542,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "이희정",
+          "party": "더불어민주당",
+          "bio": "정당인 | 이화여자대학교 정책과학대학원 재학중(석사학위과정) | (전)황명선 국회의원 비서관 | (현)더불어민주당 참좋은지방정부위원회 자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%9D%AC%EC%A0%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163542",
+            "sggName": "계룡시가선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
         {
           "id": 100156922,
           "electionType": "city_council",
@@ -6548,6 +7537,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156922",
+            "sggName": "계룡시가선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156527,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "이용권",
+          "party": "국민의힘",
+          "bio": "정당인 | 고려대학교 경영정보대학원 졸업(경영학석사) | (전)계룡시장애인협회 회장 | (현)계룡시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9A%A9%EA%B6%8C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156527",
             "sggName": "계룡시가선거구",
             "sdName": "충청남도",
             "wiwName": "계룡시",
@@ -6623,39 +7645,6 @@
           }
         },
         {
-          "id": 100156527,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "계룡시"
-          ],
-          "name": "이용권",
-          "party": "국민의힘",
-          "bio": "정당인 | 고려대학교 경영정보대학원 졸업(경영학석사) | (전)계룡시장애인협회 회장 | (현)계룡시의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9A%A9%EA%B6%8C&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156527",
-            "sggName": "계룡시가선거구",
-            "sdName": "충청남도",
-            "wiwName": "계룡시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162978,
           "electionType": "city_council",
           "region": [
@@ -6689,6 +7678,39 @@
           }
         },
         {
+          "id": 100154264,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "황정호",
+          "party": "더불어민주당",
+          "bio": "정당인 | 한남대학교 아동복지학과 졸업 | (현)더불어민주당 논산계룡금산 지역위원회 청년부위원장 | (전)국회의원 비서관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%A0%95%ED%98%B8&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154264",
+            "sggName": "계룡시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100153960,
           "electionType": "city_council",
           "region": [
@@ -6713,6 +7735,72 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100153960",
+            "sggName": "계룡시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100153882,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "강흥식",
+          "party": "국민의힘",
+          "bio": "회사원 | 공주영상대학(현 한국영상대학교) 공무원양성과 졸업 | (전)계룡시의회의원 제4대 부의장 역임 | (전)계룡시의회의원 초대의원 역임",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%ED%9D%A5%EC%8B%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100153882",
+            "sggName": "계룡시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161115,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "김미정",
+          "party": "국민의힘",
+          "bio": "계룡시의회의원 | 대전여자상업고등학교 졸업 | (현)계룡시의회의원 | (전)소상공인진흥공단 금암동상인회 매니저",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%B8%EC%A0%95&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161115",
             "sggName": "계룡시나선거구",
             "sdName": "충청남도",
             "wiwName": "계룡시",
@@ -6779,6 +7867,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161802",
+            "sggName": "계룡시나선거구",
+            "sdName": "충청남도",
+            "wiwName": "계룡시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163920,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "계룡시"
+          ],
+          "name": "이정훈",
+          "party": "무소속",
+          "bio": "사회환원 행동실천 연대대표 | 환일고등학교 졸업 | (전)해군군무사무관 | (현)사회환원 행동실천 연대대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%ED%9B%88&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163920",
             "sggName": "계룡시나선거구",
             "sdName": "충청남도",
             "wiwName": "계룡시",
@@ -7821,6 +8942,39 @@
             "regdate": "",
             "kind": "candidate"
           }
+        },
+        {
+          "id": 100159392,
+          "electionType": "mayor",
+          "region": [
+            "충청남도",
+            "금산군"
+          ],
+          "name": "안찬",
+          "party": "조국혁신당",
+          "bio": "정당인 | 성균관대학교경영대학원 경영정보전공 졸업(경영학석사) | (전) 서울시설공단 서울어린이대공원장/총무처장 | (현) 조국혁신당 중앙당 정책위 부의장/논산·계룡·금산 지역위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%EC%B0%AC&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100159392",
+            "sggName": "금산군",
+            "sdName": "충청남도",
+            "wiwName": "금산군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
         }
       ],
       "provincial_council": [
@@ -8223,6 +9377,72 @@
           }
         },
         {
+          "id": 100162702,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "금산군"
+          ],
+          "name": "김현섭",
+          "party": "무소속",
+          "bio": "농업 | 남일중학교 졸업 | (전) 제14대 국회의원(통일국민당) 정태영 청년회장 | (현) 금산의집 봉사활동(회장)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%84%EC%84%AD&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162702",
+            "sggName": "금산군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "금산군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158318,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "금산군"
+          ],
+          "name": "이화영",
+          "party": "더불어민주당",
+          "bio": "요양보호사교육원 프리랜서 강사 | 건양대학교 보건복지대학원 보건학과 석사 졸업 | (전)금산군 보건소장 | (현) 금산군의회 의원 정책개발 연구 활동 심사위원회 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%99%94%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158318",
+            "sggName": "금산군나선거구",
+            "sdName": "충청남도",
+            "wiwName": "금산군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100159610,
           "electionType": "city_council",
           "region": [
@@ -8280,39 +9500,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158684",
-            "sggName": "금산군나선거구",
-            "sdName": "충청남도",
-            "wiwName": "금산군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100158318,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "금산군"
-          ],
-          "name": "이화영",
-          "party": "더불어민주당",
-          "bio": "요양보호사교육원 프리랜서 강사 | 건양대학교 보건복지대학원 보건학과 석사 졸업 | (전)금산군 보건소장 | (현) 금산군의회 의원 정책개발 연구 활동 심사위원회 위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%99%94%EC%98%81&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158318",
             "sggName": "금산군나선거구",
             "sdName": "충청남도",
             "wiwName": "금산군",
@@ -8726,16 +9913,16 @@
       ],
       "city_council": [
         {
-          "id": 100161019,
+          "id": 100158119,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "부여군"
           ],
-          "name": "김경철",
+          "name": "서장원",
           "party": "더불어민주당",
-          "bio": "회사원 | 부여고등학교 졸업 | (전)태양산림대표 | (현)더불어민주당 공주부여청앙 지역위원회 부여군 청년연합회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B2%BD%EC%B2%A0&background=1e40af&color=fff&size=128",
+          "bio": "정당인 | 공주대학교대학원 유통마케팅학과 졸업(경영학석사) | (전)부여군청 자치행정과장 | (전)부여군청 농업정책과장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%9E%A5%EC%9B%90&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -8749,7 +9936,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100161019",
+            "huboid": "100158119",
             "sggName": "부여군가선거구",
             "sdName": "충청남도",
             "wiwName": "부여군",
@@ -8792,39 +9979,6 @@
           }
         },
         {
-          "id": 100158119,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "부여군"
-          ],
-          "name": "서장원",
-          "party": "더불어민주당",
-          "bio": "정당인 | 공주대학교대학원 유통마케팅학과 졸업(경영학석사) | (전)부여군청 자치행정과장 | (전)부여군청 농업정책과장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%9E%A5%EC%9B%90&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158119",
-            "sggName": "부여군가선거구",
-            "sdName": "충청남도",
-            "wiwName": "부여군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100158235,
           "electionType": "city_council",
           "region": [
@@ -8858,16 +10012,16 @@
           }
         },
         {
-          "id": 100159838,
+          "id": 100161019,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "부여군"
           ],
-          "name": "박순화",
-          "party": "국민의힘",
-          "bio": "부여군의회의원 | 홍산농업고등학교(현 한국식품마이스터고등학교) 졸업 | (전)17대 부여군여성단체협의회장 | (현)부여군의회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%88%9C%ED%99%94&background=ef4444&color=fff&size=128",
+          "name": "김경철",
+          "party": "더불어민주당",
+          "bio": "회사원 | 부여고등학교 졸업 | (전)태양산림대표 | (현)더불어민주당 공주부여청앙 지역위원회 부여군 청년연합회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B2%BD%EC%B2%A0&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -8881,7 +10035,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159838",
+            "huboid": "100161019",
             "sggName": "부여군가선거구",
             "sdName": "충청남도",
             "wiwName": "부여군",
@@ -8915,6 +10069,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159611",
+            "sggName": "부여군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "부여군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159838,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "부여군"
+          ],
+          "name": "박순화",
+          "party": "국민의힘",
+          "bio": "부여군의회의원 | 홍산농업고등학교(현 한국식품마이스터고등학교) 졸업 | (전)17대 부여군여성단체협의회장 | (현)부여군의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%88%9C%ED%99%94&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159838",
             "sggName": "부여군가선거구",
             "sdName": "충청남도",
             "wiwName": "부여군",
@@ -8990,6 +10177,39 @@
           }
         },
         {
+          "id": 100159944,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "부여군"
+          ],
+          "name": "윤선예",
+          "party": "더불어민주당",
+          "bio": "부여군의회의원 | 부여여자고등학교 졸업 | (전)더불어민주당 부대변인 | (현)부여군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%84%A0%EC%98%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159944",
+            "sggName": "부여군나선거구",
+            "sdName": "충청남도",
+            "wiwName": "부여군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100158224,
           "electionType": "city_council",
           "region": [
@@ -9056,16 +10276,16 @@
           }
         },
         {
-          "id": 100159944,
+          "id": 100160338,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "부여군"
           ],
-          "name": "윤선예",
-          "party": "더불어민주당",
-          "bio": "부여군의회의원 | 부여여자고등학교 졸업 | (전)더불어민주당 부대변인 | (현)부여군의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%84%A0%EC%98%88&background=1e40af&color=fff&size=128",
+          "name": "이관동",
+          "party": "국민의힘",
+          "bio": "보험업 | 대전가톨릭대학교 신학과 졸업 | (현)국민의힘 충청남도당 청년위원회 공주부여청양 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B4%80%EB%8F%99&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -9079,7 +10299,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159944",
+            "huboid": "100160338",
             "sggName": "부여군나선거구",
             "sdName": "충청남도",
             "wiwName": "부여군",
@@ -9113,39 +10333,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157268",
-            "sggName": "부여군나선거구",
-            "sdName": "충청남도",
-            "wiwName": "부여군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100160338,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "부여군"
-          ],
-          "name": "이관동",
-          "party": "국민의힘",
-          "bio": "보험업 | 대전가톨릭대학교 신학과 졸업 | (현)국민의힘 충청남도당 청년위원회 공주부여청양 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B4%80%EB%8F%99&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160338",
             "sggName": "부여군나선거구",
             "sdName": "충청남도",
             "wiwName": "부여군",
@@ -9421,6 +10608,39 @@
             "regdate": "",
             "kind": "candidate"
           }
+        },
+        {
+          "id": 100163271,
+          "electionType": "mayor",
+          "region": [
+            "충청남도",
+            "서천군"
+          ],
+          "name": "조중연",
+          "party": "개혁신당",
+          "bio": "정당인 | 성균관대학교 국정관리대학원 국정관리학과(석사과정 수료) | (전)충청남도의회 예산정책담당관 | (전)김태흠국회의원 보좌관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EC%A4%91%EC%97%B0&background=f97316&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100163271",
+            "sggName": "서천군",
+            "sdName": "충청남도",
+            "wiwName": "서천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
         }
       ],
       "provincial_council": [
@@ -9559,39 +10779,6 @@
       ],
       "city_council": [
         {
-          "id": 100159598,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "서천군"
-          ],
-          "name": "박노찬",
-          "party": "더불어민주당",
-          "bio": "정치인 | 공주대학교 정책융합전문대학원 지속가능정책전공 졸업(정책학 석사) | (전)서천군의원(제6대, 제7대) | (전)서천군사회복지협의회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%85%B8%EC%B0%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159598",
-            "sggName": "서천군가선거구",
-            "sdName": "충청남도",
-            "wiwName": "서천군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160440,
           "electionType": "city_council",
           "region": [
@@ -9625,6 +10812,39 @@
           }
         },
         {
+          "id": 100159598,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "서천군"
+          ],
+          "name": "박노찬",
+          "party": "더불어민주당",
+          "bio": "정치인 | 공주대학교 정책융합전문대학원 지속가능정책전공 졸업(정책학 석사) | (전)서천군의원(제6대, 제7대) | (전)서천군사회복지협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%85%B8%EC%B0%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159598",
+            "sggName": "서천군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "서천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100159573,
           "electionType": "city_council",
           "region": [
@@ -9649,6 +10869,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159573",
+            "sggName": "서천군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "서천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161651,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "서천군"
+          ],
+          "name": "김원섭",
+          "party": "국민의힘",
+          "bio": "서천군의회의원 | 청양대학(현 충남도립대학교) 자치행정과(야) 졸업 | (현) 서천군의회의원 | (전) 한산면체육회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9B%90%EC%84%AD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161651",
             "sggName": "서천군가선거구",
             "sdName": "충청남도",
             "wiwName": "서천군",
@@ -9724,39 +10977,6 @@
           }
         },
         {
-          "id": 100159571,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "서천군"
-          ],
-          "name": "강신두",
-          "party": "국민의힘",
-          "bio": "농업인 | 학력인정 남일고등학교 졸업 | (전)제8대 서천군의회 부의장 | (현)서천군 시니어지원협회 이사장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%8B%A0%EB%91%90&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159571",
-            "sggName": "서천군나선거구",
-            "sdName": "충청남도",
-            "wiwName": "서천군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160269,
           "electionType": "city_council",
           "region": [
@@ -9781,6 +11001,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160269",
+            "sggName": "서천군나선거구",
+            "sdName": "충청남도",
+            "wiwName": "서천군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159571,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "서천군"
+          ],
+          "name": "강신두",
+          "party": "국민의힘",
+          "bio": "농업인 | 학력인정 남일고등학교 졸업 | (전)제8대 서천군의회 부의장 | (현)서천군 시니어지원협회 이사장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%8B%A0%EB%91%90&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159571",
             "sggName": "서천군나선거구",
             "sdName": "충청남도",
             "wiwName": "서천군",
@@ -10497,6 +11750,39 @@
           }
         },
         {
+          "id": 100157678,
+          "electionType": "provincial_council",
+          "region": [
+            "충청남도",
+            "홍성군"
+          ],
+          "name": "박현주",
+          "party": "더불어민주당",
+          "bio": "정당인 | 청운대학교대학원 관광통상경영학과 졸업(경영학석사) | (전)국민건강보험공단 대전세종충청지역본부(홍성지사) | (전)홍주방문간호센터 사회복지사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%84%EC%A3%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100157678",
+            "sggName": "홍성군제2선거구",
+            "sdName": "충청남도",
+            "wiwName": "홍성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100162570,
           "electionType": "provincial_council",
           "region": [
@@ -10664,39 +11950,6 @@
           }
         },
         {
-          "id": 100159712,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "홍성군"
-          ],
-          "name": "김관태",
-          "party": "더불어민주당",
-          "bio": "충남현대특장 대표 | 홍주고등학교 졸업 | (전)한국자유총연맹 홍성군지회 위원장협의회장 | (현)더불어민주당 정책위원회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%80%ED%83%9C&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159712",
-            "sggName": "홍성군나선거구",
-            "sdName": "충청남도",
-            "wiwName": "홍성군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100159037,
           "electionType": "city_council",
           "region": [
@@ -10721,6 +11974,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159037",
+            "sggName": "홍성군나선거구",
+            "sdName": "충청남도",
+            "wiwName": "홍성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159712,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "홍성군"
+          ],
+          "name": "김관태",
+          "party": "더불어민주당",
+          "bio": "충남현대특장 대표 | 홍주고등학교 졸업 | (전)한국자유총연맹 홍성군지회 위원장협의회장 | (현)더불어민주당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%80%ED%83%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159712",
             "sggName": "홍성군나선거구",
             "sdName": "충청남도",
             "wiwName": "홍성군",
@@ -10961,39 +12247,6 @@
           }
         },
         {
-          "id": 100163039,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "홍성군"
-          ],
-          "name": "김덕배",
-          "party": "국민의힘",
-          "bio": "홍성군의회의원 | 갈산중학교 졸업 | (전)홍성군의회 후반기 7대 의장 | (현)홍성군의회 후반기 9대 의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8D%95%EB%B0%B0&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163039",
-            "sggName": "홍성군라선거구",
-            "sdName": "충청남도",
-            "wiwName": "홍성군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162476,
           "electionType": "city_council",
           "region": [
@@ -11018,6 +12271,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162476",
+            "sggName": "홍성군라선거구",
+            "sdName": "충청남도",
+            "wiwName": "홍성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163039,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "홍성군"
+          ],
+          "name": "김덕배",
+          "party": "국민의힘",
+          "bio": "홍성군의회의원 | 갈산중학교 졸업 | (전)홍성군의회 후반기 7대 의장 | (현)홍성군의회 후반기 9대 의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8D%95%EB%B0%B0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163039",
             "sggName": "홍성군라선거구",
             "sdName": "충청남도",
             "wiwName": "홍성군",
@@ -11229,20 +12515,18 @@
             "regdate": "",
             "kind": "candidate"
           }
-        }
-      ],
-      "city_council": [
+        },
         {
-          "id": 100159282,
-          "electionType": "city_council",
+          "id": 100156490,
+          "electionType": "provincial_council",
           "region": [
             "충청남도",
             "예산군"
           ],
-          "name": "고진석",
-          "party": "더불어민주당",
-          "bio": "회사원 | 순천향대학교 공과대학 전산학과 졸업 | (전)예산군자율방범연합대 대장 | (전)예산초등학교  학교운영위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%A7%84%EC%84%9D&background=1e40af&color=fff&size=128",
+          "name": "전달수",
+          "party": "국민의힘",
+          "bio": "자영업 | 공주대학교 산업과학대학원 석사과정(5학기) 수료 | (전) 예산군농업기술센터 소장 | (현) 매헌윤봉길월진회이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%84%EB%8B%AC%EC%88%98&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -11255,16 +12539,18 @@
           "source": "nec",
           "nec": {
             "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159282",
-            "sggName": "예산군가선거구",
+            "sgTypecode": "5",
+            "huboid": "100156490",
+            "sggName": "예산군제2선거구",
             "sdName": "충청남도",
             "wiwName": "예산군",
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
           }
-        },
+        }
+      ],
+      "city_council": [
         {
           "id": 100159264,
           "electionType": "city_council",
@@ -11299,16 +12585,16 @@
           }
         },
         {
-          "id": 100159293,
+          "id": 100159282,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "예산군"
           ],
-          "name": "김태금",
-          "party": "국민의힘",
-          "bio": "예산군의회의원 | 충남도립대학교 자치행정학과(야) 졸업 | (전)예산군여성단체협의회 회장 | (현)충청남도예산교육지원청 미래교육자문위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EA%B8%88&background=ef4444&color=fff&size=128",
+          "name": "고진석",
+          "party": "더불어민주당",
+          "bio": "회사원 | 순천향대학교 공과대학 전산학과 졸업 | (전)예산군자율방범연합대 대장 | (전)예산초등학교  학교운영위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%A7%84%EC%84%9D&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -11322,7 +12608,40 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159293",
+            "huboid": "100159282",
+            "sggName": "예산군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "예산군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159270,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "예산군"
+          ],
+          "name": "황두현",
+          "party": "국민의힘",
+          "bio": "정당인 | 순천향대학교 졸업 (관광경영학 전공) | (현) 국민의힘 충청남도당 청년위원회 수석 부위원장 | (현) 국민의힘 예산군 당원협의회 청년위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EB%91%90%ED%98%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159270",
             "sggName": "예산군가선거구",
             "sdName": "충청남도",
             "wiwName": "예산군",
@@ -11365,16 +12684,16 @@
           }
         },
         {
-          "id": 100159270,
+          "id": 100159293,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "예산군"
           ],
-          "name": "황두현",
+          "name": "김태금",
           "party": "국민의힘",
-          "bio": "정당인 | 순천향대학교 졸업 (관광경영학 전공) | (현) 국민의힘 충청남도당 청년위원회 수석 부위원장 | (현) 국민의힘 예산군 당원협의회 청년위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EB%91%90%ED%98%84&background=ef4444&color=fff&size=128",
+          "bio": "예산군의회의원 | 충남도립대학교 자치행정학과(야) 졸업 | (전)예산군여성단체협의회 회장 | (현)충청남도예산교육지원청 미래교육자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EA%B8%88&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -11388,7 +12707,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159270",
+            "huboid": "100159293",
             "sggName": "예산군가선거구",
             "sdName": "충청남도",
             "wiwName": "예산군",
@@ -11563,39 +12882,6 @@
           }
         },
         {
-          "id": 100161231,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "예산군"
-          ],
-          "name": "임종용",
-          "party": "국민의힘",
-          "bio": "예산군의회의원 | 안치초등학교 졸업 | (전)삽교읍새마을협회 회장 | (현)예산군의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A2%85%EC%9A%A9&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161231",
-            "sggName": "예산군다선거구",
-            "sdName": "충청남도",
-            "wiwName": "예산군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162111,
           "electionType": "city_council",
           "region": [
@@ -11620,6 +12906,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162111",
+            "sggName": "예산군다선거구",
+            "sdName": "충청남도",
+            "wiwName": "예산군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161231,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "예산군"
+          ],
+          "name": "임종용",
+          "party": "국민의힘",
+          "bio": "예산군의회의원 | 안치초등학교 졸업 | (전)삽교읍새마을협회 회장 | (현)예산군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A2%85%EC%9A%A9&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161231",
             "sggName": "예산군다선거구",
             "sdName": "충청남도",
             "wiwName": "예산군",
@@ -12000,6 +13319,39 @@
       ],
       "city_council": [
         {
+          "id": 100159696,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "태안군"
+          ],
+          "name": "홍상금",
+          "party": "더불어민주당",
+          "bio": "자영업 | 미기재 | (현) 더불어민주당 충남도당 직능위원회 부위원장 | (전) 생활개선 태안군연합회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%83%81%EA%B8%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159696",
+            "sggName": "태안군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "태안군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100159425,
           "electionType": "city_council",
           "region": [
@@ -12057,39 +13409,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159709",
-            "sggName": "태안군가선거구",
-            "sdName": "충청남도",
-            "wiwName": "태안군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100159696,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "태안군"
-          ],
-          "name": "홍상금",
-          "party": "더불어민주당",
-          "bio": "자영업 | 미기재 | (현) 더불어민주당 충남도당 직능위원회 부위원장 | (전) 생활개선 태안군연합회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%83%81%EA%B8%88&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159696",
             "sggName": "태안군가선거구",
             "sdName": "충청남도",
             "wiwName": "태안군",
@@ -12264,16 +13583,16 @@
           }
         },
         {
-          "id": 100160706,
+          "id": 100159760,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "태안군"
           ],
-          "name": "박선의",
+          "name": "장영숙",
           "party": "국민의힘",
-          "bio": "태안군의회의원 | 한서대학교 대학원 평생교육학 박사 | (현) 태안군의회의원 | (전) 태안군여성단체협의회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%84%A0%EC%9D%98&background=ef4444&color=fff&size=128",
+          "bio": "정당인 | 공주대학교 지역개발학부 졸업(행정학사) | (현) 사단법인 여성중앙회 태안군지부회장 | (현) 사단법인 세금바로쓰기 납세자운동 태안군지부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%98%81%EC%88%99&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -12287,7 +13606,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100160706",
+            "huboid": "100159760",
             "sggName": "태안군나선거구",
             "sdName": "충청남도",
             "wiwName": "태안군",
@@ -12330,16 +13649,16 @@
           }
         },
         {
-          "id": 100159760,
+          "id": 100160706,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "태안군"
           ],
-          "name": "장영숙",
+          "name": "박선의",
           "party": "국민의힘",
-          "bio": "정당인 | 공주대학교 지역개발학부 졸업(행정학사) | (현) 사단법인 여성중앙회 태안군지부회장 | (현) 사단법인 세금바로쓰기 납세자운동 태안군지부회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%98%81%EC%88%99&background=ef4444&color=fff&size=128",
+          "bio": "태안군의회의원 | 한서대학교 대학원 평생교육학 박사 | (현) 태안군의회의원 | (전) 태안군여성단체협의회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%84%A0%EC%9D%98&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -12353,7 +13672,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159760",
+            "huboid": "100160706",
             "sggName": "태안군나선거구",
             "sdName": "충청남도",
             "wiwName": "태안군",

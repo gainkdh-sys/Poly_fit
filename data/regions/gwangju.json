@@ -75,39 +75,6 @@
       ],
       "city_council": [
         {
-          "id": 100156376,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "동구"
-          ],
-          "name": "문선화",
-          "party": "더불어민주당",
-          "bio": "광주광역시 동구의회의원(9대 후반기 의장) | 전남대학교 일반대학원 수료(NGO 협동과정 석사) | (현) 광주광역시 동구의회 의장(9대 후반기) | (현) 더불어민주당 중앙당 정책위부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%84%A0%ED%99%94&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156376",
-            "sggName": "동구가선거구",
-            "sdName": "광주광역시",
-            "wiwName": "동구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157098,
           "electionType": "city_council",
           "region": [
@@ -132,6 +99,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157098",
+            "sggName": "동구가선거구",
+            "sdName": "광주광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156376,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "동구"
+          ],
+          "name": "문선화",
+          "party": "더불어민주당",
+          "bio": "광주광역시 동구의회의원(9대 후반기 의장) | 전남대학교 일반대학원 수료(NGO 협동과정 석사) | (현) 광주광역시 동구의회 의장(9대 후반기) | (현) 더불어민주당 중앙당 정책위부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%84%A0%ED%99%94&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156376",
             "sggName": "동구가선거구",
             "sdName": "광주광역시",
             "wiwName": "동구",
@@ -273,39 +273,6 @@
           }
         },
         {
-          "id": 100155046,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "동구"
-          ],
-          "name": "김대성",
-          "party": "더불어민주당",
-          "bio": "DS테크 대표 | 동신대학교 통계학과 졸업 | (현)학동 바르게 살기 위원장 | (현)학동 새마을협의회 지도자",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%EC%84%B1&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155046",
-            "sggName": "동구나선거구",
-            "sdName": "광주광역시",
-            "wiwName": "동구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156674,
           "electionType": "city_council",
           "region": [
@@ -363,6 +330,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155018",
+            "sggName": "동구나선거구",
+            "sdName": "광주광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155046,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "동구"
+          ],
+          "name": "김대성",
+          "party": "더불어민주당",
+          "bio": "DS테크 대표 | 동신대학교 통계학과 졸업 | (현)학동 바르게 살기 위원장 | (현)학동 새마을협의회 지도자",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%EC%84%B1&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155046",
             "sggName": "동구나선거구",
             "sdName": "광주광역시",
             "wiwName": "동구",
@@ -1176,16 +1176,16 @@
       ],
       "city_council": [
         {
-          "id": 100156391,
+          "id": 100155390,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "남구"
           ],
-          "name": "김경묵",
+          "name": "조미애",
           "party": "더불어민주당",
-          "bio": "제 9대남구의회의원 | 고려사이버대학교 소방안전학부 재학 | (현) 제 9대남구의회의원 | (전) 제 9대 광주남구의회 전반기 사회건설위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B2%BD%EB%AC%B5&background=1e40af&color=fff&size=128",
+          "bio": "정당인 | 광주대학교 사회복지전문대학원 사회복지학과 졸업(사회복지학석사) | (현) 더불어민주당 광주광역시당 동남갑 지역발전특별위원장 | (현) 4.19 문화원 봉사단장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EB%AF%B8%EC%95%A0&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1199,7 +1199,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100156391",
+            "huboid": "100155390",
             "sggName": "남구가선거구",
             "sdName": "광주광역시",
             "wiwName": "남구",
@@ -1242,16 +1242,16 @@
           }
         },
         {
-          "id": 100155390,
+          "id": 100156391,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "남구"
           ],
-          "name": "조미애",
+          "name": "김경묵",
           "party": "더불어민주당",
-          "bio": "정당인 | 광주대학교 사회복지전문대학원 사회복지학과 졸업(사회복지학석사) | (현) 더불어민주당 광주광역시당 동남갑 지역발전특별위원장 | (현) 4.19 문화원 봉사단장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EB%AF%B8%EC%95%A0&background=1e40af&color=fff&size=128",
+          "bio": "제 9대남구의회의원 | 고려사이버대학교 소방안전학부 재학 | (현) 제 9대남구의회의원 | (전) 제 9대 광주남구의회 전반기 사회건설위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B2%BD%EB%AC%B5&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1265,7 +1265,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100155390",
+            "huboid": "100156391",
             "sggName": "남구가선거구",
             "sdName": "광주광역시",
             "wiwName": "남구",
@@ -1341,39 +1341,6 @@
           }
         },
         {
-          "id": 100157069,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "남구"
-          ],
-          "name": "신종혁",
-          "party": "더불어민주당",
-          "bio": "제9대 남구의회의원 | 전남대학교 산림자원조경학부 졸업(임산공학 전공)/경영학부 졸업(복수전공) | (현) 제9대 남구의회의원 | (전) 더불어민주당 중앙당 청년정책연구소 부소장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%A2%85%ED%98%81&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157069",
-            "sggName": "남구나선거구",
-            "sdName": "광주광역시",
-            "wiwName": "남구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100153983,
           "electionType": "city_council",
           "region": [
@@ -1407,6 +1374,39 @@
           }
         },
         {
+          "id": 100156857,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "남구"
+          ],
+          "name": "은봉희",
+          "party": "더불어민주당",
+          "bio": "제9대 남구의회의원 | 전남대학교 행정대학원 행정학과 졸업(행정학석사) | (현) 대통령직속 민주평화통일 자문회의 남구협의회 수석 대변인 | (현) 제9대 남구의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%80%EB%B4%89%ED%9D%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156857",
+            "sggName": "남구나선거구",
+            "sdName": "광주광역시",
+            "wiwName": "남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100155816,
           "electionType": "city_council",
           "region": [
@@ -1431,6 +1431,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155816",
+            "sggName": "남구나선거구",
+            "sdName": "광주광역시",
+            "wiwName": "남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157069,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "남구"
+          ],
+          "name": "신종혁",
+          "party": "더불어민주당",
+          "bio": "제9대 남구의회의원 | 전남대학교 산림자원조경학부 졸업(임산공학 전공)/경영학부 졸업(복수전공) | (현) 제9대 남구의회의원 | (전) 더불어민주당 중앙당 청년정책연구소 부소장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%A2%85%ED%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157069",
             "sggName": "남구나선거구",
             "sdName": "광주광역시",
             "wiwName": "남구",
@@ -1539,39 +1572,6 @@
           }
         },
         {
-          "id": 100157322,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "남구"
-          ],
-          "name": "서상기",
-          "party": "더불어민주당",
-          "bio": "시민단체활동가 | 광주대학교 사회복지전문대학원 사회복지학과 졸업(사회복지학석사) | (현) 더불어민주당 광주광역시당 부위원장 | (전) 광주경제정의실천시민연합 자치분권위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%83%81%EA%B8%B0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157322",
-            "sggName": "남구다선거구",
-            "sdName": "광주광역시",
-            "wiwName": "남구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157779,
           "electionType": "city_council",
           "region": [
@@ -1596,6 +1596,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157779",
+            "sggName": "남구다선거구",
+            "sdName": "광주광역시",
+            "wiwName": "남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157322,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "남구"
+          ],
+          "name": "서상기",
+          "party": "더불어민주당",
+          "bio": "시민단체활동가 | 광주대학교 사회복지전문대학원 사회복지학과 졸업(사회복지학석사) | (현) 더불어민주당 광주광역시당 부위원장 | (전) 광주경제정의실천시민연합 자치분권위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%83%81%EA%B8%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157322",
             "sggName": "남구다선거구",
             "sdName": "광주광역시",
             "wiwName": "남구",
@@ -1809,16 +1842,16 @@
       ],
       "city_council": [
         {
-          "id": 100161300,
+          "id": 100155681,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "북구"
           ],
-          "name": "고영임",
+          "name": "신원근",
           "party": "더불어민주당",
-          "bio": "북구의회의원 | 성균관대학교 졸업 | (현)광주광역시 북구의회 의원 | (현)광주광역시 북구의회 의회운영위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%98%81%EC%9E%84&background=1e40af&color=fff&size=128",
+          "bio": "정당인 | 동강대학 산업디자인과 졸업 | (현)더불어민주당 광주북구갑지역위원회 홍보소통위원장 | (현)더불어민주당 광주시당 청년위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%9B%90%EA%B7%BC&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1832,7 +1865,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100161300",
+            "huboid": "100155681",
             "sggName": "북구가선거구",
             "sdName": "광주광역시",
             "wiwName": "북구",
@@ -1875,16 +1908,16 @@
           }
         },
         {
-          "id": 100155681,
+          "id": 100161300,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "북구"
           ],
-          "name": "신원근",
+          "name": "고영임",
           "party": "더불어민주당",
-          "bio": "정당인 | 동강대학 산업디자인과 졸업 | (현)더불어민주당 광주북구갑지역위원회 홍보소통위원장 | (현)더불어민주당 광주시당 청년위원회 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%9B%90%EA%B7%BC&background=1e40af&color=fff&size=128",
+          "bio": "북구의회의원 | 성균관대학교 졸업 | (현)광주광역시 북구의회 의원 | (현)광주광역시 북구의회 의회운영위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%98%81%EC%9E%84&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1898,7 +1931,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100155681",
+            "huboid": "100161300",
             "sggName": "북구가선거구",
             "sdName": "광주광역시",
             "wiwName": "북구",
@@ -1974,39 +2007,6 @@
           }
         },
         {
-          "id": 100156664,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "북구"
-          ],
-          "name": "김재덕",
-          "party": "더불어민주당",
-          "bio": "정당인 | 조선대학교 경영학과 졸업 | (현)더불어 민주당 중앙당 당대표 특보단(특별보좌역) | (현)더불어 민주당 광주 북구갑 지역위원회 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EB%8D%95&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156664",
-            "sggName": "북구나선거구",
-            "sdName": "광주광역시",
-            "wiwName": "북구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155536,
           "electionType": "city_council",
           "region": [
@@ -2031,6 +2031,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155536",
+            "sggName": "북구나선거구",
+            "sdName": "광주광역시",
+            "wiwName": "북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156664,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "북구"
+          ],
+          "name": "김재덕",
+          "party": "더불어민주당",
+          "bio": "정당인 | 조선대학교 경영학과 졸업 | (현)더불어 민주당 중앙당 당대표 특보단(특별보좌역) | (현)더불어 민주당 광주 북구갑 지역위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EB%8D%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156664",
             "sggName": "북구나선거구",
             "sdName": "광주광역시",
             "wiwName": "북구",
@@ -2106,39 +2139,6 @@
           }
         },
         {
-          "id": 100157719,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "북구"
-          ],
-          "name": "김영순",
-          "party": "더불어민주당",
-          "bio": "북구의회의원 | 국가평생교육진흥원 가정전문학사학위 취득 | (전)제8대 후반기 북구의회부의장 | (현)북구의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%88%9C&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157719",
-            "sggName": "북구다선거구",
-            "sdName": "광주광역시",
-            "wiwName": "북구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155883,
           "electionType": "city_council",
           "region": [
@@ -2196,6 +2196,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158363",
+            "sggName": "북구다선거구",
+            "sdName": "광주광역시",
+            "wiwName": "북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157719,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "북구"
+          ],
+          "name": "김영순",
+          "party": "더불어민주당",
+          "bio": "북구의회의원 | 국가평생교육진흥원 가정전문학사학위 취득 | (전)제8대 후반기 북구의회부의장 | (현)북구의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%88%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157719",
             "sggName": "북구다선거구",
             "sdName": "광주광역시",
             "wiwName": "북구",
@@ -2502,39 +2535,6 @@
           }
         },
         {
-          "id": 100155528,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "북구"
-          ],
-          "name": "서은하",
-          "party": "더불어민주당",
-          "bio": "정당인 | 광주대학교 사회복지학부 졸업 | (현)민주평화통일자문회의 광주광역시북구협의회 자문위원 | (전)북구주민참여예산위원회 총괄간사",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%9D%80%ED%95%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155528",
-            "sggName": "북구바선거구",
-            "sdName": "광주광역시",
-            "wiwName": "북구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155667,
           "electionType": "city_council",
           "region": [
@@ -2559,6 +2559,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155667",
+            "sggName": "북구바선거구",
+            "sdName": "광주광역시",
+            "wiwName": "북구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155528,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "북구"
+          ],
+          "name": "서은하",
+          "party": "더불어민주당",
+          "bio": "정당인 | 광주대학교 사회복지학부 졸업 | (현)민주평화통일자문회의 광주광역시북구협의회 자문위원 | (전)북구주민참여예산위원회 총괄간사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%9D%80%ED%95%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155528",
             "sggName": "북구바선거구",
             "sdName": "광주광역시",
             "wiwName": "북구",
@@ -2937,6 +2970,39 @@
           }
         },
         {
+          "id": 100155416,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "광산구"
+          ],
+          "name": "박창현",
+          "party": "더불어민주당",
+          "bio": "정당인 | 신한대학교 글로벌관광경영학과 졸업 | (현)더불어민주당 광주광역시 광산갑 지역위원회 공동 청년위원장 | (현)더불어민주당 광주광역시당 청년부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%B0%BD%ED%98%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155416",
+            "sggName": "광산구나선거구",
+            "sdName": "광주광역시",
+            "wiwName": "광산구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161873,
           "electionType": "city_council",
           "region": [
@@ -2961,39 +3027,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161873",
-            "sggName": "광산구나선거구",
-            "sdName": "광주광역시",
-            "wiwName": "광산구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100155788,
-          "electionType": "city_council",
-          "region": [
-            "광주광역시",
-            "광산구"
-          ],
-          "name": "공우태",
-          "party": "더불어민주당",
-          "bio": "정당인 | 나주대학(현 나주대학교) 사회복지과 졸업 | (전)더불어민주당 광산갑 사무국장 | (현)더불어민주당 광주광역시당 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%B5%EC%9A%B0%ED%83%9C&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155788",
             "sggName": "광산구나선거구",
             "sdName": "광주광역시",
             "wiwName": "광산구",
@@ -3036,16 +3069,16 @@
           }
         },
         {
-          "id": 100155416,
+          "id": 100155788,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "광산구"
           ],
-          "name": "박창현",
+          "name": "공우태",
           "party": "더불어민주당",
-          "bio": "정당인 | 신한대학교 글로벌관광경영학과 졸업 | (현)더불어민주당 광주광역시 광산갑 지역위원회 공동 청년위원장 | (현)더불어민주당 광주광역시당 청년부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%B0%BD%ED%98%84&background=1e40af&color=fff&size=128",
+          "bio": "정당인 | 나주대학(현 나주대학교) 사회복지과 졸업 | (전)더불어민주당 광산갑 사무국장 | (현)더불어민주당 광주광역시당 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%B5%EC%9A%B0%ED%83%9C&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -3059,7 +3092,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100155416",
+            "huboid": "100155788",
             "sggName": "광산구나선거구",
             "sdName": "광주광역시",
             "wiwName": "광산구",
@@ -3135,6 +3168,39 @@
           }
         },
         {
+          "id": 100159942,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "광산구"
+          ],
+          "name": "최윤종",
+          "party": "더불어민주당",
+          "bio": "자영업 | 호남대학 (현호남대학교) 경상대학 경제학과 졸업 | (현)법무부 청소년 범죄 예방 위원 | (현)첨단2동 아파트 입주자대표 협의회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%9C%A4%EC%A2%85&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159942",
+            "sggName": "광산구다선거구",
+            "sdName": "광주광역시",
+            "wiwName": "광산구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100162897,
           "electionType": "city_council",
           "region": [
@@ -3168,16 +3234,16 @@
           }
         },
         {
-          "id": 100159942,
+          "id": 100160257,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "광산구"
           ],
-          "name": "최윤종",
+          "name": "조영임",
           "party": "더불어민주당",
-          "bio": "자영업 | 호남대학 (현호남대학교) 경상대학 경제학과 졸업 | (현)법무부 청소년 범죄 예방 위원 | (현)첨단2동 아파트 입주자대표 협의회 회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%9C%A4%EC%A2%85&background=1e40af&color=fff&size=128",
+          "bio": "광산구의회 의원 | 전남대학교 일반대학원 교육학과 수료(석사과정) | (현)제9대 광산구의원(전반기 운영위원장) | (전)(재)광주여성재단 사무총장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EC%98%81%EC%9E%84&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -3191,7 +3257,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159942",
+            "huboid": "100160257",
             "sggName": "광산구다선거구",
             "sdName": "광주광역시",
             "wiwName": "광산구",
@@ -3366,16 +3432,16 @@
           }
         },
         {
-          "id": 100162266,
+          "id": 100157396,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "광산구"
           ],
-          "name": "김영선",
+          "name": "임수정",
           "party": "더불어민주당",
-          "bio": "광산구의회의원 | 대진대학교 사회과학대학 디지털경제학과 졸업 | (현)광산구의회의원(경제복지위원장) | (현)시립도서관 광산구유치 추진위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%84%A0&background=1e40af&color=fff&size=128",
+          "bio": "정당인 | 남부대학교 사회복지학과 재학 | (전)광산구 통장단장 협의회장 | (현)더불어민주당 광산을 지역위원회 을지키는 민생실천위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%88%98%EC%A0%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -3389,7 +3455,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100162266",
+            "huboid": "100157396",
             "sggName": "광산구마선거구",
             "sdName": "광주광역시",
             "wiwName": "광산구",
@@ -3432,16 +3498,16 @@
           }
         },
         {
-          "id": 100157396,
+          "id": 100162266,
           "electionType": "city_council",
           "region": [
             "광주광역시",
             "광산구"
           ],
-          "name": "임수정",
+          "name": "김영선",
           "party": "더불어민주당",
-          "bio": "정당인 | 남부대학교 사회복지학과 재학 | (전)광산구 통장단장 협의회장 | (현)더불어민주당 광산을 지역위원회 을지키는 민생실천위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%88%98%EC%A0%95&background=1e40af&color=fff&size=128",
+          "bio": "광산구의회의원 | 대진대학교 사회과학대학 디지털경제학과 졸업 | (현)광산구의회의원(경제복지위원장) | (현)시립도서관 광산구유치 추진위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%84%A0&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -3455,7 +3521,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100157396",
+            "huboid": "100162266",
             "sggName": "광산구마선거구",
             "sdName": "광주광역시",
             "wiwName": "광산구",
@@ -3522,6 +3588,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154235",
+            "sggName": "광산구마선거구",
+            "sdName": "광주광역시",
+            "wiwName": "광산구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157881,
+          "electionType": "city_council",
+          "region": [
+            "광주광역시",
+            "광산구"
+          ],
+          "name": "한윤희",
+          "party": "정의당",
+          "bio": "정당인 | 동신대학교 생활과학대학 식품영양학과 졸업 | (현)제9대 광산구의회의원 | (전)수완에너지전환마을네트워크 상임대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EC%9C%A4%ED%9D%AC&background=facc15&color=111827&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157881",
             "sggName": "광산구마선거구",
             "sdName": "광주광역시",
             "wiwName": "광산구",
