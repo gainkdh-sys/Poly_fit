@@ -1599,7 +1599,7 @@
           ],
           "name": "이성국",
           "party": "더불어민주당",
-          "bio": "전주시의회의원 | 전북대학교 행정학과 석사과정 휴학 | (현)전주시의회의원 | (현)더불어민주당 전북특별자치도당 청년위원장",
+          "bio": "전주시의회의원 | 전북대학교 행정학과 석사과정 휴학 | (현)전주시의회의원 | (전)더불어민주당 전북특별자치도당 청년위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%84%B1%EA%B5%AD&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -1929,7 +1929,7 @@
           ],
           "name": "최한별",
           "party": "진보당",
-          "bio": "정당인 | 전북대학교 정치외교학과 졸업 | (현)진보당 전주시병지역위 공동위원장 | (전)21대 강성희 국회의원 비서관",
+          "bio": "정당인 | 전북대학교 정치외교학과 졸업 | (현)진보당 전북특별자치도당 정책국장 | (전)21대 강성희 국회의원 비서관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%ED%95%9C%EB%B3%84&background=7c3aed&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -2083,6 +2083,39 @@
             "sgId": "20260603",
             "sgTypecode": "5",
             "huboid": "100162312",
+            "sggName": "군산시제1선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "군산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159065,
+          "electionType": "provincial_council",
+          "region": [
+            "전북특별자치도",
+            "군산시"
+          ],
+          "name": "나기학",
+          "party": "조국혁신당",
+          "bio": "건설업 | 호원대학교대학원 경영학과 재학 | (전)제11대 전라북도의회의원 | (전)성은종합건설 대표이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%98%EA%B8%B0%ED%95%99&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100159065",
             "sggName": "군산시제1선거구",
             "sdName": "전북특별자치도",
             "wiwName": "군산시",
@@ -2457,6 +2490,39 @@
           }
         },
         {
+          "id": 100158649,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "군산시"
+          ],
+          "name": "설경민",
+          "party": "더불어민주당",
+          "bio": "군산시의회의원 | 원광대학교대학원 정치외교학과 졸업 (정치학석사) | (전) 제6,7,8대 군산시의회의원 | (현) 제9대 군산시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%A4%EA%B2%BD%EB%AF%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158649",
+            "sggName": "군산시나선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "군산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100153896,
           "electionType": "city_council",
           "region": [
@@ -2482,6 +2548,72 @@
             "sgTypecode": "6",
             "huboid": "100153896",
             "sggName": "군산시나선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "군산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160096,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "군산시"
+          ],
+          "name": "윤요섭",
+          "party": "조국혁신당",
+          "bio": "농업인 | 군산대학교대학원 법학과 수료(석사과정) | (전)제4대,5대 군산시의회의원 | (전)재단법인 군산환경사랑 이사장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%9A%94%EC%84%AD&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160096",
+            "sggName": "군산시나선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "군산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100153876,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "군산시"
+          ],
+          "name": "이동현",
+          "party": "더불어민주당",
+          "bio": "농민농약백화점 대표 | 원광대학교 대학원 수학과 졸업(이학석사) | (현)농민농약백화점 대표 | (현)더불어민주당 정책위원회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%8F%99%ED%98%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100153876",
+            "sggName": "군산시다선거구",
             "sdName": "전북특별자치도",
             "wiwName": "군산시",
             "status": "등록",
@@ -2646,6 +2778,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158899",
+            "sggName": "군산시라선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "군산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156705,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "군산시"
+          ],
+          "name": "박욱규",
+          "party": "조국혁신당",
+          "bio": "명광전력 주식회사 이사 | 호원대학교 경영학과 졸업 | (현)군산발전시민연대 대표 | (현)조국혁신당 군산지역위원회 동군산지역발전 특별위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%B1%EA%B7%9C&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156705",
             "sggName": "군산시라선거구",
             "sdName": "전북특별자치도",
             "wiwName": "군산시",
@@ -2844,6 +3009,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162609",
+            "sggName": "군산시마선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "군산시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165683,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "군산시"
+          ],
+          "name": "배형원",
+          "party": "무소속",
+          "bio": "사회복지사 | 숭실대학교 대학원 사회사업학과 졸업(문학석사) | (전)지방별정직7급사회복지전문요원 | (전)군산시의회의원(제5대,7대,8대)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B0%ED%98%95%EC%9B%90&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165683",
             "sggName": "군산시마선거구",
             "sdName": "전북특별자치도",
             "wiwName": "군산시",
@@ -4989,7 +5187,7 @@
           ],
           "name": "김승범",
           "party": "무소속",
-          "bio": "정읍시의회의원 | 벽성대학 사회복지경영과 졸업 | (현)정읍시의회의원 | (전)전국장애인 배드민턴 협회 부회장",
+          "bio": "정읍시의회의원 | 벽성대학 사회복지경영과 졸업 | (현)정읍시의회의원 | (전)대한장애인배드민턴협회 부회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%8A%B9%EB%B2%94&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -5515,6 +5713,39 @@
           }
         },
         {
+          "id": 100162265,
+          "electionType": "provincial_council",
+          "region": [
+            "전북특별자치도",
+            "남원시"
+          ],
+          "name": "김대규",
+          "party": "조국혁신당",
+          "bio": "정당인 | 고려대학교 대학원 졸업(법학박사) | (전)서남대학교 경찰행정학과 교수 | (전)대통령 직속 국가균형발전위원회 정책.기획평가 전문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8C%80%EA%B7%9C&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162265",
+            "sggName": "남원시제1선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "남원시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100157650,
           "electionType": "provincial_council",
           "region": [
@@ -5715,6 +5946,39 @@
           }
         },
         {
+          "id": 100158403,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "남원시"
+          ],
+          "name": "김광호",
+          "party": "무소속",
+          "bio": "농업 | 미기재 | (전)남원시청 직원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%91%ED%98%B8&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158403",
+            "sggName": "남원시나선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "남원시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161921,
           "electionType": "city_council",
           "region": [
@@ -5838,6 +6102,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154486",
+            "sggName": "남원시다선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "남원시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163585,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "남원시"
+          ],
+          "name": "김현철",
+          "party": "조국혁신당",
+          "bio": "작가 | 서남대학교 일반대학원 경영정보학과(박사과정 수료) | (전)집현전 어린이집원장 | (전)남원시 자원봉사센터장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%84%EC%B2%A0&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163585",
             "sggName": "남원시다선거구",
             "sdName": "전북특별자치도",
             "wiwName": "남원시",
@@ -6078,6 +6375,39 @@
           }
         },
         {
+          "id": 100157549,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "남원시"
+          ],
+          "name": "오창숙",
+          "party": "더불어민주당",
+          "bio": "남원시의회의원 | 원광대학교 농식품융합대학 원예산업학부 졸업 | (전)남원시 체육회 여성체육위원회 회장 | (현)남원시의회의원(비례)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%B0%BD%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157549",
+            "sggName": "남원시바선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "남원시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100155934,
           "electionType": "city_council",
           "region": [
@@ -6102,6 +6432,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155934",
+            "sggName": "남원시바선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "남원시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157915,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "남원시"
+          ],
+          "name": "한명숙",
+          "party": "더불어민주당",
+          "bio": "남원시의회의원 | 서남대학교 일반대학원 사회복지학과 졸업(사회복지학박사) | (현)제9대 남원시의회의원 | (현)남원소상공인연합회자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EB%AA%85%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157915",
             "sggName": "남원시바선거구",
             "sdName": "전북특별자치도",
             "wiwName": "남원시",
@@ -6241,6 +6604,39 @@
             "regdate": "",
             "kind": "candidate"
           }
+        },
+        {
+          "id": 100161471,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "남원시"
+          ],
+          "name": "하대식",
+          "party": "무소속",
+          "bio": "농업 | 건국대학교 행정대학원 졸업(행정학석사) | (전)남원농협이사 | (전)전라북도 도의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%98%EB%8C%80%EC%8B%9D&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161471",
+            "sggName": "남원시바선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "남원시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
         }
       ]
     },
@@ -6271,6 +6667,39 @@
             "sgId": "20260603",
             "sgTypecode": "4",
             "huboid": "100163513",
+            "sggName": "김제시",
+            "sdName": "전북특별자치도",
+            "wiwName": "김제시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165590,
+          "electionType": "mayor",
+          "region": [
+            "전북특별자치도",
+            "김제시"
+          ],
+          "name": "이병철",
+          "party": "무소속",
+          "bio": "김제시의회의원 | 호원대학교 행정·사회복지학부(행정학 전공,사회복지학 복수전공)졸업 | (전)제7대, 제8대 김제시의회의원 | (현)제9대 김제시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%B3%91%EC%B2%A0&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100165590",
             "sggName": "김제시",
             "sdName": "전북특별자치도",
             "wiwName": "김제시",
@@ -6382,6 +6811,39 @@
         }
       ],
       "city_council": [
+        {
+          "id": 100157560,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "김제시"
+          ],
+          "name": "남궁윤",
+          "party": "더불어민주당",
+          "bio": "정당인 | 동국대 대학원 교육학과 교육행정전공 교육학박사 졸업 | (전)전북교육연구소 소장 | (전)만경중고등학교 교사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EA%B6%81%EC%9C%A4&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157560",
+            "sggName": "김제시가선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "김제시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
         {
           "id": 100155770,
           "electionType": "city_council",
@@ -6647,6 +7109,105 @@
           }
         },
         {
+          "id": 100154866,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "김제시"
+          ],
+          "name": "김민완",
+          "party": "더불어민주당",
+          "bio": "서교공인중개사대표 | 전북대학교 농과대학 임학과 졸업 | (전)금산면장 | (전)김제시의회 의정담당",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%BC%EC%99%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154866",
+            "sggName": "김제시다선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "김제시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155442,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "김제시"
+          ],
+          "name": "오상민",
+          "party": "더불어민주당",
+          "bio": "자영업 | 한국방송통신대학교 경영학과 졸업 | (전)제8대 김제시의회의원 | (전)더불어민주당 전북도당 김제부안지역위원회 수석대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%83%81%EB%AF%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155442",
+            "sggName": "김제시다선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "김제시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155935,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "김제시"
+          ],
+          "name": "장민우",
+          "party": "더불어민주당",
+          "bio": "정당인 | 덕암고등학교 졸업 | (현)더불어민주당 김제지역위원회 청년위원장 | (현)더불어민주당 전북특별자치도당 청년위원회 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EB%AF%BC%EC%9A%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155935",
+            "sggName": "김제시다선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "김제시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100157339,
           "electionType": "city_council",
           "region": [
@@ -6737,6 +7298,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157002",
+            "sggName": "김제시라선거구",
+            "sdName": "전북특별자치도",
+            "wiwName": "김제시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162295,
+          "electionType": "city_council",
+          "region": [
+            "전북특별자치도",
+            "김제시"
+          ],
+          "name": "최훈",
+          "party": "무소속",
+          "bio": "자영업 | 벽성대학 사무자동화과(사무전산전문학사) 졸업 | (전)더불어민주당 전북도당 청소년대책 특별위원회 국장 | (전)더불어민주당 전북도당 김제·부안 정책개발 특별위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%ED%9B%88&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162295",
             "sggName": "김제시라선거구",
             "sdName": "전북특별자치도",
             "wiwName": "김제시",
@@ -7026,7 +7620,7 @@
           ],
           "name": "윤여연",
           "party": "조국혁신당",
-          "bio": "한국기업정보대표 | 전북대학교 대학원 행정학박사 졸업 | (현)사)전북시민참여포럼공동대표 | (전)전북대학교 겸임교수",
+          "bio": "한국기업정보대표 | 전북대학교대학원 행정학박사 졸업 | (현)사)전북시민참여포럼공동대표 | (전)전북대학교 겸임교수",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%97%AC%EC%97%B0&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -7257,7 +7851,7 @@
           ],
           "name": "김규성",
           "party": "더불어민주당",
-          "bio": "완주군의회의원 | 우석대학교과학기술대학조경학과 재학 | (현)완주군의회 산업건설위원장 | (전)더불어민주당전북도당 정책위원회 부의장",
+          "bio": "완주군의회의원 | 우석대학교과학기술대학조경학과 재학 | (현)완주군의회 산업건설위원장 | (현)더불어민주당전북도당 정책위원회 부의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B7%9C%EC%84%B1&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -10625,6 +11219,39 @@
             "sgId": "20260603",
             "sgTypecode": "4",
             "huboid": "100159616",
+            "sggName": "부안군",
+            "sdName": "전북특별자치도",
+            "wiwName": "부안군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159745,
+          "electionType": "mayor",
+          "region": [
+            "전북특별자치도",
+            "부안군"
+          ],
+          "name": "김성태",
+          "party": "국민의힘",
+          "bio": "정당인 | 전주비전대학교 사회복지경영학과 졸업 | (현)산타요양원 설립자 | (전)국민의힘 부안군수후보",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B1%ED%83%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100159745",
             "sggName": "부안군",
             "sdName": "전북특별자치도",
             "wiwName": "부안군",

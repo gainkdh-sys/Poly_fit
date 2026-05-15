@@ -1145,6 +1145,39 @@
           }
         },
         {
+          "id": 100162556,
+          "electionType": "provincial_council",
+          "region": [
+            "부산광역시",
+            "동구"
+          ],
+          "name": "임진권",
+          "party": "더불어민주당",
+          "bio": "자영업 | 부산대학교대학원 NGO학전공 석사 수료 | (현)더불어민주당 대표 특보단(특별보좌역) | (현)아주금속 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A7%84%EA%B6%8C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162556",
+            "sggName": "동구제2선거구",
+            "sdName": "부산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100160398,
           "electionType": "provincial_council",
           "region": [
@@ -1254,7 +1287,7 @@
           ],
           "name": "김경도",
           "party": "국민의힘",
-          "bio": "(주)베스안하우스 상무 | 서울시립대학교 기계정보공학과 졸업 | (현) (주)베스안하우스 상무 | (현) (주)월드스파 상무",
+          "bio": "(주)베스안하우스 상무 | 부산대학교 경영대학원 경영학 석사 졸업 | (현) (주)베스안하우스 상무 | (현) (주)월드스파 상무",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B2%BD%EB%8F%84&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -1270,6 +1303,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100163238",
+            "sggName": "동구가선거구",
+            "sdName": "부산광역시",
+            "wiwName": "동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162192,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "동구"
+          ],
+          "name": "김재헌",
+          "party": "국민의힘",
+          "bio": "기초의원 | 부산대학교 경제통상대학원 공공정책학 석사 졸업 | (현)동구의회 의원 | (전)초량3동주민자치위원회 간사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%ED%97%8C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162192",
             "sggName": "동구가선거구",
             "sdName": "부산광역시",
             "wiwName": "동구",
@@ -2258,7 +2324,7 @@
           ],
           "name": "한갑용",
           "party": "더불어민주당",
-          "bio": "부산진구의회의원 | 동아대학교 전기공학과 졸업 | (전)민주평통자문회의 부산진구협의회 감사 | (전)부산진구의회 더불어민주당 제8대 제9대 원내대표",
+          "bio": "부산진구의회의원 | 동아대학교 전기공학과 졸업 | (전)부산진구의회 제8대, 제9대 원내대표 | (현)더불어민주당 정책위원회 부의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EA%B0%91%EC%9A%A9&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -2390,7 +2456,7 @@
           ],
           "name": "김재운",
           "party": "국민의힘",
-          "bio": "정당인 | 동의대학교 경영대학원 경영학 석사 졸업 | (현)제9대 부산광역시의회 광역의원 (부산진구) | (전)제9대 부산진구의회 기초의원 (재선)",
+          "bio": "정당인 | 동의대학교 경영대학원 경영학 석사 졸업 | (현)제9대 부산광역시의회 광역의원 (부산진구) | (전)제8대 부산진구의회 기초의원 (재선)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EC%9A%B4&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -2456,7 +2522,7 @@
           ],
           "name": "배영숙",
           "party": "국민의힘",
-          "bio": "부산광역시의회의원 | 동아대학교 사회복지대학원 사회복지학과 석사 졸업 | (현)부산광역시의회 의원 | (전)부산진구의회 부의장",
+          "bio": "정치인 | 동아대학교 사회복지대학원 사회복지학과 석사 졸업 | (현)부산광역시의회 의원 | (전)부산진구의회 부의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B0%EC%98%81%EC%88%99&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -2507,6 +2573,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159259",
+            "sggName": "부산진구가선거구",
+            "sdName": "부산광역시",
+            "wiwName": "부산진구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163439,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "부산진구"
+          ],
+          "name": "이민규",
+          "party": "더불어민주당",
+          "bio": "자영업 | 동의대학교 영화영상 · 멀티미디어공학부 4학년 제적 (2002.3.4.~2010.3.31.) | (전)피크원 휘트니스 대표 | (현)래미안 어반파크 입주자 대표회의 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%AF%BC%EA%B7%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163439",
             "sggName": "부산진구가선거구",
             "sdName": "부산광역시",
             "wiwName": "부산진구",
@@ -2945,6 +3044,39 @@
           }
         },
         {
+          "id": 100165657,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "부산진구"
+          ],
+          "name": "김동효",
+          "party": "무소속",
+          "bio": "정당인 | 부경대학교 국제대학원 정치학석사 졸업 | (전)김동효태권도관장 | (전)부산진구의회7,8대의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%ED%9A%A8&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165657",
+            "sggName": "부산진구마선거구",
+            "sdName": "부산광역시",
+            "wiwName": "부산진구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100157722,
           "electionType": "city_council",
           "region": [
@@ -3134,6 +3266,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160948",
+            "sggName": "부산진구아선거구",
+            "sdName": "부산광역시",
+            "wiwName": "부산진구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165733,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "부산진구"
+          ],
+          "name": "박신욱",
+          "party": "자유와혁신",
+          "bio": "한국에너지기술 과장 | 동양대학교 전자유도기술학과 졸업 | (현)한국에너지기술 과장 | (전)해드림에너지 부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%8B%A0%EC%9A%B1&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165733",
             "sggName": "부산진구아선거구",
             "sdName": "부산광역시",
             "wiwName": "부산진구",
@@ -4677,39 +4842,6 @@
           }
         },
         {
-          "id": 100157625,
-          "electionType": "city_council",
-          "region": [
-            "부산광역시",
-            "남구"
-          ],
-          "name": "백석민",
-          "party": "더불어민주당",
-          "bio": "남구의회 의원 | 동의대학교 부동산금융·자산경영학과 졸업 | (현)제9대남구의회 의원 | (전)제8대남구의회 의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%EC%84%9D%EB%AF%BC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157625",
-            "sggName": "남구다선거구",
-            "sdName": "부산광역시",
-            "wiwName": "남구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100158584,
           "electionType": "city_council",
           "region": [
@@ -4734,6 +4866,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158584",
+            "sggName": "남구다선거구",
+            "sdName": "부산광역시",
+            "wiwName": "남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157625,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "남구"
+          ],
+          "name": "백석민",
+          "party": "더불어민주당",
+          "bio": "남구의회 의원 | 동의대학교 부동산금융·자산경영학과 졸업 | (현)제9대남구의회 의원 | (전)제8대남구의회 의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%EC%84%9D%EB%AF%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157625",
             "sggName": "남구다선거구",
             "sdName": "부산광역시",
             "wiwName": "남구",
@@ -4908,39 +5073,6 @@
           }
         },
         {
-          "id": 100157938,
-          "electionType": "city_council",
-          "region": [
-            "부산광역시",
-            "남구"
-          ],
-          "name": "고선화",
-          "party": "국민의힘",
-          "bio": "부산 남구의회 의원 | 국립부경대학교 글로벌정책대학원 석사과정 정치언론학과 재학중 | (전)제8대 남구의회 의원 | (현)제9대 남구의회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%84%A0%ED%99%94&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157938",
-            "sggName": "남구마선거구",
-            "sdName": "부산광역시",
-            "wiwName": "남구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157852,
           "electionType": "city_council",
           "region": [
@@ -4965,6 +5097,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157852",
+            "sggName": "남구마선거구",
+            "sdName": "부산광역시",
+            "wiwName": "남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157938,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "남구"
+          ],
+          "name": "고선화",
+          "party": "국민의힘",
+          "bio": "부산 남구의회 의원 | 국립부경대학교 글로벌정책대학원 석사과정 정치언론학과 재학중 | (전)제8대 남구의회 의원 | (현)제9대 남구의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%84%A0%ED%99%94&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157938",
             "sggName": "남구마선거구",
             "sdName": "부산광역시",
             "wiwName": "남구",
@@ -8203,6 +8368,39 @@
           }
         },
         {
+          "id": 100162407,
+          "electionType": "mayor",
+          "region": [
+            "부산광역시",
+            "금정구"
+          ],
+          "name": "박용찬",
+          "party": "조국혁신당",
+          "bio": "정당인 | 서강대학교 법학 박사(헌법전공) | (현)조국혁신당 중앙당 대변인 | (현)서강대학교 인문사회학술연구교수(~2026.05.31.)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%A9%EC%B0%AC&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100162407",
+            "sggName": "금정구",
+            "sdName": "부산광역시",
+            "wiwName": "금정구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100158700,
           "electionType": "mayor",
           "region": [
@@ -8669,6 +8867,39 @@
           }
         },
         {
+          "id": 100162545,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "금정구"
+          ],
+          "name": "권민찬",
+          "party": "개혁신당",
+          "bio": "대학생 | 울산과학기술원 생명과학과 재학중 | (현)개혁신당 부산시당 대변인 | (전)2024년 국제생물올림피아드 국가대표·은메달",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EB%AF%BC%EC%B0%AC&background=f97316&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162545",
+            "sggName": "금정구다선거구",
+            "sdName": "부산광역시",
+            "wiwName": "금정구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100156824,
           "electionType": "city_council",
           "region": [
@@ -8974,39 +9205,6 @@
       ],
       "city_council": [
         {
-          "id": 100157630,
-          "electionType": "city_council",
-          "region": [
-            "부산광역시",
-            "강서구"
-          ],
-          "name": "김정용",
-          "party": "더불어민주당",
-          "bio": "강서구의회의원 | 동명대학교 항만물류시스템학과 재학중 | (현)강서구의회의원 | (현)더불어민주당 강서구의회 원내대표",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%EC%9A%A9&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157630",
-            "sggName": "강서구가선거구",
-            "sdName": "부산광역시",
-            "wiwName": "강서구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156219,
           "electionType": "city_council",
           "region": [
@@ -9031,6 +9229,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156219",
+            "sggName": "강서구가선거구",
+            "sdName": "부산광역시",
+            "wiwName": "강서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157630,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "강서구"
+          ],
+          "name": "김정용",
+          "party": "더불어민주당",
+          "bio": "강서구의회의원 | 동명대학교 항만물류시스템학과 재학중 | (현)강서구의회의원 | (현)더불어민주당 강서구의회 원내대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%EC%9A%A9&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157630",
             "sggName": "강서구가선거구",
             "sdName": "부산광역시",
             "wiwName": "강서구",
@@ -10512,6 +10743,39 @@
           }
         },
         {
+          "id": 100157758,
+          "electionType": "mayor",
+          "region": [
+            "부산광역시",
+            "사상구"
+          ],
+          "name": "이대훈",
+          "party": "국민의힘",
+          "bio": "정당인 | 고려대학교 정책대학원 글로벌정치학과 졸업(정치학석사) | (전)대통령비서실 행정관 | (전)장제원 국회의원실 선임비서관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%8C%80%ED%9B%88&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100157758",
+            "sggName": "사상구",
+            "sdName": "부산광역시",
+            "wiwName": "사상구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100163162,
           "electionType": "mayor",
           "region": [
@@ -11002,6 +11266,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162575",
+            "sggName": "사상구다선거구",
+            "sdName": "부산광역시",
+            "wiwName": "사상구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100165697,
+          "electionType": "city_council",
+          "region": [
+            "부산광역시",
+            "사상구"
+          ],
+          "name": "신세영",
+          "party": "무소속",
+          "bio": "회사원 | 성지공업전문대학 화학공업과 졸업(현 부산과학기술대학교) | (전)(주)대상인더스트리 직원 | (현)(주)국제전기 부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%84%B8%EC%98%81&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165697",
             "sggName": "사상구다선거구",
             "sdName": "부산광역시",
             "wiwName": "사상구",

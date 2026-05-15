@@ -7489,39 +7489,6 @@
           }
         },
         {
-          "id": 100160980,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "당진시"
-          ],
-          "name": "김선호",
-          "party": "더불어민주당",
-          "bio": "당진시의회의원 | 한양대학교 경기지도학과 졸업 | (전)고대면 진관1리 이장 | (현)당진시의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%ED%98%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160980",
-            "sggName": "당진시라선거구",
-            "sdName": "충청남도",
-            "wiwName": "당진시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160150,
           "electionType": "city_council",
           "region": [
@@ -7588,16 +7555,16 @@
           }
         },
         {
-          "id": 100161560,
+          "id": 100160980,
           "electionType": "city_council",
           "region": [
             "충청남도",
             "당진시"
           ],
-          "name": "김명회",
-          "party": "국민의힘",
-          "bio": "당진시의회의원 | 한서대학교 일반대학원 노인복지학과 졸업(사회복지학 석사) | (현)당진시의회의원 | (현)당진시의회 국민의힘 교섭단체 대표",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AA%85%ED%9A%8C&background=ef4444&color=fff&size=128",
+          "name": "김선호",
+          "party": "더불어민주당",
+          "bio": "당진시의회의원 | 한양대학교 경기지도학과 졸업 | (전)고대면 진관1리 이장 | (현)당진시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%ED%98%B8&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -7611,7 +7578,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100161560",
+            "huboid": "100160980",
             "sggName": "당진시라선거구",
             "sdName": "충청남도",
             "wiwName": "당진시",
@@ -7645,6 +7612,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156309",
+            "sggName": "당진시라선거구",
+            "sdName": "충청남도",
+            "wiwName": "당진시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161560,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "당진시"
+          ],
+          "name": "김명회",
+          "party": "국민의힘",
+          "bio": "당진시의회의원 | 한서대학교 일반대학원 노인복지학과 졸업(사회복지학 석사) | (현)당진시의회의원 | (현)당진시의회 국민의힘 교섭단체 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AA%85%ED%9A%8C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161560",
             "sggName": "당진시라선거구",
             "sdName": "충청남도",
             "wiwName": "당진시",
@@ -9963,6 +9963,72 @@
       ],
       "city_council": [
         {
+          "id": 100158942,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "청양군"
+          ],
+          "name": "한대희",
+          "party": "더불어민주당",
+          "bio": "비봉농공단지 관리사무소장 | 한남대학교 회계학과 졸업 | (전)박수현 국회의원 정무특보 | (현)안규백 국회의원 정책특보",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EB%8C%80%ED%9D%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158942",
+            "sggName": "청양군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "청양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158025,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "청양군"
+          ],
+          "name": "임상기",
+          "party": "더불어민주당",
+          "bio": "청양군의회의원 | 청양농업고등학교(현 청양고등학교) 축산과 졸업 | (전)한국쌀전업농청양군연합회장 | (전)한국농업경영인회청양군연합회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%83%81%EA%B8%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158025",
+            "sggName": "청양군가선거구",
+            "sdName": "충청남도",
+            "wiwName": "청양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100157954,
           "electionType": "city_council",
           "region": [
@@ -10020,72 +10086,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158475",
-            "sggName": "청양군가선거구",
-            "sdName": "충청남도",
-            "wiwName": "청양군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100158025,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "청양군"
-          ],
-          "name": "임상기",
-          "party": "더불어민주당",
-          "bio": "청양군의회의원 | 청양농업고등학교(현 청양고등학교) 축산과 졸업 | (전)한국쌀전업농청양군연합회장 | (전)한국농업경영인회청양군연합회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%83%81%EA%B8%B0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158025",
-            "sggName": "청양군가선거구",
-            "sdName": "충청남도",
-            "wiwName": "청양군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100158942,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "청양군"
-          ],
-          "name": "한대희",
-          "party": "더불어민주당",
-          "bio": "비봉농공단지 관리사무소장 | 한남대학교 회계학과 졸업 | (전)박수현 국회의원 정무특보 | (현)안규백 국회의원 정책특보",
-          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EB%8C%80%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158942",
             "sggName": "청양군가선거구",
             "sdName": "충청남도",
             "wiwName": "청양군",
@@ -10260,39 +10260,6 @@
           }
         },
         {
-          "id": 100158469,
-          "electionType": "city_council",
-          "region": [
-            "충청남도",
-            "청양군"
-          ],
-          "name": "윤일묵",
-          "party": "국민의힘",
-          "bio": "청양군의회의원 | 우석대학교 창업컨설팅학과 2학년 재학중 | (현)청양군의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%9D%BC%EB%AC%B5&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158469",
-            "sggName": "청양군나선거구",
-            "sdName": "충청남도",
-            "wiwName": "청양군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100159144,
           "electionType": "city_council",
           "region": [
@@ -10317,6 +10284,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159144",
+            "sggName": "청양군나선거구",
+            "sdName": "충청남도",
+            "wiwName": "청양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158469,
+          "electionType": "city_council",
+          "region": [
+            "충청남도",
+            "청양군"
+          ],
+          "name": "윤일묵",
+          "party": "국민의힘",
+          "bio": "청양군의회의원 | 우석대학교 창업컨설팅학과 2학년 재학중 | (현)청양군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%9D%BC%EB%AC%B5&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158469",
             "sggName": "청양군나선거구",
             "sdName": "충청남도",
             "wiwName": "청양군",
@@ -10505,7 +10505,7 @@
           ],
           "name": "장재석",
           "party": "국민의힘",
-          "bio": "정당인 | 청운대학교대학원 건축토목환경공학과 졸업(공학석사) | (전)제8대 홍성군의회부의장 | (현)제9대 홍성군의회의원",
+          "bio": "정당인 | 청운대학교대학원 건축토목환경공학과 졸업(공학석사) | (전)제8대 하반기 홍성군의회부의장 | (현)제9대 홍성군의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%9E%AC%EC%84%9D&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -10573,7 +10573,7 @@
           ],
           "name": "최선경",
           "party": "더불어민주당",
-          "bio": "홍성군의회의원 | 중앙대학교 일반대학원 의회학과 박사과정 수료 | (현)제9대 홍성군의회의원 | (현)대통령직속 지방시대위원회 자문위원",
+          "bio": "홍성군의회의원 | 중앙대학교 일반대학원 의회학과 박사과정 수료 | (현) 홍성군의회의원 | (현) 대통령직속 지방시대위원회 자문위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%84%A0%EA%B2%BD&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -10837,7 +10837,7 @@
           ],
           "name": "신동규",
           "party": "더불어민주당",
-          "bio": "홍성군의회의원 | 혜전대학교 디지털서비스과 졸업 | (전)17,18,21회 광천토굴새우젓 광천김 대축제 추진위원장 | (현)제9대 홍성군의회 후반기 운영위원장",
+          "bio": "홍성군의회의원 | 혜전대학교 디지털서비스과 졸업 | (전)17,18,21회 광천토굴새우젓 광천김 대축제 추진위원장 | (현)제9대 홍성군의회 후반기 의회운영위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EB%8F%99%EA%B7%9C&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {

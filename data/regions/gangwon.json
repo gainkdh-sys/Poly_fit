@@ -833,39 +833,6 @@
       ],
       "city_council": [
         {
-          "id": 100157359,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "춘천시"
-          ],
-          "name": "박남수",
-          "party": "더불어민주당",
-          "bio": "춘천시의회의원 | 강원대학교 녹색생명산업정책대학원 녹색생명산업정책학과 졸업(농학석사) | (현)춘천시의원 | (전)더불어민주당중앙당 국민통합위원회부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%82%A8%EC%88%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157359",
-            "sggName": "춘천시가선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "춘천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155604,
           "electionType": "city_council",
           "region": [
@@ -890,6 +857,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155604",
+            "sggName": "춘천시가선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "춘천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157359,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "춘천시"
+          ],
+          "name": "박남수",
+          "party": "더불어민주당",
+          "bio": "춘천시의회의원 | 강원대학교 녹색생명산업정책대학원 녹색생명산업정책학과 졸업(농학석사) | (현)춘천시의원 | (전)더불어민주당중앙당 국민통합위원회부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%82%A8%EC%88%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157359",
             "sggName": "춘천시가선거구",
             "sdName": "강원특별자치도",
             "wiwName": "춘천시",
@@ -965,39 +965,6 @@
           }
         },
         {
-          "id": 100163525,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "춘천시"
-          ],
-          "name": "김남덕",
-          "party": "더불어민주당",
-          "bio": "협동조합 춘천소목공방 이사장 | 상명대학교 예술·디자인대학원 사진학과 졸업[예술학석사(포토저널리즘)] | (전)강원일보 부국장 | (현)강원민주재단 이사",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%82%A8%EB%8D%95&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163525",
-            "sggName": "춘천시나선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "춘천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157343,
           "electionType": "city_council",
           "region": [
@@ -1022,6 +989,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157343",
+            "sggName": "춘천시나선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "춘천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163525,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "춘천시"
+          ],
+          "name": "김남덕",
+          "party": "더불어민주당",
+          "bio": "협동조합 춘천소목공방 이사장 | 상명대학교 예술·디자인대학원 사진학과 졸업[예술학석사(포토저널리즘)] | (전)강원일보 부국장 | (현)강원민주재단 이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%82%A8%EB%8D%95&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163525",
             "sggName": "춘천시나선거구",
             "sdName": "강원특별자치도",
             "wiwName": "춘천시",
@@ -1097,39 +1097,6 @@
           }
         },
         {
-          "id": 100157179,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "춘천시"
-          ],
-          "name": "김지숙",
-          "party": "더불어민주당",
-          "bio": "춘천시의회의원 | 한국방송통신대학교 교육학과 졸업 | (현) 11대 춘천시의회 문화복지위원장(후반기) | (전) 10대 춘천시의회 복지환경위원장(하반기)",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%80%EC%88%99&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157179",
-            "sggName": "춘천시다선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "춘천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154125,
           "electionType": "city_council",
           "region": [
@@ -1154,6 +1121,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154125",
+            "sggName": "춘천시다선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "춘천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157179,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "춘천시"
+          ],
+          "name": "김지숙",
+          "party": "더불어민주당",
+          "bio": "춘천시의회의원 | 한국방송통신대학교 교육학과 졸업 | (현) 11대 춘천시의회 문화복지위원장(후반기) | (전) 10대 춘천시의회 복지환경위원장(하반기)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%80%EC%88%99&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157179",
             "sggName": "춘천시다선거구",
             "sdName": "강원특별자치도",
             "wiwName": "춘천시",
@@ -1295,39 +1295,6 @@
           }
         },
         {
-          "id": 100156193,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "춘천시"
-          ],
-          "name": "김운기",
-          "party": "국민의힘",
-          "bio": "춘천시의회의원 | 강원대학교 경영대학 회계학과 졸업 | (현) 춘천시의원 | (전) 강원창업보육센터 입주기업협의회 회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%B4%EA%B8%B0&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156193",
-            "sggName": "춘천시라선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "춘천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157196,
           "electionType": "city_council",
           "region": [
@@ -1352,6 +1319,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157196",
+            "sggName": "춘천시라선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "춘천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156193,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "춘천시"
+          ],
+          "name": "김운기",
+          "party": "국민의힘",
+          "bio": "춘천시의회의원 | 강원대학교 경영대학 회계학과 졸업 | (현) 춘천시의원 | (전) 강원창업보육센터 입주기업협의회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%B4%EA%B8%B0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156193",
             "sggName": "춘천시라선거구",
             "sdName": "강원특별자치도",
             "wiwName": "춘천시",
@@ -1427,39 +1427,6 @@
           }
         },
         {
-          "id": 100156211,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "춘천시"
-          ],
-          "name": "박순자",
-          "party": "더불어민주당",
-          "bio": "자영업 | 송곡대학교 사회복지상담과 졸업 | (전)9 ·10대 춘천시의회의원 | (전)민주평화통일자문회의 춘천시협의회 수석부회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%88%9C%EC%9E%90&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156211",
-            "sggName": "춘천시마선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "춘천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154483,
           "electionType": "city_council",
           "region": [
@@ -1484,6 +1451,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154483",
+            "sggName": "춘천시마선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "춘천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156211,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "춘천시"
+          ],
+          "name": "박순자",
+          "party": "더불어민주당",
+          "bio": "자영업 | 송곡대학교 사회복지상담과 졸업 | (전)9 ·10대 춘천시의회의원 | (전)민주평화통일자문회의 춘천시협의회 수석부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%88%9C%EC%9E%90&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156211",
             "sggName": "춘천시마선거구",
             "sdName": "강원특별자치도",
             "wiwName": "춘천시",
@@ -1592,39 +1592,6 @@
           }
         },
         {
-          "id": 100154638,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "춘천시"
-          ],
-          "name": "권주상",
-          "party": "더불어민주당",
-          "bio": "춘천시의회의원 | 춘성중학교 졸업 | (현)춘천시의회의원 | (전)춘천시의회 부의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EC%A3%BC%EC%83%81&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154638",
-            "sggName": "춘천시바선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "춘천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155458,
           "electionType": "city_council",
           "region": [
@@ -1649,6 +1616,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155458",
+            "sggName": "춘천시바선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "춘천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154638,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "춘천시"
+          ],
+          "name": "권주상",
+          "party": "더불어민주당",
+          "bio": "춘천시의회의원 | 춘성중학교 졸업 | (현)춘천시의회의원 | (전)춘천시의회 부의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EC%A3%BC%EC%83%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154638",
             "sggName": "춘천시바선거구",
             "sdName": "강원특별자치도",
             "wiwName": "춘천시",
@@ -6813,39 +6813,6 @@
       ],
       "city_council": [
         {
-          "id": 100154293,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "속초시"
-          ],
-          "name": "남인영",
-          "party": "더불어민주당",
-          "bio": "강원특별자치도교육청진로교육원 진로교육사 | 한림대학교 정보전자공과대학 전자공학과 졸업 | (현)강원특별자치도교육청진로교육원 진로교육사 | (전)반야실비노인전문요양원 사회복지사",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EC%9D%B8%EC%98%81&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154293",
-            "sggName": "속초시가선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "속초시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157237,
           "electionType": "city_council",
           "region": [
@@ -6870,6 +6837,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157237",
+            "sggName": "속초시가선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "속초시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154293,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "속초시"
+          ],
+          "name": "남인영",
+          "party": "더불어민주당",
+          "bio": "강원특별자치도교육청진로교육원 진로교육사 | 한림대학교 정보전자공과대학 전자공학과 졸업 | (현)강원특별자치도교육청진로교육원 진로교육사 | (전)반야실비노인전문요양원 사회복지사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EC%9D%B8%EC%98%81&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154293",
             "sggName": "속초시가선거구",
             "sdName": "강원특별자치도",
             "wiwName": "속초시",
@@ -6945,39 +6945,6 @@
           }
         },
         {
-          "id": 100155492,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "속초시"
-          ],
-          "name": "김용태",
-          "party": "더불어민주당",
-          "bio": "자영업 | 강원도립대학교 사회복지과 졸업 | (현) 미소유리 대표 | (전) 속초시자율방범 연합대장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%A9%ED%83%9C&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155492",
-            "sggName": "속초시나선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "속초시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154290,
           "electionType": "city_council",
           "region": [
@@ -7002,6 +6969,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154290",
+            "sggName": "속초시나선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "속초시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155492,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "속초시"
+          ],
+          "name": "김용태",
+          "party": "더불어민주당",
+          "bio": "자영업 | 강원도립대학교 사회복지과 졸업 | (현) 미소유리 대표 | (전) 속초시자율방범 연합대장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%A9%ED%83%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155492",
             "sggName": "속초시나선거구",
             "sdName": "강원특별자치도",
             "wiwName": "속초시",
@@ -7990,7 +7990,7 @@
           ],
           "name": "박현중",
           "party": "무소속",
-          "bio": "무직 | 상지대학교 평생교육상담학과 졸업 | (전) 서석중·고등학교 운영위원장 | (현) 서석면 코스모스축제 총괄국장",
+          "bio": "참솔농원 대표 | 상지대학교 평생교육상담학과 졸업 | (전) 서석중·고등학교 운영위원장 | (현) 서석면 코스모스축제 총괄국장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%84%EC%A4%91&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -9485,39 +9485,6 @@
           }
         },
         {
-          "id": 100159178,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "영월군"
-          ],
-          "name": "신준용",
-          "party": "더불어민주당",
-          "bio": "농업인 | 장안전문대학(현 장안대학교) 행정과 졸업 | (전)제7대 영월군의회의원 | (전)제8대 영월군의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%A4%80%EC%9A%A9&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159178",
-            "sggName": "영월군나선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "영월군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160042,
           "electionType": "city_council",
           "region": [
@@ -9551,16 +9518,16 @@
           }
         },
         {
-          "id": 100159183,
+          "id": 100159178,
           "electionType": "city_council",
           "region": [
             "강원특별자치도",
             "영월군"
           ],
-          "name": "이정복",
-          "party": "국민의힘",
-          "bio": "(주)주광 소장 | 세경대학교 사회복지과 졸업 | (전)영월군 자율방범대 연합대장 | (현)주천농촌중심지활성화사업 추진위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%EB%B3%B5&background=ef4444&color=fff&size=128",
+          "name": "신준용",
+          "party": "더불어민주당",
+          "bio": "농업인 | 장안전문대학(현 장안대학교) 행정과 졸업 | (전)제7대 영월군의회의원 | (전)제8대 영월군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%A4%80%EC%9A%A9&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -9574,7 +9541,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100159183",
+            "huboid": "100159178",
             "sggName": "영월군나선거구",
             "sdName": "강원특별자치도",
             "wiwName": "영월군",
@@ -9608,6 +9575,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159170",
+            "sggName": "영월군나선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "영월군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159183,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "영월군"
+          ],
+          "name": "이정복",
+          "party": "국민의힘",
+          "bio": "(주)주광 소장 | 세경대학교 사회복지과 졸업 | (전)영월군 자율방범대 연합대장 | (현)주천농촌중심지활성화사업 추진위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%EB%B3%B5&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159183",
             "sggName": "영월군나선거구",
             "sdName": "강원특별자치도",
             "wiwName": "영월군",
@@ -10961,39 +10961,6 @@
           }
         },
         {
-          "id": 100160620,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "철원군"
-          ],
-          "name": "강세용",
-          "party": "국민의힘",
-          "bio": "정당인 | 강원대학교 축산학과 졸업 | (현) 제9대 철원군의회 의원 | (전) 제8대 후반기 철원군의회 의장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%84%B8%EC%9A%A9&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160620",
-            "sggName": "철원군가선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "철원군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160027,
           "electionType": "city_council",
           "region": [
@@ -11018,6 +10985,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160027",
+            "sggName": "철원군가선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "철원군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100160620,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "철원군"
+          ],
+          "name": "강세용",
+          "party": "국민의힘",
+          "bio": "정당인 | 강원대학교 축산학과 졸업 | (현) 제9대 철원군의회 의원 | (전) 제8대 후반기 철원군의회 의장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%84%B8%EC%9A%A9&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100160620",
             "sggName": "철원군가선거구",
             "sdName": "강원특별자치도",
             "wiwName": "철원군",
@@ -11126,39 +11126,6 @@
           }
         },
         {
-          "id": 100159847,
-          "electionType": "city_council",
-          "region": [
-            "강원특별자치도",
-            "철원군"
-          ],
-          "name": "박기준",
-          "party": "국민의힘",
-          "bio": "철원군의회의원 | 강원대학교 자원공학과 졸업 | (현) 철원군의회 의원 | (전) 김화중고(공)총동문회장(김화중학교졸업)",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EA%B8%B0%EC%A4%80&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100159847",
-            "sggName": "철원군나선거구",
-            "sdName": "강원특별자치도",
-            "wiwName": "철원군",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100159154,
           "electionType": "city_council",
           "region": [
@@ -11183,6 +11150,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100159154",
+            "sggName": "철원군나선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "철원군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100159847,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "철원군"
+          ],
+          "name": "박기준",
+          "party": "국민의힘",
+          "bio": "철원군의회의원 | 강원대학교 자원공학과 졸업 | (현) 철원군의회 의원 | (전) 김화중고(공)총동문회장(김화중학교졸업)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EA%B8%B0%EC%A4%80&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159847",
             "sggName": "철원군나선거구",
             "sdName": "강원특별자치도",
             "wiwName": "철원군",
@@ -12233,6 +12233,39 @@
             "regdate": "",
             "kind": "candidate"
           }
+        },
+        {
+          "id": 100159265,
+          "electionType": "mayor",
+          "region": [
+            "강원특별자치도",
+            "인제군"
+          ],
+          "name": "한상철",
+          "party": "무소속",
+          "bio": "시민운동가 | 서울디지털대학교 사회복지학과 제적(2021.03~2022.03) | (전)한상철 왕족발 대표 | (현)인제경제인연합회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EC%83%81%EC%B2%A0&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100159265",
+            "sggName": "인제군",
+            "sdName": "강원특별자치도",
+            "wiwName": "인제군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
         }
       ],
       "provincial_council": [
@@ -12668,6 +12701,39 @@
           }
         },
         {
+          "id": 100161410,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "인제군"
+          ],
+          "name": "김재규",
+          "party": "국민의힘",
+          "bio": "인제군의회의원 | 송호대학 광고디자인과 졸업 | (전)인제군남면청년회장 | (현)인제군의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9E%AC%EA%B7%9C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161410",
+            "sggName": "인제군나선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "인제군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100159383,
           "electionType": "city_council",
           "region": [
@@ -12906,6 +12972,39 @@
         }
       ],
       "city_council": [
+        {
+          "id": 100159525,
+          "electionType": "city_council",
+          "region": [
+            "강원특별자치도",
+            "고성군"
+          ],
+          "name": "장길현",
+          "party": "더불어민주당",
+          "bio": "정당인 | 강원대학교 일반대학원 정치외교학과 석사과정 휴학중 (2024년9월~현재) | (전) 더불어민주당 고성군연락소장 | (전) 고성청년소상공인협회 초대회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EA%B8%B8%ED%98%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100159525",
+            "sggName": "고성군가선거구",
+            "sdName": "강원특별자치도",
+            "wiwName": "고성군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
         {
           "id": 100159462,
           "electionType": "city_council",
@@ -13430,6 +13529,39 @@
             "sgId": "20260603",
             "sgTypecode": "4",
             "huboid": "100158425",
+            "sggName": "양양군",
+            "sdName": "강원특별자치도",
+            "wiwName": "양양군",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158565,
+          "electionType": "mayor",
+          "region": [
+            "강원특별자치도",
+            "양양군"
+          ],
+          "name": "고제철",
+          "party": "무소속",
+          "bio": "무 | 관동대학교대학원 관광경영학과 박사과정 수료 | (전)양양군의회의장 | (전)가톨릭관동대학교 조교수(관광경영전공)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%A0%9C%EC%B2%A0&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "4",
+            "huboid": "100158565",
             "sggName": "양양군",
             "sdName": "강원특별자치도",
             "wiwName": "양양군",

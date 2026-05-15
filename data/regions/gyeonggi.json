@@ -5410,39 +5410,6 @@
       ],
       "city_council": [
         {
-          "id": 100155552,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "안양시"
-          ],
-          "name": "이호건",
-          "party": "더불어민주당",
-          "bio": "정당인 | 인하대학교 행정학과 중퇴(1982.3~1986.9) | (전)제8대 안양시의회의원 | (현)더불어민주당 안양시만안구지역위원회 사회통합위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%98%B8%EA%B1%B4&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155552",
-            "sggName": "안양시가선거구",
-            "sdName": "경기도",
-            "wiwName": "안양시만안구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161435,
           "electionType": "city_council",
           "region": [
@@ -5467,6 +5434,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161435",
+            "sggName": "안양시가선거구",
+            "sdName": "경기도",
+            "wiwName": "안양시만안구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155552,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "안양시"
+          ],
+          "name": "이호건",
+          "party": "더불어민주당",
+          "bio": "정당인 | 인하대학교 행정학과 중퇴(1982.3~1986.9) | (전)제8대 안양시의회의원 | (현)더불어민주당 안양시만안구지역위원회 사회통합위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%98%B8%EA%B1%B4&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155552",
             "sggName": "안양시가선거구",
             "sdName": "경기도",
             "wiwName": "안양시만안구",
@@ -7695,39 +7695,6 @@
           }
         },
         {
-          "id": 100162310,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "부천시"
-          ],
-          "name": "윤병권",
-          "party": "국민의힘",
-          "bio": "정당인 | 원광디지털대학교 부동산경영학과 졸업 | (현)제9대 부천시의회의원 | (전)제8대 부천시의회 부의장(후반기)",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EB%B3%91%EA%B6%8C&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100162310",
-            "sggName": "부천시사선거구",
-            "sdName": "경기도",
-            "wiwName": "부천시소사구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160507,
           "electionType": "city_council",
           "region": [
@@ -7752,6 +7719,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160507",
+            "sggName": "부천시사선거구",
+            "sdName": "경기도",
+            "wiwName": "부천시소사구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162310,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "부천시"
+          ],
+          "name": "윤병권",
+          "party": "국민의힘",
+          "bio": "정당인 | 원광디지털대학교 부동산경영학과 졸업 | (현)제9대 부천시의회의원 | (전)제8대 부천시의회 부의장(후반기)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EB%B3%91%EA%B6%8C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162310",
             "sggName": "부천시사선거구",
             "sdName": "경기도",
             "wiwName": "부천시소사구",
@@ -7893,39 +7893,6 @@
           }
         },
         {
-          "id": 100161237,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "부천시"
-          ],
-          "name": "김주삼",
-          "party": "더불어민주당",
-          "bio": "부천시의회의원 | 가톨릭대학교 행정대학원 졸업(행정학석사) | (전) 부천시의회 더불어민주당 대표 | (전) 부천시의회 도시교통위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A3%BC%EC%82%BC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161237",
-            "sggName": "부천시자선거구",
-            "sdName": "경기도",
-            "wiwName": "부천시소사구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100157247,
           "electionType": "city_council",
           "region": [
@@ -7950,6 +7917,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157247",
+            "sggName": "부천시자선거구",
+            "sdName": "경기도",
+            "wiwName": "부천시소사구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161237,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "부천시"
+          ],
+          "name": "김주삼",
+          "party": "더불어민주당",
+          "bio": "부천시의회의원 | 가톨릭대학교 행정대학원 졸업(행정학석사) | (전) 부천시의회 더불어민주당 대표 | (전) 부천시의회 도시교통위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A3%BC%EC%82%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161237",
             "sggName": "부천시자선거구",
             "sdName": "경기도",
             "wiwName": "부천시소사구",
@@ -10206,7 +10206,7 @@
           ],
           "name": "장윤정",
           "party": "더불어민주당",
-          "bio": "정당인 | 안산디자인문화고등학교 졸업 | (현)경기도의회의원 | (전)더불어민주당 중앙당 특별보좌역 청년특보",
+          "bio": "정당인 | 안산디자인문화고등학교 졸업 | (현)경기도의회의원 | (전)더불어민주당 당대표 특별보좌역 청년특보",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%9C%A4%EC%A0%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -10371,7 +10371,7 @@
           ],
           "name": "박건희",
           "party": "국민의힘",
-          "bio": "국민의힘 경기도당 대변인 | 세종대학교 대학원 졸업 (무용학박사) | (전)디지털서울문화예술대학교 무용학과 교수(학과장) | (현)국민의힘 경기도당 대변인",
+          "bio": "국민의힘 경기도당 대변인 | 세종대학교 대학원 졸업 (무용학박사) | (전)디지털서울문화예술대학교 무용학과 조교수(학과장) | (현)국민의힘 경기도당 대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EA%B1%B4%ED%9D%AC&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -10868,7 +10868,7 @@
           ],
           "name": "설호영",
           "party": "국민의힘",
-          "bio": "안산시의회의원 | 선문대학교 언론광고학부 졸업 | (전)제9대 안산시의회 전반기 문화복지위원장 | (현)제9대 안산시의회 후반기 문화복지위원장",
+          "bio": "안산시의회의원 | 선문대학교 언론광고학부 졸업 | (전)제9대 안산시의회 전반기 문화복지위원 | (현)제9대 안산시의회 후반기 문화복지위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%A4%ED%98%B8%EC%98%81&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -12221,6 +12221,39 @@
           }
         },
         {
+          "id": 100158560,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "황선경",
+          "party": "국민의힘",
+          "bio": "직장인 | 경일대학교 대학원 건축공학과 졸업(공학박사) | (현)국민의힘 고양시(갑) 당원협의회 지역경제활성화 위원장 | (현)사단법인 경기도 야구소프트볼협회 부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%84%A0%EA%B2%BD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158560",
+            "sggName": "고양시나선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시덕양구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100158387,
           "electionType": "city_council",
           "region": [
@@ -12245,39 +12278,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158387",
-            "sggName": "고양시나선거구",
-            "sdName": "경기도",
-            "wiwName": "고양시덕양구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100158560,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "고양시"
-          ],
-          "name": "황선경",
-          "party": "국민의힘",
-          "bio": "회사원 | 경일대학교 대학원 건축공학과 졸업(공학박사) | (현)국민의힘 고양시(갑) 당원협의회 지역경제활성화 위원장 | (현)사단법인 경기도 야구소프트볼협회 부회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%84%A0%EA%B2%BD&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158560",
             "sggName": "고양시나선거구",
             "sdName": "경기도",
             "wiwName": "고양시덕양구",
@@ -12460,7 +12460,7 @@
           ],
           "name": "김미경",
           "party": "무소속",
-          "bio": "제9대 고양시의회의원 | 중부대학교 휴먼텍대학원 졸업(행정학석사) | (현)제9대 고양시의회 후반기 건설교통위원장 | (현)제9대 고양시의회의원",
+          "bio": "고양시의회의원 | 중부대학교 휴먼텍대학원 졸업(행정학석사) | (현)제9대 고양시의회 후반기 건설교통위원장 | (현)제9대 고양시의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%B8%EA%B2%BD&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -12477,39 +12477,6 @@
             "sgTypecode": "6",
             "huboid": "100162751",
             "sggName": "고양시라선거구",
-            "sdName": "경기도",
-            "wiwName": "고양시덕양구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100158130,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "고양시"
-          ],
-          "name": "송금희",
-          "party": "더불어민주당",
-          "bio": "이코리아투어 여행사 대표 | 경기대학교 대학원 여가관광개발학과 졸업(관광학박사) | (현)경기도관광협회 감사 | (현)더불어민주당 고양시(을)지역위원회 홍보소통위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EA%B8%88%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158130",
-            "sggName": "고양시마선거구",
             "sdName": "경기도",
             "wiwName": "고양시덕양구",
             "status": "등록",
@@ -12551,16 +12518,16 @@
           }
         },
         {
-          "id": 100163475,
+          "id": 100158130,
           "electionType": "city_council",
           "region": [
             "경기도",
             "고양시"
           ],
-          "name": "고부미",
-          "party": "국민의힘",
-          "bio": "고양시의회의원 | 동국대학교 행정대학원 졸업(사회복지학석사) | (전) 화전동 주민자치위원회 위원장 | (현) 제9대 고양시의회의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EB%B6%80%EB%AF%B8&background=ef4444&color=fff&size=128",
+          "name": "송금희",
+          "party": "더불어민주당",
+          "bio": "이코리아투어 여행사 대표 | 경기대학교 대학원 여가관광개발학과 졸업(관광학박사) | (현)경기도관광협회 감사 | (현)더불어민주당 고양시(을)지역위원회 홍보소통위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EA%B8%88%ED%9D%AC&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -12574,7 +12541,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100163475",
+            "huboid": "100158130",
             "sggName": "고양시마선거구",
             "sdName": "경기도",
             "wiwName": "고양시덕양구",
@@ -12617,6 +12584,39 @@
           }
         },
         {
+          "id": 100163475,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "고부미",
+          "party": "국민의힘",
+          "bio": "고양시의회의원 | 동국대학교 행정대학원 졸업(사회복지학석사) | (전) 화전동 주민자치위원회 위원장 | (현) 제9대 고양시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EB%B6%80%EB%AF%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163475",
+            "sggName": "고양시마선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시덕양구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100156924,
           "electionType": "city_council",
           "region": [
@@ -12642,39 +12642,6 @@
             "sgTypecode": "6",
             "huboid": "100156924",
             "sggName": "고양시마선거구",
-            "sdName": "경기도",
-            "wiwName": "고양시덕양구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100157751,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "고양시"
-          ],
-          "name": "김윤재",
-          "party": "더불어민주당",
-          "bio": "개인사업 | 상명대학교 졸업(스포츠건강과학과 전공, 경영학과 부전공) | (전)더불어민주당 중앙당 부대변인 | (전)ROTC 육군장교",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9C%A4%EC%9E%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100157751",
-            "sggName": "고양시바선거구",
             "sdName": "경기도",
             "wiwName": "고양시덕양구",
             "status": "등록",
@@ -12716,16 +12683,16 @@
           }
         },
         {
-          "id": 100163510,
+          "id": 100157751,
           "electionType": "city_council",
           "region": [
             "경기도",
             "고양시"
           ],
-          "name": "고종국",
-          "party": "국민의힘",
-          "bio": "국가공인 정책분석평가사 | 서강대학교 공공정책대학원 졸업(행정학석사) | (전)제7대 고양시의회의원 | (전)고양신문 도시정책전문기자",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%A2%85%EA%B5%AD&background=ef4444&color=fff&size=128",
+          "name": "김윤재",
+          "party": "더불어민주당",
+          "bio": "개인사업 | 상명대학교 졸업(스포츠건강과학과 전공, 경영학과 부전공) | (전)더불어민주당 중앙당 부대변인 | (전)ROTC 육군장교",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9C%A4%EC%9E%AC&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -12739,7 +12706,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100163510",
+            "huboid": "100157751",
             "sggName": "고양시바선거구",
             "sdName": "경기도",
             "wiwName": "고양시덕양구",
@@ -12782,6 +12749,39 @@
           }
         },
         {
+          "id": 100163510,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "고종국",
+          "party": "국민의힘",
+          "bio": "국가공인 정책분석평가사 | 서강대학교 공공정책대학원 졸업(행정학석사) | (전)제7대 고양시의회의원 | (전)고양신문 도시정책전문기자",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%A2%85%EA%B5%AD&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163510",
+            "sggName": "고양시바선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시덕양구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100163883,
           "electionType": "city_council",
           "region": [
@@ -12806,6 +12806,72 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100163883",
+            "sggName": "고양시사선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시일산동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156805,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "최신명",
+          "party": "더불어민주당",
+          "bio": "정당인 | 조선대학교 서반아어과 졸업 | (현) 중산마을1단지 동대표 | (현) 사단법인 기본사회 고양지부 상임대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%8B%A0%EB%AA%85&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156805",
+            "sggName": "고양시사선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시일산동구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163229,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "고덕희",
+          "party": "국민의힘",
+          "bio": "고양시의회의원 | 제주대학교 법학과 졸업 | (현)고양시의회의원 | (전)경기도장애인골프협회 고양시지회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EB%8D%95%ED%9D%AC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163229",
             "sggName": "고양시사선거구",
             "sdName": "경기도",
             "wiwName": "고양시일산동구",
@@ -13079,6 +13145,72 @@
           }
         },
         {
+          "id": 100163923,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "김미수",
+          "party": "더불어민주당",
+          "bio": "고양시의회의원 | 덕성여자대학교 일어일문학과 졸업 | (현)제9대 고양시의회의원 | (전)고양시민회 대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%B8%EC%88%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163923",
+            "sggName": "고양시차선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시일산서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158388,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "배영민",
+          "party": "더불어민주당",
+          "bio": "정당인 | 서울산업대학교(현 서울과학기술대학교) 전기공학과 졸업 | (현)고양풀뿌리공동체 이사 | (전)고양시 일산1동 주민자치회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B0%EC%98%81%EB%AF%BC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158388",
+            "sggName": "고양시차선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시일산서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161399,
           "electionType": "city_council",
           "region": [
@@ -13137,6 +13269,39 @@
             "sgTypecode": "6",
             "huboid": "100162776",
             "sggName": "고양시차선거구",
+            "sdName": "경기도",
+            "wiwName": "고양시일산서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163487,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "고양시"
+          ],
+          "name": "최성원",
+          "party": "더불어민주당",
+          "bio": "고양시의회의원 | 숭실대학교 정치외교학과 졸업 | (전)국회의원 비서관 | (현)제9대 고양시의회의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%84%B1%EC%9B%90&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163487",
+            "sggName": "고양시카선거구",
             "sdName": "경기도",
             "wiwName": "고양시일산서구",
             "status": "등록",
@@ -13627,7 +13792,7 @@
           ],
           "name": "백현종",
           "party": "국민의힘",
-          "bio": "경기도의회의원 | 한국항공대학 항공기계학과 졸업 | (현)경기도의회의원 | (현)경기도의회 국민의힘 대표의원",
+          "bio": "경기도의회의원 | 한국항공대학 항공기계공학과 졸업 | (현)경기도의회의원 | (현)경기도의회 국민의힘 대표의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%ED%98%84%EC%A2%85&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -13877,171 +14042,6 @@
             "sgTypecode": "6",
             "huboid": "100162133",
             "sggName": "구리시가선거구",
-            "sdName": "경기도",
-            "wiwName": "구리시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100162190,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "구리시"
-          ],
-          "name": "김보섭",
-          "party": "진보당",
-          "bio": "웅진코웨이정수기점검원 | 경희대학교 토목공학과 제적(1993.3.2.~1999.6.16.) | (전)구리시무상급식운동본부장 | (현)진보당구리시위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B3%B4%EC%84%AD&background=7c3aed&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100162190",
-            "sggName": "구리시가선거구",
-            "sdName": "경기도",
-            "wiwName": "구리시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100160732,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "구리시"
-          ],
-          "name": "김용현",
-          "party": "무소속",
-          "bio": "제9회 구리시의회 의원 | 원광대학교 물리·반도체학부 졸업 | (전)구리갈매신도시연합회장 | (현)제9대 구리시의회 의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%A9%ED%98%84&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100160732",
-            "sggName": "구리시가선거구",
-            "sdName": "경기도",
-            "wiwName": "구리시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100158612,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "구리시"
-          ],
-          "name": "김성태",
-          "party": "더불어민주당",
-          "bio": "구리시의회의원 | 고려대학교 정책대학원 공공정책학과 석사과정 재학 | (현)구리시의회의원(부의장) | (현)더불어민주당 구리시지역위원회 부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B1%ED%83%9C&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158612",
-            "sggName": "구리시나선거구",
-            "sdName": "경기도",
-            "wiwName": "구리시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100155381,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "구리시"
-          ],
-          "name": "이정희",
-          "party": "더불어민주당",
-          "bio": "비영리단체 대표 | 연세대학교 사회사업학과 졸업 | (현)구리YMCA 사무총장 | (전)경기구리지역자활센터 센터장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155381",
-            "sggName": "구리시나선거구",
-            "sdName": "경기도",
-            "wiwName": "구리시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100156368,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "구리시"
-          ],
-          "name": "연주현",
-          "party": "국민의힘",
-          "bio": "공인중개사 | 강동대학교 스마트복지융합학부 졸업 | (현)구리시 충청향우회 회장 | (현)구리여자중학교 운영위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%97%B0%EC%A3%BC%ED%98%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156368",
-            "sggName": "구리시나선거구",
             "sdName": "경기도",
             "wiwName": "구리시",
             "status": "등록",
@@ -18755,6 +18755,39 @@
           }
         },
         {
+          "id": 100162606,
+          "electionType": "provincial_council",
+          "region": [
+            "경기도",
+            "용인시"
+          ],
+          "name": "김영민",
+          "party": "국민의힘",
+          "bio": "정당인 | 명지대학교 체육학 학사 | (현)경기도의회 의원 | (전)용인시 남사면 체육회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EB%AF%BC&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100162606",
+            "sggName": "용인시제2선거구",
+            "sdName": "경기도",
+            "wiwName": "용인시처인구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100162517,
           "electionType": "provincial_council",
           "region": [
@@ -19524,7 +19557,7 @@
           ],
           "name": "권병손",
           "party": "국민의힘",
-          "bio": "(주)수성산업개발 대표 | 수원과학대학교 실내건축디자인학과 졸업 | (현)경기도당 부위원장 | (현)용인시(갑)지역 당원협의회 사무국장",
+          "bio": "(주)수성산업개발 대표 | 수원과학대학교 실내건축디자인학과 졸업 | (현)국민의힘 경기도당 부위원장 | (현)국민의힘 용인시갑 당원협의회 사무국장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EB%B3%91%EC%86%90&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -19590,7 +19623,7 @@
           ],
           "name": "임준교",
           "party": "더불어민주당",
-          "bio": "무직 | 국가평생교육진흥원 행정학사 | (현)더불어민주당 용인시갑지역위원회 자치분권위원장 | (전)이상식국회의원 선임비서관",
+          "bio": "정당인 | 국가평생교육진흥원 행정학사 | (현)더불어민주당 용인시갑지역위원회 자치분권위원장 | (전)이상식국회의원 선임비서관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%A4%80%EA%B5%90&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -20677,6 +20710,72 @@
           }
         },
         {
+          "id": 100165675,
+          "electionType": "provincial_council",
+          "region": [
+            "경기도",
+            "파주시"
+          ],
+          "name": "정국진",
+          "party": "국민의힘",
+          "bio": "대학원생 | 북한대학원대학교 정치통일전공 졸업(북한학석사) | (전)중부일보 기자 | (전)대한민국 국회 비서관(5급)",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EA%B5%AD%EC%A7%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100165675",
+            "sggName": "파주시제3선거구",
+            "sdName": "경기도",
+            "wiwName": "파주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158168,
+          "electionType": "provincial_council",
+          "region": [
+            "경기도",
+            "파주시"
+          ],
+          "name": "김순현",
+          "party": "더불어민주당",
+          "bio": "북파주발전포럼상임대표 | 국민대학교 행정대학원 졸업(행정학석사) | (전)파주시 대외협력관 | (전)파주미디어그룹(파주신문)대표이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%88%9C%ED%98%84&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100158168",
+            "sggName": "파주시제4선거구",
+            "sdName": "경기도",
+            "wiwName": "파주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100158339,
           "electionType": "provincial_council",
           "region": [
@@ -20786,7 +20885,7 @@
           ],
           "name": "방인혜",
           "party": "더불어민주당",
-          "bio": "(주)포레스트팜 대표이사 | 중부대학교 대학원 자연치유학과 졸업(자연치유학석사) | (전)경기도교육청 자문위원 | (현)김대중재단 파주시지회 부회장",
+          "bio": "(주)포레스트팜 대표이사 | 중부대학교 대학원 자연치유학과 졸업(자연치유학석사) | (전)경기도교육청 정책자문위원 | (현)김대중재단 파주시지회 부회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%A9%EC%9D%B8%ED%98%9C&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -21075,39 +21174,6 @@
           }
         },
         {
-          "id": 100155478,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "파주시"
-          ],
-          "name": "김환중",
-          "party": "더불어민주당",
-          "bio": "정당인(더불어민주당 파주갑지역위원회 지역대의원) | 동국대학교 행정대학원 행정학과 지방자치전공 졸업(행정학석사) | (전)운정3동주민자치회 부회장 | (전)더불어민주당 경기도당 공동체특별위원회 위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%99%98%EC%A4%91&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155478",
-            "sggName": "파주시다선거구",
-            "sdName": "경기도",
-            "wiwName": "파주시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154491,
           "electionType": "city_council",
           "region": [
@@ -21132,6 +21198,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154491",
+            "sggName": "파주시다선거구",
+            "sdName": "경기도",
+            "wiwName": "파주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155478,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "파주시"
+          ],
+          "name": "김환중",
+          "party": "더불어민주당",
+          "bio": "정당인(더불어민주당 파주갑지역위원회 지역대의원) | 동국대학교 행정대학원 행정학과 지방자치전공 졸업(행정학석사) | (전)운정3동주민자치회 부회장 | (전)더불어민주당 경기도당 공동체특별위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%99%98%EC%A4%91&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155478",
             "sggName": "파주시다선거구",
             "sdName": "경기도",
             "wiwName": "파주시",
@@ -21471,39 +21570,6 @@
           }
         },
         {
-          "id": 100155039,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "파주시"
-          ],
-          "name": "김일철",
-          "party": "국민의힘",
-          "bio": "MTA태권도 관장 | 한국방송통신대학교 행정학과 1학년 재학중 | (전)제21기 민주평화통일 자문회의 파주시협의회 간사 | (현)국민의힘 파주시을 청년위원회 위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%BC%EC%B2%A0&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155039",
-            "sggName": "파주시마선거구",
-            "sdName": "경기도",
-            "wiwName": "파주시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161656,
           "electionType": "city_council",
           "region": [
@@ -21528,6 +21594,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161656",
+            "sggName": "파주시마선거구",
+            "sdName": "경기도",
+            "wiwName": "파주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155039,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "파주시"
+          ],
+          "name": "김일철",
+          "party": "국민의힘",
+          "bio": "MTA태권도 관장 | 한국방송통신대학교 행정학과 1학년 재학중 | (전)제21기 민주평화통일 자문회의 파주시협의회 간사 | (현)국민의힘 파주시을 청년위원회 위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%BC%EC%B2%A0&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155039",
             "sggName": "파주시마선거구",
             "sdName": "경기도",
             "wiwName": "파주시",
@@ -21776,39 +21875,6 @@
       ],
       "city_council": [
         {
-          "id": 100155712,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "이천시"
-          ],
-          "name": "정신화",
-          "party": "더불어민주당",
-          "bio": "샘물노인복지센터 대표 | 극동대학교 경영행정대학원 졸업(사회복지학석사) | (현)샘물노인복지센터 대표 | (현)강동대학교 창업경영학과 겸임교수",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%8B%A0%ED%99%94&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155712",
-            "sggName": "이천시가선거구",
-            "sdName": "경기도",
-            "wiwName": "이천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100154421,
           "electionType": "city_council",
           "region": [
@@ -21833,6 +21899,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100154421",
+            "sggName": "이천시가선거구",
+            "sdName": "경기도",
+            "wiwName": "이천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155712,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "이천시"
+          ],
+          "name": "정신화",
+          "party": "더불어민주당",
+          "bio": "샘물노인복지센터 대표 | 극동대학교 경영행정대학원 졸업(사회복지학석사) | (현)샘물노인복지센터 대표 | (현)강동대학교 창업경영학과 겸임교수",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%8B%A0%ED%99%94&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155712",
             "sggName": "이천시가선거구",
             "sdName": "경기도",
             "wiwName": "이천시",
@@ -21949,7 +22048,7 @@
           ],
           "name": "최덕수",
           "party": "더불어민주당",
-          "bio": "주식회사 건축사사무소 예가 대표이사(건축사) | 인하대학교 대학원 도시재생학전공 4학기 재학중(박사과정) | (전)이천지역건축사회 회장 | (전)이천고등학교장학회 회장",
+          "bio": "주식회사 건축사사무소 예가 대표이사(건축사) | 인하대학교 대학원 도시재생학전공 박사과정 제4차 재학중 | (전)이천지역건축사회 회장 | (전)이천고등학교장학회 회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%8D%95%EC%88%98&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -21965,39 +22064,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155642",
-            "sggName": "이천시나선거구",
-            "sdName": "경기도",
-            "wiwName": "이천시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100154529,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "이천시"
-          ],
-          "name": "박선진",
-          "party": "국민의힘",
-          "bio": "정당인 | 건국대학교 문학사(사회복지학전공) | (전)육군부사관 전역 | (현)국민의힘 경기도당 청년수석부대변인",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%84%A0%EC%A7%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154529",
             "sggName": "이천시나선거구",
             "sdName": "경기도",
             "wiwName": "이천시",
@@ -22031,6 +22097,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162852",
+            "sggName": "이천시나선거구",
+            "sdName": "경기도",
+            "wiwName": "이천시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100154529,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "이천시"
+          ],
+          "name": "박선진",
+          "party": "국민의힘",
+          "bio": "정당인 | 건국대학교 문학사(사회복지학전공) | (전)육군부사관 전역 | (현)국민의힘 경기도당 청년수석부대변인",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%84%A0%EC%A7%84&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154529",
             "sggName": "이천시나선거구",
             "sdName": "경기도",
             "wiwName": "이천시",
@@ -23604,6 +23703,39 @@
             "sgId": "20260603",
             "sgTypecode": "5",
             "huboid": "100162559",
+            "sggName": "화성시제1선거구",
+            "sdName": "경기도",
+            "wiwName": "화성시만세구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161972,
+          "electionType": "provincial_council",
+          "region": [
+            "경기도",
+            "화성시"
+          ],
+          "name": "박연숙",
+          "party": "국민의힘",
+          "bio": "(사)화성시의정회 사무총장 | 중앙대학교 대학원 의회학과 졸업(의회학박사) | (전)화성시의회의원 | (현)국민의힘 경기도당 부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%97%B0%EC%88%99&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100161972",
             "sggName": "화성시제1선거구",
             "sdName": "경기도",
             "wiwName": "화성시만세구",
@@ -26337,39 +26469,6 @@
       ],
       "city_council": [
         {
-          "id": 100163512,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "양주시"
-          ],
-          "name": "이지연",
-          "party": "더불어민주당",
-          "bio": "양주시의회의원 | 대진대학교 미래평생교육융합대학 사회복지상담학과 4학년 재학 중 | (현)제9대 양주시의회의원 | (현)더불어민주당 양주시의회 원내대표",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A7%80%EC%97%B0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100163512",
-            "sggName": "양주시가선거구",
-            "sdName": "경기도",
-            "wiwName": "양주시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100163331,
           "electionType": "city_council",
           "region": [
@@ -26394,6 +26493,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100163331",
+            "sggName": "양주시가선거구",
+            "sdName": "경기도",
+            "wiwName": "양주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163512,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "양주시"
+          ],
+          "name": "이지연",
+          "party": "더불어민주당",
+          "bio": "양주시의회의원 | 대진대학교 미래평생교육융합대학 사회복지상담학과 4학년 재학 중 | (현)제9대 양주시의회의원 | (현)더불어민주당 양주시의회 원내대표",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A7%80%EC%97%B0&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163512",
             "sggName": "양주시가선거구",
             "sdName": "경기도",
             "wiwName": "양주시",
@@ -26535,39 +26667,6 @@
           }
         },
         {
-          "id": 100156568,
-          "electionType": "city_council",
-          "region": [
-            "경기도",
-            "양주시"
-          ],
-          "name": "임의빈",
-          "party": "더불어민주당",
-          "bio": "임대업 | 통영수산전문대학(현 경상국립대학교) 식품영양과 졸업 | (전)양주시 이·통장연합회장 | (현)더불어민주당 정성호 국회의원 정책기획특별보좌관",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%9D%98%EB%B9%88&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100156568",
-            "sggName": "양주시다선거구",
-            "sdName": "경기도",
-            "wiwName": "양주시",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100155774,
           "electionType": "city_council",
           "region": [
@@ -26592,6 +26691,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100155774",
+            "sggName": "양주시다선거구",
+            "sdName": "경기도",
+            "wiwName": "양주시",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156568,
+          "electionType": "city_council",
+          "region": [
+            "경기도",
+            "양주시"
+          ],
+          "name": "임의빈",
+          "party": "더불어민주당",
+          "bio": "임대업 | 통영수산전문대학(현 경상국립대학교) 식품영양과 졸업 | (전)양주시 이·통장연합회장 | (현)더불어민주당 정성호 국회의원 정책기획특별보좌관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EC%9D%98%EB%B9%88&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156568",
             "sggName": "양주시다선거구",
             "sdName": "경기도",
             "wiwName": "양주시",

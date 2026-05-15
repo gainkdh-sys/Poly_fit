@@ -1300,39 +1300,6 @@
       ],
       "city_council": [
         {
-          "id": 100161631,
-          "electionType": "city_council",
-          "region": [
-            "대전광역시",
-            "중구"
-          ],
-          "name": "유은희",
-          "party": "더불어민주당",
-          "bio": "대전중구의회의원 | 대전대학교 경영학과 졸업 | (현)중구의회의원 | (현)더불어민주당 대전시당 여성위원회 수석부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%9D%80%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161631",
-            "sggName": "중구가선거구",
-            "sdName": "대전광역시",
-            "wiwName": "중구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100162604,
           "electionType": "city_council",
           "region": [
@@ -1357,6 +1324,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162604",
+            "sggName": "중구가선거구",
+            "sdName": "대전광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161631,
+          "electionType": "city_council",
+          "region": [
+            "대전광역시",
+            "중구"
+          ],
+          "name": "유은희",
+          "party": "더불어민주당",
+          "bio": "대전중구의회의원 | 대전대학교 경영학과 졸업 | (현)중구의회의원 | (현)더불어민주당 대전시당 여성위원회 수석부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%9D%80%ED%9D%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161631",
             "sggName": "중구가선거구",
             "sdName": "대전광역시",
             "wiwName": "중구",
@@ -1465,39 +1465,6 @@
           }
         },
         {
-          "id": 100158773,
-          "electionType": "city_council",
-          "region": [
-            "대전광역시",
-            "중구"
-          ],
-          "name": "김선옥",
-          "party": "더불어민주당",
-          "bio": "대전중구의회의원 | 한남대학교 사회문화·행정복지대학원 졸업(아동복지학석사) | (현)9대 중구의회의원 | (전)프라하어린이집원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%EC%98%A5&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100158773",
-            "sggName": "중구나선거구",
-            "sdName": "대전광역시",
-            "wiwName": "중구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156237,
           "electionType": "city_council",
           "region": [
@@ -1531,16 +1498,16 @@
           }
         },
         {
-          "id": 100157927,
+          "id": 100158773,
           "electionType": "city_council",
           "region": [
             "대전광역시",
             "중구"
           ],
-          "name": "김종성",
-          "party": "국민의힘",
-          "bio": "자영업 | 배재대학교 경영학과 졸업 | (전)KT&G 충남본부 영업부 과장 | (현)국민의힘 대전중구당협 청년부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A2%85%EC%84%B1&background=ef4444&color=fff&size=128",
+          "name": "김선옥",
+          "party": "더불어민주당",
+          "bio": "대전중구의회의원 | 한남대학교 사회문화·행정복지대학원 졸업(아동복지학석사) | (현)9대 중구의회의원 | (전)프라하어린이집원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%EC%98%A5&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1554,7 +1521,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100157927",
+            "huboid": "100158773",
             "sggName": "중구나선거구",
             "sdName": "대전광역시",
             "wiwName": "중구",
@@ -1588,6 +1555,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158470",
+            "sggName": "중구나선거구",
+            "sdName": "대전광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157927,
+          "electionType": "city_council",
+          "region": [
+            "대전광역시",
+            "중구"
+          ],
+          "name": "김종성",
+          "party": "국민의힘",
+          "bio": "자영업 | 배재대학교 경영학과 졸업 | (전)KT&G 충남본부 영업부 과장 | (현)국민의힘 대전중구당협 청년부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A2%85%EC%84%B1&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157927",
             "sggName": "중구나선거구",
             "sdName": "대전광역시",
             "wiwName": "중구",
@@ -1663,39 +1663,6 @@
           }
         },
         {
-          "id": 100155440,
-          "electionType": "city_council",
-          "region": [
-            "대전광역시",
-            "중구"
-          ],
-          "name": "이상인",
-          "party": "더불어민주당",
-          "bio": "회사원 | 군산수산전문대학 통신과 졸업(현, 군산대학교) | (현)대전광역시 중구 문화1동 방위협의회 의원 | (전)더불어민주당 대전광역시 중구 박용갑국회의원 사무국장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%83%81%EC%9D%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100155440",
-            "sggName": "중구다선거구",
-            "sdName": "대전광역시",
-            "wiwName": "중구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100163650,
           "electionType": "city_council",
           "region": [
@@ -1729,16 +1696,16 @@
           }
         },
         {
-          "id": 100158075,
+          "id": 100155440,
           "electionType": "city_council",
           "region": [
             "대전광역시",
             "중구"
           ],
-          "name": "김두겸",
-          "party": "국민의힘",
-          "bio": "자영업 | 서울과학기술대학교 철도전문대학원 졸업(공학석사(철도전기 · 신호)) | (현)국민의힘 대전시당 부위원장 | (전)21기 민주평통 대전지역회의 청년위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%91%90%EA%B2%B8&background=ef4444&color=fff&size=128",
+          "name": "이상인",
+          "party": "더불어민주당",
+          "bio": "회사원 | 군산수산전문대학 통신과 졸업(현, 군산대학교) | (현)대전광역시 중구 문화1동 방위협의회 의원 | (전)더불어민주당 대전광역시 중구 박용갑국회의원 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%83%81%EC%9D%B8&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -1752,7 +1719,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100158075",
+            "huboid": "100155440",
             "sggName": "중구다선거구",
             "sdName": "대전광역시",
             "wiwName": "중구",
@@ -1786,6 +1753,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100157869",
+            "sggName": "중구다선거구",
+            "sdName": "대전광역시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158075,
+          "electionType": "city_council",
+          "region": [
+            "대전광역시",
+            "중구"
+          ],
+          "name": "김두겸",
+          "party": "국민의힘",
+          "bio": "자영업 | 서울과학기술대학교 철도전문대학원 졸업(공학석사(철도전기 · 신호)) | (현)국민의힘 대전시당 부위원장 | (전)21기 민주평통 대전지역회의 청년위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%91%90%EA%B2%B8&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158075",
             "sggName": "중구다선거구",
             "sdName": "대전광역시",
             "wiwName": "중구",
@@ -2397,39 +2397,6 @@
       ],
       "city_council": [
         {
-          "id": 100154057,
-          "electionType": "city_council",
-          "region": [
-            "대전광역시",
-            "서구"
-          ],
-          "name": "김동성",
-          "party": "더불어민주당",
-          "bio": "정당인 | 한남대학교 건축공학과 졸업 | (전)제8대 대전 서구의원 | (전)박병석국회의원 비서관",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%EC%84%B1&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100154057",
-            "sggName": "서구가선거구",
-            "sdName": "대전광역시",
-            "wiwName": "서구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161970,
           "electionType": "city_council",
           "region": [
@@ -2463,16 +2430,16 @@
           }
         },
         {
-          "id": 100156333,
+          "id": 100154057,
           "electionType": "city_council",
           "region": [
             "대전광역시",
             "서구"
           ],
-          "name": "김세중",
-          "party": "국민의힘",
-          "bio": "정당인 | 배재대학교 경영학과 졸업 | (전)이상민 변호사사무실 비서 | (현)국제라이온스협회 도안회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B8%EC%A4%91&background=ef4444&color=fff&size=128",
+          "name": "김동성",
+          "party": "더불어민주당",
+          "bio": "정당인 | 한남대학교 건축공학과 졸업 | (전)제8대 대전 서구의원 | (전)박병석국회의원 비서관",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%EC%84%B1&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -2486,7 +2453,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100156333",
+            "huboid": "100154057",
             "sggName": "서구가선거구",
             "sdName": "대전광역시",
             "wiwName": "서구",
@@ -2520,6 +2487,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161968",
+            "sggName": "서구가선거구",
+            "sdName": "대전광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100156333,
+          "electionType": "city_council",
+          "region": [
+            "대전광역시",
+            "서구"
+          ],
+          "name": "김세중",
+          "party": "국민의힘",
+          "bio": "정당인 | 배재대학교 경영학과 졸업 | (전)이상민 변호사사무실 비서 | (현)국제라이온스협회 도안회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B8%EC%A4%91&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156333",
             "sggName": "서구가선거구",
             "sdName": "대전광역시",
             "wiwName": "서구",
@@ -2628,39 +2628,6 @@
           }
         },
         {
-          "id": 100161918,
-          "electionType": "city_council",
-          "region": [
-            "대전광역시",
-            "서구"
-          ],
-          "name": "고현석",
-          "party": "국민의힘",
-          "bio": "정당인 | 우석대학교 유통통상학부 졸업 | (전)대전 서구청 대외협력실장 | (현)사단법인 삼천원행복나눔 사무국장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%ED%98%84%EC%84%9D&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161918",
-            "sggName": "서구나선거구",
-            "sdName": "대전광역시",
-            "wiwName": "서구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161845,
           "electionType": "city_council",
           "region": [
@@ -2694,16 +2661,16 @@
           }
         },
         {
-          "id": 100162372,
+          "id": 100161918,
           "electionType": "city_council",
           "region": [
             "대전광역시",
             "서구"
           ],
-          "name": "강정수",
-          "party": "더불어민주당",
-          "bio": "서구의회의원 | 혜천대학(현 대전과학기술대학교) 실내건축디자인과 졸업 | (전)박병석 국회의원 사무실 비서관(5급상당) | (현)제8대, 9대 대전서구의회 의원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%A0%95%EC%88%98&background=1e40af&color=fff&size=128",
+          "name": "고현석",
+          "party": "국민의힘",
+          "bio": "정당인 | 우석대학교 유통통상학부 졸업 | (전)대전 서구청 대외협력실장 | (현)사단법인 삼천원행복나눔 사무국장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%ED%98%84%EC%84%9D&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -2717,8 +2684,8 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100162372",
-            "sggName": "서구다선거구",
+            "huboid": "100161918",
+            "sggName": "서구나선거구",
             "sdName": "대전광역시",
             "wiwName": "서구",
             "status": "등록",
@@ -2751,6 +2718,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100158411",
+            "sggName": "서구다선거구",
+            "sdName": "대전광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162372,
+          "electionType": "city_council",
+          "region": [
+            "대전광역시",
+            "서구"
+          ],
+          "name": "강정수",
+          "party": "더불어민주당",
+          "bio": "서구의회의원 | 혜천대학(현 대전과학기술대학교) 실내건축디자인과 졸업 | (전)박병석 국회의원 사무실 비서관(5급상당) | (현)제8대, 9대 대전서구의회 의원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%A0%95%EC%88%98&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162372",
             "sggName": "서구다선거구",
             "sdName": "대전광역시",
             "wiwName": "서구",
@@ -2892,39 +2892,6 @@
           }
         },
         {
-          "id": 100161189,
-          "electionType": "city_council",
-          "region": [
-            "대전광역시",
-            "서구"
-          ],
-          "name": "양유환",
-          "party": "더불어민주당",
-          "bio": "정당인 | 배재대학교 심리철학과 졸업 | (현)박범계 국회의원 청년 특별보좌관 | (현)더불어민주당 서구을 청년위원회 수석부위원장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%9C%A0%ED%99%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161189",
-            "sggName": "서구라선거구",
-            "sdName": "대전광역시",
-            "wiwName": "서구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161207,
           "electionType": "city_council",
           "region": [
@@ -2958,16 +2925,16 @@
           }
         },
         {
-          "id": 100162488,
+          "id": 100161189,
           "electionType": "city_council",
           "region": [
             "대전광역시",
             "서구"
           ],
-          "name": "서지원",
-          "party": "국민의힘",
-          "bio": "서구의회의원 | 배재대학교 대학원 졸업(문학박사) | (현)충남여자고등학교 총동창회 부회장 | (전)배재대학교 유아교육과 겸임교수",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%A7%80%EC%9B%90&background=ef4444&color=fff&size=128",
+          "name": "양유환",
+          "party": "더불어민주당",
+          "bio": "정당인 | 배재대학교 심리철학과 졸업 | (현)박범계 국회의원 청년 특별보좌관 | (현)더불어민주당 서구을 청년위원회 수석부위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%9C%A0%ED%99%98&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
             "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
@@ -2981,7 +2948,7 @@
           "nec": {
             "sgId": "20260603",
             "sgTypecode": "6",
-            "huboid": "100162488",
+            "huboid": "100161189",
             "sggName": "서구라선거구",
             "sdName": "대전광역시",
             "wiwName": "서구",
@@ -3015,6 +2982,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162048",
+            "sggName": "서구라선거구",
+            "sdName": "대전광역시",
+            "wiwName": "서구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100162488,
+          "electionType": "city_council",
+          "region": [
+            "대전광역시",
+            "서구"
+          ],
+          "name": "서지원",
+          "party": "국민의힘",
+          "bio": "서구의회의원 | 배재대학교 대학원 졸업(문학박사) | (현)충남여자고등학교 총동창회 부회장 | (전)배재대학교 유아교육과 겸임교수",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%A7%80%EC%9B%90&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100162488",
             "sggName": "서구라선거구",
             "sdName": "대전광역시",
             "wiwName": "서구",

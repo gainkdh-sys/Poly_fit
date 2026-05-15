@@ -1830,39 +1830,6 @@
           }
         },
         {
-          "id": 100161612,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "남구"
-          ],
-          "name": "김언지",
-          "party": "국민의힘",
-          "bio": "프리랜서 방송인(리포터) | 마산여자고등학교 졸업 | (전)신정5동체육회 부회장 | (전)울산광역시체육회 생활체육위원",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%96%B8%EC%A7%80&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161612",
-            "sggName": "남구가선거구",
-            "sdName": "울산광역시",
-            "wiwName": "남구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100160928,
           "electionType": "city_council",
           "region": [
@@ -1887,6 +1854,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100160928",
+            "sggName": "남구가선거구",
+            "sdName": "울산광역시",
+            "wiwName": "남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161612,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "남구"
+          ],
+          "name": "김언지",
+          "party": "국민의힘",
+          "bio": "프리랜서 방송인(리포터) | 마산여자고등학교 졸업 | (전)신정5동체육회 부회장 | (전)울산광역시체육회 생활체육위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%96%B8%EC%A7%80&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161612",
             "sggName": "남구가선거구",
             "sdName": "울산광역시",
             "wiwName": "남구",
@@ -2358,39 +2358,6 @@
           }
         },
         {
-          "id": 100161605,
-          "electionType": "city_council",
-          "region": [
-            "울산광역시",
-            "남구"
-          ],
-          "name": "김영석",
-          "party": "국민의힘",
-          "bio": "LEO company 대표 | 울산과학대학교 디지털기계학부 공업전문학사 졸업 | (전)국민의힘 울산광역시당 부대변인 | (전)2016년 울산과학대학교 총학생회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%84%9D&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161605",
-            "sggName": "남구마선거구",
-            "sdName": "울산광역시",
-            "wiwName": "남구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100161611,
           "electionType": "city_council",
           "region": [
@@ -2415,6 +2382,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161611",
+            "sggName": "남구마선거구",
+            "sdName": "울산광역시",
+            "wiwName": "남구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161605,
+          "electionType": "city_council",
+          "region": [
+            "울산광역시",
+            "남구"
+          ],
+          "name": "김영석",
+          "party": "국민의힘",
+          "bio": "LEO company 대표 | 울산과학대학교 디지털기계학부 공업전문학사 졸업 | (전)국민의힘 울산광역시당 부대변인 | (전)2016년 울산과학대학교 총학생회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%84%9D&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161605",
             "sggName": "남구마선거구",
             "sdName": "울산광역시",
             "wiwName": "남구",

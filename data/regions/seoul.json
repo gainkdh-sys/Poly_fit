@@ -1136,39 +1136,6 @@
           }
         },
         {
-          "id": 100161759,
-          "electionType": "city_council",
-          "region": [
-            "서울특별시",
-            "중구"
-          ],
-          "name": "김태희",
-          "party": "더불어민주당",
-          "bio": "주부 | 동원대학 레저스포츠학과 졸업 | (전)광희초등하교 학부모회장 | (현)더불어민주당 황학동여성회장",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100161759",
-            "sggName": "중구나선거구",
-            "sdName": "서울특별시",
-            "wiwName": "중구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
           "id": 100156811,
           "electionType": "city_council",
           "region": [
@@ -1193,6 +1160,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100156811",
+            "sggName": "중구나선거구",
+            "sdName": "서울특별시",
+            "wiwName": "중구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100161759,
+          "electionType": "city_council",
+          "region": [
+            "서울특별시",
+            "중구"
+          ],
+          "name": "김태희",
+          "party": "더불어민주당",
+          "bio": "주부 | 동원대학 레저스포츠학과 졸업 | (전)광희초등하교 학부모회장 | (현)더불어민주당 황학동여성회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%ED%9D%AC&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100161759",
             "sggName": "중구나선거구",
             "sdName": "서울특별시",
             "wiwName": "중구",
@@ -2060,6 +2060,39 @@
             "sgTypecode": "6",
             "huboid": "100162568",
             "sggName": "용산구라선거구",
+            "sdName": "서울특별시",
+            "wiwName": "용산구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100163442,
+          "electionType": "city_council",
+          "region": [
+            "서울특별시",
+            "용산구"
+          ],
+          "name": "김형원",
+          "party": "더불어민주당",
+          "bio": "정당인 | 국민대학교 정치대학원 졸업(정치학석사) | (현)용산구의회의원 | (현)더불어민주당 용산지역위원회 노동위원장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%98%95%EC%9B%90&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100163442",
+            "sggName": "용산구마선거구",
             "sdName": "서울특별시",
             "wiwName": "용산구",
             "status": "등록",
@@ -7699,7 +7732,7 @@
           ],
           "name": "강경덕",
           "party": "국민의힘",
-          "bio": "(주) 탑 오성스틸 대표 | 대전동아공업고등학교 토목과 졸업 | 전)한국자유총연맹 강북구지회 지회장 | 현)강북구장애인총연합회 후원회 부회장",
+          "bio": "(주) 탑 오성스틸 대표 | 대전동아공업고등학교 토목과 졸업 | 전)한국자유총연맹 강북구지회 지회장 | 현)강북구장애인단체총연합회 후원회 부회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EA%B2%BD%EB%8D%95&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -8163,7 +8196,7 @@
           ],
           "name": "최성례",
           "party": "더불어민주당",
-          "bio": "정당인 | 미기재 | (현)더불어민주당 강북(을) 지역위원회 송중동협의회장 | (전)서울시 녹색어머니연합회 회장",
+          "bio": "정당인 | 일신여자상업고등학교 졸업 | (현)더불어민주당 강북(을) 지역위원회 송중동협의회장 | (전)서울시 녹색어머니연합회 회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%84%B1%EB%A1%80&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -8798,7 +8831,7 @@
           ],
           "name": "최승수",
           "party": "더불어민주당",
-          "bio": "정당인 | 동국대학교 행정대학원 사회복지학과 졸업(사회복지학 석사) | (전)도봉구의회 정책지원관 | (전)도봉구청 정무비서",
+          "bio": "정당인 | 동국대학교 행정대학원 사회복지학과 졸업(사회복지학 석사) | (전)도봉구청장 정무비서 | (전)도봉구의회 정책지원관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%8A%B9%EC%88%98&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -11557,7 +11590,7 @@
           ],
           "name": "박운기",
           "party": "더불어민주당",
-          "bio": "더불어민주당 정책위부의장 | 서울시립대학교 도시과학대학원 도시행정학과 석사 | (전) 더불어민주당 서대문구청장 후보 | (전) 서울시의회 재선의원(8대, 9대)",
+          "bio": "정당인 | 서울시립대학교 도시과학대학원 도시행정학과 석사 | (전) 더불어민주당 서대문구청장 후보 | (전) 서울시의회 재선의원(8대, 9대)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%B4%EA%B8%B0&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -15743,7 +15776,7 @@
           ],
           "name": "정정희",
           "party": "조국혁신당",
-          "bio": "강서구의회의원 | 호원대학교 건축학과 졸업(사회복지학 복수전공) | (현) 강서구의회 행정재무위원장 | (현) 조국혁신당 강서구 공동지역위원장",
+          "bio": "강서구의원 | 호원대학교 건축학과 졸업(사회복지학 복수전공) | (현) 강서구의회 행정재무위원장 | (현) 조국혁신당 강서구 공동지역위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%A0%95%ED%9D%AC&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -17343,7 +17376,7 @@
           ],
           "name": "장규권",
           "party": "국민의힘",
-          "bio": "금천구의회 의원 | 태안고등학교 졸업 | (현)금천구의회의원 | (현)금천구 충청향우회 회장",
+          "bio": "금천구의회 의원 | 태안고등학교 졸업 | (현)금천구 충청향우회 회장 | (현)금천구의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EA%B7%9C%EA%B6%8C&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -17409,7 +17442,7 @@
           ],
           "name": "우상원",
           "party": "국민의힘",
-          "bio": "피트니스 대표 | 성균관대학교 스포츠과학과 졸업(체육학사) | (전)제22대 총선 국민의힘 금천구 국회의원후보 수해팀장 | (현)국민의힘 금천구 당원협의회 청년위원장",
+          "bio": "피트니스 대표 | 성균관대학교 스포츠과학과 졸업(체육학사) | (전)제22대 총선 국민의힘 금천구 국회의원후보 수행팀장 | (현)국민의힘 금천구 당원협의회 청년위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9A%B0%EC%83%81%EC%9B%90&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -18341,7 +18374,7 @@
           ],
           "name": "유승용",
           "party": "더불어민주당",
-          "bio": "정치인 | 국민대학교 정치대학원 정치학석사 졸업 | (현)영등포구의회 9대의원 | (현)더불어민주당 전력기획위원회 부위원장",
+          "bio": "정치인 | 국민대학교 정치대학원 정치학석사 졸업 | (현)영등포구의회 9대의원 | (현)더불어민주당 전략기획위원회 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%8A%B9%EC%9A%A9&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -25896,39 +25929,6 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100162243",
-            "sggName": "강동구바선거구",
-            "sdName": "서울특별시",
-            "wiwName": "강동구",
-            "status": "등록",
-            "regdate": "",
-            "kind": "candidate"
-          }
-        },
-        {
-          "id": 100164388,
-          "electionType": "city_council",
-          "region": [
-            "서울특별시",
-            "강동구"
-          ],
-          "name": "정민우",
-          "party": "개혁신당",
-          "bio": "자영업자 | 칭다오궈지외국어학교 졸업(2002.9~2005.6) | (현)개혁신당 강동구 지역발전특별위원회 부위원장 | (현)개혁신당 서울특별시당 대변인",
-          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EB%AF%BC%EC%9A%B0&background=f97316&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
-          "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
-          },
-          "source": "nec",
-          "nec": {
-            "sgId": "20260603",
-            "sgTypecode": "6",
-            "huboid": "100164388",
             "sggName": "강동구바선거구",
             "sdName": "서울특별시",
             "wiwName": "강동구",

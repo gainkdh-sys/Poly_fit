@@ -944,7 +944,7 @@
           ],
           "name": "남궁형",
           "party": "더불어민주당",
-          "bio": "단국대학교 초빙교수 | 인천대학교 행정대학원 졸업 | (전) 21대 대선 이재명 대통령후보 선거캠프 팀장",
+          "bio": "단국대학교 초빙교수 | 인천대학교 행정대학원 졸업 | (전) 21대 대선 이재명 대통령후보 선거캠프 팀장 | (전) 대통령소속 자치분권위원회 정책자문위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EA%B6%81%ED%98%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
@@ -2373,6 +2373,39 @@
           }
         },
         {
+          "id": 100163125,
+          "electionType": "provincial_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "정해권",
+          "party": "국민의힘",
+          "bio": "인천광역시의회의원 | 인하대학교 대학원 졸업(행정학 박사) | (현) 인천광역시의회 의장 | (현) 대한민국시도의회의장협의회 사무총장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%ED%95%B4%EA%B6%8C&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "5",
+            "huboid": "100163125",
+            "sggName": "연수구제1선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100154819,
           "electionType": "provincial_council",
           "region": [
@@ -2804,6 +2837,39 @@
           }
         },
         {
+          "id": 100158271,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "황충하",
+          "party": "무소속",
+          "bio": "(주)엄마손실버케어 대표이사 | 동방문화대학원대학교 불교문예학과 졸업(철학박사) | (전) 대한노인회 인천연수구지회 자문위원 | (현) 인천광역시 사회복지협의회 이사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%B6%A9%ED%95%98&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158271",
+            "sggName": "연수구가선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100155012,
           "electionType": "city_council",
           "region": [
@@ -2837,6 +2903,39 @@
           }
         },
         {
+          "id": 100154561,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "김일중",
+          "party": "국민의힘",
+          "bio": "정당인 | 인천전문대학 체육과 졸업(현 인천대학교) | (현) 연수구교육혁신운영위원회 위원 | (현) 연수구맨발걷기협회 회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%BC%EC%A4%91&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100154561",
+            "sggName": "연수구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100161119,
           "electionType": "city_council",
           "region": [
@@ -2861,6 +2960,39 @@
             "sgId": "20260603",
             "sgTypecode": "6",
             "huboid": "100161119",
+            "sggName": "연수구나선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100155695,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "황승민",
+          "party": "무소속",
+          "bio": "온더크레딧 대표 | 송도고등학교 졸업 | (전) 2017학년도 연성초등학교 학생회 부회장 | (전) 2020학년도 연성중학교 학생회 부회장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%8A%B9%EB%AF%BC&background=64748b&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100155695",
             "sggName": "연수구나선거구",
             "sdName": "인천광역시",
             "wiwName": "연수구",
@@ -2969,6 +3101,39 @@
           }
         },
         {
+          "id": 100165781,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "변재민",
+          "party": "개혁신당",
+          "bio": "필름앤칩스 대표 | 강남영상미디어고등학교 졸업 | (전) 인천광역시교육청 학생참여위원회 위원장 | (현) 민주평통 연수구협의회 자문위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EB%B3%80%EC%9E%AC%EB%AF%BC&background=f97316&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100165781",
+            "sggName": "연수구다선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100154540,
           "electionType": "city_council",
           "region": [
@@ -3068,6 +3233,39 @@
           }
         },
         {
+          "id": 100156743,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "한지혜",
+          "party": "더불어민주당",
+          "bio": "정당인 | 호서대학교 대학원 골프학과 졸업 (체육학 석사) | (전) 미송초등학교 학부모회장 | (전) 제22대 국회의원 연수구을 정일영후보 선거대책위원회의 교육소통본부장",
+          "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EC%A7%80%ED%98%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100156743",
+            "sggName": "연수구마선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
           "id": 100155722,
           "electionType": "city_council",
           "region": [
@@ -3093,6 +3291,72 @@
             "sgTypecode": "6",
             "huboid": "100155722",
             "sggName": "연수구마선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100157122,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "신선혜",
+          "party": "더불어민주당",
+          "bio": "정당인 | 광주여자대학교 사무자동화과 졸업 | (전) 예송중학교 운영위원장 | (전) 송도더샵퍼스트파크 입주자대표회의 감사",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%84%A0%ED%98%9C&background=1e40af&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100157122",
+            "sggName": "연수구바선거구",
+            "sdName": "인천광역시",
+            "wiwName": "연수구",
+            "status": "등록",
+            "regdate": "",
+            "kind": "candidate"
+          }
+        },
+        {
+          "id": 100158414,
+          "electionType": "city_council",
+          "region": [
+            "인천광역시",
+            "연수구"
+          ],
+          "name": "이상곤",
+          "party": "국민의힘",
+          "bio": "자영업 | 인천대학교 행정대학원 졸업(행정학 석사) | (전) 연수구의회 사무국장 | (현) 연수구축제추진위원회 위원",
+          "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%83%81%EA%B3%A4&background=ef4444&color=fff&size=128",
+          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "pledges": {
+            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
+            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+          },
+          "source": "nec",
+          "nec": {
+            "sgId": "20260603",
+            "sgTypecode": "6",
+            "huboid": "100158414",
+            "sggName": "연수구바선거구",
             "sdName": "인천광역시",
             "wiwName": "연수구",
             "status": "등록",
