@@ -7284,7 +7284,7 @@
             "sggName": "안양시아선거구",
             "sdName": "경기도",
             "wiwName": "안양시동안구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
           }
@@ -11154,7 +11154,7 @@
           ],
           "name": "심동용",
           "party": "더불어민주당",
-          "bio": "길벗서점 대표 | 광운대학교 화학공학과 졸업 | (현) 경기북부특별자치도 범도민 추진위원회 공동의장 | (현) 으뜸스터디학원 원장",
+          "bio": "길벗서점 대표 | 광운대학교 화학공학과 졸업 | (전)으뜸스터디학원 원장 | (현)경기북부특별자치도 범도민추진위원회 공동의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%AC%EB%8F%99%EC%9A%A9&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
