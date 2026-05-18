@@ -1,7 +1,7 @@
 import Component from '../core/component.js';
 import { Router } from '../core/router.js';
 import { appStore } from '../core/store.js';
-import { createCampaignSearchUrl, getElectionLabel } from '../utils/elections.js';
+import { createCampaignSearchUrl, getElectionDisplayName } from '../utils/elections.js';
 import { escapeHtml, getFromLocalStorage, saveToLocalStorage } from '../utils/helpers.js';
 import {
   getPartyAvatarUrl,
@@ -75,8 +75,14 @@ export default class ResultView extends Component {
   }
 
   template() {
-    const { finalRank, selectedElectionId, isResultRevealed } = appStore.getState();
-    const elecName = getElectionLabel(selectedElectionId);
+    const {
+      finalRank,
+      selectedElectionId,
+      selectedConstituency,
+      isResultRevealed
+    } = appStore.getState();
+    const elecName = getElectionDisplayName(selectedElectionId, selectedConstituency);
+    const safeElecName = escapeHtml(elecName);
 
     if (finalRank.length === 0) {
       return `
@@ -93,7 +99,7 @@ export default class ResultView extends Component {
       return `
         <div class="view-wrapper slide-up result-view center-all">
           <h2 style="margin-top:2rem;">정책 일치율 계산 완료</h2>
-          <p>${elecName} 후보들의 공약 평가를 바탕으로 최종 순위가 도출되었습니다.</p>
+          <p>${safeElecName} 후보들의 공약 평가를 바탕으로 최종 순위가 도출되었습니다.</p>
           <div class="result-hidden mt-2">
             <div class="result-lock-icon" aria-hidden="true">잠금</div>
             <h3 style="color:var(--text); margin-bottom:1.5rem;">가장 높은 정책 핏 후보를 확인하세요</h3>
@@ -113,7 +119,7 @@ export default class ResultView extends Component {
     return `
       <div class="view-wrapper slide-up result-view">
         <div class="match-header fade-in">
-          <div class="step-indicator">${elecName} 매칭 결과</div>
+          <div class="step-indicator">${safeElecName} 매칭 결과</div>
           <h2>나와 가장 가까운<br>정책 후보</h2>
         </div>
 
@@ -173,7 +179,14 @@ export default class ResultView extends Component {
     });
 
     this.target.querySelector('#try-other-btn')?.addEventListener('click', () => {
-      appStore.setState({ blindAnswers: [], blindQueue: [], isResultRevealed: false });
+      appStore.setState({
+        selectedElectionId: null,
+        selectedConstituency: '',
+        blindAnswers: [],
+        blindQueue: [],
+        finalRank: [],
+        isResultRevealed: false
+      });
       Router.navigate('electionList');
     });
 

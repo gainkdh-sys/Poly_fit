@@ -29,6 +29,7 @@ export const appStore = new Store({
   regionData: null, // 해당 광역 JSON 전체 데이터 (Lazy Load)
   prefAnswers: [], // { category: 'welfare_care', score: 5 }
   selectedElectionId: null,
+  selectedConstituency: '', // 의원 선거의 실제 선거구명 (예: '종로구가선거구')
   blindQueue: [], // { candId: 101, catId: 'welfare_care', pledge: '...' }
   blindAnswers: [], // { candId: 101, catId: 'welfare_care', score: 5, pledge: '...' }
   finalRank: [],

@@ -14,6 +14,8 @@ const ELECTION_DESCRIPTIONS = {
   city_council: '기초자치단체 조례와 예산을 심의하는 후보'
 };
 
+const CONSTITUENCY_ELECTIONS = new Set(['provincial_council', 'city_council']);
+
 export const ELECTION_ORDER = [
   'governor',
   'superintendent',
@@ -30,14 +32,47 @@ export function getElectionDescription(electionId) {
   return ELECTION_DESCRIPTIONS[electionId] || '블라인드 정책 매칭';
 }
 
-export function getCandidatesForElection(regionData, district, electionId) {
+export function getElectionDisplayName(electionId, constituency = '') {
+  const label = getElectionLabel(electionId);
+  return constituency ? `${label} · ${constituency}` : label;
+}
+
+export function getCandidateConstituency(candidate) {
+  return candidate?.nec?.sggName
+    || candidate?.constituencyName
+    || candidate?.constituency
+    || candidate?.region?.[2]
+    || '선거구 미분류';
+}
+
+function getConstituencyGroups(candidates) {
+  const groups = new Map();
+
+  candidates.forEach((candidate) => {
+    const constituency = getCandidateConstituency(candidate);
+    const group = groups.get(constituency) || [];
+    group.push(candidate);
+    groups.set(constituency, group);
+  });
+
+  return [...groups.entries()]
+    .sort(([a], [b]) => a.localeCompare(b, 'ko-KR', { numeric: true }));
+}
+
+export function getCandidatesForElection(regionData, district, electionId, constituency = '') {
   if (!regionData || !electionId) return [];
 
   if (electionId === 'governor') return regionData.governor || [];
   if (electionId === 'superintendent') return regionData.superintendent || [];
 
   const distData = (regionData.districts || {})[district] || {};
-  return distData[electionId] || [];
+  const candidates = distData[electionId] || [];
+
+  if (!constituency || !CONSTITUENCY_ELECTIONS.has(electionId)) {
+    return candidates;
+  }
+
+  return candidates.filter(candidate => getCandidateConstituency(candidate) === constituency);
 }
 
 export function getAvailableElections(regionData, district) {
@@ -48,11 +83,26 @@ export function getAvailableElections(regionData, district) {
   ELECTION_ORDER.forEach((electionId) => {
     const candidates = getCandidatesForElection(regionData, district, electionId);
     if (candidates.length > 0) {
+      if (CONSTITUENCY_ELECTIONS.has(electionId)) {
+        getConstituencyGroups(candidates).forEach(([constituency, group]) => {
+          elections.push({
+            id: electionId,
+            name: getElectionLabel(electionId),
+            desc: getElectionDescription(electionId),
+            count: group.length,
+            constituency,
+            isConstituencyElection: true
+          });
+        });
+        return;
+      }
+
       elections.push({
         id: electionId,
         name: getElectionLabel(electionId),
         desc: getElectionDescription(electionId),
-        count: candidates.length
+        count: candidates.length,
+        constituency: ''
       });
     }
   });

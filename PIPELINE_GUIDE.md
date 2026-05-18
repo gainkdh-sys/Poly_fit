@@ -89,7 +89,7 @@ git push
 - 공공데이터포털 인증키(`NEC_SERVICE_KEY`)로 선관위 API 호출
 - 2026년 제9회 전국동시지방선거(`sgId=20260603`) 후보자/예비후보자 수집
 - 시·도지사, 구·시·군의 장, 시·도의원, 구·시·군의원, 교육감 데이터를 앱 포맷으로 변환
-- 공약 API가 제공되는 선거(시·도지사, 구·시·군의 장, 교육감)는 공약까지 병합
+- 공약 API가 제공되는 선거(시·도지사, 구·시·군의 장, 교육감)는 기본으로 공약까지 병합
 - `data/regions/*.json`을 갱신하고 변경사항이 있으면 자동 커밋/푸시
 
 **중요 일정**:
@@ -121,6 +121,8 @@ NEC_CANDIDATE_SERVICE_KEY="후보자정보키" python3 scripts/nec_sync.py --kin
 ```
 GitHub 저장소 → Actions → Sync NEC candidate data → Run workflow
 ```
+
+기본값은 `with_pledges=true`입니다. 선관위 공약 API 호출을 잠시 끄고 싶을 때만 `false`를 선택하세요.
 
 ---
 

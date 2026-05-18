@@ -6,7 +6,15 @@ import { getCandidatesForElection } from '../utils/elections.js';
 
 export default class LoadingView extends Component {
   setup() {
-    const { prefAnswers, blindAnswers, regionData, selectedElectionId, district, coreData } = appStore.getState();
+    const {
+      prefAnswers,
+      blindAnswers,
+      regionData,
+      selectedElectionId,
+      selectedConstituency,
+      district,
+      coreData
+    } = appStore.getState();
 
     // 엣지 케이스: 필수 데이터 누락 시 결과 없이 이전 화면으로
     if (!regionData || !selectedElectionId || !coreData) {
@@ -15,7 +23,7 @@ export default class LoadingView extends Component {
       return;
     }
 
-    const targetCandidates = getCandidatesForElection(regionData, district, selectedElectionId);
+    const targetCandidates = getCandidatesForElection(regionData, district, selectedElectionId, selectedConstituency);
 
     // 엣지 케이스: 후보가 없는 경우
     if (targetCandidates.length === 0) {

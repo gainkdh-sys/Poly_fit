@@ -176,6 +176,7 @@ export default class DistrictView extends Component {
         <h2>기초자치단체를<br>선택하세요</h2>
         <p style="font-size:0.95rem; margin-bottom:0.75rem">
           총 ${districts.length}개 지역 중 <strong>${hasDataSet.size}개</strong>에 후보 데이터가 있습니다.
+          기초·광역의원 선거구는 다음 단계에서 더 세부적으로 선택합니다.
         </p>
         <div class="district-tools">
           <div class="search-container">
@@ -221,6 +222,7 @@ export default class DistrictView extends Component {
       district: '',
       regionData: data,
       selectedElectionId: null,
+      selectedConstituency: '',
       blindQueue: [],
       blindAnswers: [],
       finalRank: [],
@@ -304,7 +306,17 @@ export default class DistrictView extends Component {
     });
 
     this.target.querySelector('#metro-reset-btn')?.addEventListener('click', () => {
-      appStore.setState({ metro: '', district: '', regionData: null });
+      appStore.setState({
+        metro: '',
+        district: '',
+        regionData: null,
+        selectedElectionId: null,
+        selectedConstituency: '',
+        blindQueue: [],
+        blindAnswers: [],
+        finalRank: [],
+        isResultRevealed: false
+      });
       this.step = 'metro';
       this.selectedMetro = null;
       this.regionData = null;
@@ -331,6 +343,7 @@ export default class DistrictView extends Component {
         appStore.setState({
           district,
           selectedElectionId: null,
+          selectedConstituency: '',
           blindQueue: [],
           blindAnswers: [],
           finalRank: [],

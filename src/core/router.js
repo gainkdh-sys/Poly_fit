@@ -16,7 +16,17 @@ export const Router = {
 
     if (view === 'district') {
       // district에서 intro로 돌아가면 광역 선택 상태 초기화
-      appStore.setState({ metro: '', district: '', regionData: null });
+      appStore.setState({
+        metro: '',
+        district: '',
+        regionData: null,
+        selectedElectionId: null,
+        selectedConstituency: '',
+        blindQueue: [],
+        blindAnswers: [],
+        finalRank: [],
+        isResultRevealed: false
+      });
       this.navigate('intro');
     }
     else if (view === 'preference') {
@@ -43,11 +53,19 @@ export const Router = {
         appStore.setState({ blindAnswers: nextBlind });
         this.navigate('blindPledge');
       } else {
+        appStore.setState({ selectedElectionId: null, selectedConstituency: '', blindQueue: [] });
         this.navigate('electionList');
       }
     }
     else if (view === 'result') {
-      appStore.setState({ blindAnswers: [], blindQueue: [], isResultRevealed: false });
+      appStore.setState({
+        selectedElectionId: null,
+        selectedConstituency: '',
+        blindAnswers: [],
+        blindQueue: [],
+        finalRank: [],
+        isResultRevealed: false
+      });
       this.navigate('electionList');
     }
     else if (['learning', 'community'].includes(view)) {

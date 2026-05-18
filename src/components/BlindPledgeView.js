@@ -4,7 +4,7 @@ import { appStore } from '../core/store.js';
 import {
   buildBlindEvaluationQueue,
   getCandidatesForElection,
-  getElectionLabel
+  getElectionDisplayName
 } from '../utils/elections.js';
 import { escapeHtml } from '../utils/helpers.js';
 
@@ -24,6 +24,7 @@ export default class BlindPledgeView extends Component {
       coreData,
       district,
       selectedElectionId,
+      selectedConstituency,
       regionData
     } = appStore.getState();
 
@@ -31,7 +32,7 @@ export default class BlindPledgeView extends Component {
     this.queue = blindQueue;
 
     if ((!this.queue || this.queue.length === 0) && coreData && regionData && selectedElectionId) {
-      const candidates = getCandidatesForElection(regionData, district, selectedElectionId);
+      const candidates = getCandidatesForElection(regionData, district, selectedElectionId, selectedConstituency);
       this.queue = buildBlindEvaluationQueue(coreData, candidates);
     }
 
@@ -45,7 +46,8 @@ export default class BlindPledgeView extends Component {
   template() {
     if (!this.currentItem) return '';
 
-    const { selectedElectionId } = appStore.getState();
+    const { selectedElectionId, selectedConstituency } = appStore.getState();
+    const electionName = getElectionDisplayName(selectedElectionId, selectedConstituency);
     const progressPct = Math.round((this.answerIdx / this.queue.length) * 100);
     const agreementHtml = AGREEMENT_OPTIONS.map((option, idx) => `
       <button class="likert-btn agreement-btn slide-up"
@@ -62,7 +64,7 @@ export default class BlindPledgeView extends Component {
           <div class="progress-fill" style="width:${progressPct}%"></div>
         </div>
         <div class="cat-badge"># ${this.currentItem.catName}</div>
-        <p class="blind-election-label">${getElectionLabel(selectedElectionId)}</p>
+        <p class="blind-election-label">${escapeHtml(electionName)}</p>
         <div class="blind-policy-card">
           <div class="blind-chip">익명 후보 공약</div>
           <h2 class="q-title">${escapeHtml(this.currentItem.pledge)}</h2>
