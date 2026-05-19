@@ -49,7 +49,8 @@ const App = {
     appStore.setState({
       coreData: data.core,
       locations: data.locations,   // [{ name, slug }] 광역 목록
-      candidatePhotos: data.candidatePhotos
+      candidatePhotos: data.candidatePhotos,
+      constituencyAreas: data.constituencyAreas
     });
 
     // 3. 상태 변경 감시 (View 전환 시 렌더링)

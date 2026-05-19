@@ -59,6 +59,48 @@ function getConstituencyGroups(candidates) {
     .sort(([a], [b]) => a.localeCompare(b, 'ko-KR', { numeric: true }));
 }
 
+function normalizeLookup(value) {
+  return String(value || '').replace(/\s/g, '').replace(/["'“”‘’]/g, '');
+}
+
+function getLocalConstituencyName(district, constituency) {
+  const districtKey = normalizeLookup(district);
+  const constituencyKey = normalizeLookup(constituency);
+  const withoutDistrict = districtKey && constituencyKey.startsWith(districtKey)
+    ? constituencyKey.slice(districtKey.length)
+    : constituencyKey;
+
+  return withoutDistrict.endsWith('선거구') ? withoutDistrict : `${withoutDistrict}선거구`;
+}
+
+export function getConstituencyDetail(constituencyAreas, metroSlug, district, electionId, constituency) {
+  if (!constituencyAreas || !metroSlug || !electionId || !constituency) return null;
+
+  const details = constituencyAreas.regions?.[metroSlug]?.[electionId] || {};
+  if (details[constituency]) return details[constituency];
+
+  const constituencyKey = normalizeLookup(constituency);
+  const exactKey = Object.keys(details).find(key => normalizeLookup(key) === constituencyKey);
+  if (exactKey) return details[exactKey];
+
+  const localName = getLocalConstituencyName(district, constituency);
+  const localNameKey = normalizeLookup(localName);
+  const districtKey = normalizeLookup(district);
+  const localKey = Object.keys(details).find((key) => {
+    const detail = details[key];
+    const keyMatches = normalizeLookup(key) === localNameKey
+      || normalizeLookup(detail.localName) === localNameKey;
+    const districtMatches = !districtKey
+      || normalizeLookup(detail.committee) === districtKey
+      || districtKey.includes(normalizeLookup(detail.committee))
+      || normalizeLookup(detail.committee).includes(districtKey);
+
+    return keyMatches && districtMatches;
+  });
+
+  return localKey ? details[localKey] : null;
+}
+
 export function getCandidatesForElection(regionData, district, electionId, constituency = '') {
   if (!regionData || !electionId) return [];
 

@@ -124,6 +124,14 @@ GitHub 저장소 → Actions → Sync NEC candidate data → Run workflow
 
 기본값은 `with_pledges=true`입니다. 선관위 공약 API 호출을 잠시 끄고 싶을 때만 `false`를 선택하세요.
 
+**선거구역 데이터 갱신**:
+```bash
+# 시·도의원/구·시·군의원 선거구의 관할 동·읍·면 정보를 선관위 선거관리현황에서 갱신
+node scripts/fetch_constituency_areas.mjs
+```
+
+생성 파일은 `data/constituency-areas.json`입니다. 앱은 의원 선거 선택 카드에 이 파일의 관할 구역을 함께 표시합니다.
+
 ---
 
 ### **2-2️⃣ 후보자 사진 보강**
