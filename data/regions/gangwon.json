@@ -3012,7 +3012,7 @@
             "sggName": "원주시나선거구",
             "sdName": "강원특별자치도",
             "wiwName": "원주시",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
           }
@@ -4385,7 +4385,7 @@
           ],
           "name": "김용래",
           "party": "국민의힘",
-          "bio": "강원특별자치도의원 | 연세대학교 행정대학원 정치학 석사 졸업 | (현)강원특별자치도의원 | (현)김남동내과의원 사무장",
+          "bio": "강원특별자치도의원 | 연세대학교 행정대학원 정치학 석사 졸업 | (전)국회 권성동 의원실 비서 | (현)김남동내과의원 사무장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%A9%EB%9E%98&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
