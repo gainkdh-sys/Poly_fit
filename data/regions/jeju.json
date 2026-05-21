@@ -14,12 +14,7 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%84%EC%84%B1%EA%B3%A4&background=1e40af&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "environment": "7월 민생 추경 3000억원 추진 / 제주기본사회 선도지역 육성 추진"
       },
       "source": "nec",
       "nec": {
@@ -32,7 +27,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "7월 민생 추경 3000억원 추진",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "제주기본사회 선도지역 육성 추진",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "365 민생경제 비상상황실 운영",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "제주형 민생 119 도입",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "주민참여예산제 2.0, 직접민주주의의 완성",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100157851,
@@ -46,12 +68,8 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%84%B1%EC%9C%A0&background=ef4444&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "리턴 제주 2030 및 청년 정착 패키지",
+        "environment": "제주 투자청 설립 및 5대 미래 성장축 육성 / 상급종합병원 지정 및 중입자 치료기 도입"
       },
       "source": "nec",
       "nec": {
@@ -64,7 +82,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "제주 투자청 설립 및 5대 미래 성장축 육성",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "상급종합병원 지정 및 중입자 치료기 도입",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "리턴 제주 2030 및 청년 정착 패키지",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "제주 원도심 르네상스 및 야간경제 특구 조성",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "365일 글로벌 이벤트 아일랜드 제주 조성",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100153886,
@@ -78,12 +123,10 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%9C%A4%EB%85%95&background=64748b&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "청년·새도민 정착 및 제주시 원도심 주거·상권 복합개발 추진",
+        "transport": "제주형 대중교통 전면 개편 및 단계적 공영제 추진",
+        "housing": "미래산업 집중육성 및 바이오도시 서귀포 조성",
+        "environment": "도민이 돈 버는 제주형 지역순환경제 구축 / 제주 1차산업 대전환 및 미래형 농어촌 산업 육성"
       },
       "source": "nec",
       "nec": {
@@ -96,7 +139,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "도민이 돈 버는 제주형 지역순환경제 구축",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "제주 1차산업 대전환 및 미래형 농어촌 산업 육성",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "미래산업 집중육성 및 바이오도시 서귀포 조성",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "제주형 대중교통 전면 개편 및 단계적 공영제 추진",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "청년·새도민 정착 및 제주시 원도심 주거·상권 복합개발 추진",
+          "content": ""
+        }
+      ]
     }
   ],
   "superintendent": [
@@ -112,12 +182,8 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EB%AC%B8%EC%84%9D&background=64748b&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "교권 회복과 교육환경 개선. 교사는 수업에 전념, 학생은 안전한 학교",
+        "education": "“성적보다 성장, 제주교육 대전환 (제주형 IB 2.0 기반 학생성장 책임제)” / 모든 학생의 학습권을 보장하는 기초학력 책임교육 강화."
       },
       "source": "nec",
       "nec": {
@@ -130,7 +196,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "“성적보다 성장, 제주교육 대전환 (제주형 IB 2.0 기반 학생성장 책임제)”",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "교권 회복과 교육환경 개선. 교사는 수업에 전념, 학생은 안전한 학교",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "모든 학생의 학습권을 보장하는 기초학력 책임교육 강화.",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "초·중·고·대학을 연계한 ‘진로 원스톱 시스템’ 구축",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "정무부교육감 임명& 도정·의회·교육청 협력체계 제주교육 거버넌스 구축",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100156980,
@@ -144,12 +237,9 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%9D%98%EC%88%99&background=64748b&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "안전한 등하굣길, 부모처럼 안전한 안심택시 운영",
+        "education": "학생 한 명 한 명을 위한 초개별화 맞춤형 책임교육 / IB교육확대와 내실화-KB(한국형 IB)전환 추진",
+        "environment": "교사 행정업무 제로화로 수업에 전념하는 여건 조성"
       },
       "source": "nec",
       "nec": {
@@ -162,7 +252,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "학생 한 명 한 명을 위한 초개별화 맞춤형 책임교육",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "안전한 등하굣길, 부모처럼 안전한 안심택시 운영",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "교사 행정업무 제로화로 수업에 전념하는 여건 조성",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "IB교육확대와 내실화-KB(한국형 IB)전환 추진",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "제주 4·3 평화·인권교육 및 민주시민교육 활성화",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100162806,
@@ -176,12 +293,8 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B4%91%EC%88%98&background=64748b&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "몸도 마음도 건강한 365일 안전 학교 ― 인성·스포츠 교육 강화",
+        "education": "학교가 끝까지 책임지는 맞춤형 기초학력 보장 / 선생님이 오직 수업에만 집중하는 학교 - 교권 보호와 행정업무 경감"
       },
       "source": "nec",
       "nec": {
@@ -194,7 +307,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "학교가 끝까지 책임지는 맞춤형 기초학력 보장",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "몸도 마음도 건강한 365일 안전 학교 ― 인성·스포츠 교육 강화",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "선생님이 오직 수업에만 집중하는 학교 - 교권 보호와 행정업무 경감",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "전국 최고의 제주 AI·디지털 교육",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "차별과 격차 없는 공평한 교육 - 교육비 부담 경감·포용·균형 발전",
+          "content": ""
+        }
+      ]
     }
   ],
   "districts": {

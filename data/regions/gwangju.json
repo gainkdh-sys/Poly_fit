@@ -19,12 +19,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%ED%83%9D&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "모두를 지키는 촘촘한 복지와 따뜻한 돌봄 동구로",
+            "culture": "일상이 예술이 되는 문화관광 동구로",
+            "housing": "쾌적하고 편리한 도시, 누구나 안심하는 동구로 / AI와 신산업 기반의 활력있는 경제도시 동구로",
+            "environment": "지속가능한 미래, 사람과 자연이 함께하는 동구로"
           },
           "source": "nec",
           "nec": {
@@ -37,7 +35,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "쾌적하고 편리한 도시, 누구나 안심하는 동구로",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "AI와 신산업 기반의 활력있는 경제도시 동구로",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "일상이 예술이 되는 문화관광 동구로",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "모두를 지키는 촘촘한 복지와 따뜻한 돌봄 동구로",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "지속가능한 미래, 사람과 자연이 함께하는 동구로",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100162102,
@@ -52,12 +77,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B1%ED%99%98&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "culture": "무등산 케이블카 등 관광랜드마크 조성",
+            "housing": "온라인 허브도시 조성",
+            "environment": "AI디지털 헬스케어 클러스터 조성 / 주차가 편한 동구 실현"
           },
           "source": "nec",
           "nec": {
@@ -70,7 +92,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "AI디지털 헬스케어 클러스터 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "주차가 편한 동구 실현",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "온라인 허브도시 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "무등산 케이블카 등 관광랜드마크 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "파크골프장 최대 27홀 조성",
+              "content": ""
+            }
+          ]
         }
       ],
       "city_council": [
@@ -1720,12 +1769,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%88%98%EC%A0%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "transport": "광주역 중심 도심축 대전환으로 복합교통허브 조성",
+            "culture": "지역 자원과 첨단 과학이 어우러진 체류형 관광도시",
+            "housing": "AI 기반 재난 제로 안심 도시를 만들겠습니다",
+            "environment": "내 삶이 주인 되는 주민 생활 주권 시대를 열겠습니다 / 통합특별시를 견인하는 경제 엔진을 만들겠습니다"
           },
           "source": "nec",
           "nec": {
@@ -1738,7 +1785,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "내 삶이 주인 되는 주민 생활 주권 시대를 열겠습니다",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "광주역 중심 도심축 대전환으로 복합교통허브 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "통합특별시를 견인하는 경제 엔진을 만들겠습니다",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "지역 자원과 첨단 과학이 어우러진 체류형 관광도시",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "AI 기반 재난 제로 안심 도시를 만들겠습니다",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100154186,
@@ -1786,12 +1860,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B1%ED%98%84&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "산업안전 강화 및 적극행정 강화 / 사회복지 강화 및 구민화합 강화",
+            "culture": "문화역사 강화 및 정체성 강화 / 생활체육 강화 및 환경정화 강화",
+            "environment": "민생경제 강화 및 소통경청 강화"
           },
           "source": "nec",
           "nec": {
@@ -1804,7 +1875,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "산업안전 강화 및 적극행정 강화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "민생경제 강화 및 소통경청 강화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "사회복지 강화 및 구민화합 강화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "문화역사 강화 및 정체성 강화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "생활체육 강화 및 환경정화 강화",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100163450,
@@ -1819,12 +1917,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%85%B8%EB%82%A8%EC%88%98&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "현대아산병원 분원(제2병원) 유치 및 AI 최첨단 의료혁신단지 추진 / 31사단 이전 및 삼성기업 유치를 통한 청년 일자리 창출",
+            "transport": "용봉IC 고속도로 진입로 개설 추진",
+            "environment": "광주 북구 특례시 추진 및 예산 1조 시대 실현 / KTX·SRT 광주역 진입 추진 및 북구 경제 활성화"
           },
           "source": "nec",
           "nec": {
@@ -1837,7 +1932,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "광주 북구 특례시 추진 및 예산 1조 시대 실현",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "현대아산병원 분원(제2병원) 유치 및 AI 최첨단 의료혁신단지 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "KTX·SRT 광주역 진입 추진 및 북구 경제 활성화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "용봉IC 고속도로 진입로 개설 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "31사단 이전 및 삼성기업 유치를 통한 청년 일자리 창출",
+              "content": ""
+            }
+          ]
         }
       ],
       "city_council": [
@@ -2683,12 +2805,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%B3%91%EA%B7%9C&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "transport": "전남광주통합특별시 산업·교통·성장의 연결도시 광산",
+            "housing": "개성 있는 동(마을) 가꾸기를 통한 매력도시 광산",
+            "environment": "더불어 잘 사는 지속가능 일자리 / 아이부터 어르신까지 모두가 행복한 시민"
           },
           "source": "nec",
           "nec": {
@@ -2701,7 +2820,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "전남광주통합특별시 산업·교통·성장의 연결도시 광산",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "더불어 잘 사는 지속가능 일자리",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "아이부터 어르신까지 모두가 행복한 시민",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "개성 있는 동(마을) 가꾸기를 통한 매력도시 광산",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "소통과 협력의 행정혁신 및 시민주권 실현",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100157865,
@@ -2716,12 +2862,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%ED%9D%AC%EC%84%B1&background=7c3aed&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "공공이 책임지는 돌봄, 의료“우리동네 요양원”",
+            "culture": "선운 복합문화체육센터 건립",
+            "environment": "광산구의 거대한 도약, ‘광산특례시’ 승격 / 농민수당 년 120만원 인상,농산물직거래장터개설"
           },
           "source": "nec",
           "nec": {
@@ -2734,7 +2877,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "광산구의 거대한 도약, ‘광산특례시’ 승격",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "선운 복합문화체육센터 건립",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "농민수당 년 120만원 인상,농산물직거래장터개설",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "공공이 책임지는 돌봄, 의료“우리동네 요양원”",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "공공 반려동물 케어센터 설립",
+              "content": ""
+            }
+          ]
         }
       ],
       "city_council": [

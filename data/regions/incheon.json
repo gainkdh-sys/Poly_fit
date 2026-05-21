@@ -14,12 +14,9 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%B0%AC%EB%8C%80&background=1e40af&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "기후·안전·의료·돌봄의 든든한 울타리",
+        "housing": "인천에서 일하고 먹고 사는, 모두를 위한 도시",
+        "environment": "신산업 집중육성, 2030년 평균연봉 5500만원 전국 TOP5 / 제문부 프로젝트로 원도심 대도약"
       },
       "source": "nec",
       "nec": {
@@ -32,7 +29,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "신산업 집중육성, 2030년 평균연봉 5500만원 전국 TOP5",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "제문부 프로젝트로 원도심 대도약",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "수도권·인천 어디든 1시간!",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "기후·안전·의료·돌봄의 든든한 울타리",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "인천에서 일하고 먹고 사는, 모두를 위한 도시",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100163134,
@@ -46,12 +70,9 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%A0%95%EB%B3%B5&background=ef4444&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "transport": "인천시민 전용 “천원 유니버스”를 완성하겠습니다",
+        "housing": "대한민국 제2의 도시를 완성하겠습니다",
+        "environment": "인천국제자유특별시로 제3개항 시대를 열겠습니다 / 인천시 전역을 驛세권으로 만들겠습니다"
       },
       "source": "nec",
       "nec": {
@@ -64,7 +85,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "인천시민 전용 “천원 유니버스”를 완성하겠습니다",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "인천국제자유특별시로 제3개항 시대를 열겠습니다",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "인천시 전역을 驛세권으로 만들겠습니다",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "인천시 전역을 水세권으로 만들겠습니다",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "대한민국 제2의 도시를 완성하겠습니다",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100153769,
@@ -78,12 +126,9 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B8%B0%EB%B6%95&background=f97316&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "청년·소상공인 경제특별시 인천",
+        "transport": "GTX·교통혁신으로 “출퇴근30분 인천”",
+        "environment": "인천 바이오·소부장 글로벌 허브 구축 / 원도심 재생과 균형발전"
       },
       "source": "nec",
       "nec": {
@@ -96,7 +141,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "인천 바이오·소부장 글로벌 허브 구축",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "GTX·교통혁신으로 “출퇴근30분 인천”",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "청년·소상공인 경제특별시 인천",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "원도심 재생과 균형발전",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "깨끗하고 유능한 실용시정",
+          "content": ""
+        }
+      ]
     }
   ],
   "superintendent": [
@@ -112,12 +184,8 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EB%8F%84%EC%84%B1%ED%9B%88&background=64748b&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "더 질 높은 학생 교육복지",
+        "education": "읽걷쓰AI, 30만 AI융합인재 양성교육 / 올바로 성장을 돕는 시민교육"
       },
       "source": "nec",
       "nec": {
@@ -130,7 +198,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "읽걷쓰AI, 30만 AI융합인재 양성교육",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "올바로 성장을 돕는 시민교육",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "건강한 몸과 마음을 돌보는 학교",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "더 질 높은 학생 교육복지",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "학교현장 지원강화와 학교·지역 간 교육균형발전",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100153794,
@@ -144,12 +239,8 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%8C%80%ED%98%95&background=64748b&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "돌봄 올케어-학생의 하루를 책임지는 돌봄·교육 생태계 구축 / 안전·건강·체육 올케어― 몸건강, 마음건강, 균형 잡힌 학교생활",
+        "education": "학력 올케어― 사교육비 부담 줄이는 공교육 완성 / 미래교육 올케어- 창의력·문제해결력을 갖춘 미래인재육성"
       },
       "source": "nec",
       "nec": {
@@ -162,7 +253,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "돌봄 올케어-학생의 하루를 책임지는 돌봄·교육 생태계 구축",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "학력 올케어― 사교육비 부담 줄이는 공교육 완성",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "미래교육 올케어- 창의력·문제해결력을 갖춘 미래인재육성",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "안전·건강·체육 올케어― 몸건강, 마음건강, 균형 잡힌 학교생활",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "교육공동체·교권 올케어― 청렴·공정·교권 회복으로 신뢰받는 인천교육",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100153776,
@@ -176,12 +294,10 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EB%B3%91%EA%B5%AC&background=64748b&color=fff&size=128",
       "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
       "pledges": {
-        "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-        "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+        "welfare": "학교 유휴시설 활용 주차·돌봄·문화가 함께하는 <교육문화 복합 플랫폼> 구축",
+        "education": "아이가 설레는 등굣길, 부모가 든든한 출근길, <인천형 아침학교> 개설 / 교육청의 권한을 시민에게 돌려드리는 교육자치 거버넌스 <인천시민교육회의> 신설",
+        "transport": "인천 청소년 모두를 위한 ‘청소년 3대 기본권 보장’하는 <인천 청소년 성장지원금> <대중교통 무상지원> <주치의 제도> 도입",
+        "environment": "부패 척결! 성역 없는 독립적 감사를 위한 <청렴 특별 감사관> 도입"
       },
       "source": "nec",
       "nec": {
@@ -194,7 +310,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "인천 청소년 모두를 위한 ‘청소년 3대 기본권 보장’하는 <인천 청소년 성장지원금> <대중교통 무상지원> <주치의 제도> 도입",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "아이가 설레는 등굣길, 부모가 든든한 출근길, <인천형 아침학교> 개설",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "부패 척결! 성역 없는 독립적 감사를 위한 <청렴 특별 감사관> 도입",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "학교 유휴시설 활용 주차·돌봄·문화가 함께하는 <교육문화 복합 플랫폼> 구축",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "교육청의 권한을 시민에게 돌려드리는 교육자치 거버넌스 <인천시민교육회의> 신설",
+          "content": ""
+        }
+      ]
     }
   ],
   "districts": {
@@ -213,12 +356,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%ED%99%94%EC%A0%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "transport": "공항경제권 미래일자리 확대",
+            "culture": "환승관광·관광특구 추진",
+            "environment": "GTX-D·GTX-E 영종 직결 추진 / 영종 공공종합병원 추진"
           },
           "source": "nec",
           "nec": {
@@ -231,7 +371,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "GTX-D·GTX-E 영종 직결 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "영종 공공종합병원 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "공항경제권 미래일자리 확대",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "환승관광·관광특구 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "영종 행정타운 조성",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100162238,
@@ -246,12 +413,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%ED%97%8C&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "보육·교육·돌봄 혁신도시 완성",
+            "education": "대학병원 유치 / 학교·인천공항·전철역 직통 공영버스 운행 및 영종 트램 조기 착공",
+            "transport": "제2공항철도 건설 및 영종하늘도시역 신설",
+            "culture": "생활인프라 확충 (문화회관·도서관·복합체육시설 건립)"
           },
           "source": "nec",
           "nec": {
@@ -264,7 +429,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "제2공항철도 건설 및 영종하늘도시역 신설",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "대학병원 유치",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "생활인프라 확충 (문화회관·도서관·복합체육시설 건립)",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "학교·인천공항·전철역 직통 공영버스 운행 및 영종 트램 조기 착공",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "보육·교육·돌봄 혁신도시 완성",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100158290,
@@ -279,12 +471,11 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%EA%B4%91%ED%98%B8&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "영종 생활혁신! 아이·청년·어르신 e음 안심정주도시!",
+            "transport": "영종 교통혁신! 하늘·바다·땅 e음 미래교통도시!",
+            "culture": "영종 관광혁신! 체류형 e음 문화관광도시!",
+            "housing": "영종 개발혁신! 개발 e음 글로벌 도시!",
+            "environment": "영종 경제혁신! 영종e음 경제플랫폼 구축!"
           },
           "source": "nec",
           "nec": {
@@ -297,7 +488,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "영종 경제혁신! 영종e음 경제플랫폼 구축!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "영종 교통혁신! 하늘·바다·땅 e음 미래교통도시!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "영종 생활혁신! 아이·청년·어르신 e음 안심정주도시!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "영종 개발혁신! 개발 e음 글로벌 도시!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "영종 관광혁신! 체류형 e음 문화관광도시!",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -980,12 +1198,11 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%82%A8%EA%B6%81%ED%98%95&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "든든한 일상, 품격 있는 복지 ‘기본사회 제물포’",
+            "education": "교육의 혁신! 제물포 AI 교육발전특구 완성",
+            "transport": "막힘없는 제물포, 사통팔달 교통혁명",
+            "culture": "문화를 힘으로, 지역을 활기로 ‘문화강구(文化强區) 제물포’",
+            "environment": "다시 뛰는 제물포 경제"
           },
           "source": "nec",
           "nec": {
@@ -998,7 +1215,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "다시 뛰는 제물포 경제",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "문화를 힘으로, 지역을 활기로 ‘문화강구(文化强區) 제물포’",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "막힘없는 제물포, 사통팔달 교통혁명",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "교육의 혁신! 제물포 AI 교육발전특구 완성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "든든한 일상, 품격 있는 복지 ‘기본사회 제물포’",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100162900,
@@ -1013,12 +1257,11 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%B0%AC%EC%A7%84&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "education": "글로벌 교육 인프라 구축 및 경쟁력 있는 인재 양성",
+            "transport": "사통팔달 교통망 구축",
+            "culture": "제물포구 역사·문화·관광 자원 통합 및 브랜드화",
+            "housing": "원도심 재생 및 도시 활력 제고",
+            "environment": "지역경제 성장 동력 확보"
           },
           "source": "nec",
           "nec": {
@@ -1031,7 +1274,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "원도심 재생 및 도시 활력 제고",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "지역경제 성장 동력 확보",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "글로벌 교육 인프라 구축 및 경쟁력 있는 인재 양성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "사통팔달 교통망 구축",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "제물포구 역사·문화·관광 자원 통합 및 브랜드화",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -1417,12 +1687,8 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A0%95%EC%8B%9D&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "걷는 즐거움이 이어지는 도시정원길을 조성하겠습니다. / 승학산 예비군 훈련장 조속 이전 및 부지를 활용한 도시정원을 조성하겠습니다.",
+            "environment": "미추홀구 신청사 구민 행복공간으로 건립하겠습니다. / ㈜ DCRE 기부채납 10만평, 모두의 운동장으로 바꾸겠습니다."
           },
           "source": "nec",
           "nec": {
@@ -1435,7 +1701,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "걷는 즐거움이 이어지는 도시정원길을 조성하겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "미추홀구 신청사 구민 행복공간으로 건립하겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "㈜ DCRE 기부채납 10만평, 모두의 운동장으로 바꾸겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "승기천 물길 복원 사업 추진하겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "승학산 예비군 훈련장 조속 이전 및 부지를 활용한 도시정원을 조성하겠습니다.",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100163246,
@@ -1450,12 +1743,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%98%81%ED%9B%88&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "중심도시 미추홀 행정·복지·교육·사법 인프라를 한곳에 모으겠습니다! / 상생미래 미추홀 일자리·돌봄·경제를 함께 키우겠습니다!",
+            "culture": "문화허브 미추홀 공연·예술·체육이 모이는 인천의 문화거점으로 도약하겠습니다!",
+            "housing": "혁신도시 미추홀 도시의 길을 열고, 원도심의 가치를 높이겠습니다! / 녹색도시 미추홀 물과 숲, 여가가 어우러진 품격 있는 생활공간을 만들겠습니다!"
           },
           "source": "nec",
           "nec": {
@@ -1468,7 +1758,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "중심도시 미추홀 행정·복지·교육·사법 인프라를 한곳에 모으겠습니다!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "문화허브 미추홀 공연·예술·체육이 모이는 인천의 문화거점으로 도약하겠습니다!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "혁신도시 미추홀 도시의 길을 열고, 원도심의 가치를 높이겠습니다!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "녹색도시 미추홀 물과 숲, 여가가 어우러진 품격 있는 생활공간을 만들겠습니다!",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "상생미래 미추홀 일자리·돌봄·경제를 함께 키우겠습니다!",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -2382,12 +2699,11 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%A7%80%EC%97%B4&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "[미래·의료복지] 빈틈없는 의료 안전망, 구민의 생명을 지키는 의료 인프라를 강화하겠습니다.",
+            "transport": "[연수구 교통혁신] 사통팔달 연수 시대를 여는 광역·생활 교통망 허브를 구축하겠습니다.",
+            "culture": "[문화·체육·경제] 세계가 찾는 글로벌 MICE, 일상이 즐거운 문화도시 연수구를 만들겠습니다.",
+            "housing": "[도시·행정 재도약] 원도심 재정비와 송도분구 추진체계를 마련하겠습니다",
+            "environment": "[안심·환경] 불안은 줄이고, 일상의 쾌적함은 높이겠습니다"
           },
           "source": "nec",
           "nec": {
@@ -2400,7 +2716,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "[연수구 교통혁신] 사통팔달 연수 시대를 여는 광역·생활 교통망 허브를 구축하겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[도시·행정 재도약] 원도심 재정비와 송도분구 추진체계를 마련하겠습니다",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[안심·환경] 불안은 줄이고, 일상의 쾌적함은 높이겠습니다",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[미래·의료복지] 빈틈없는 의료 안전망, 구민의 생명을 지키는 의료 인프라를 강화하겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[문화·체육·경제] 세계가 찾는 글로벌 MICE, 일상이 즐거운 문화도시 연수구를 만들겠습니다.",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100163000,
@@ -2415,12 +2758,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%ED%98%B8&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "삶이 든든한 복지, AI 스마트 민생 행정",
+            "transport": "광역 및 지선 교통허브 완성",
+            "housing": "송도국제도시 분구(分區) 완성",
+            "environment": "연수 2030그랜드디자인-원도심 대도약 프로젝트 / 송도 양자·바이오 혁신클러스터 고도화"
           },
           "source": "nec",
           "nec": {
@@ -2433,7 +2774,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "송도국제도시 분구(分區) 완성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "연수 2030그랜드디자인-원도심 대도약 프로젝트",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "광역 및 지선 교통허브 완성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "송도 양자·바이오 혁신클러스터 고도화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "삶이 든든한 복지, AI 스마트 민생 행정",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -3512,12 +3880,7 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%B3%91%EB%9E%98&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "미래를 여는 혁신경제도시 남동 / 구민이 주인인 ‘참여자치도시’ 남동"
           },
           "source": "nec",
           "nec": {
@@ -3530,7 +3893,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "미래를 여는 혁신경제도시 남동",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "구민이 주인인 ‘참여자치도시’ 남동",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "누구도 소외되지 않는 ‘기본사회도시’ 남동",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "배우고 즐기며 성장하는 ‘미래활력도시’ 남동",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "내 삶이 중심이 되는 ‘지속가능도시’ 남동",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100163027,
@@ -3545,12 +3935,8 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%A2%85%ED%9A%A8&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "원도심 맞춤형 재개발·재건축 및 뉴빌리지 사업 적극 지원 / 소래습지 '제1호 국가도시공원' 지정 및 주변 상생 개발 추진",
+            "environment": "만수천 소하천 복원 완성과 도심 생태하천 대전환 / 운연역 역세권 고밀도 개발 및 일자리 창출 단지 조성"
           },
           "source": "nec",
           "nec": {
@@ -3563,7 +3949,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "만수천 소하천 복원 완성과 도심 생태하천 대전환",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "원도심 맞춤형 재개발·재건축 및 뉴빌리지 사업 적극 지원",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "소래습지 '제1호 국가도시공원' 지정 및 주변 상생 개발 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "운연역 역세권 고밀도 개발 및 일자리 창출 단지 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "구월2지구 내 고품격 가칭 남동식물원 조성",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -4906,12 +5319,8 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B0%A8%EC%A4%80%ED%83%9D&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "재개발· 재건축 원스탑 지원센터 설치",
+            "environment": "미래로 이어지는 굴포천 / 부평역 GTX- B 복합환승센터 조성 추진"
           },
           "source": "nec",
           "nec": {
@@ -4924,7 +5333,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "미래로 이어지는 굴포천",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "재개발· 재건축 원스탑 지원센터 설치",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "부평역 GTX- B 복합환승센터 조성 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "부평 서북권역 랜드마크, 1113공병단 대형복합시설 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "부평의 거대한 변화, 캠프마켓 공원 조성",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100162615,
@@ -4939,12 +5375,7 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%8B%A8%EB%B9%84&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "월 8회 동네 출근제 / 민원, 8일 책임 회신제"
           },
           "source": "nec",
           "nec": {
@@ -4957,7 +5388,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "월 8회 동네 출근제",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "민원, 8일 책임 회신제",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "즉시 행정",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "행사예산 사용처 100% 투명공개",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "88% 공약",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -5871,12 +6329,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%95%EC%9A%B0&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "작은배려, 큰울림의 지역복지 강화",
+            "culture": "전통시장 및 골목상권 보호·육성 강화",
+            "housing": "지속 가능한 도시균형 발전",
+            "environment": "미래경제 계양테크노밸리‘제2의 판교’로 조성 / GTX-D·E  및 대장홍대선 연장 조속 추진"
           },
           "source": "nec",
           "nec": {
@@ -5889,7 +6345,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "미래경제 계양테크노밸리‘제2의 판교’로 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "GTX-D·E  및 대장홍대선 연장 조속 추진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "지속 가능한 도시균형 발전",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "전통시장 및 골목상권 보호·육성 강화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "작은배려, 큰울림의 지역복지 강화",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100157587,
@@ -5904,12 +6387,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%B3%91%ED%83%9D&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "반려동물 보건소",
+            "culture": "계양문화회관 이전",
+            "housing": "재개발 재건축 신속진행",
+            "environment": "직업체험관 개관 / 아라온 지역 활성화"
           },
           "source": "nec",
           "nec": {
@@ -5922,7 +6403,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "직업체험관 개관",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "반려동물 보건소",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "재개발 재건축 신속진행",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "계양문화회관 이전",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "아라온 지역 활성화",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -6605,12 +7113,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B5%AC%EC%9E%AC%EC%9A%A9&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "아이를 함께 키우고 청년에게 희망을 드리겠습니다.",
+            "transport": "전국으로 이어지는 교통망을 확대하겠습니다.",
+            "environment": "서해구의 새로운 미래를 활짝 열겠습니다. / 어르신 잘 모시고 약자와 동행하겠습니다."
           },
           "source": "nec",
           "nec": {
@@ -6623,7 +7128,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "서해구의 새로운 미래를 활짝 열겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "전국으로 이어지는 교통망을 확대하겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "아이를 함께 키우고 청년에게 희망을 드리겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "어르신 잘 모시고 약자와 동행하겠습니다.",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "다함께 잘사는 서해구를 만들겠습니다.",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100163349,
@@ -6638,12 +7170,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%B2%94%EC%84%9D&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "education": "내 아이의 미래가 좋아지는 교육도시",
+            "housing": "내 삶이 나아지는 안심도시 서해구를 만들겠습니다 / 내 하루하루가 행복한 도시 서해구",
+            "environment": "권역별 맞춤 프로젝트"
           },
           "source": "nec",
           "nec": {
@@ -6656,7 +7185,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "내 삶이 나아지는 안심도시 서해구를 만들겠습니다",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "내 하루하루가 행복한 도시 서해구",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "내 아이의 미래가 좋아지는 교육도시",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "내 삶이 풍요로워지는 균형잡힌 도시",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "권역별 맞춤 프로젝트",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100154173,
@@ -6671,12 +7227,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9A%A9%EC%84%AD&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "[주거·교육·돌봄] 아이 키우기 좋고 살기 좋은 ‘인간 중심 서구’",
+            "transport": "[교통] 길 위에서 버리는 시간 제로 - 사람 중심 교통 혁신",
+            "environment": "[경제·미래] 세계로 열린 ‘글로벌 서구’ - 미래 성장 동력 확보 / [환경·책임] 투명하고 공정한 ‘환경 정의’ 실현"
           },
           "source": "nec",
           "nec": {
@@ -6689,7 +7242,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "[경제·미래] 세계로 열린 ‘글로벌 서구’ - 미래 성장 동력 확보",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[교통] 길 위에서 버리는 시간 제로 - 사람 중심 교통 혁신",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[주거·교육·돌봄] 아이 키우기 좋고 살기 좋은 ‘인간 중심 서구’",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[환경·책임] 투명하고 공정한 ‘환경 정의’ 실현",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "[소통·행정] 시민이 주인인 ‘열린 구정’",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100154634,
@@ -6704,12 +7284,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%84%EA%B7%9C&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "튼튼한 의료체계, 즐거운 문화복지 검단 / 청년사업가들이 이끌어가는 자족도시 검단",
+            "education": "다니고 싶은 학교, 배움이 충족되는 검단",
+            "transport": "어디서나 빠르게, 교통혁명 검단",
+            "environment": "행정부터 환경까지 살기 좋은 검단"
           },
           "source": "nec",
           "nec": {
@@ -6722,7 +7300,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "어디서나 빠르게, 교통혁명 검단",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "다니고 싶은 학교, 배움이 충족되는 검단",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "튼튼한 의료체계, 즐거운 문화복지 검단",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "행정부터 환경까지 살기 좋은 검단",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "청년사업가들이 이끌어가는 자족도시 검단",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100160467,
@@ -6737,12 +7342,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%84%B8%ED%9B%88&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "생명을 지키는 방벽(의료 안전 및 생명 존중 시스템) / 온 가족이 행복한 ‘검단형 맞춤 돌봄ㆍ복지’ 실현",
+            "education": "검단 거주는 삶의 큰 스펙(글로벌 교육 특화 도시 조성)",
+            "transport": "시간주권이 회복되는 검단 교통 전면 재정비",
+            "culture": "세계의 문화를 검단으로, 검단의 문화는 세계로"
           },
           "source": "nec",
           "nec": {
@@ -6755,7 +7358,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "시간주권이 회복되는 검단 교통 전면 재정비",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "검단 거주는 삶의 큰 스펙(글로벌 교육 특화 도시 조성)",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "생명을 지키는 방벽(의료 안전 및 생명 존중 시스템)",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "온 가족이 행복한 ‘검단형 맞춤 돌봄ㆍ복지’ 실현",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "세계의 문화를 검단으로, 검단의 문화는 세계로",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -8208,7 +8838,7 @@
             "sggName": "검단구나선거구",
             "sdName": "인천광역시",
             "wiwName": "검단구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
           }
@@ -8329,12 +8959,7 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%EC%97%B0%ED%9D%AC&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "강화 전철시대 개막 / 강화남단 경제자유구역 지정"
           },
           "source": "nec",
           "nec": {
@@ -8347,7 +8972,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "강화 전철시대 개막",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "강화남단 경제자유구역 지정",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "강화북단 평화경제특구 지정",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "농수산물 유통 혁신",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "한국마사회 유치",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100162891,
@@ -8362,12 +9014,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%A9%EC%B2%A0&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "transport": "사방이 막힘없는 교통 일번지 강화",
+            "culture": "강화의 근본, 소상공인·농축수산업 성장 지원",
+            "environment": "미래 세대를 위한 강화 비전 2050 / 살고 싶은 강화 ! 살수 있는 강화 !"
           },
           "source": "nec",
           "nec": {
@@ -8380,7 +9029,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "미래 세대를 위한 강화 비전 2050",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "강화의 근본, 소상공인·농축수산업 성장 지원",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "살고 싶은 강화 ! 살수 있는 강화 !",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "군민과 함께 내일이 더 행복한 강화",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "사방이 막힘없는 교통 일번지 강화",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100163321,
@@ -8395,12 +9071,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EA%B2%BD%EC%8B%A0&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "강화시(市) 승격 및 행정/복지시설 신설 / 청년 정착 지원책과 강화 군 장병을 위한 시스템 구축",
+            "transport": "교통, 관광 인프라 확충",
+            "environment": "동락천 복원과 고려촌 마을 조성 / 규제완화와 구도심 순환개발"
           },
           "source": "nec",
           "nec": {
@@ -8413,7 +9086,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "동락천 복원과 고려촌 마을 조성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "강화시(市) 승격 및 행정/복지시설 신설",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "교통, 관광 인프라 확충",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "규제완화와 구도심 순환개발",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "청년 정착 지원책과 강화 군 장병을 위한 시스템 구축",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
@@ -8832,12 +9532,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%A5%EC%A0%95%EB%AF%BC&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "일자리 확대(임금인상), 청년 정착지원 및 해양신재생에너지 주민 이익공유 실현 / 촘촘하고 세밀한 의료·복지 강화로 군민 모두 100세까지 행복한 옹진",
+            "transport": "주민이 편리한 해상교통 혁신·접근성 강화 및 생활기반시설 확충",
+            "culture": "수도권 해양관광 1번지! 각 섬 특색 관광자원 개발",
+            "environment": "편안하고 풍요로운 농·어업 육성 및 지역균형발전 실현"
           },
           "source": "nec",
           "nec": {
@@ -8850,7 +9548,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "주민이 편리한 해상교통 혁신·접근성 강화 및 생활기반시설 확충",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "일자리 확대(임금인상), 청년 정착지원 및 해양신재생에너지 주민 이익공유 실현",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "편안하고 풍요로운 농·어업 육성 및 지역균형발전 실현",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "수도권 해양관광 1번지! 각 섬 특색 관광자원 개발",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "촘촘하고 세밀한 의료·복지 강화로 군민 모두 100세까지 행복한 옹진",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100162743,
@@ -8865,12 +9590,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EA%B2%BD%EB%B3%B5&background=ef4444&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "권역별 복지·커뮤니티 인프라 확충",
+            "transport": "서해 5도 해상교통 혁신 및 편의 증진",
+            "culture": "장봉-모도 연도교 조기 착공 및 자월 관광유람선 유치",
+            "environment": "해상풍력 이익 공유 및 유지보수 전진기지 구축 / 옹진군민 가족 및 출향민 여객선 운임 지원 확대"
           },
           "source": "nec",
           "nec": {
@@ -8883,7 +9606,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "해상풍력 이익 공유 및 유지보수 전진기지 구축",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "서해 5도 해상교통 혁신 및 편의 증진",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "옹진군민 가족 및 출향민 여객선 운임 지원 확대",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "권역별 복지·커뮤니티 인프라 확충",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "장봉-모도 연도교 조기 착공 및 자월 관광유람선 유치",
+              "content": ""
+            }
+          ]
         }
       ],
       "provincial_council": [
