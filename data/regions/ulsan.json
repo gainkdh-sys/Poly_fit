@@ -1596,37 +1596,10 @@
             "sggName": "남구",
             "sdName": "울산광역시",
             "wiwName": "남구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "옥동 군부대 이전부지를 AI·디지털 혁신거점으로 만들겠습니다",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "좋은 일자리와 공정한 노동환경을 만들겠습니다",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "남구 예산 10%, 청년의 미래에 투자하겠습니다",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "통합돌봄도시를 만들겠습니다",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "초밀도 행복도시를 만들겠습니다",
-              "content": ""
-            }
-          ]
+          }
         }
       ],
       "provincial_council": [

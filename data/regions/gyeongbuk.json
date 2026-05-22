@@ -10057,8 +10057,9 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EA%B8%B0%EB%AC%B8&background=64748b&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "culture": "영천생활밀착형 국민체육센터 건립",
-            "environment": "영천경마공원 & 금호 역세권 개발 / 영천스타밸리 지식산업혁신센터 건립"
+            "transport": "대구도시철도 1호선 영천 도심 연장 / 대구권 광역철도(동대구-영천-포항)구축",
+            "culture": "영천문화예술회관 건립",
+            "environment": "영천경마공원 랜드마크 완성 / 금호 역세권 복합개발"
           },
           "source": "nec",
           "nec": {
@@ -10075,27 +10076,27 @@
           "pledgeItems": [
             {
               "realm": "",
-              "title": "영천경마공원 & 금호 역세권 개발",
+              "title": "대구도시철도 1호선 영천 도심 연장",
               "content": ""
             },
             {
               "realm": "",
-              "title": "영천스타밸리 지식산업혁신센터 건립",
+              "title": "대구권 광역철도(동대구-영천-포항)구축",
               "content": ""
             },
             {
               "realm": "",
-              "title": "마늘융복합산업지구 조성",
+              "title": "영천경마공원 랜드마크 완성",
               "content": ""
             },
             {
               "realm": "",
-              "title": "영천생활밀착형 국민체육센터 건립",
+              "title": "금호 역세권 복합개발",
               "content": ""
             },
             {
               "realm": "",
-              "title": "110만평 규모 산업단지 조성",
+              "title": "영천문화예술회관 건립",
               "content": ""
             }
           ]
