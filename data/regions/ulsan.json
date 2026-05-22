@@ -4918,37 +4918,10 @@
             "sggName": "울주군",
             "sdName": "울산광역시",
             "wiwName": "울주군",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "부유식 해상풍력 발전단지 및 배후단지 조성",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "한국형 도심항공교통(UAM) 실증단지 조성",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "선사역사문화관광지구 조성",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "울주군 대중교통 혁신",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "울주군 공공의료·돌봄시스템 구축",
-              "content": ""
-            }
-          ]
+          }
         }
       ],
       "provincial_council": [
