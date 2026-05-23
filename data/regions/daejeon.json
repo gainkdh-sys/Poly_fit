@@ -18,6 +18,8 @@
         "housing": "기후위기 대응을 위한 탄소중립 도시 / 대한민국 대표 AI 선도도시",
         "environment": "민생경제 회복"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -75,6 +77,8 @@
         "culture": "문화예술 인프라 확충, 문화예술 활동 전폭 지원 / ‘K-문화예술 허브’ 도약,",
         "environment": "7대 전략산업 기반, 대전의 새로운 성장동력 육성 / 빠르고 편리한 첨단 ‘무궤도 트램’ 3·4·5·6호선 임기내 완공"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -133,6 +137,8 @@
         "culture": "살기좋은 대전 (일자리, 관광)",
         "environment": "소통하는 대전 (언론, 시민사회)"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -190,6 +196,8 @@
         "welfare": "돌봄·복지·안전 책임교육 실현",
         "education": "기초학력 국가책임 수준으로 강화 / 인성교육과 AI 미래교육 대전환"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -246,6 +254,8 @@
         "education": "미래 교육 (다 함께 성장하는 교육) / 다양성 교육(모두의 꿈을 키우는 교육)",
         "environment": "밀착 행정(현장에서 길을 찾는 행정)"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -301,6 +311,8 @@
         "welfare": "안전하고 건강한 학교",
         "education": "기초학력 책임 보장 / 특수교육 내실화"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -357,6 +369,8 @@
         "education": "동·서부 지역 및 경제적 계층으로 인한 교육격차 해소 / 대전교육카드 발급으로 학부모 교육비 절감",
         "environment": "공정한 인사 및 예산 운용으로 신뢰 구축"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -412,6 +426,8 @@
         "education": "초·중·고 학생 대중교통비 전면 지원 (시내버스+도시철도) / 과학의 도시, 대전형 AI·과학 교육 혁신",
         "environment": "고교학점제 전면 재검토 (공론화 후 폐지 또는 대폭 간소화) / 전국 최고의 먹거리(급식) 통합지원센터 설립 및 운영"
       },
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -473,6 +489,8 @@
             "culture": "관광벨트 조성 및 빵타워 / 생활편의시설 및 체육시설 확충",
             "environment": "대전역세권 개발사업 추진 / 시립병원 조기착공 및 중입자 암치료 센터 유치 검토"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -531,6 +549,8 @@
             "culture": "세대공감 에어돔 생활체육공원 조성",
             "environment": "동구형 하이엔드 방과후 캠퍼스 조성 / 동구 생활든든 4대 패키지"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -587,6 +607,8 @@
             "welfare": "대전의료원 조기 착공 / 종합 복지허브 구축",
             "housing": "대전역세권 개발과 혁신도시 성공추진 / 식장산,대청호 휴양 및 호반도시, 수상레포츠레져타운 조성"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -646,6 +668,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -658,8 +682,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -679,6 +701,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -691,8 +715,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -712,6 +734,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -724,8 +748,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -745,6 +767,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -757,8 +781,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -778,6 +800,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -790,8 +814,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -811,6 +833,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -823,8 +847,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
@@ -846,6 +868,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -858,8 +882,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -879,6 +901,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -891,8 +915,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -912,6 +934,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -924,8 +948,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -945,6 +967,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -957,8 +981,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -978,6 +1000,8 @@
             "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
             "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -990,8 +1014,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
@@ -1011,6 +1033,8 @@
             "housing": "정당정책: 아파트 원가 공급 등 주거비 부담 완화 정책을 추진합니다.",
             "education": "정당정책: 종교사학 자율성 보장과 교육 관련 정책을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1023,8 +1047,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_3040_20260507_1.pdf"
         },
         {
@@ -1044,6 +1066,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1056,8 +1080,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1077,6 +1099,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1089,8 +1113,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1110,6 +1132,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1122,8 +1146,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1143,6 +1165,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1155,8 +1179,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1176,6 +1198,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1188,8 +1212,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -1209,6 +1231,8 @@
             "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
             "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1221,8 +1245,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
@@ -1242,6 +1264,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1254,8 +1278,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1275,6 +1297,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1287,8 +1311,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1308,6 +1330,8 @@
             "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
             "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1320,8 +1344,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "pending_public_search",
-          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         }
       ]
@@ -1346,6 +1368,8 @@
             "housing": "주민이 길을 만드는 주민주권도시의 기준을 완성하겠습니다 / 골목에서 체감하는 생활경제도시를 만들어 가겠습니다",
             "environment": "중구다움으로 되살아나는 원도심을 활성화하겠습니다"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1403,6 +1427,8 @@
             "education": "아이 키우려고 이사 오는 교육도시 \"중구 8학군 프로젝트 추진\"",
             "culture": "머무는 사람이 돈이 되는 도시 \"중구 체류형 문화관광 시대를 열겠습니다\" / 20년 방치 흉물(메가시티), 대전의 랜드마크로 \"중앙로 복합문화타운 조성\""
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1462,6 +1488,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1474,8 +1502,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1495,6 +1521,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1507,8 +1535,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1528,6 +1554,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1540,8 +1568,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1561,6 +1587,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1573,8 +1601,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1594,6 +1620,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1606,8 +1634,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1627,6 +1653,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1639,8 +1667,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
@@ -1662,6 +1688,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1674,8 +1702,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1695,6 +1721,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1707,8 +1735,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1728,6 +1754,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1740,8 +1768,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1761,6 +1787,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1773,8 +1801,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1794,6 +1820,8 @@
             "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
             "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1806,8 +1834,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "pending_public_search",
-          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
@@ -1827,6 +1853,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1839,8 +1867,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1860,6 +1886,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1872,8 +1900,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -1893,6 +1919,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1905,8 +1933,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1926,6 +1952,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1938,8 +1966,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -1959,6 +1985,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -1971,8 +1999,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -1992,6 +2018,8 @@
             "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
             "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2004,8 +2032,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "pending_public_search",
-          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
@@ -2025,6 +2051,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2037,8 +2065,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2058,6 +2084,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2070,8 +2098,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2091,6 +2117,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2103,8 +2131,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2124,6 +2150,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2136,8 +2164,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2157,6 +2183,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2169,8 +2197,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         }
       ]
@@ -2193,6 +2219,8 @@
             "welfare": "대상별 맞춤형 돌봄 사업 / 서구 농인 쉼터(청각장애인 복합 커뮤니티 센터) 조성",
             "environment": "‘MY서구 앱’ 구축 / 유휴시설 ‘그린 오아시스’ 설치"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2250,6 +2278,8 @@
             "housing": "노후계획도시 선도지구 및 도마변동 재정비 추진",
             "environment": "방위사업청 등 민선8기 성과와 연계한 경제 활성화 / CTX 둔산복합환승터미널 조성"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2306,6 +2336,8 @@
             "housing": "일자리 창업도시 서구 유니콘(Unicorn) 프로젝트 / 노후 아파트 스마트 정비 신속지원단 설치",
             "environment": "첨단 ICT 기반 서구형 스마트 공공산후조리원 건립 / 우리 아이를 세계적 리더로 키우는 ‘서구 글로벌 어학당’"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2365,6 +2397,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2377,8 +2411,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2398,6 +2430,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2410,8 +2444,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2431,6 +2463,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2443,8 +2477,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2464,6 +2496,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2476,8 +2510,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2497,6 +2529,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2509,8 +2543,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2530,6 +2562,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2542,8 +2576,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2563,6 +2595,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2575,8 +2609,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2596,6 +2628,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2608,8 +2642,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2629,6 +2661,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2641,8 +2675,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -2662,6 +2694,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2674,8 +2708,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2695,6 +2727,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2707,8 +2741,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2728,6 +2760,8 @@
             "environment": "정당정책: 지역공공재생에너지 전환, 자원순환, 기후위기 대응을 추진합니다.",
             "welfare": "정당정책: 공공이 책임지는 돌봄·의료와 지역공공 통합돌봄을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2740,8 +2774,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5010_20260507_1.pdf"
         },
         {
@@ -2761,6 +2793,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2773,8 +2807,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2794,6 +2826,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2806,8 +2840,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
@@ -2829,6 +2861,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2841,8 +2875,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2862,6 +2894,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2874,8 +2908,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -2895,6 +2927,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2907,8 +2941,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2928,6 +2960,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2940,8 +2974,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -2961,6 +2993,8 @@
             "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
             "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -2973,8 +3007,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
@@ -2994,6 +3026,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3006,8 +3040,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3027,6 +3059,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3039,8 +3073,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3060,6 +3092,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3072,8 +3106,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3093,6 +3125,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3105,8 +3139,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3126,6 +3158,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3138,8 +3172,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3159,6 +3191,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3171,8 +3205,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3192,6 +3224,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3204,8 +3238,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3225,6 +3257,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3237,8 +3271,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3258,6 +3290,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3270,8 +3304,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -3291,6 +3323,8 @@
             "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
             "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3303,8 +3337,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
@@ -3324,6 +3356,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3336,8 +3370,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3357,6 +3389,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3369,8 +3403,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3390,6 +3422,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3402,8 +3436,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3423,6 +3455,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3435,8 +3469,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3456,6 +3488,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3468,8 +3502,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3489,6 +3521,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3501,8 +3535,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3522,6 +3554,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3534,8 +3568,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3555,6 +3587,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3567,8 +3601,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3588,6 +3620,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3600,8 +3634,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ]
@@ -3625,6 +3657,8 @@
             "culture": "AX 시대 문화를 선도하는 도시 유성",
             "housing": "미래를 선도하는 글로벌 혁신도시 유성 / 다 함께 만들어 가는 주민자치도시 유성"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3682,6 +3716,8 @@
             "culture": "탄소중립 정책과 도시환경 개선 및 문화·관광·체육 활성화를 통한 도시 품격 향상 브랜드 구축",
             "environment": "대덕연구개발특구와 연계한 초일류 과학산업단지 조성 / 협력과 소통중심의 자치 모델 구축 , 주민참여확대"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3741,6 +3777,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3753,8 +3791,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3774,6 +3810,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3786,8 +3824,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3807,6 +3843,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3819,8 +3857,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3840,6 +3876,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3852,8 +3890,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3873,6 +3909,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3885,8 +3923,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3906,6 +3942,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3918,8 +3956,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -3939,6 +3975,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3951,8 +3989,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -3972,6 +4008,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -3984,8 +4022,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
@@ -4007,6 +4043,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4019,8 +4057,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4040,6 +4076,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4052,8 +4090,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4073,6 +4109,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4085,8 +4123,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4106,6 +4142,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4118,8 +4156,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4139,6 +4175,8 @@
             "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
             "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4151,8 +4189,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
@@ -4172,6 +4208,8 @@
             "environment": "정당정책: 지역공공재생에너지 전환, 자원순환, 기후위기 대응을 추진합니다.",
             "welfare": "정당정책: 공공이 책임지는 돌봄·의료와 지역공공 통합돌봄을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4184,8 +4222,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5010_20260507_1.pdf"
         },
         {
@@ -4205,6 +4241,8 @@
             "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
             "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4217,8 +4255,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "pending_public_search",
-          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
@@ -4238,6 +4274,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4250,8 +4288,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4271,6 +4307,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4283,8 +4321,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4304,6 +4340,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4316,8 +4354,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4337,6 +4373,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4349,8 +4387,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4370,6 +4406,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4382,8 +4420,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -4403,6 +4439,8 @@
             "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
             "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4415,8 +4453,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
@@ -4436,6 +4472,8 @@
             "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
             "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4448,8 +4486,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "pending_public_search",
-          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
@@ -4469,6 +4505,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4481,8 +4519,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4502,6 +4538,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4514,8 +4552,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4535,6 +4571,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4547,8 +4585,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4568,6 +4604,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4580,8 +4618,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -4601,6 +4637,8 @@
             "environment": "정당정책: 지역 에너지 자립, 자원순환, 지역순환경제를 추진합니다.",
             "housing": "정당정책: 누구나 존엄하게 살아가는 지역과 필수 생활 기반 보장을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4613,8 +4651,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_730_20260511_2.pdf"
         },
         {
@@ -4634,6 +4670,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4646,8 +4684,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4667,6 +4703,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4679,8 +4717,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4700,6 +4736,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4712,8 +4750,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4733,6 +4769,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4745,8 +4783,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4766,6 +4802,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4778,8 +4816,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -4799,6 +4835,8 @@
             "housing": "정당정책: 아파트 원가 공급 등 주거비 부담 완화 정책을 추진합니다.",
             "education": "정당정책: 종교사학 자율성 보장과 교육 관련 정책을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4811,8 +4849,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_3040_20260507_1.pdf"
         }
       ]
@@ -4838,6 +4874,8 @@
             "housing": "재건축·재개발 적극 지원을 통한 주거 안심 도시 대덕",
             "environment": "노후 대전산단의 스마트 그린 산단 전환"
           },
+          "pledgeSource": "nec_official",
+          "pledgeSourceLabel": "선관위 공식 공약",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4898,6 +4936,8 @@
             "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
             "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
           },
+          "pledgeSource": "pending_nec",
+          "pledgeSourceLabel": "선관위 공약 공개 전",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4930,6 +4970,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4942,8 +4984,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -4963,6 +5003,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -4975,8 +5017,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -4996,6 +5036,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5008,8 +5050,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -5029,6 +5069,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5041,8 +5083,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -5062,6 +5102,8 @@
             "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
             "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5074,8 +5116,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "pending_public_search",
-          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
           "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
@@ -5095,6 +5135,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5107,8 +5149,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -5128,6 +5168,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5140,8 +5182,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
@@ -5163,6 +5203,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5175,8 +5217,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -5196,6 +5236,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5208,8 +5250,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -5229,6 +5269,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5241,8 +5283,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -5262,6 +5302,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5274,8 +5316,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -5295,6 +5335,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5307,8 +5349,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -5328,6 +5368,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5340,8 +5382,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
@@ -5361,6 +5401,8 @@
             "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5373,8 +5415,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
@@ -5394,6 +5434,8 @@
             "environment": "정당정책: 지역공공재생에너지 전환, 자원순환, 기후위기 대응을 추진합니다.",
             "welfare": "정당정책: 공공이 책임지는 돌봄·의료와 지역공공 통합돌봄을 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5406,8 +5448,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5010_20260507_1.pdf"
         },
         {
@@ -5427,6 +5467,8 @@
             "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
             "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5439,8 +5481,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
@@ -5460,6 +5500,8 @@
             "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
             "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "source": "nec",
           "nec": {
             "sgId": "20260603",
@@ -5472,8 +5514,6 @@
             "regdate": "",
             "kind": "candidate"
           },
-          "pledgeSource": "party_policy",
-          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
           "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ]
