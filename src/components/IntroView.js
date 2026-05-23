@@ -7,8 +7,8 @@ export default class IntroView extends Component {
       <div class="view-wrapper intro-view center-all">
         <div class="hero mt-2">
           <div class="badge">2026 지방선거 정책 매칭</div>
-          <h1>정당과 이름을 가리고<br><span class="highlight">공약만으로 먼저 판단하세요</span></h1>
-          <p>내 관심사의 중요도를 정한 뒤 익명 공약에 동의도를 매기면, 정책 핏이 높은 후보를 보여드립니다.</p>
+          <h1>Poly-Fit</h1>
+          <p>블라인드 처리된 정책을 보고 맞춤 후보자를 추천할게요!</p>
         </div>
         <div class="intro-action-stack">
           <button id="start-btn" class="btn-primary">블라인드 정책 매칭 시작</button>

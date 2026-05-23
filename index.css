@@ -154,6 +154,7 @@ p { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1.5rem; }
 .rating-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.45rem; margin-bottom: 0.8rem; }
 .rating-btn { min-height: 42px; border-radius: 8px; border: 1px solid #cbd5e1; background: #fff; color: #334155; font-weight: 900; cursor: pointer; font-family: inherit; }
 .rating-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.feedback-link { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
 .feedback-textarea, .select-input { width: 100%; border: 2px solid var(--card-border); border-radius: 8px; padding: 0.95rem; font-size: 1rem; font-family: inherit; color: var(--text); background: #fff; resize: vertical; margin-bottom: 0.8rem; }
 .feedback-textarea:focus, .select-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 4px rgba(37,99,235,0.1); }
 .field-label { display: block; font-size: 0.9rem; font-weight: 900; color: var(--text); margin-bottom: 0.35rem; }

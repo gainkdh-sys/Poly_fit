@@ -2,12 +2,14 @@ import Component from '../core/component.js';
 import { Router } from '../core/router.js';
 import { appStore } from '../core/store.js';
 import { createCampaignSearchUrl, getElectionDisplayName } from '../utils/elections.js';
-import { escapeHtml, getFromLocalStorage, saveToLocalStorage } from '../utils/helpers.js';
+import { escapeHtml } from '../utils/helpers.js';
 import {
   getPartyAvatarUrl,
   resolveCandidateImage,
   resolveCandidatePhotoMeta
 } from '../utils/photos.js';
+
+const FEEDBACK_FORM_URL = 'https://form.naver.com/response/4PP24rE9375VNkjCGeBItg';
 
 const SCORE_LABELS = {
   5: '매우 동의',
@@ -151,14 +153,12 @@ export default class ResultView extends Component {
         </section>
 
         <section class="feedback-panel">
-          <h3>만족도 설문</h3>
-          <p>결과와 공약 제시 방식에 대한 의견을 남겨 주세요.</p>
-          <div class="rating-row" role="group" aria-label="만족도">
-            ${[1, 2, 3, 4, 5].map(score => `<button class="rating-btn" data-rating="${score}" type="button">${score}</button>`).join('')}
-          </div>
-          <textarea id="feedback-text" class="feedback-textarea" rows="4" placeholder="개선점이나 좋았던 점을 적어 주세요."></textarea>
-          <button id="feedback-submit" class="btn-secondary compact-btn" type="button">피드백 제출</button>
-          <p id="feedback-status" class="form-status" aria-live="polite"></p>
+          <a id="feedback-submit"
+             class="btn-secondary compact-btn feedback-link"
+             href="${FEEDBACK_FORM_URL}"
+             target="_blank"
+             rel="noopener noreferrer"
+             role="button">피드백 제출</a>
         </section>
 
         <div class="slide-up result-actions">
@@ -190,41 +190,5 @@ export default class ResultView extends Component {
       Router.navigate('electionList');
     });
 
-    let selectedRating = null;
-
-    this.target.querySelectorAll('.rating-btn').forEach(button => {
-      button.addEventListener('click', (e) => {
-        selectedRating = parseInt(e.currentTarget.dataset.rating, 10);
-        this.target.querySelectorAll('.rating-btn').forEach(btn => {
-          btn.classList.toggle('active', btn === e.currentTarget);
-        });
-      });
-    });
-
-    this.target.querySelector('#feedback-submit')?.addEventListener('click', () => {
-      const status = this.target.querySelector('#feedback-status');
-      const text = this.target.querySelector('#feedback-text')?.value.trim() || '';
-
-      if (!selectedRating && !text) {
-        status.textContent = '만족도나 의견 중 하나를 입력해 주세요.';
-        status.className = 'form-status warn';
-        return;
-      }
-
-      const saved = getFromLocalStorage('polyfit_feedbacks', []);
-      const nextFeedbacks = [
-        ...saved,
-        {
-          rating: selectedRating,
-          text,
-          createdAt: new Date().toISOString()
-        }
-      ];
-
-      saveToLocalStorage('polyfit_feedbacks', nextFeedbacks);
-      status.textContent = '피드백이 저장되었습니다.';
-      status.className = 'form-status success';
-      this.target.querySelector('#feedback-text').value = '';
-    });
   }
 }
