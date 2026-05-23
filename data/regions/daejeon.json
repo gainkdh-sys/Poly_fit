@@ -640,14 +640,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 행정대학원 행정학과 졸업(행정학석사) | (전)장철민국회의원 보좌관 | (현)더불어민주당 대전동구지역위원회 교육연수위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EA%B7%BC%EB%AA%A8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -660,7 +657,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161688,
@@ -673,14 +673,11 @@
           "party": "국민의힘",
           "bio": "대전광역시의회의원 | 대전대학교 경영행정·사회복지대학원 경영학과 졸업(경영학석사) | (현)대전광역시의회 산업건설위원회 위원장 | (전)제9대 대전광역시의회 예산결산특별위원회 위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%9D%B8%EC%84%9D&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -693,7 +690,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100153890,
@@ -706,14 +706,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 단국대학교 정책경영대학원 행정학과 졸업(행정학석사) | (현)더불어민주당 장철민국회의원 특별보좌관 | (현)더불어민주당 대전시당 동구지역위원회 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%8C%80%EC%84%B1&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -726,7 +723,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100160136,
@@ -739,14 +739,11 @@
           "party": "국민의힘",
           "bio": "대전동구의회의원 | 충남대학교 행정대학원 행정학과 졸업(행정학 석사) | (현)제9대 동구의회 의원 (운영위원장) | (전)국민의힘 대전광역시당 청년위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%B2%A0%EC%9A%A9&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -759,7 +756,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100154180,
@@ -772,14 +772,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 행정대학원 행정학과 졸업(행정학석사) | (전)제8대 전반기 동구의회 의장 | (전)더불어민주당 부대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%82%98%EC%98%81&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -792,7 +789,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161692,
@@ -805,14 +805,11 @@
           "party": "국민의힘",
           "bio": "대전광역시의회의원 | 대전대학교 대학원 방재학과 수료(박사과정) | (현)대전광역시의회 행정자치위원장 | (현)국민의힘 대전광역시 동구당협 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EB%AA%85%EA%B5%AD&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -825,7 +822,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
       "city_council": [
@@ -840,14 +840,11 @@
           "party": "더불어민주당",
           "bio": "동구의회의원 | 대전대학교 경영행정·사회복지대학원 사회복지학과 졸업(사회복지학 석사) | (전)사회복지법인 금성복지재단 이사장 | (현)동구의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%B1%EC%9A%A9%EC%88%9C&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -860,7 +857,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100158558,
@@ -873,14 +873,11 @@
           "party": "더불어민주당",
           "bio": "자영업 | 대전과학기술대학교 보건복지학과 졸업 | (전)동구새마을부녀회 회장 | (전)대전광역시 동구 주민참여예산위원회 위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%B1%EC%8A%B9%EC%9E%90&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -893,7 +890,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100154150,
@@ -906,14 +906,11 @@
           "party": "국민의힘",
           "bio": "자영업 | 우송정보대학 사회복지과 졸업 | (전)동구 주민자치위원장협의회 회장 | (현)동구 자원봉사협의회 회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9A%B0%EC%84%A0%EC%A0%9C&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -926,7 +923,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161736,
@@ -939,14 +939,11 @@
           "party": "국민의힘",
           "bio": "동구의회의원 | 유원대학교 문화복지융합학과 졸업 | (현)동구의회의원 | (전)법무부 대전동구지구 청소년 범죄예방위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%A0%95%EA%B7%9C&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -959,7 +956,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100154266,
@@ -972,14 +972,11 @@
           "party": "개혁신당",
           "bio": "정당인 | 충남대학교 응용화학공학과 재학 | (전)충남대학교 나노에너지 실험실 학부연구원 | (현)개혁신당 대전시당 미래희망위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%84%EA%B2%B8&background=f97316&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 규제 완화와 혁신 성장, 지방 산업·경제 활성화를 추진합니다.",
+            "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
+            "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -992,7 +989,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
           "id": 100154206,
@@ -1005,14 +1005,11 @@
           "party": "자유통일당",
           "bio": "산호교통(주) 사업부 재직(회사원) | 경북전문대학 세무회계과 졸업(현 경북전문대학교) | (전)에벤에셀종합화물(주) 대표이사 역임 | (전)공인중개사무소 개설 소장 역임",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%97%84%EA%B8%B0%EB%8C%80&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "정당정책: 의료 데이터 디지털화와 생명보호 관련 정책을 추진합니다.",
+            "housing": "정당정책: 아파트 원가 공급 등 주거비 부담 완화 정책을 추진합니다.",
+            "education": "정당정책: 종교사학 자율성 보장과 교육 관련 정책을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1025,7 +1022,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_3040_20260507_1.pdf"
         },
         {
           "id": 100163034,
@@ -1038,14 +1038,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 한남대학교 영어영문학과 졸업 | (현)더불어민주당 동구지역위원회 상무위원(자양동 당원협의회장) | (현)더불어민주당 대전시당 노동위원회 수석부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%8F%84%EC%98%81%ED%83%9C&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1058,7 +1055,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161517,
@@ -1071,14 +1071,11 @@
           "party": "더불어민주당",
           "bio": "동구의회의원 | 고려대학교 대학원 사회복지학과 (사회정책전공 박사과정 수료) | (현)동구의회의원 | (전)장철민 국회의원실 선임비서관(5급상당)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%9A%A9&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1091,7 +1088,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100154159,
@@ -1104,14 +1104,11 @@
           "party": "국민의힘",
           "bio": "임대업 | 대전대학교 경영행정·사회복지대학원 경영학과졸업(경영학석사) | (전)대전 동구체육회 사무국장 | (전)대전 동구청 정무비서관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%B1%EB%B2%94&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1124,7 +1121,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100156931,
@@ -1137,14 +1137,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 배재대학교 관광·이벤트경영학과 졸업 | (전)이장우 대전시장 정무비서 | (현)국민의힘 대전시당 청년위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%84%EC%B0%AC%EA%B7%9C&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1157,7 +1154,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158710,
@@ -1170,14 +1170,11 @@
           "party": "조국혁신당",
           "bio": "모든전기제어 대표 | 대전산업대학교 산업대학원 제어계측공학과 졸업(공학석사, 현 국립한밭대학교) | (전)제19대 총선 대전 중구 통합진보당 예비후보 | (전)노무현재단 대전세종충남지역위원회 운영위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EA%B8%B0%EC%9D%B5&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1190,7 +1187,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100155541,
@@ -1203,14 +1203,11 @@
           "party": "개혁신당",
           "bio": "정당인 | 오산정보고등학교 졸업 | (현)개혁신당 대전시당 민생경제특별위원장 | (현)개혁신당 대전동구 지역발전특별위원회 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%98%EC%9A%A9%EC%A4%80&background=f97316&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 규제 완화와 혁신 성장, 지방 산업·경제 활성화를 추진합니다.",
+            "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
+            "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1223,7 +1220,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
           "id": 100162840,
@@ -1236,14 +1236,11 @@
           "party": "더불어민주당",
           "bio": "동구의회의원 | 충남대학교 행정대학원 행정학과 졸업(행정학석사) | (현)대전동구의회의원 | (전)(사)대전광역시 동구자원봉사센터 사무국장(센터장 권한대행)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A7%80%ED%98%84&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1256,7 +1253,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100160274,
@@ -1269,14 +1269,11 @@
           "party": "국민의힘",
           "bio": "대전광역시 동구의회의원 | 건양사이버대학교 다문화한국어학과 졸업 | (현)9대 동구의회의원 기획행정위원장 | (현)국민의힘 대전동구당협 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%ED%9D%AC&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1289,7 +1286,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100163890,
@@ -1302,14 +1302,11 @@
           "party": "새미래민주당",
           "bio": "장애인 활동지원사 | 한국방송통신대학교 대학원 영상문화콘텐츠학과 재학(석사학위과정) | (전)대전광역시 동구 가양2동 주민자치회 마을안전분과 위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%AC%B8%EC%A0%95%ED%98%B8&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터 기반 후보자입니다. 개별 공약은 공개자료 확인 후 반영됩니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "복지·돌봄 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
           "source": "nec",
           "nec": {
@@ -1322,7 +1319,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
+          "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         }
       ]
     },
@@ -1456,14 +1456,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 고려대학교 중어중문학과 졸업 | (전)대전광역시의회 부의장 | (현)홍범도장군기념사업회 대전모임상임대표",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EC%84%B1%EC%B9%A0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1476,7 +1473,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161800,
@@ -1489,14 +1489,11 @@
           "party": "국민의힘",
           "bio": "대전광역시의원 | 한남대학교대학원 졸업(경영학박사) | (전)대전광역시의회 교육위원장 | (현)대전광역시의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%A3%BC%ED%99%94&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1509,7 +1506,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100159213,
@@ -1522,14 +1522,11 @@
           "party": "더불어민주당",
           "bio": "대전중구의회 의원 | 중앙대학교 사범대학 외국어교육학과(영어전공) 졸업 | (현)중구의회의원 | (전)중구체육회 사무국장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%88%98%EC%97%B4&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1542,7 +1539,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100158688,
@@ -1555,14 +1555,11 @@
           "party": "국민의힘",
           "bio": "중구의회 의원 | 건양대학교 교육대학원 유아교육전공 졸업(교육학석사) | (현)제9대 중구의회 의원 | (전)국공립중촌사회복지관어린이집 원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%ED%95%9C%EC%88%99&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1575,7 +1572,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100154090,
@@ -1588,14 +1588,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 대학원 박사과정 수료 (자치행정학 전공) | (현)더불어민주당 대전시당 정책위원회 정책위원 | (현)민주평화통일자문회의 자문위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%A0%9C%EC%97%B4&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1608,7 +1605,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100159298,
@@ -1621,14 +1621,11 @@
           "party": "국민의힘",
           "bio": "중구의회의원 | 대전대학교 경영행정·사회복지대학원 경영학과 졸업(경영학석사) | (현)9대 중구의회 의원 | (전)8대 중구의회 의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%95%88%ED%98%95%EC%A7%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1641,7 +1638,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
       "city_council": [
@@ -1656,14 +1656,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 화학공학교육과 졸업 | (전)박용갑 국회의원 비서관 | (전)논산 기민중학교 교사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%A3%BC%EC%9A%A9&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1676,7 +1673,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161631,
@@ -1689,14 +1689,11 @@
           "party": "더불어민주당",
           "bio": "대전중구의회의원 | 대전대학교 경영학과 졸업 | (현)중구의회의원 | (현)더불어민주당 대전시당 여성위원회 수석부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%9D%80%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1709,7 +1706,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162484,
@@ -1722,14 +1722,11 @@
           "party": "국민의힘",
           "bio": "대전광역시 중구의회 의원 | 한국방송통신대학교 경영학과 재학 중 | (현)제9대 대전광역시 중구의회 의원 | (전)이은권국회의원 비서관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%9D%ED%99%98&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1742,7 +1739,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100154588,
@@ -1755,14 +1755,11 @@
           "party": "국민의힘",
           "bio": "자영업 | 서울보건전문대학 식품가공과 졸업 (현, 을지대학교) | (현)대전 문화예술지킴이 사회적협동조합 자문위원 | (전)대전광역시 중구체육회 이사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EB%AA%85%ED%9B%88&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1775,7 +1772,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100162833,
@@ -1788,14 +1788,11 @@
           "party": "새미래민주당",
           "bio": "프리랜서 주민센터 및 초,중교 음악강사 | 평택대학교 상담대학원 졸업(상담학석사) | (전)천안시청 공무원 | (현)주민센터 및 초 중교 음악강사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%98%81%ED%98%9C&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터 기반 후보자입니다. 개별 공약은 공개자료 확인 후 반영됩니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "복지·돌봄 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
           "source": "nec",
           "nec": {
@@ -1808,7 +1805,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
+          "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
           "id": 100156237,
@@ -1821,14 +1821,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 대전대학교 경영행정·사회복지대학원졸업(사회복지학석사) | (전)중촌동장, 용두동장 | (전)중구의회 사회도시위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%9B%90%EC%98%A5&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1841,7 +1838,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100158773,
@@ -1854,14 +1854,11 @@
           "party": "더불어민주당",
           "bio": "대전중구의회의원 | 한남대학교 사회문화·행정복지대학원 졸업(아동복지학석사) | (현)9대 중구의회의원 | (전)프라하어린이집원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%EC%98%A5&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1874,7 +1871,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100158470,
@@ -1887,14 +1887,11 @@
           "party": "국민의힘",
           "bio": "대전 중구의회 의원 | 미기재 | (전)제7,8대 대전 중구의회 의원 | (현)제9대 대전 중구의회 의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A0%95%EC%88%98&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1907,7 +1904,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100157927,
@@ -1920,14 +1920,11 @@
           "party": "국민의힘",
           "bio": "자영업 | 배재대학교 경영학과 졸업 | (전)KT&G 충남본부 영업부 과장 | (현)국민의힘 대전중구당협 청년부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A2%85%EC%84%B1&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1940,7 +1937,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100156404,
@@ -1953,14 +1953,11 @@
           "party": "조국혁신당",
           "bio": "대전광역시 중구청 공무직 직원 | 대전산업대학교 재료공학과 졸업(현,한밭대학교) | (전)대전광역시·구 공무직노동조합 사무처장 | (현)조국혁신당 대전시당 노동위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B4%89%EC%88%98&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -1973,7 +1970,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100162836,
@@ -1986,14 +1986,11 @@
           "party": "새미래민주당",
           "bio": "행정사 | 공주교육대학교 교육대학원 졸업(교육학석사) | (전)충남도청 지방부이사관 | (전)금산군부군수",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%EC%98%81%ED%9D%AC&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터 기반 후보자입니다. 개별 공약은 공개자료 확인 후 반영됩니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "복지·돌봄 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
           "source": "nec",
           "nec": {
@@ -2006,7 +2003,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
+          "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
           "id": 100163650,
@@ -2019,14 +2019,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 한국외국어대학교 독일어과 졸업 | (전)중구의회의원 | (현)더불어민주당 중앙당 정책위부의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%A2%85%ED%9B%88&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2039,7 +2036,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100155440,
@@ -2052,14 +2052,11 @@
           "party": "더불어민주당",
           "bio": "회사원 | 군산수산전문대학 통신과 졸업(현, 군산대학교) | (현)대전광역시 중구 문화1동 방위협의회 의원 | (전)더불어민주당 대전광역시 중구 박용갑국회의원 사무국장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%83%81%EC%9D%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2072,7 +2069,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100157869,
@@ -2085,14 +2085,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 고려대학교 문화스포츠대학원 스포츠비지니스학과 석사과정 재학중 | (전)청주대학교 겸임교수 | (전)배재대학교 총학생회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A7%84%EC%9B%85&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2105,7 +2102,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158075,
@@ -2118,14 +2118,11 @@
           "party": "국민의힘",
           "bio": "자영업 | 서울과학기술대학교 철도전문대학원 졸업(공학석사(철도전기 · 신호)) | (현)국민의힘 대전시당 부위원장 | (전)21기 민주평통 대전지역회의 청년위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%91%90%EA%B2%B8&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2138,7 +2135,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100162671,
@@ -2151,14 +2151,11 @@
           "party": "조국혁신당",
           "bio": "대전광역시 중구의회 의원 | 배재대학교 경상학부 경영학 졸업(경영학사) | (현)제9대 대전광역시 중구의회 후반기 의장 | (현)황운하 국회의원 특별보좌관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%9D%80%EA%B7%9C&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2171,7 +2168,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         }
       ]
     },
@@ -2359,14 +2359,11 @@
           "party": "더불어민주당",
           "bio": "정치인 | 대전대학교 대학원 심리학과 박사과정 수료 | (현)대전광역시의원 | (현)더불어민주당 부대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%BC%EC%88%99&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2379,7 +2376,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162198,
@@ -2392,14 +2392,11 @@
           "party": "국민의힘",
           "bio": "대전광역시의회의원 | 용인대학교 일반대학원 경호학과 졸업(경호학박사) | (전)제9대 대전광역시의회 부의장 | (전)대전과학기술대학교 경찰경호학과 겸임교수",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A7%84%EC%98%A4&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2412,7 +2409,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158188,
@@ -2425,14 +2425,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 대전대학교 대학원 졸업(행정학박사) | (전)서구의회 3선의원 | (현)장종태 국회의원 정책특별보좌관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EB%AF%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2445,7 +2442,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161911,
@@ -2458,14 +2458,11 @@
           "party": "국민의힘",
           "bio": "대전광역시의회의원 | 충남대학교 행정대학원 행정학과 석사과정 재학 | (현)대전광역시의회 부의장 | (전)대전광역시의회 국민의힘 원내대표",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%82%BC&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2478,7 +2475,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100160859,
@@ -2491,14 +2491,11 @@
           "party": "더불어민주당",
           "bio": "서구의회의원 | 충남대학교 행정대학원 행정학과 석사과정 재학 | (현)더불어민주당 정책위 부의장 | (전)국회의원 박병석의원실 비서관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%A7%80%EC%97%B0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2511,7 +2508,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162324,
@@ -2524,14 +2524,11 @@
           "party": "국민의힘",
           "bio": "대전광역시의회의원 | 충남대학교 행정대학원 졸업(행정학석사) | (현)대전시의회 예산결산특별위원회 위원장 | (전)대전시의회 행정자치위원회 위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9E%AC%EA%B2%BD&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2544,7 +2541,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161027,
@@ -2557,14 +2557,11 @@
           "party": "더불어민주당",
           "bio": "서구의회의원 | 충남대학교 국가정책대학원 국가정책학과 석사과정 재학 | (현)더불어민주당 정책위원회 부의장 | (전)이재명대통령후보 대전선대위 공동대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EB%8B%A4%EC%9A%B4&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2577,7 +2574,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100157235,
@@ -2590,14 +2590,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 서남대학교 사회복지학과 졸업 | (전)대전시청 출자 출연기관 예산 등 심의위원(4년) | (현)대전광역시 눈빛사랑 봉사회 회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%9E%AC%EC%9B%85&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2610,7 +2607,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158828,
@@ -2623,14 +2623,11 @@
           "party": "조국혁신당",
           "bio": "대한물리치료사협회 자문위원 | 충남대학교 법과대학 법학부 졸업 | (전)사단법인 토닥토닥 이사장 | (전)충남대학교 총학생회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%EC%84%9D&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2643,7 +2640,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100160254,
@@ -2656,14 +2656,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 특허법무대학원 졸업(법학석사) | (전)대전광역시 8대 서구의원 | (현)더불어민주당 대전광역시당 소상공인위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%8B%A0%EC%9B%85&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2676,7 +2673,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100163700,
@@ -2689,14 +2689,11 @@
           "party": "국민의힘",
           "bio": "변호사 | 인하대학교 법학전문대학원 졸업(법무석사) | (현)대전광역시의회 국민의힘 원내대표 | (현)법률사무소 쉴드 대표변호사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%A4%91%ED%98%B8&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2709,7 +2706,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100155569,
@@ -2722,14 +2722,11 @@
           "party": "진보당",
           "bio": "교육공무직 | 충남대학교 사회복지학과 졸업 | (현)진보당 정혜경국회의원 노동특보 | (현)진보당 대전광역시당 서구위원회 공동위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%95%98%EC%98%81&background=7c3aed&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "transport": "정당정책: 버스 공영화, 단계적 무상교통, 생활권 공공교통 확충을 추진합니다.",
+            "environment": "정당정책: 지역공공재생에너지 전환, 자원순환, 기후위기 대응을 추진합니다.",
+            "welfare": "정당정책: 공공이 책임지는 돌봄·의료와 지역공공 통합돌봄을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2742,7 +2739,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5010_20260507_1.pdf"
         },
         {
           "id": 100161084,
@@ -2755,14 +2755,11 @@
           "party": "더불어민주당",
           "bio": "대전광역시서구의회의원 | 충남대학교 사학과 졸업 | (현)대전광역시서구의회의원(8,9대) | (전)새마을문고 대전광역시 서구 문고회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EB%8F%84%EC%84%A0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2775,7 +2772,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100160486,
@@ -2788,14 +2788,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 배제대학교 대학원 행정학과 박사과정 수료 | (현)대전광역시의회 의원 | (전)대전광역시 서구의회 의원(3선)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%95%9C%EC%98%81&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2808,7 +2805,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
       "city_council": [
@@ -2823,14 +2823,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 한국영상대학교 경찰행정과 졸업 | (전)장종태 국회의원 선임비서관 | (전)제21대 대통령선거 총괄선대위원장실 실무지원팀원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%ED%83%9C%EB%AF%BC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2843,7 +2840,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100154057,
@@ -2856,14 +2856,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 한남대학교 건축공학과 졸업 | (전)제8대 대전 서구의원 | (전)박병석국회의원 비서관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%EC%84%B1&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2876,7 +2873,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161968,
@@ -2889,14 +2889,11 @@
           "party": "국민의힘",
           "bio": "서구의회의원 | 대전과학기술대학교 보건복지학과 졸업 | (현)국민의힘 대전시당 생활정치특별위원장 | (전)국민의힘 대전시당 대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%B3%91%EC%88%9C&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2909,7 +2906,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100156333,
@@ -2922,14 +2922,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 배재대학교 경영학과 졸업 | (전)이상민 변호사사무실 비서 | (현)국제라이온스협회 도안회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B8%EC%A4%91&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2942,7 +2939,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158416,
@@ -2955,14 +2955,11 @@
           "party": "개혁신당",
           "bio": "대학생 | 배재대학교 드론로봇공학과 재학 | (현)개혁신당 대전시당 부위원장 | (현)개혁신당 대전시당 노동특별위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%98%81%EC%9A%B1&background=f97316&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 규제 완화와 혁신 성장, 지방 산업·경제 활성화를 추진합니다.",
+            "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
+            "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -2975,7 +2972,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
           "id": 100161293,
@@ -2988,14 +2988,11 @@
           "party": "더불어민주당",
           "bio": "서구의회의원 | 대전대학교 경영학과 졸업 | (현)대전서구의회 예산결산특별위원회 위원장 | (전)대전서구의회 윤리특별위원회 위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%A7%84%EB%AF%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3008,7 +3005,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100155900,
@@ -3021,14 +3021,11 @@
           "party": "더불어민주당",
           "bio": "일곱색깔유치원 대표 | 한밭대학교 경영학과 졸업 | (현)장종태 국회의원 특별보좌관 | (전)대전광역시 주민자치회 상임이사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9B%90%EB%B0%B0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3041,7 +3038,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161845,
@@ -3054,14 +3054,11 @@
           "party": "국민의힘",
           "bio": "서구의회의원 | 인천대학교 대학원 도시계획ㆍ정책학과 박사과정 수료 | (전)제20대 대통령직 인수위원회 국민통합위원회 자문위원 | (전)한국기술사회 부회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%EC%84%B8%EA%B8%B8&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3074,7 +3071,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161918,
@@ -3087,14 +3087,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 우석대학교 유통통상학부 졸업 | (전)대전 서구청 대외협력실장 | (현)사단법인 삼천원행복나눔 사무국장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B3%A0%ED%98%84%EC%84%9D&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3107,7 +3104,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158411,
@@ -3120,14 +3120,11 @@
           "party": "더불어민주당",
           "bio": "장종태국회의원 특별보좌관 | 행정학사(사회복지학전공) | (전)도안동 적십자봉사회 회장 | (현)대전 서구갑 도안동 당원협의회 회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%88%9C%ED%98%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3140,7 +3137,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162372,
@@ -3153,14 +3153,11 @@
           "party": "더불어민주당",
           "bio": "서구의회의원 | 혜천대학(현 대전과학기술대학교) 실내건축디자인과 졸업 | (전)박병석 국회의원 사무실 비서관(5급상당) | (현)제8대, 9대 대전서구의회 의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EC%A0%95%EC%88%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3173,7 +3170,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100154059,
@@ -3186,14 +3186,11 @@
           "party": "국민의힘",
           "bio": "상원축산 대표 | 한밭대학교 전기공학과 졸업 | (전)도안동 축협 하나로마트 점장 | (현)국민의힘 중앙청년위원회 위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B8%EC%9B%90&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3206,7 +3203,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100162120,
@@ -3219,14 +3219,11 @@
           "party": "국민의힘",
           "bio": "서구의회의원 | 배재대학 독어독문학과 졸업 | (현)국민의힘 대전시당 주민편의입법추진특별위원회 위원장 | (현)선암초등학교 운영위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%ED%99%8D%EA%B7%BC&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3239,7 +3236,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100155063,
@@ -3252,14 +3252,11 @@
           "party": "조국혁신당",
           "bio": "정당인 | 중부대학교 경찰행정학과 졸업 | (현)조국혁신당 대전광역시당 청년위원장 | (현)황운하 국회의원 정책특별보좌관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EC%83%81%EB%AA%85&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3272,7 +3269,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100158041,
@@ -3285,14 +3285,11 @@
           "party": "개혁신당",
           "bio": "서울디지털대학교 객원교수 | 대전대학교 대학원 졸업(법학박사) | (현)개혁신당 중앙당 정책위 부의장 | (전)경찰대학 경찰학과 교수",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EB%8F%99%EC%9A%B4&background=f97316&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 규제 완화와 혁신 성장, 지방 산업·경제 활성화를 추진합니다.",
+            "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
+            "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3305,7 +3302,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
           "id": 100161207,
@@ -3318,14 +3318,11 @@
           "party": "더불어민주당",
           "bio": "이삭부동산중개사무소 대표 | 대전대학교 군사ㆍ산업정보대학원 졸업(상담학석사) | (전)대전서구의회 도시건설 위원장 | (현)더불어민주당 대전시당 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EB%8A%A5%ED%98%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3338,7 +3335,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161189,
@@ -3351,14 +3351,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 배재대학교 심리철학과 졸업 | (현)박범계 국회의원 청년 특별보좌관 | (현)더불어민주당 서구을 청년위원회 수석부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EC%9C%A0%ED%99%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3371,7 +3368,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162048,
@@ -3384,14 +3384,11 @@
           "party": "국민의힘",
           "bio": "서구의회의원 | 충남대학교 행정대학원 졸업(행정학 석사) | (현)대전광역시 서구의회 경제복지부위원장 | (전)대전광역시 서구의회 도시건설부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%A4%EC%9E%AC%EC%98%81&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3404,7 +3401,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100162488,
@@ -3417,14 +3417,11 @@
           "party": "국민의힘",
           "bio": "서구의회의원 | 배재대학교 대학원 졸업(문학박사) | (현)충남여자고등학교 총동창회 부회장 | (전)배재대학교 유아교육과 겸임교수",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EC%A7%80%EC%9B%90&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3437,7 +3434,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161671,
@@ -3450,14 +3450,11 @@
           "party": "더불어민주당",
           "bio": "서구의회의원 | 대전대학교 정치외교학과 졸업 | (현)더불어민주당 정책위원회 부의장 | (현)대전대학교 총동문회 부회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9A%A9%EC%A4%80&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3470,7 +3467,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162037,
@@ -3483,14 +3483,11 @@
           "party": "더불어민주당",
           "bio": "서구의회의원 | 대덕대학교 사회복지학과 졸업 | (전)서구자원봉사협의회장 | (전)사단법인자치분권연대 대전공동대표",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%AF%B8%EC%9E%90&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3503,7 +3500,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162389,
@@ -3516,14 +3516,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 배재대학교 독일어문화학과 졸업 | (전)국민의힘 대전시당 조직차장 | (전)새누리당 대전시당 대학생위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AA%85%ED%98%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3536,7 +3533,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100157544,
@@ -3549,14 +3549,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 무역학과 졸업 | (전)국회의원 박범계의원실 비서관 | (전)대전서구자원봉사센터 사무국장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%EC%9A%A9%EC%84%9D&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3569,7 +3566,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162108,
@@ -3582,14 +3582,11 @@
           "party": "국민의힘",
           "bio": "서구의회의원 | 한양여자고등학교(현 한양대학교사범대학부속고등학교) 졸업 | (현)월평3동 복지만두레 명예회장 | (전)서구 자원봉사회 운영위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%9D%B8%ED%99%94&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3602,7 +3599,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ]
     },
@@ -3735,14 +3735,11 @@
           "party": "더불어민주당",
           "bio": "(현)유성구의원 | 대전대학교 대학원 박사졸업(이학박사) | (현)유성구의원 | (현)한밭대학교 겸임교수",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%AF%B8%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3755,7 +3752,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162564,
@@ -3768,14 +3768,11 @@
           "party": "국민의힘",
           "bio": "유성구의회 의원 | 중경공업전문대학(현 우송대학교) 토목과 졸업 | (현) 유성구의회 의장 | (전) 유성구청 세무과장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%8F%99%EC%88%98&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3788,7 +3785,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100160572,
@@ -3801,14 +3801,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 대학원 일어일문학과 졸업 (문학박사) | (현) 제9대 유성구의원 (3선) | (현) 더불어민주당 대전시당 대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B8%EB%AF%B8%EB%8F%99&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3821,7 +3818,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100155654,
@@ -3834,14 +3834,11 @@
           "party": "국민의힘",
           "bio": "농업 | 원광대학교 영어영문학과 졸업 | (전) 제8회 대전광역시의회의원선거 후보 | (전) 대전광역시 공무원 33년(지방4급)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%97%AC%ED%99%A9%ED%98%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3854,7 +3851,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100160691,
@@ -3867,14 +3867,11 @@
           "party": "더불어민주당",
           "bio": "유성구의회의원 | 청주대학교 산업경영대학원 산업경영학과 졸업(경영학 석사) | (현)9대 유성구의회의원 | (전)8대 유성구의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%98%EA%B2%BD%EC%98%A5&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3887,7 +3884,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100163099,
@@ -3900,14 +3900,11 @@
           "party": "국민의힘",
           "bio": "유성구의회의원 | 동덕여자대학교 대학원 석사학위과정 음악학과(피아노전공)수료 | (현)제9대 대전광역시 유성구 구의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%95%9C%ED%98%95%EC%8B%A0&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3920,7 +3917,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158569,
@@ -3933,14 +3933,11 @@
           "party": "더불어민주당",
           "bio": "회사원 | 대전공업대학(현 국립한밭대학교) 전자계산학과 졸업 | (현)더불어민주당 대전시당 상무위원 겸 운영위원 | (전)8대 대전시의회 교육위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B5%AC%EB%B3%B8%ED%99%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3953,7 +3950,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161511,
@@ -3966,14 +3966,11 @@
           "party": "국민의힘",
           "bio": "정당인(대전광역시의회의원) | 충남대학교 교육대학원 교육학과 졸업(교육학석사) | (현) 제9대 대전광역시의원 | (전) 제7대, 8대 유성구의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B8%88%EC%84%A0&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -3986,7 +3983,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
       "city_council": [
@@ -4001,14 +4001,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 충남대학교 행정대학원 졸업(행정학 석사) | (전) 제7대 유성구의회 의원 | (전) 유성문화원 사무국장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%96%91%EA%B2%BD&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4021,7 +4018,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161538,
@@ -4034,14 +4034,11 @@
           "party": "더불어민주당",
           "bio": "대전광역시 유성구의회 의원 | 충남대학교 대학원 무역학과 졸업 (무역학 석사) | (현) 제9대 유성구의회 의원 (행정자치위원장) | (현) 더불어민주당 대전유성구(갑) 청년위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%84%9D%EC%97%B0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4054,7 +4051,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100160403,
@@ -4067,14 +4067,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 동국대학교 행정대학원 행정학과 행정학전공 졸업 (행정학석사) | (현)국민의힘 유성구갑 당원협의회 사무국장 | (전)대전광역시 양궁협회 회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%84%9D%EA%B7%BC&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4087,7 +4084,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100155646,
@@ -4100,14 +4100,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 고려대학교 인문대학 북한학과 4학년 제적 (2006.03.01.~2015.09.24) | (현) 국민의힘 유성구갑 청년위원장 | (현) 유성구파크골프협회 대외협력위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%98%A4%ED%98%84&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4120,7 +4117,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100163114,
@@ -4133,14 +4133,11 @@
           "party": "개혁신당",
           "bio": "정당인 | 한밭대학교 공공행정학과 졸업(정책학사) | (현) 개혁신당 대전광역시당 사무처장 | (전) 개혁신당 중앙당 미래희망위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EC%84%B1%ED%95%9C&background=f97316&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 규제 완화와 혁신 성장, 지방 산업·경제 활성화를 추진합니다.",
+            "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
+            "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4153,7 +4150,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
           "id": 100154247,
@@ -4166,14 +4166,11 @@
           "party": "진보당",
           "bio": "정당인 | 한국과학기술원(KAIST) 기계항공시스템학부 졸업 (기계공학전공) | (현) 현충원 평화해설단 대표 | (전) 대전 KBS1 라디오 5시N대세남 시민리포터",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%A0%EC%9E%AC&background=7c3aed&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "transport": "정당정책: 버스 공영화, 단계적 무상교통, 생활권 공공교통 확충을 추진합니다.",
+            "environment": "정당정책: 지역공공재생에너지 전환, 자원순환, 기후위기 대응을 추진합니다.",
+            "welfare": "정당정책: 공공이 책임지는 돌봄·의료와 지역공공 통합돌봄을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4186,7 +4183,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5010_20260507_1.pdf"
         },
         {
           "id": 100163474,
@@ -4199,14 +4199,11 @@
           "party": "무소속",
           "bio": "유성구의회의원 | 한남대학교 사회문화대학원 지역경제학과졸업(경제학석사) | (현) 제9대 유성구의회 부의장 | (전) 온천1동주민자치회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%97%AC%EC%84%B1%EC%9A%A9&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터 기반 후보자입니다. 개별 공약은 공개자료 확인 후 반영됩니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "복지·돌봄 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
           "source": "nec",
           "nec": {
@@ -4219,7 +4216,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
+          "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
           "id": 100157117,
@@ -4232,14 +4232,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 한남대학교 법학부 졸업 | (전) 조승래 국회의원 비서관 | (전) 더불어민주당 대전유성구(갑) 지역위원회 대학생위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%9D%B8%EA%B2%BD&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4252,7 +4249,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100161264,
@@ -4265,14 +4265,11 @@
           "party": "더불어민주당",
           "bio": "유성구의회의원 | 충남대학교 행정대학원 졸업(행정학석사) | (현) 9대 유성구의회의원(사회도시부위원장) | (전) 유성구 온천2동 동장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EC%98%A5%EC%88%A0&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4285,7 +4282,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100155684,
@@ -4298,14 +4298,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 고려대학교 행정대학원 행정학과(공공행정전공) 석사과정 수료 | 전)국립한밭대학교 총학생회장 | 현)국민의힘 중앙당 부대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EB%8C%80%ED%98%81&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4318,7 +4315,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158488,
@@ -4331,14 +4331,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 국립한밭대학교 창업경영대학원 창업학과 수료(석사과정) | (현)국민의힘 유성갑당원협의회 여성정책위원장 | (현)한국여성유권자대전연맹유성지부회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%82%AC%EB%9E%91&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4351,7 +4348,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161991,
@@ -4364,14 +4364,11 @@
           "party": "조국혁신당",
           "bio": "정당인 | 혜천대학 세무회계과 (현 대전과학기술대학교) 졸업 | (현)황운하국회의원 특별정책보좌관 | (현)조국혁신당 대전시당 사회적경제위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B0%95%EB%B4%89%EA%B5%AC&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4384,7 +4381,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100159376,
@@ -4397,14 +4397,11 @@
           "party": "개혁신당",
           "bio": "(주)삶의질연구소 UX/UI Lead | 한국과학기술원(KAIST) 산업디자인학과 휴학(특별지정전공: AI특별지정전공) | (전)제35대 KAIST 학부 총학생회장 | (현)개혁신당 대전시당 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A4%EC%84%9C%EC%A7%84&background=f97316&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 규제 완화와 혁신 성장, 지방 산업·경제 활성화를 추진합니다.",
+            "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
+            "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4417,7 +4414,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf"
         },
         {
           "id": 100157337,
@@ -4430,14 +4430,11 @@
           "party": "무소속",
           "bio": "대전시민대학 노인체육 배달강사 | 청주대학교 무역학과 졸업 | (전) 한빛아파트 입주자 대표회장 | (현) 대전시민대학 배달강좌 운동강사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%84%EB%B3%B5&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터 기반 후보자입니다. 개별 공약은 공개자료 확인 후 반영됩니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "복지·돌봄 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
           "source": "nec",
           "nec": {
@@ -4450,7 +4447,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
+          "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
           "id": 100158009,
@@ -4463,14 +4463,11 @@
           "party": "더불어민주당",
           "bio": "마을활동가 | 한국방송통신대학교 문화교양학과 졸업 | (현)유성구을지역위원회 여성위원장 | (현)신성동마을공동체 마실 대표",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%80%EC%A7%84&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4483,7 +4480,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100156072,
@@ -4496,14 +4496,11 @@
           "party": "더불어민주당",
           "bio": "농업 | 국제사이버대학교 부동산학과 졸업 | (현) 더불어민주당정책위원회 부의장 | (전) 유성구 주민자치회 연합회장",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%A9%EC%9A%B0%EC%9D%BC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4516,7 +4513,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100157000,
@@ -4529,14 +4529,11 @@
           "party": "국민의힘",
           "bio": "약사 | 충남대학교 행정대학원 행정학과 졸업(행정학 석사) | (현)제9대 유성구의회의원(예산결산위원장) | (전)대전광역시 마약퇴치운동본부 사무국장 및 총무이사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%96%91%EB%AA%85%ED%99%98&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4549,7 +4546,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161617,
@@ -4562,14 +4562,11 @@
           "party": "조국혁신당",
           "bio": "정당인 | 충남대학교 대학원 무역학과 수료(박사과정) | (현)황운하 국회의원 특별보좌관 | (전)노은3동 주민자치회 위원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%84%B1%ED%99%98&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4582,7 +4579,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100154960,
@@ -4595,14 +4595,11 @@
           "party": "정의당",
           "bio": "정당인 | 한국과학기술원(KAIST) 전산학부 졸업 (공학석사) | (전) 2024년 카이스트 졸업식 입틀막 당사자 | (현) 정의당 유성구위원회 위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%8B%A0%EB%AF%BC%EA%B8%B0&background=facc15&color=111827&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "정당정책: 생활필수재 기본서비스와 지자체 책임 공공돌봄체계를 추진합니다.",
+            "environment": "정당정책: 지역 에너지 자립, 자원순환, 지역순환경제를 추진합니다.",
+            "housing": "정당정책: 누구나 존엄하게 살아가는 지역과 필수 생활 기반 보장을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4615,7 +4612,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_730_20260511_2.pdf"
         },
         {
           "id": 100162569,
@@ -4628,14 +4628,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 우송대학교 금융·세무경영학과 졸업 | (전) 황정아 국회의원 비서관 | (현) 더불어민주당 정책위원회 부의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%A0%95%EC%88%98&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4648,7 +4645,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100158760,
@@ -4661,14 +4661,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 대전산업대학교(현 국립한밭대학교) 화학공학과 졸업 | (전) 유성구 관평동장 | (전) 유성구 전민동장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%9D%B8%EC%A4%91&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4681,7 +4678,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162131,
@@ -4694,14 +4694,11 @@
           "party": "국민의힘",
           "bio": "유성구의회의원 | 사이버한국외국어대학교 경영학부(구 지방행정·의회학부)졸업(행정학사) | (현)국민의힘 전국위원회위원 | (전)육군원사정년퇴역(35년 근무, 특전사/군수사)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%9D%AC%ED%99%98&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4714,7 +4711,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161987,
@@ -4727,14 +4727,11 @@
           "party": "국민의힘",
           "bio": "유성구의원 | 국립한밭대학교 스포츠건강과학과 4학년 재학중 | (전) 유성구배드민턴협회 회장 | (현) 제9대유성구의회의원",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EB%AA%85%EC%88%99&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4747,7 +4744,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100158015,
@@ -4760,14 +4760,11 @@
           "party": "조국혁신당",
           "bio": "정당인 | 한밭대학교 영어영문학과3학년 제적(2005.3.2~2018.5.4) | (현)조국혁신당 대전시당 장애인위원회위원장 | (현)황운하국회의원 특별보좌관",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9E%84%EB%8C%80%ED%98%B8&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4780,7 +4777,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100154238,
@@ -4793,14 +4793,11 @@
           "party": "자유통일당",
           "bio": "엔제이어스 본부 팀장 | 충남대학교 평화안보대학원 평화안보학과 제적(2007.3.2.~2011.5.30.),(국가전략전공) | (전)육군 소령 | (전)대전부사관장교학원 원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%90%EB%AF%BC%EA%B8%B0&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "정당정책: 의료 데이터 디지털화와 생명보호 관련 정책을 추진합니다.",
+            "housing": "정당정책: 아파트 원가 공급 등 주거비 부담 완화 정책을 추진합니다.",
+            "education": "정당정책: 종교사학 자율성 보장과 교육 관련 정책을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4813,7 +4810,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_3040_20260507_1.pdf"
         }
       ]
     },
@@ -4924,14 +4924,11 @@
           "party": "더불어민주당",
           "bio": "대덕구의원 | 충남대학교 국가정책대학원(석사) 국가정책학과 재학중 | (현)제9대 대덕구의회 경제도시위원장 | (현)대전 대덕구의회 원내대표(더불어민주당)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EA%B8%B0%ED%9D%A5&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4944,7 +4941,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100157841,
@@ -4957,14 +4957,11 @@
           "party": "국민의힘",
           "bio": "대전광역시의회의원 | 배재대학교 대학원 졸업(이학석사) | (현)대전광역시의회 의원(복지환경위원장)",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%ED%9A%A8%EC%84%B1&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -4977,7 +4974,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100154913,
@@ -4990,14 +4990,11 @@
           "party": "더불어민주당",
           "bio": "회사원 | 대전대학교 대학원 행정학과 박사과정 수료 | (전)제8대 대덕구의회의원 | (현)더불어민주당 대덕구 지역위원회 여성위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9D%80%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5010,7 +5007,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100155211,
@@ -5023,14 +5023,11 @@
           "party": "국민의힘",
           "bio": "목상동주민복지위원회 상무이사 | 충남대학교 회계학과 졸업 | (전)대덕구의회의장 | (현)신탄진농업협동조합 이사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%A2%85%EC%84%9C&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5043,7 +5040,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100160288,
@@ -5056,14 +5056,11 @@
           "party": "무소속",
           "bio": "정치인 | 충남대학교 행정대학원 졸업(행정학석사) | (현)대전광역시의회 의원 | (전)국민의힘 대전시당 부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%86%A1%ED%99%9C%EC%84%AD&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터 기반 후보자입니다. 개별 공약은 공개자료 확인 후 반영됩니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "welfare": "복지·돌봄 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+            "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
           },
           "source": "nec",
           "nec": {
@@ -5076,7 +5073,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "pending_public_search",
+          "pledgeSourceLabel": "개별 공약 공개자료 확인 중",
+          "pledgeSourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5"
         },
         {
           "id": 100154975,
@@ -5089,14 +5089,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 대전대학교 대학원 행정학과 박사과정 수료 | (현)더불어민주당 대전광역시당 대변인 | (현)더불어민주당 대덕구 지역위원회 청년위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B6%8C%EC%9D%B8%ED%98%B8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5109,7 +5106,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100154932,
@@ -5122,14 +5122,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 한남대학교 사학과 졸업 | (전)제7대·8대 대덕구의원 | (현)국민의힘 대덕구당협부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%88%98%EC%97%B0&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5142,7 +5139,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ],
       "city_council": [
@@ -5157,14 +5157,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 한남대학교 사회문화·행정복지대학원 문예창작학과 졸업(문학석사) | (전)대덕구의회 8대의원 | (전)더불어민주당 대전시당 대변인",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%82%BC%EB%82%A8&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5177,7 +5174,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100162362,
@@ -5190,14 +5190,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 고려대학교 행정전문대학원 석사과정 정책학과 휴학 | (현)대덕구의회 의원(부의장) | (전)국민의힘 9대 대덕구의회 전반기 원내대표",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A1%B0%EB%8C%80%EC%9B%85&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5210,7 +5207,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100154905,
@@ -5223,14 +5223,11 @@
           "party": "더불어민주당",
           "bio": "새여울수산 대표 | 한양대학교 경기지도학과 졸업 | (현)더불어민주당 대덕구 소상공인위원장 | (현)더불어민주당 대전기본사회부위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%B0%BD%ED%9D%AC&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5243,7 +5240,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100154998,
@@ -5256,14 +5256,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 국립공주대학교 산업과학대학원 석사과정 작물과학전공 2학기 휴학 | (전)지방행정사무관 | (전)대덕구청공무원노조위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EB%8C%80%EC%8B%9D&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5276,7 +5273,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100154857,
@@ -5289,14 +5289,11 @@
           "party": "국민의힘",
           "bio": "약사 | 원광대학교 약학대학 약학과 졸업 | (현)국민의힘 대덕구당원협의회 사무국장 | (현)김종삼약국 약사",
           "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A2%85%EC%82%BC&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5309,7 +5306,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100155247,
@@ -5322,14 +5322,11 @@
           "party": "국민의힘",
           "bio": "공인중개사 | 혜천대학(현, 대전과학기술대학교) 스튜어디스 전공학과 졸업 | (현)대덕구당협 중산층 서민경제위원장 | (현)봄빛공인중개사 대표",
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EC%9D%80%EC%A0%95&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5342,7 +5339,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         },
         {
           "id": 100161035,
@@ -5355,14 +5355,11 @@
           "party": "조국혁신당",
           "bio": "대덕구의원 | 경희사이버대학교 사회복지학부 재학중 | (현)대덕구의회 행정복지위원장 | (전)석봉초등학교 운영위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9C%A0%EC%8A%B9%EC%97%B0&background=64748b&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+            "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5375,7 +5372,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf"
         },
         {
           "id": 100154877,
@@ -5388,14 +5388,11 @@
           "party": "진보당",
           "bio": "정당인 | 충남대학교 행정학과 졸업 | (전) 전국 최초 공동주택 노동자조례(대덕구) 주민발의 성사 | (현) 진보당 대전시당 가계부채 119위원장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9D%80%EC%98%81&background=7c3aed&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "transport": "정당정책: 버스 공영화, 단계적 무상교통, 생활권 공공교통 확충을 추진합니다.",
+            "environment": "정당정책: 지역공공재생에너지 전환, 자원순환, 기후위기 대응을 추진합니다.",
+            "welfare": "정당정책: 공공이 책임지는 돌봄·의료와 지역공공 통합돌봄을 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5408,7 +5405,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5010_20260507_1.pdf"
         },
         {
           "id": 100155931,
@@ -5421,14 +5421,11 @@
           "party": "더불어민주당",
           "bio": "정당인 | 대전과학기술대학교 사회복지과 졸업 | (전) 제 7대 대덕구의원 | (전) 제 8대 전반기 대덕구의회 의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%84%9C%EB%AF%B8%EA%B2%BD&background=1e40af&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+            "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+            "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5441,7 +5438,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf"
         },
         {
           "id": 100163266,
@@ -5454,14 +5454,11 @@
           "party": "국민의힘",
           "bio": "정당인 | 한남대학교 미래인재대학원 석사과정 재학(사회복지학과 전공) | (전)대덕구의회 경제도시위원장 | (현)대덕구의회 의장",
           "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%84%EC%84%9D%EA%B4%91&background=ef4444&color=fff&size=128",
-          "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+          "desc": "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다.",
           "pledges": {
-            "welfare": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "education": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "transport": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "culture": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "housing": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다.",
-            "environment": "공식 공약 데이터가 선관위에 공개되면 자동 반영됩니다."
+            "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+            "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+            "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
           },
           "source": "nec",
           "nec": {
@@ -5474,7 +5471,10 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeSource": "party_policy",
+          "pledgeSourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+          "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf"
         }
       ]
     }

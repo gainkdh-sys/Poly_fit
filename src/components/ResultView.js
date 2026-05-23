@@ -36,7 +36,7 @@ export default class ResultView extends Component {
     return answers.map(answer => `
       <li class="policy-recap-item">
         <div class="policy-recap-meta">
-          <span>${escapeHtml(answer.catName || '')}</span>
+          <span>${escapeHtml([answer.catName, answer.sourceLabel].filter(Boolean).join(' · '))}</span>
           <strong>${SCORE_LABELS[answer.score] || '평가 완료'}</strong>
         </div>
         <p>${escapeHtml(answer.pledge)}</p>

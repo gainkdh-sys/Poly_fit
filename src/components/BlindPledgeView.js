@@ -49,6 +49,7 @@ export default class BlindPledgeView extends Component {
     const { selectedElectionId, selectedConstituency } = appStore.getState();
     const electionName = getElectionDisplayName(selectedElectionId, selectedConstituency);
     const progressPct = Math.round((this.answerIdx / this.queue.length) * 100);
+    const sourceLabel = this.currentItem.sourceLabel || '익명 후보 공약';
     const agreementHtml = AGREEMENT_OPTIONS.map((option, idx) => `
       <button class="likert-btn agreement-btn slide-up"
               style="animation-delay: ${idx * 0.04}s"
@@ -66,7 +67,7 @@ export default class BlindPledgeView extends Component {
         <div class="cat-badge"># ${this.currentItem.catName}</div>
         <p class="blind-election-label">${escapeHtml(electionName)}</p>
         <div class="blind-policy-card">
-          <div class="blind-chip">익명 후보 공약</div>
+          <div class="blind-chip">${escapeHtml(sourceLabel)}</div>
           <h2 class="q-title">${escapeHtml(this.currentItem.pledge)}</h2>
         </div>
         <p style="font-size:0.95rem">이 공약이 내 지역 선택 기준과 얼마나 잘 맞는지 평가해 주세요.</p>
@@ -91,6 +92,7 @@ export default class BlindPledgeView extends Component {
             catName: this.currentItem.catName,
             group: this.currentItem.group,
             pledge: this.currentItem.pledge,
+            sourceLabel: this.currentItem.sourceLabel,
             score
           }
         ];

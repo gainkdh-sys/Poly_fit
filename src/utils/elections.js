@@ -15,6 +15,8 @@ const ELECTION_DESCRIPTIONS = {
 };
 
 const CONSTITUENCY_ELECTIONS = new Set(['provincial_council', 'city_council']);
+const COUNCIL_POLICY_LIMIT = 3;
+const COUNCIL_DEFAULT_GROUPS = ['welfare', 'transport', 'housing'];
 
 export const ELECTION_ORDER = [
   'governor',
@@ -160,8 +162,61 @@ export function getPledgeText(candidate, category) {
     || '해당 분야 공약 데이터 준비 중';
 }
 
+function getFirstCategoryByGroup(categories) {
+  return categories.reduce((acc, category) => {
+    if (!acc[category.group]) {
+      acc[category.group] = category;
+    }
+    return acc;
+  }, {});
+}
+
+function getCouncilPolicyCategories(coreData, candidate) {
+  const categories = coreData.categories || [];
+  const firstByGroup = getFirstCategoryByGroup(categories);
+  const pledgeGroups = Object.keys(candidate.pledges || {});
+  const groups = [...pledgeGroups, ...COUNCIL_DEFAULT_GROUPS]
+    .filter((group, index, all) => group && all.indexOf(group) === index);
+
+  return groups
+    .map(group => firstByGroup[group])
+    .filter(Boolean)
+    .slice(0, COUNCIL_POLICY_LIMIT);
+}
+
+function getPledgeSourceLabel(candidate) {
+  if (candidate?.pledgeSourceLabel) return candidate.pledgeSourceLabel;
+
+  const sourceLabels = {
+    nec_official: '선관위 공식 공약',
+    party_policy: '정당정책 기반 참고',
+    pending_public_search: '공개자료 확인 중',
+    pending_nec: '선관위 공약 공개 전'
+  };
+
+  return sourceLabels[candidate?.pledgeSource] || '익명 후보 공약';
+}
+
 export function buildBlindEvaluationQueue(coreData, candidates) {
   if (!coreData || !Array.isArray(candidates)) return [];
+
+  const isCouncilElection = candidates.some(candidate => CONSTITUENCY_ELECTIONS.has(candidate.electionType));
+
+  if (isCouncilElection) {
+    return candidates.flatMap((candidate) => {
+      const categories = getCouncilPolicyCategories(coreData, candidate);
+
+      return categories.map((category) => ({
+        id: `${category.id}:${candidate.id}`,
+        candId: candidate.id,
+        catId: category.id,
+        catName: category.name,
+        group: category.group,
+        pledge: getPledgeText(candidate, category),
+        sourceLabel: getPledgeSourceLabel(candidate)
+      }));
+    }).sort(() => Math.random() - 0.5);
+  }
 
   return coreData.categories.flatMap((category) => {
     const shuffledCandidates = [...candidates].sort(() => Math.random() - 0.5);
@@ -172,7 +227,8 @@ export function buildBlindEvaluationQueue(coreData, candidates) {
       catId: category.id,
       catName: category.name,
       group: category.group,
-      pledge: getPledgeText(candidate, category)
+      pledge: getPledgeText(candidate, category),
+      sourceLabel: getPledgeSourceLabel(candidate)
     }));
   });
 }

@@ -35,6 +35,7 @@ from typing import Any
 ROOT_DIR = Path(__file__).resolve().parent.parent
 REGION_DIR = ROOT_DIR / "data" / "regions"
 RAW_DIR = ROOT_DIR / "data" / "nec"
+PARTY_POLICY_FALLBACK_PATH = ROOT_DIR / "data" / "party-policy-fallbacks.json"
 
 CANDIDATE_BASE = "http://apis.data.go.kr/9760000/PofelcddInfoInqireService"
 PLEDGE_BASE = "http://apis.data.go.kr/9760000/ElecPrmsInfoInqireService"
@@ -167,6 +168,7 @@ METRO_CONFIG = {
 
 SD_NAME_TO_SLUG = {config["metro"]: slug for slug, config in METRO_CONFIG.items()}
 METRO_LEVEL_TYPES = {"governor", "superintendent"}
+COUNCIL_ELECTION_TYPES = {"provincial_council", "city_council"}
 
 PARTY_COLORS = {
     "더불어민주당": ("1e40af", "fff"),
@@ -185,6 +187,16 @@ PLEDGE_GROUPS = {
     "housing": ["주거", "주택", "부동산", "재개발", "재건축", "도시", "정비"],
     "environment": ["환경", "기후", "탄소", "녹색", "산업", "경제", "일자리", "기업", "첨단", "에너지"],
 }
+
+PLACEHOLDER_MARKERS = (
+    "공식 공약 데이터가 선관위에 공개되면",
+    "예비후보자 공약 데이터가 선관위에 공개되면",
+    "공약 자료 준비 중",
+    "개별 공약 공개자료 확인 중",
+    "공개자료 확인 후 반영",
+)
+
+_PARTY_POLICY_FALLBACKS: dict[str, Any] | None = None
 
 
 def log(message: str) -> None:
@@ -413,6 +425,49 @@ def normalize_pledges(pledge_items: list[dict[str, str]]) -> dict[str, str]:
     }
 
 
+def load_party_policy_fallbacks() -> dict[str, Any]:
+    global _PARTY_POLICY_FALLBACKS
+
+    if _PARTY_POLICY_FALLBACKS is not None:
+        return _PARTY_POLICY_FALLBACKS
+
+    if not PARTY_POLICY_FALLBACK_PATH.exists():
+        _PARTY_POLICY_FALLBACKS = {}
+        return _PARTY_POLICY_FALLBACKS
+
+    _PARTY_POLICY_FALLBACKS = json.loads(PARTY_POLICY_FALLBACK_PATH.read_text(encoding="utf-8"))
+    return _PARTY_POLICY_FALLBACKS
+
+
+def is_placeholder_pledges(pledges: Any) -> bool:
+    if not isinstance(pledges, dict) or not pledges:
+        return True
+
+    texts = [str(value or "") for value in pledges.values()]
+    return all(any(marker in text for marker in PLACEHOLDER_MARKERS) for text in texts)
+
+
+def council_policy_fallback(party: str) -> dict[str, Any]:
+    config = load_party_policy_fallbacks()
+    party_config = (config.get("parties") or {}).get(party)
+
+    if party_config:
+        return {
+            "pledges": party_config.get("pledges", {}),
+            "pledgeSource": "party_policy",
+            "pledgeSourceLabel": config.get("sourceLabel", "정당정책 기반 참고"),
+            "pledgeSourceUrl": party_config.get("sourceUrl") or config.get("sourceUrl"),
+        }
+
+    pending = config.get("pending") or {}
+    return {
+        "pledges": pending.get("pledges", {}),
+        "pledgeSource": pending.get("source", "pending_public_search"),
+        "pledgeSourceLabel": pending.get("sourceLabel", "개별 공약 공개자료 확인 중"),
+        "pledgeSourceUrl": config.get("sourceUrl"),
+    }
+
+
 def placeholder_pledges(kind: str) -> dict[str, str]:
     label = "공식 공약" if kind == "candidate" else "예비후보자 공약"
     message = f"{label} 데이터가 선관위에 공개되면 자동 반영됩니다."
@@ -537,8 +592,11 @@ def merge_existing_fields(candidate: dict[str, Any], existing_index: dict[tuple[
     if not old:
         return candidate
 
-    if old.get("pledges") and not candidate.get("pledgeItems"):
+    if old.get("pledges") and not candidate.get("pledgeItems") and not is_placeholder_pledges(old.get("pledges")):
         candidate["pledges"] = old["pledges"]
+        for key in ("pledgeSource", "pledgeSourceLabel", "pledgeSourceUrl"):
+            if old.get(key):
+                candidate[key] = old[key]
     if old.get("imageUrl") and "ui-avatars.com" not in str(old.get("imageUrl")):
         candidate["imageUrl"] = old["imageUrl"]
     if old.get("desc") and "공식 공약 데이터" not in str(candidate.get("desc", "")):
@@ -569,8 +627,19 @@ def convert_row(
         region = [sd_name, district_for_row(row, slug)]
 
     pledges = normalize_pledges(pledge_items)
+    pledge_source = "nec_official" if pledges else "pending_nec"
+    pledge_source_label = "선관위 공식 공약" if pledges else "선관위 공약 공개 전"
+    pledge_source_url = ""
+
     if not pledges:
-        pledges = placeholder_pledges(kind)
+        if election_type in COUNCIL_ELECTION_TYPES:
+            fallback = council_policy_fallback(party)
+            pledges = fallback.get("pledges") or placeholder_pledges(kind)
+            pledge_source = fallback.get("pledgeSource", "pending_public_search")
+            pledge_source_label = fallback.get("pledgeSourceLabel", "개별 공약 공개자료 확인 중")
+            pledge_source_url = fallback.get("pledgeSourceUrl", "")
+        else:
+            pledges = placeholder_pledges(kind)
 
     candidate = {
         "id": candidate_id(row),
@@ -582,6 +651,8 @@ def convert_row(
         "imageUrl": avatar_url(name, party),
         "desc": f"선관위 {candidate_source_label(kind)} 데이터 기반 후보자입니다.",
         "pledges": pledges,
+        "pledgeSource": pledge_source,
+        "pledgeSourceLabel": pledge_source_label,
         "source": "nec",
         "nec": {
             "sgId": str(row.get("sgId") or DEFAULT_SG_ID),
@@ -595,6 +666,14 @@ def convert_row(
             "kind": kind,
         },
     }
+
+    if pledge_source_url:
+        candidate["pledgeSourceUrl"] = pledge_source_url
+
+    if pledge_source == "party_policy":
+        candidate["desc"] = "선관위 후보자 데이터와 선관위 정책·공약마당 정당정책을 함께 참고한 후보자입니다."
+    elif pledge_source == "pending_public_search":
+        candidate["desc"] = "선관위 후보자 데이터 기반 후보자입니다. 개별 공약은 공개자료 확인 후 반영됩니다."
 
     if pledge_items:
         candidate["pledgeItems"] = pledge_items

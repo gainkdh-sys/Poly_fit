@@ -1,0 +1,104 @@
+{
+  "sourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
+  "sourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5",
+  "defaultGroups": ["welfare", "transport", "housing"],
+  "pending": {
+    "source": "pending_public_search",
+    "sourceLabel": "개별 공약 공개자료 확인 중",
+    "pledges": {
+      "welfare": "복지·돌봄 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+      "transport": "교통·생활인프라 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다.",
+      "housing": "주거·도시정비 분야 개별 공약은 후보자 선거공보 또는 공개자료 확인 후 반영됩니다."
+    }
+  },
+  "parties": {
+    "더불어민주당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_100_20260507_1.pdf",
+      "pledges": {
+        "environment": "정당정책: 균형발전 행정·재정 기반 구축과 지방 핵심산업 육성을 추진합니다.",
+        "transport": "정당정책: 지방 생활기반시설 확충과 광역·도시철도, BRT·광역버스 등 교통망 확충을 추진합니다.",
+        "welfare": "정당정책: 국민생활 안정, 돌봄 지원, 저출생·고령화 대응과 지역 필수의료 강화를 추진합니다."
+      }
+    },
+    "국민의힘": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_200_20260511_2.pdf",
+      "pledges": {
+        "housing": "정당정책: 반값 전세, 월세 세액공제 확대, 재개발·재건축 정상화 등 주거안정을 추진합니다.",
+        "transport": "정당정책: 광역급행철도·순환고속도로망 확충과 농어촌 이동권 보장을 추진합니다.",
+        "welfare": "정당정책: 디딤돌소득, 생애주기 맞춤형 복지, 지역 의료격차 해소와 어르신 돌봄 확대를 추진합니다."
+      }
+    },
+    "진보당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5010_20260507_1.pdf",
+      "pledges": {
+        "transport": "정당정책: 버스 공영화, 단계적 무상교통, 생활권 공공교통 확충을 추진합니다.",
+        "environment": "정당정책: 지역공공재생에너지 전환, 자원순환, 기후위기 대응을 추진합니다.",
+        "welfare": "정당정책: 공공이 책임지는 돌봄·의료와 지역공공 통합돌봄을 추진합니다."
+      }
+    },
+    "조국혁신당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5077_20260507_1.pdf",
+      "pledges": {
+        "housing": "정당정책: 장기 안심 주거와 주거 안정 정책을 추진합니다.",
+        "transport": "정당정책: 대중교통 그린 캐시백과 광역교통망 구축으로 이동권 보장을 추진합니다.",
+        "welfare": "정당정책: 어디에 살든 사회권을 누릴 수 있는 지역 복지 접근성 강화를 추진합니다."
+      }
+    },
+    "개혁신당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5070_20260508_1.pdf",
+      "pledges": {
+        "environment": "정당정책: 규제 완화와 혁신 성장, 지방 산업·경제 활성화를 추진합니다.",
+        "welfare": "정당정책: 현금복지를 넘어 생활복지 중심의 지역 서비스를 추진합니다.",
+        "housing": "정당정책: 살기 좋은 도시와 부담 없는 주거 환경 조성을 추진합니다."
+      }
+    },
+    "정의당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_730_20260511_2.pdf",
+      "pledges": {
+        "welfare": "정당정책: 생활필수재 기본서비스와 지자체 책임 공공돌봄체계를 추진합니다.",
+        "environment": "정당정책: 지역 에너지 자립, 자원순환, 지역순환경제를 추진합니다.",
+        "housing": "정당정책: 누구나 존엄하게 살아가는 지역과 필수 생활 기반 보장을 추진합니다."
+      }
+    },
+    "기본소득당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5035_20260507_1.pdf",
+      "pledges": {
+        "welfare": "정당정책: 지방정부형 기본소득과 공공서비스 보편 보장을 추진합니다.",
+        "environment": "정당정책: 토지세·탄소세 배당과 재생에너지 공유부 배당을 추진합니다.",
+        "housing": "정당정책: 공공서비스·금융·주거의 보편 보장을 추진합니다."
+      }
+    },
+    "노동당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_1988_20260430_1.pdf",
+      "pledges": {
+        "welfare": "정당정책: 공공병원 확대, 주치의제 도입, 읍면동 건강·돌봄센터 설치를 추진합니다.",
+        "housing": "정당정책: 공공주택 비율 확대와 공정임대료제 도입을 추진합니다.",
+        "transport": "정당정책: 공공 책임의 교통권과 에너지 기본권 보장을 추진합니다."
+      }
+    },
+    "녹색당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_710_20260511_1.pdf",
+      "pledges": {
+        "housing": "정당정책: 매입형 공공임대주택 공급, 임대료 제한, 계속거주권 보장을 추진합니다.",
+        "environment": "정당정책: 공영주차장·농촌 공동체 태양광 등 지역 재생에너지 전환을 추진합니다.",
+        "transport": "정당정책: 1만원 기후패스, 농어촌 무상공공버스, 생태교통 도시를 추진합니다."
+      }
+    },
+    "사회민주당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_5071_20260507_1.pdf",
+      "pledges": {
+        "environment": "정당정책: AI 불평등과 고용불안에 대응하는 지방정부 정책을 추진합니다.",
+        "welfare": "정당정책: 소득보장·일자리보장과 돌봄 복지 강화를 추진합니다.",
+        "housing": "정당정책: 지역에서 더 탄탄한 서민 주거 안정을 추진합니다."
+      }
+    },
+    "자유통일당": {
+      "sourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PARTY_PLC_PUB/007_3040_20260507_1.pdf",
+      "pledges": {
+        "welfare": "정당정책: 의료 데이터 디지털화와 생명보호 관련 정책을 추진합니다.",
+        "housing": "정당정책: 아파트 원가 공급 등 주거비 부담 완화 정책을 추진합니다.",
+        "education": "정당정책: 종교사학 자율성 보장과 교육 관련 정책을 추진합니다."
+      }
+    }
+  }
+}
