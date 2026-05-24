@@ -15241,37 +15241,10 @@
             "sggName": "신안군",
             "sdName": "전라남도",
             "wiwName": "신안군",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "크루즈 관광사업을 통한 신안군의 경제주권 회복 방안",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "신안군 인구고령화·인구감소 대응 공약",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "농수산물 최저가 보상제 시행방안",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "신안군 응급·의료 교통체계 공약",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "신안군 교통 불편·해상교통 혁신 공약",
-              "content": ""
-            }
-          ]
+          }
         }
       ],
       "city_council": [
