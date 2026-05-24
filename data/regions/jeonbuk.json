@@ -12020,34 +12020,7 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "5·3·3 민생혁명으로 대한민국 1등 농촌으로 도약 시키겠습니다!",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "주민자치회 예산권 부여, 진짜 군민자치를 실현하겠습니다!",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "순창형 출산지원금 1억, 우리아이 자립펀드 1억을 실현하겠습니다!",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "순창 마이크로바이옴 산업 1조 투자 유치를 실현하겠습니다!",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "공정행정, 투명행정을 실현하겠습니다!",
-              "content": ""
-            }
-          ]
+          }
         }
       ],
       "provincial_council": [
