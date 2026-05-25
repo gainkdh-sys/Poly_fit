@@ -1568,34 +1568,7 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "열린구청·생활민원 72시간 책임처리제 추진",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "청년들이 살고 싶은 남구 만들기 프로젝트",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "주차 전쟁 없는 남구",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "남구형 주민자율예산제 도입",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "소상공인·골목상권 회복 지원체계 구축",
-              "content": ""
-            }
-          ]
+          }
         },
         {
           "id": 100154789,
