@@ -22808,37 +22808,10 @@
             "sggName": "동작구",
             "sdName": "서울특별시",
             "wiwName": "동작구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "재개발 도시혁신",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "현실적인 주차 해결 안",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "교통문제 해결 안",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "일자리 창출",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "생활 인프라 구성 개선",
-              "content": ""
-            }
-          ]
+          }
         }
       ],
       "provincial_council": [
