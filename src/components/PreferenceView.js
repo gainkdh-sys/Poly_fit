@@ -28,7 +28,7 @@ export default class PreferenceView extends Component {
           <button class="likert-btn slide-up" data-score="2">덜 중요함</button>
           <button class="likert-btn slide-up" data-score="1">전혀 중요하지 않음</button>
         </div>
-        <button id="quick-complete-btn" class="btn-ghost compact-btn mt-2" type="button">남은 문항 보통으로 채우기</button>
+        <button id="quick-complete-btn" class="btn-ghost compact-btn mt-2" type="button">가치관 선택 스킵하기</button>
       </div>
     `;
   }
