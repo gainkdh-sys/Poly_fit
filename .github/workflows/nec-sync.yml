@@ -26,6 +26,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: nec-sync-main
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -76,4 +80,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/regions data/nec
           git commit -m "data: 선관위 후보자 데이터 자동 갱신"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main
+            if git push; then
+              exit 0
+            fi
+            echo "Push failed on attempt ${attempt}; retrying after fetching latest main..."
+            sleep 5
+          done
+          echo "Failed to push NEC data update after retries."
+          exit 1

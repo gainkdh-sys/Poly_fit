@@ -427,6 +427,7 @@ def fetch_nec_candidates(
 ) -> list[dict[str, Any]]:
     endpoint = official_endpoint_for(kind)
     all_rows: list[dict[str, Any]] = []
+    failures: list[str] = []
 
     for sd_name in sd_names:
         for sg_typecode in sg_typecodes:
@@ -446,12 +447,23 @@ def fetch_nec_candidates(
                     pause,
                 )
             except RuntimeError as exc:
-                log(f"  조회 실패, 계속 진행: {exc}")
+                failure = f"{sd_name} / {ELECTION_TYPE_NAMES.get(sg_typecode, sg_typecode)}: {exc}"
+                log(f"  조회 실패, 전체 동기화를 중단합니다: {failure}")
+                failures.append(failure)
                 rows = []
             log(f"  수집 {len(rows)}건")
             all_rows.extend(rows)
             if pause:
                 time.sleep(pause)
+
+    if failures:
+        details = "\n".join(f"- {failure}" for failure in failures[:20])
+        if len(failures) > 20:
+            details += f"\n- ... 외 {len(failures) - 20}건"
+        raise RuntimeError(
+            "NEC 후보자 API 일부 조회가 실패하여 불완전한 data/regions 생성을 막기 위해 중단합니다.\n"
+            f"{details}"
+        )
 
     return all_rows
 
