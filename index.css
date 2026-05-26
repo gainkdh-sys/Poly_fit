@@ -26,10 +26,13 @@ body { background-color: var(--bg); color: var(--text); font-family: var(--font-
 #app { width: 100%; max-width: 560px; min-height: 100vh; position: relative; overflow-x: hidden; background-color: var(--card-bg); box-shadow: var(--shadow-lg); display: flex; flex-direction: column; }
 
 /* Navigation Back Header */
-.nav-header { padding: 1.2rem 1.5rem; display: flex; align-items: center; border-bottom: 1px solid #f1f5f9; background: white; z-index: 10; }
+.nav-header { padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 1px solid #f1f5f9; background: white; z-index: 10; }
 .btn-back { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); font-weight: 700; font-size: 1.05rem; cursor: pointer; transition: color 0.2s; border: none; background: transparent; padding: 0.5rem 0; }
 .btn-back:hover { color: var(--primary); }
 .btn-back i { font-style: normal; font-size: 1.2rem; }
+.nav-spacer { width: 1px; height: 1px; }
+.btn-home { flex: 0 0 auto; padding: 0.45rem 0.7rem; border: 1px solid #dbe3ef; border-radius: 8px; background: #ffffff; color: var(--text-muted); font-size: 0.86rem; font-weight: 800; font-family: inherit; cursor: pointer; }
+.btn-home:hover { color: var(--primary); border-color: #bfdbfe; background: #eff6ff; }
 
 .container { padding: 1.5rem; width: 100%; flex: 1; display: flex; flex-direction: column; }
 .center-all { justify-content: center; text-align: center; }
@@ -62,6 +65,9 @@ p { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1.5rem; }
 .btn-primary:active { transform: scale(0.97); }
 .btn-secondary { width: 100%; padding: 1.1rem; border-radius: 8px; border: none; font-size: 1.02rem; font-weight: 700; color: var(--text-muted); background: #f1f5f9; transition: all 0.2s; cursor: pointer; font-family: inherit; }
 .btn-secondary:active { transform: scale(0.97); }
+.btn-mbti { width: 100%; padding: 1.05rem; border-radius: 8px; border: none; font-size: 1.04rem; font-weight: 900; color: #ffffff; background: #b45309; box-shadow: 0 4px 15px rgba(180, 83, 9, 0.22); transition: transform 0.1s, background 0.2s; cursor: pointer; font-family: inherit; }
+.btn-mbti:hover { background: #92400e; }
+.btn-mbti:active { transform: scale(0.97); }
 .btn-ghost { width: 100%; padding: 0.85rem; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.98rem; font-weight: 800; color: #334155; background: #ffffff; cursor: pointer; font-family: inherit; }
 .btn-ghost:hover { border-color: var(--primary); color: var(--primary); }
 .compact-btn { padding: 0.85rem 1rem; font-size: 0.98rem; }

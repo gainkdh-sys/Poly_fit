@@ -1,3 +1,5 @@
+import { calculatePreferenceGroupWeights } from './preferences.js';
+
 /**
  * 2단계 블라인드 매칭 알고리즘 순수 함수
  * @param {Array} prefAnswers - 1단계 가치관 답변 { category, score }
@@ -13,14 +15,8 @@ export function calculateMatch(prefAnswers, blindAnswers, candidates, coreData) 
     return acc;
   }, {});
 
-  // 2. 가치관 가중치 합산 (그룹별 누적 점수)
-  const groupWeights = prefAnswers.reduce((acc, curr) => {
-    const groupId = catToGroup[curr.category];
-    if (groupId) {
-      acc[groupId] = (acc[groupId] || 0) + curr.score;
-    }
-    return acc;
-  }, {});
+  // 2. 가치관 가중치 산출 (대분류별 문항 수 차이를 보정한 평균 점수)
+  const groupWeights = calculatePreferenceGroupWeights(prefAnswers, coreData);
 
   const scoreMap = {};
   const maxScoreMap = {};

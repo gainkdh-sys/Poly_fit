@@ -23,51 +23,6 @@ const GEO_BOUNDS = [
   { slug: 'jeju', lat: [33.10, 33.65], lng: [126.10, 126.95] }
 ];
 
-const REGION_ALIASES = {
-  seoul: ['서울'],
-  busan: ['부산'],
-  daegu: ['대구'],
-  incheon: ['인천'],
-  gwangju: ['광주'],
-  daejeon: ['대전'],
-  ulsan: ['울산'],
-  sejong: ['세종'],
-  gyeonggi: ['경기', '경기도'],
-  gangwon: ['강원'],
-  chungbuk: ['충북', '충청북도'],
-  chungnam: ['충남', '충청남도'],
-  jeonbuk: ['전북', '전라북도'],
-  jeonnam: ['전남', '전라남도'],
-  gyeongbuk: ['경북', '경상북도'],
-  gyeongnam: ['경남', '경상남도'],
-  jeju: ['제주']
-};
-
-function normalizeText(value) {
-  return value.replace(/\s/g, '').toLowerCase();
-}
-
-function findMetroFromQuery(query, locations) {
-  const normalized = normalizeText(query);
-
-  return locations.find((location) => {
-    const fullName = normalizeText(location.name);
-    const shortName = fullName
-      .replace('특별자치도', '')
-      .replace('특별자치시', '')
-      .replace('특별시', '')
-      .replace('광역시', '')
-      .replace('도', '');
-
-    const aliases = REGION_ALIASES[location.slug] || [];
-
-    return normalized.includes(fullName)
-      || normalized.includes(shortName)
-      || normalized.includes(location.slug)
-      || aliases.some(alias => normalized.includes(normalizeText(alias)));
-  });
-}
-
 function findMetroFromCoords(latitude, longitude, locations) {
   const matched = GEO_BOUNDS.find((bound) => (
     latitude >= bound.lat[0]
@@ -118,14 +73,10 @@ export default class DistrictView extends Component {
       return `
         <div class="view-wrapper slide-up">
           <div class="step-indicator">선거구 설정</div>
-          <h2>주소나 지역명으로<br>선거구를 찾으세요</h2>
+          <h2>광역자치단체를<br>선택하세요</h2>
           <p>광역자치단체를 먼저 찾고, 다음 화면에서 기초자치단체를 고릅니다.</p>
           <div class="district-tools">
-            <div class="search-container">
-              <input id="address-search" class="search-input" type="search" placeholder="예: 서울 강남구, 세종특별자치시" autocomplete="off">
-            </div>
             <div class="tool-button-row">
-              <button id="address-btn" class="btn-secondary compact-btn" type="button">주소로 찾기</button>
               <button id="gps-btn" class="btn-secondary compact-btn" type="button">현재 위치</button>
             </div>
             <p id="district-status" class="form-status" aria-live="polite"></p>
@@ -179,9 +130,6 @@ export default class DistrictView extends Component {
           기초·광역의원 선거구는 다음 단계에서 더 세부적으로 선택합니다.
         </p>
         <div class="district-tools">
-          <div class="search-container">
-            <input id="district-search" class="search-input" type="search" placeholder="선거구 검색" autocomplete="off">
-          </div>
           <button id="metro-reset-btn" class="btn-ghost" type="button">광역자치단체 다시 선택</button>
         </div>
         <div class="election-grid mt-2" id="district-list">
@@ -230,27 +178,6 @@ export default class DistrictView extends Component {
     });
   }
 
-  handleAddressSearch() {
-    const { locations } = appStore.getState();
-    const input = this.target.querySelector('#address-search');
-    const query = input?.value.trim() || '';
-
-    if (!query) {
-      this.setStatus('주소나 광역자치단체 이름을 입력해 주세요.', 'warn');
-      return;
-    }
-
-    const location = findMetroFromQuery(query, locations);
-
-    if (!location) {
-      this.setStatus('입력한 주소에서 광역자치단체를 찾지 못했습니다. 예: 서울 강남구', 'warn');
-      return;
-    }
-
-    this.setStatus(`${location.name} 후보 데이터를 불러옵니다.`, 'success');
-    this.selectMetro(location.slug, location.name);
-  }
-
   handleGpsSearch() {
     const { locations } = appStore.getState();
 
@@ -274,35 +201,15 @@ export default class DistrictView extends Component {
         this.selectMetro(location.slug, location.name);
       },
       () => {
-        this.setStatus('위치 권한을 확인하지 못했습니다. 주소 검색이나 단계별 선택을 이용해 주세요.', 'warn');
+        this.setStatus('위치 권한을 확인하지 못했습니다. 목록에서 직접 선택해 주세요.', 'warn');
       },
       { enableHighAccuracy: false, timeout: 6000, maximumAge: 300000 }
     );
   }
 
-  filterDistrictCards(query) {
-    const normalized = normalizeText(query);
-    this.target.querySelectorAll('.election-card[data-district]').forEach((card) => {
-      const district = normalizeText(card.dataset.district || '');
-      card.hidden = normalized.length > 0 && !district.includes(normalized);
-    });
-  }
-
   setEvent() {
-    this.target.querySelector('#address-btn')?.addEventListener('click', () => {
-      this.handleAddressSearch();
-    });
-
-    this.target.querySelector('#address-search')?.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') this.handleAddressSearch();
-    });
-
     this.target.querySelector('#gps-btn')?.addEventListener('click', () => {
       this.handleGpsSearch();
-    });
-
-    this.target.querySelector('#district-search')?.addEventListener('input', (e) => {
-      this.filterDistrictCards(e.target.value);
     });
 
     this.target.querySelector('#metro-reset-btn')?.addEventListener('click', () => {

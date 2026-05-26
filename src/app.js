@@ -67,15 +67,30 @@ const App = {
     const container = document.createElement('div');
     container.className = 'container fade-in';
 
-    // 네비게이션 헤더 렌더링 (intro, loading 제외)
-    if (!['intro', 'loading'].includes(viewName)) {
+    // 네비게이션 헤더 렌더링 (intro 제외)
+    if (viewName !== 'intro') {
       const header = document.createElement('div');
       header.className = 'nav-header';
-      const backBtn = document.createElement('button');
-      backBtn.className = 'btn-back';
-      backBtn.innerHTML = '<i aria-hidden="true">‹</i> 이전으로';
-      backBtn.onclick = () => Router.handleBack();
-      header.appendChild(backBtn);
+
+      if (viewName !== 'loading') {
+        const backBtn = document.createElement('button');
+        backBtn.className = 'btn-back';
+        backBtn.innerHTML = '<i aria-hidden="true">‹</i> 이전으로';
+        backBtn.onclick = () => Router.handleBack();
+        header.appendChild(backBtn);
+      } else {
+        const spacer = document.createElement('span');
+        spacer.className = 'nav-spacer';
+        header.appendChild(spacer);
+      }
+
+      const homeBtn = document.createElement('button');
+      homeBtn.className = 'btn-home';
+      homeBtn.type = 'button';
+      homeBtn.textContent = '처음으로';
+      homeBtn.setAttribute('aria-label', '처음으로 돌아가기');
+      homeBtn.onclick = () => Router.restart();
+      header.appendChild(homeBtn);
       DOM.app.appendChild(header);
     }
 

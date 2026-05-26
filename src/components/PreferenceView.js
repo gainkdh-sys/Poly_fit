@@ -28,12 +28,13 @@ export default class PreferenceView extends Component {
           <button class="likert-btn slide-up" data-score="2">덜 중요함</button>
           <button class="likert-btn slide-up" data-score="1">전혀 중요하지 않음</button>
         </div>
+        <button id="quick-complete-btn" class="btn-ghost compact-btn mt-2" type="button">남은 문항 보통으로 채우기</button>
       </div>
     `;
   }
 
   setEvent() {
-    const { prefAnswers } = appStore.getState();
+    const { coreData, prefAnswers } = appStore.getState();
 
     this.target.querySelectorAll('.likert-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
@@ -48,6 +49,16 @@ export default class PreferenceView extends Component {
           Router.navigate('prefSummary');
         }
       });
+    });
+
+    this.target.querySelector('#quick-complete-btn')?.addEventListener('click', () => {
+      const neutralAnswers = coreData.questions.slice(this.qIdx).map(question => ({
+        category: question.category,
+        score: 3
+      }));
+
+      appStore.setState({ prefAnswers: [...prefAnswers, ...neutralAnswers] });
+      Router.navigate('prefSummary');
     });
   }
 }

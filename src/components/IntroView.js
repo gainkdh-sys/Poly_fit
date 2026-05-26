@@ -1,6 +1,8 @@
 import Component from '../core/component.js';
 import { Router } from '../core/router.js';
 
+const FEEDBACK_FORM_URL = 'https://form.naver.com/response/4PP24rE9375VNkjCGeBItg';
+
 export default class IntroView extends Component {
   template() {
     return `
@@ -12,9 +14,14 @@ export default class IntroView extends Component {
         </div>
         <div class="intro-action-stack">
           <button id="start-btn" class="btn-primary">블라인드 정책 매칭 시작</button>
+          <button id="mbti-btn" class="btn-mbti">정치 MBTI 테스트 열기</button>
           <button id="learning-btn" class="btn-secondary">정치 학습 센터</button>
           <button id="community-btn" class="btn-secondary">익명 정책 게시판</button>
-          <button id="mbti-btn" class="btn-ghost">정치 MBTI 테스트 열기</button>
+          <a class="btn-secondary feedback-link"
+             href="${FEEDBACK_FORM_URL}"
+             target="_blank"
+             rel="noopener noreferrer"
+             role="button">피드백 제출</a>
         </div>
       </div>
     `;

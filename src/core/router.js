@@ -4,6 +4,23 @@
 import { appStore } from './store.js';
 
 export const Router = {
+  restart() {
+    appStore.setState({
+      view: 'intro',
+      metro: '',
+      district: '',
+      regionData: null,
+      prefAnswers: [],
+      selectedElectionId: null,
+      selectedConstituency: '',
+      blindQueue: [],
+      blindAnswers: [],
+      finalRank: [],
+      isResultRevealed: false
+    });
+    window.scrollTo(0, 0);
+  },
+
   // 화면 전환 (히스토리 스택 관리 등)
   navigate(viewName) {
     appStore.setState({ view: viewName });
