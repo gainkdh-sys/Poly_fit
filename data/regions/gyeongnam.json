@@ -319,7 +319,34 @@
         "status": "등록",
         "regdate": "",
         "kind": "candidate"
-      }
+      },
+      "pledgeItems": [
+        {
+          "realm": "",
+          "title": "시·군 단위 실질적 교육 자치 실현",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "학교와 교사에게 힘이 되는 교육 행정",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "교육 대전환을 위한 제도 개선",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "업무 정상화로 교육 본질 회복 (업무 40% 감축)",
+          "content": ""
+        },
+        {
+          "realm": "",
+          "title": "미래의 문을 여는 질문, 경남형 철학 교육 도입",
+          "content": ""
+        }
+      ]
     },
     {
       "id": 100153770,
