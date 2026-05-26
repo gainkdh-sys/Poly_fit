@@ -486,6 +486,8 @@ def fetch_nec_candidates(
                 rows = matching_raw_rows(fallback_rows, sg_id, sd_name, sg_typecode)
                 if rows:
                     log(f"  조회 실패, 기존 NEC raw 스냅샷 {len(rows)}건으로 보존합니다: {failure}")
+                elif fallback_rows:
+                    log(f"  조회 실패, 기존 NEC raw 스냅샷에도 없어 0건으로 유지합니다: {failure}")
                 else:
                     log(f"  조회 실패, 대체 스냅샷이 없어 전체 동기화를 중단합니다: {failure}")
                     failures.append(failure)
