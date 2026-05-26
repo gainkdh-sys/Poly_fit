@@ -417,6 +417,39 @@ def candidate_source_label(kind: str) -> str:
     return "공식 후보자" if kind == "candidate" else "예비후보자"
 
 
+def load_existing_raw_rows() -> list[dict[str, Any]]:
+    raw_path = RAW_DIR / "latest.json"
+    if not raw_path.exists():
+        return []
+
+    try:
+        data = json.loads(raw_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        log(f"기존 NEC raw 스냅샷을 읽지 못했습니다: {exc}")
+        return []
+
+    if not isinstance(data, list):
+        log("기존 NEC raw 스냅샷 형식이 배열이 아니어서 재사용하지 않습니다.")
+        return []
+
+    return [row for row in data if isinstance(row, dict)]
+
+
+def matching_raw_rows(
+    rows: list[dict[str, Any]],
+    sg_id: str,
+    sd_name: str,
+    sg_typecode: str,
+) -> list[dict[str, Any]]:
+    return [
+        row
+        for row in rows
+        if str(row.get("sgId") or "").strip() == sg_id
+        and str(row.get("sdName") or "").strip() == sd_name
+        and str(row.get("sgTypecode") or "").strip() == sg_typecode
+    ]
+
+
 def fetch_nec_candidates(
     service_key: str,
     sg_id: str,
@@ -424,10 +457,12 @@ def fetch_nec_candidates(
     sd_names: list[str],
     sg_typecodes: list[str],
     pause: float,
+    fallback_rows: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     endpoint = official_endpoint_for(kind)
     all_rows: list[dict[str, Any]] = []
     failures: list[str] = []
+    fallback_rows = fallback_rows or []
 
     for sd_name in sd_names:
         for sg_typecode in sg_typecodes:
@@ -448,9 +483,12 @@ def fetch_nec_candidates(
                 )
             except RuntimeError as exc:
                 failure = f"{sd_name} / {ELECTION_TYPE_NAMES.get(sg_typecode, sg_typecode)}: {exc}"
-                log(f"  조회 실패, 전체 동기화를 중단합니다: {failure}")
-                failures.append(failure)
-                rows = []
+                rows = matching_raw_rows(fallback_rows, sg_id, sd_name, sg_typecode)
+                if rows:
+                    log(f"  조회 실패, 기존 NEC raw 스냅샷 {len(rows)}건으로 보존합니다: {failure}")
+                else:
+                    log(f"  조회 실패, 대체 스냅샷이 없어 전체 동기화를 중단합니다: {failure}")
+                    failures.append(failure)
             log(f"  수집 {len(rows)}건")
             all_rows.extend(rows)
             if pause:
@@ -461,7 +499,7 @@ def fetch_nec_candidates(
         if len(failures) > 20:
             details += f"\n- ... 외 {len(failures) - 20}건"
         raise RuntimeError(
-            "NEC 후보자 API 일부 조회가 실패하여 불완전한 data/regions 생성을 막기 위해 중단합니다.\n"
+            "NEC 후보자 API 일부 조회가 실패했고 기존 스냅샷으로도 보존할 수 없어 중단합니다.\n"
             f"{details}"
         )
 
@@ -893,8 +931,20 @@ def main() -> int:
         )
         return 2
 
+    fallback_rows = load_existing_raw_rows()
+    if fallback_rows:
+        log(f"기존 NEC raw 스냅샷 로드: {len(fallback_rows)}건")
+
     log(f"NEC sync start: sgId={args.sg_id}, kind={kind}, pledges={fetch_pledges}, dryRun={args.dry_run}")
-    raw_rows = fetch_nec_candidates(args.candidate_service_key, args.sg_id, kind, sd_names, sg_typecodes, args.pause)
+    raw_rows = fetch_nec_candidates(
+        args.candidate_service_key,
+        args.sg_id,
+        kind,
+        sd_names,
+        sg_typecodes,
+        args.pause,
+        fallback_rows,
+    )
     log(f"NEC raw rows: {len(raw_rows)}")
 
     if args.write_raw and not args.dry_run:
