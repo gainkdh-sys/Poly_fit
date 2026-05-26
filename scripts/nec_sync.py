@@ -29,6 +29,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
@@ -220,22 +221,112 @@ def build_url(endpoint: str, params: dict[str, Any], service_key: str) -> str:
     return f"{endpoint}?{query}"
 
 
+def parse_xml_error(raw_text: str) -> str | None:
+    """공공데이터포털(data.go.kr)이 반환하는 XML 에러 메시지를 파싱합니다."""
+    if not ("<OpenAPI_ServiceResponse>" in raw_text or "<cmmMsgHeader>" in raw_text):
+        return None
+    try:
+        root = ET.fromstring(raw_text)
+        # returnAuthMsg 또는 errMsg 태그를 검색
+        auth_msg = root.find(".//returnAuthMsg")
+        reason_code = root.find(".//returnReasonCode")
+        err_msg = root.find(".//errMsg")
+        
+        parts = []
+        if auth_msg is not None and auth_msg.text:
+            parts.append(f"인증 오류 메시지: {auth_msg.text.strip()}")
+        if reason_code is not None and reason_code.text:
+            parts.append(f"이유 코드: {reason_code.text.strip()}")
+        if err_msg is not None and err_msg.text:
+            parts.append(f"상세 에러: {err_msg.text.strip()}")
+            
+        if parts:
+            return " | ".join(parts)
+    except Exception:
+        pass
+    
+    # 예외 발생 시 문자열 매칭으로 구제 시도
+    if "SERVICE_KEY_IS_NOT_REGISTERED_ERROR" in raw_text:
+        return "인증 오류: SERVICE_KEY_IS_NOT_REGISTERED_ERROR (공공데이터포털에 등록되지 않았거나 동기화 지연 중인 서비스 키)"
+    return "공공데이터포털 내부 XML 에러 응답 수신"
+
+
 def request_json(endpoint: str, params: dict[str, Any], service_key: str, timeout: int = 20) -> dict[str, Any]:
     url = build_url(endpoint, params, service_key)
-    req = urllib.request.Request(url, headers={"Accept": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as res:
-            raw = res.read().decode("utf-8", errors="replace")
-    except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"HTTP {exc.code} from NEC API: {body[:300]}") from exc
-    except urllib.error.URLError as exc:
-        raise RuntimeError(f"NEC API connection failed: {exc}") from exc
+    # 보안 조치: 에러 로그 출력 시 실제 API Service Key를 마스킹하여 키 유출 방지
+    parsed_url = urllib.parse.urlparse(url)
+    query_parts = urllib.parse.parse_qs(parsed_url.query)
+    if "serviceKey" in query_parts:
+        query_parts["serviceKey"] = ["***MASKED***"]
+    masked_query = urllib.parse.urlencode(query_parts, doseq=True)
+    masked_url = f"{parsed_url.scheme}://{parsed_url.netloc}{parsed_url.path}?{masked_query}"
 
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError as exc:
-        raise RuntimeError(f"NEC API returned non-JSON response: {raw[:300]}") from exc
+    req = urllib.request.Request(url, headers={"Accept": "application/json"})
+    
+    max_retries = 3
+    base_delay = 2.0  # 초 단위 초기 지연 시간
+    
+    for attempt in range(1, max_retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as res:
+                raw = res.read().decode("utf-8", errors="replace")
+                
+            # 엣지 케이스 3-1: 응답이 완전히 비어있는 경우 방어
+            if not raw.strip():
+                raise RuntimeError("API 응답 바디가 완전히 비어 있습니다.")
+                
+            # JSON 파싱 시도
+            try:
+                data = json.loads(raw)
+            except json.JSONDecodeError as exc:
+                # 엣지 케이스 2: 공공데이터포털 XML 에러 응답 파싱 및 구체적 원인 진단
+                xml_err = parse_xml_error(raw)
+                if xml_err:
+                    raise RuntimeError(
+                        f"공공데이터포털(data.go.kr) 서비스 인증 에러가 감지되었습니다.\n"
+                        f"  [상세 원인] {xml_err}\n"
+                        f"  [조치 사항] GitHub Secrets의 API Key 값이 공공데이터포털에 승인된 활성 상태의 디코딩/인코딩 키인지 확인하십시오."
+                    ) from exc
+                raise RuntimeError(
+                    f"NEC API가 JSON이 아닌 비표준 응답을 반환했습니다. (앞부분 200자): {raw[:200]}"
+                ) from exc
+
+            # 엣지 케이스 3-2: JSON 결과 내에 비즈니스적인 에러 코드가 들어있는지 검사 (공공데이터포털 특성)
+            # 간혹 HTTP 200 상태 코드로 오지만 바디 내에 에러 헤더가 숨겨진 경우 처리
+            header = data.get("response", {}).get("header", {}) if isinstance(data, dict) and "response" in data else {}
+            result_code = header.get("resultCode") or ""
+            result_msg = header.get("resultMsg") or ""
+            
+            if result_code and result_code not in {"00", "INFO-00"}:
+                # 엣지 케이스 2-2: 키가 유효하지 않거나 일일 제한 한도 초과 등 비즈니스 오류 대처
+                raise RuntimeError(
+                    f"NEC API 비즈니스 오류 반환 (코드: {result_code}, 메시지: {result_msg})"
+                )
+                
+            return data
+
+        except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError) as exc:
+            # 엣지 케이스 1: 네트워크 지연, 5xx 서버 장애 등 복구 가능한 일시적 오류에 대한 재시도(지수 백오프)
+            is_recoverable = True
+            
+            # 클라이언트 에러(HTTP 400 Bad Request, 401 Unauthorized, 403 Forbidden)는 영구적 에러이므로 재시도 배제
+            if isinstance(exc, urllib.error.HTTPError):
+                if exc.code in {400, 401, 403}:
+                    is_recoverable = False
+            
+            # 영구적인 인증 오류(SERVICE_KEY_IS_NOT_REGISTERED_ERROR)의 경우는 재시도해도 불가능하므로 즉시 실패 처리
+            exc_str = str(exc)
+            if "SERVICE_KEY_IS_NOT_REGISTERED_ERROR" in exc_str or "서비스 인증 에러" in exc_str:
+                is_recoverable = False
+                
+            if attempt < max_retries and is_recoverable:
+                delay = base_delay * (2 ** (attempt - 1))
+                log(f"[경고] API 호출 실패 (시도 {attempt}/{max_retries}): {exc}. {delay}초 후 재시도합니다... (대상 URL: {masked_url})")
+                time.sleep(delay)
+            else:
+                # 마지막 시도 실패 또는 복구 불가능한 오류의 경우 상세 로깅 후 예외 전파
+                log(f"[에러] API 호출 최종 실패 (대상 URL: {masked_url})")
+                raise RuntimeError(f"NEC API 호출이 최종 실패했습니다. 원인: {exc}") from exc
 
 
 def find_body(payload: dict[str, Any]) -> dict[str, Any]:
