@@ -3200,34 +3200,7 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "재건축·재개발 직접 지원 2조 원 및 10조 원 기금 조성 지원",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "성남 글로벌 첨단산업 다이아몬드형 벨트 완성",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "청년 기초자산 쌓기 5종 세트(청년 미래 희망 프로젝트)",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "존엄한 죽음을 맞이하는 성남형 「내집 생애말기 케어」및 무료접종 확대",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "지하철 사각지대 해소 및 철도망 확충",
-              "content": ""
-            }
-          ]
+          }
         },
         {
           "id": 100157116,
@@ -22479,7 +22452,7 @@
             "sggName": "용인시라선거구",
             "sdName": "경기도",
             "wiwName": "용인시기흥구",
-            "status": "등록",
+            "status": "등록무효",
             "regdate": "",
             "kind": "candidate"
           },

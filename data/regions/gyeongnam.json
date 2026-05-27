@@ -144,37 +144,10 @@
         "sggName": "경상남도",
         "sdName": "경상남도",
         "wiwName": "",
-        "status": "등록",
+        "status": "사퇴",
         "regdate": "",
         "kind": "candidate"
-      },
-      "pledgeItems": [
-        {
-          "realm": "",
-          "title": "지역순환 경제체계 마련",
-          "content": ""
-        },
-        {
-          "realm": "",
-          "title": "노동중심 경남도정 실현",
-          "content": ""
-        },
-        {
-          "realm": "",
-          "title": "공공이 책임지는 돌봄 의료",
-          "content": ""
-        },
-        {
-          "realm": "",
-          "title": "농민이 웃을 수 있는 ‘농업 공공성 강화 및 농민 생존권 보장’",
-          "content": ""
-        },
-        {
-          "realm": "",
-          "title": "땀 흘려 일하는 사람들을 위한 '경남형 일자리 보장제' 및 '부울경 일자리 동맹' 구축",
-          "content": ""
-        }
-      ]
+      }
     }
   ],
   "superintendent": [
@@ -16726,9 +16699,10 @@
           "imageUrl": "https://ui-avatars.com/api/?name=%EB%A5%98%EA%B2%BD%EC%99%84&background=1e40af&color=fff&size=128",
           "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
           "pledges": {
-            "culture": "남해섬 정원 조성 및 정원문화산업 플랫폼 구축",
-            "housing": "인구 5만 자립도시를 위한 정주 여건 개선",
-            "environment": "농업 인력지원 및 영농대행 확대, 외국인 근로자 숙소 건립 / 24시간 안심 출산 환경 조성 및 지원 강화"
+            "transport": "남해-대전선 철도건설 사업을 2026년 제5차 국가철도망 구축계획에 반영",
+            "culture": "남해섬 전체를 정원의 섬으로 만드는 정원관광산업 추진",
+            "housing": "탄소중립, 에너지 자립도시 추진",
+            "environment": "광양만권 경제자유구역 편입 조속 추진 / 농어촌 기본소득 시범사업 넘어 본 사업 정착 추진"
           },
           "pledgeSource": "nec_official",
           "pledgeSourceLabel": "선관위 공식 공약",
@@ -16747,27 +16721,27 @@
           "pledgeItems": [
             {
               "realm": "",
-              "title": "인구 5만 자립도시를 위한 정주 여건 개선",
+              "title": "남해섬 전체를 정원의 섬으로 만드는 정원관광산업 추진",
               "content": ""
             },
             {
               "realm": "",
-              "title": "남해섬 정원 조성 및 정원문화산업 플랫폼 구축",
+              "title": "남해-대전선 철도건설 사업을 2026년 제5차 국가철도망 구축계획에 반영",
               "content": ""
             },
             {
               "realm": "",
-              "title": "농업 인력지원 및 영농대행 확대, 외국인 근로자 숙소 건립",
+              "title": "광양만권 경제자유구역 편입 조속 추진",
               "content": ""
             },
             {
               "realm": "",
-              "title": "24시간 안심 출산 환경 조성 및 지원 강화",
+              "title": "탄소중립, 에너지 자립도시 추진",
               "content": ""
             },
             {
               "realm": "",
-              "title": "남해형 햇빛소득·탄소소득으로 2배 소득화 시스템 구축",
+              "title": "농어촌 기본소득 시범사업 넘어 본 사업 정착 추진",
               "content": ""
             }
           ]
