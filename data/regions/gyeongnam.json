@@ -7893,37 +7893,10 @@
             "sggName": "김해시",
             "sdName": "경상남도",
             "wiwName": "김해시",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "김해형 직접 민주주의 실현",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "주민주권 예산 비율 2%로 확대",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "김해형 일자리 보장제",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "아동 전담 야간 응급 체계 마련",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "시내버스 공영화 : 버스를 시민의 버스로!",
-              "content": ""
-            }
-          ]
+          }
         }
       ],
       "provincial_council": [

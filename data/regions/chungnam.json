@@ -12685,37 +12685,10 @@
             "sggName": "홍성군",
             "sdName": "충청남도",
             "wiwName": "홍성군",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
-          },
-          "pledgeItems": [
-            {
-              "realm": "",
-              "title": "홍성형 에너지 기본수당 연 300만 원 지급",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "홍성 농산물유통공사 설립 및 100만 도시소비자 플랫폼 구축",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "홍성군 산업 엑스포' 정례 개최",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "평택~부여 간 고속도로 장곡면 IC 신설 및 광천까지 4차선 도로 개설",
-              "content": ""
-            },
-            {
-              "realm": "",
-              "title": "홍주 쇼핑센터 철거 및 공간 재배치를 통한 '전국 10대 전통시장' 육성",
-              "content": ""
-            }
-          ]
+          }
         }
       ],
       "provincial_council": [
