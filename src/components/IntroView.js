@@ -1,7 +1,7 @@
 import Component from '../core/component.js';
 import { Router } from '../core/router.js';
 
-const FEEDBACK_FORM_URL = 'https://form.naver.com/response/4PP24rE9375VNkjCGeBItg';
+const FEEDBACK_FORM_URL = 'https://naver.me/GFssGifo';
 
 export default class IntroView extends Component {
   template() {

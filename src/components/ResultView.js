@@ -9,7 +9,7 @@ import {
   resolveCandidatePhotoMeta
 } from '../utils/photos.js';
 
-const FEEDBACK_FORM_URL = 'https://form.naver.com/response/4PP24rE9375VNkjCGeBItg';
+const FEEDBACK_FORM_URL = 'https://naver.me/GFssGifo';
 
 const SCORE_LABELS = {
   5: '매우 동의',
