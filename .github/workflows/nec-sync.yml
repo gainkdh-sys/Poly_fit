@@ -44,6 +44,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install PDF parser
+        run: python3 -m pip install pypdf certifi
+
       - name: Sync NEC data
         env:
           NEC_SERVICE_KEY: ${{ secrets.NEC_SERVICE_KEY }}
@@ -67,7 +70,7 @@ jobs:
             PLEDGE_FLAG="--with-pledges"
           fi
 
-          python3 scripts/nec_sync.py --kind "$INPUT_KIND" $PLEDGE_FLAG --write-raw
+          python3 scripts/nec_sync.py --kind "$INPUT_KIND" $PLEDGE_FLAG --with-brochures --write-raw
 
       - name: Commit updated data
         run: |

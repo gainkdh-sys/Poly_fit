@@ -17,6 +17,33 @@ const ELECTION_DESCRIPTIONS = {
 const CONSTITUENCY_ELECTIONS = new Set(['provincial_council', 'city_council']);
 const COUNCIL_POLICY_LIMIT = 3;
 const COUNCIL_DEFAULT_GROUPS = ['welfare', 'transport', 'housing'];
+const PENDING_PLEDGE_MARKERS = [
+  '공식 공약 데이터가 선관위에 공개되면',
+  '예비후보자 공약 데이터가 선관위에 공개되면',
+  '공약 데이터 준비 중',
+  '공약 자료 준비 중',
+  '개별 공약 공개자료 확인 중',
+  '공개자료 확인 후 반영',
+  '해당 분야 공약 데이터 준비 중'
+];
+
+const PLEDGE_GROUP_KEYWORDS = {
+  welfare: ['복지', '돌봄', '의료', '보건', '약자', '청년', '노인', '아동', '여성', '출산', '안전', '먹거리'],
+  education: ['교육', '학교', '학생', '대학', '학습', '인재', '학력', '서울런'],
+  transport: ['교통', '통근', '철도', '도로', '버스', '지하철', '이동', 'GTX', '노선'],
+  culture: ['문화', '예술', '체육', '관광', '한강', '랜드마크', '노들섬', '창작'],
+  housing: ['주거', '주택', '재건축', '재개발', '공급', '임대', '전월세', '1인 가구'],
+  environment: ['환경', '기후', '탄소', '녹지', '에너지', '산업', '일자리', 'AI', '규제', '노동권', '자원순환']
+};
+
+const GROUP_LABELS = {
+  welfare: '복지',
+  education: '교육',
+  transport: '교통',
+  culture: '문화',
+  housing: '주거',
+  environment: '산업'
+};
 
 export const ELECTION_ORDER = [
   'governor',
@@ -155,11 +182,28 @@ export function getAvailableElections(regionData, district) {
 }
 
 export function getPledgeText(candidate, category) {
-  if (!candidate || !category) return '해당 분야 공약 데이터 준비 중';
+  if (!candidate || !category) return '';
 
-  return candidate.pledges?.[category.id]
-    || candidate.pledges?.[category.group]
-    || '해당 분야 공약 데이터 준비 중';
+  const directPledge = candidate.pledges?.[category.id] || candidate.pledges?.[category.group];
+  if (directPledge && !isPendingPledgeText(directPledge)) {
+    return directPledge;
+  }
+
+  return '';
+}
+
+function isPendingPledgeText(text) {
+  const value = String(text || '').trim();
+  return !value || PENDING_PLEDGE_MARKERS.some(marker => value.includes(marker));
+}
+
+function formatPledgeItem(item) {
+  const title = String(item?.title || '').trim();
+  const content = String(item?.content || '').trim();
+
+  if (!title && !content) return '';
+  if (!content || content === title || content.includes(title)) return title || content;
+  return `${title} - ${content}`;
 }
 
 function getFirstCategoryByGroup(categories) {
@@ -169,6 +213,78 @@ function getFirstCategoryByGroup(categories) {
     }
     return acc;
   }, {});
+}
+
+function inferPledgeGroupFromText(text) {
+  const value = String(text || '');
+  const matched = Object.entries(PLEDGE_GROUP_KEYWORDS).find(([, keywords]) => (
+    keywords.some(keyword => value.includes(keyword))
+  ));
+
+  return matched?.[0] || 'environment';
+}
+
+function inferPledgeGroup(realm, pledge) {
+  const realmText = String(realm || '');
+  if (realmText) {
+    const realmGroup = inferPledgeGroupFromText(realmText);
+    if (realmGroup !== 'environment' || /환경|기후|탄소|녹지|에너지|산업|일자리|AI|규제|노동권|자원순환/.test(realmText)) {
+      return realmGroup;
+    }
+  }
+
+  return inferPledgeGroupFromText(pledge);
+}
+
+function categoryForGroup(coreData, group) {
+  const firstByGroup = getFirstCategoryByGroup(coreData.categories || []);
+  return firstByGroup[group] || {
+    id: group,
+    group,
+    name: GROUP_LABELS[group] || '정책'
+  };
+}
+
+function buildOfficialPledgeItems(coreData, candidate) {
+  const seen = new Set();
+  const queueItems = [];
+
+  (candidate.pledgeItems || []).forEach((item, index) => {
+    const pledge = formatPledgeItem(item);
+    if (isPendingPledgeText(pledge) || seen.has(pledge)) return;
+
+    const group = inferPledgeGroup(item.realm, pledge);
+    const category = categoryForGroup(coreData, group);
+    seen.add(pledge);
+    queueItems.push({
+      id: `pledge:${candidate.id}:${index}`,
+      candId: candidate.id,
+      catId: category.id,
+      catName: category.name,
+      group: category.group,
+      pledge,
+      sourceLabel: getPledgeSourceLabel(candidate)
+    });
+  });
+
+  if (queueItems.length > 0) return queueItems;
+
+  return Object.entries(candidate.pledges || {}).reduce((items, [group, pledge]) => {
+    if (isPendingPledgeText(pledge) || seen.has(pledge)) return items;
+
+    const category = categoryForGroup(coreData, group);
+    seen.add(pledge);
+    items.push({
+      id: `pledge:${candidate.id}:${group}`,
+      candId: candidate.id,
+      catId: category.id,
+      catName: category.name,
+      group: category.group,
+      pledge,
+      sourceLabel: getPledgeSourceLabel(candidate)
+    });
+    return items;
+  }, []);
 }
 
 function getCouncilPolicyCategories(coreData, candidate) {
@@ -189,6 +305,7 @@ function getPledgeSourceLabel(candidate) {
 
   const sourceLabels = {
     nec_official: '선관위 공식 공약',
+    nec_official_brochure: '선관위 공식 공약·선거공보',
     party_policy: '정당정책 기반 참고',
     pending_public_search: '공개자료 확인 중',
     pending_nec: '선관위 공약 공개 전'
@@ -214,14 +331,18 @@ export function buildBlindEvaluationQueue(coreData, candidates) {
         group: category.group,
         pledge: getPledgeText(candidate, category),
         sourceLabel: getPledgeSourceLabel(candidate)
-      }));
+      })).filter(item => !isPendingPledgeText(item.pledge));
     }).sort(() => Math.random() - 0.5);
   }
 
-  return coreData.categories.flatMap((category) => {
-    const shuffledCandidates = [...candidates].sort(() => Math.random() - 0.5);
+  const officialQueue = candidates.flatMap(candidate => buildOfficialPledgeItems(coreData, candidate));
 
-    return shuffledCandidates.map((candidate) => ({
+  if (officialQueue.length > 0) {
+    return officialQueue.sort(() => Math.random() - 0.5);
+  }
+
+  const queue = coreData.categories.flatMap((category) => (
+    candidates.map((candidate) => ({
       id: `${category.id}:${candidate.id}`,
       candId: candidate.id,
       catId: category.id,
@@ -229,8 +350,11 @@ export function buildBlindEvaluationQueue(coreData, candidates) {
       group: category.group,
       pledge: getPledgeText(candidate, category),
       sourceLabel: getPledgeSourceLabel(candidate)
-    }));
-  });
+    })).filter(item => !isPendingPledgeText(item.pledge))
+  ));
+
+  // 전체 질문을 완벽히 무작위로 섞어 동일 카테고리나 질문이 연속 노출되는 피로도를 차단
+  return queue.sort(() => Math.random() - 0.5);
 }
 
 export function createCampaignSearchUrl(candidate) {

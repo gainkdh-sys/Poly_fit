@@ -22,8 +22,11 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import io
 import json
 import os
+import re
+import ssl
 import sys
 import time
 import urllib.error
@@ -43,9 +46,31 @@ PLEDGE_BASE = "http://apis.data.go.kr/9760000/ElecPrmsInfoInqireService"
 PRE_CANDIDATE_ENDPOINT = f"{CANDIDATE_BASE}/getPoelpcddRegistSttusInfoInqire"
 CANDIDATE_ENDPOINT = f"{CANDIDATE_BASE}/getPofelcddRegistSttusInfoInqire"
 PLEDGE_ENDPOINT = f"{PLEDGE_BASE}/getCnddtElecPrmsInfoInqire"
+POLICY_BASE = "https://policy.nec.go.kr"
+POLICY_CDN_BASE = "https://cdn.nec.go.kr/policy_pdf"
+POLICY_REGION_ENDPOINT = f"{POLICY_BASE}/plc/commiment/initUCACommimentRegion.do"
+POLICY_LIST_ENDPOINT = f"{POLICY_BASE}/plc/commiment/initUCACommimentList.do"
 
 DEFAULT_SG_ID = "20260603"
 OFFICIAL_CANDIDATE_START = dt.date(2026, 5, 14)
+BROCHURE_SUPPORTED_CODES = {"3"}
+BROCHURE_MAX_ITEMS = 8
+BROCHURE_ACTION_KEYWORDS = (
+    "확대", "추진", "조성", "구축", "개선", "강화", "공급", "지원", "도입", "완성",
+    "신설", "연결", "활성화", "전환", "보장", "해소", "재편", "대폭", "마련",
+    "실현", "육성", "유치", "확충", "회복", "개편", "혁신", "보호", "돌봄", "해결",
+    "만들", "키우", "높이", "늘리", "줄이", "바꾸", "살리", "누리", "열겠", "하겠",
+    "안전", "무상", "무료", "공공", "교통비", "패스", "주택", "상한제", "공영제",
+    "최저", "재개발", "재건축", "청년", "일자리", "임대료", "체류자", "추방",
+)
+BROCHURE_SKIP_KEYWORDS = (
+    "기호", "소속정당", "후보자성명", "생년월일", "재산", "병역", "납세", "체납",
+    "전과", "소명서", "학력", "경력", "선거공보", "제9회", "전국동시지방선거",
+    "책자형", "인적사항", "해당없음", "신고거부", "고지거부", "후보자 정보",
+    "누적", "방문객", "만명", "만호", "완료", "달성", "수료", "만족도",
+    "(현)", "(전)", "졸업", "출생", "재 산", "병 역", "배우자", "직계존속",
+    "직계비속", "벌금", "징역", "위반",
+)
 
 ELECTION_TYPE_MAP = {
     "3": "governor",
@@ -329,6 +354,65 @@ def request_json(endpoint: str, params: dict[str, Any], service_key: str, timeou
                 raise RuntimeError(f"NEC API 호출이 최종 실패했습니다. 원인: {exc}") from exc
 
 
+def policy_urlopen(req: urllib.request.Request, timeout: int):
+    try:
+        return urllib.request.urlopen(req, timeout=timeout)
+    except urllib.error.URLError as exc:
+        if "CERTIFICATE_VERIFY_FAILED" not in str(exc):
+            raise
+
+        try:
+            import certifi
+
+            context = ssl.create_default_context(cafile=certifi.where())
+            return urllib.request.urlopen(req, timeout=timeout, context=context)
+        except Exception:
+            parsed = urllib.parse.urlparse(req.full_url)
+            if parsed.hostname not in {"policy.nec.go.kr", "cdn.nec.go.kr"}:
+                raise
+            context = ssl._create_unverified_context()
+            return urllib.request.urlopen(req, timeout=timeout, context=context)
+
+
+def post_json(endpoint: str, params: dict[str, Any], timeout: int = 20) -> dict[str, Any]:
+    data = urllib.parse.urlencode(params).encode("utf-8")
+    req = urllib.request.Request(
+        endpoint,
+        data=data,
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "X-Requested-With": "XMLHttpRequest",
+            "User-Agent": "Mozilla/5.0 Poly-Fit data sync",
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+        },
+        method="POST",
+    )
+
+    try:
+        with policy_urlopen(req, timeout=timeout) as res:
+            raw = res.read().decode("utf-8", errors="replace")
+    except (urllib.error.HTTPError, urllib.error.URLError) as exc:
+        raise RuntimeError(f"정책·공약마당 요청 실패: {exc}") from exc
+
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"정책·공약마당이 JSON이 아닌 응답을 반환했습니다: {raw[:200]}") from exc
+
+
+def download_bytes(url: str, timeout: int = 25, max_bytes: int = 30_000_000) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 Poly-Fit data sync"})
+    try:
+        with policy_urlopen(req, timeout=timeout) as res:
+            content = res.read(max_bytes + 1)
+    except (urllib.error.HTTPError, urllib.error.URLError) as exc:
+        raise RuntimeError(f"파일 다운로드 실패: {exc}") from exc
+
+    if len(content) > max_bytes:
+        raise RuntimeError(f"파일이 너무 커서 건너뜁니다: {len(content)} bytes")
+    return content
+
+
 def find_body(payload: dict[str, Any]) -> dict[str, Any]:
     if "response" in payload:
         return payload.get("response", {}).get("body", {}) or {}
@@ -542,6 +626,140 @@ def fetch_candidate_pledges(
     return pledges
 
 
+def policy_sub_sg_id(sg_typecode: str, sg_id: str) -> str:
+    return f"{sg_typecode}{sg_id}"
+
+
+def fetch_policy_region_codes(sg_id: str, sg_typecode: str) -> dict[str, str]:
+    payload = post_json(
+        POLICY_REGION_ENDPOINT,
+        {"sgId": sg_id, "subSgId": policy_sub_sg_id(sg_typecode, sg_id)},
+    )
+    codes: dict[str, str] = {}
+    for row in payload.get("regionlist") or []:
+        name = str(row.get("wiwname") or "").strip()
+        code = str(row.get("wiwid") or "").strip()
+        if name and code:
+            codes[name] = code
+    return codes
+
+
+def parse_policy_fileinfo(fileinfo: str) -> dict[str, dict[str, str]]:
+    files: dict[str, dict[str, str]] = {}
+    for chunk in str(fileinfo or "").split(","):
+        parts = chunk.split("||")
+        if not parts or not parts[0]:
+            continue
+
+        label = parts[0].strip()
+        path = parts[1].strip() if len(parts) > 1 else ""
+        ocr_seq = parts[2].strip() if len(parts) > 2 else ""
+        open_status = parts[7].strip() if len(parts) > 7 else ""
+        if path and path != "/" and (not open_status or open_status == "01"):
+            files[label] = {
+                "path": path,
+                "url": f"{POLICY_CDN_BASE}/{path}",
+                "ocrSeq": ocr_seq,
+            }
+    return files
+
+
+def fetch_policy_candidate_files(
+    sg_id: str,
+    sg_typecode: str,
+    sd_names: list[str],
+) -> dict[str, dict[str, Any]]:
+    region_codes = fetch_policy_region_codes(sg_id, sg_typecode)
+    index: dict[str, dict[str, Any]] = {}
+
+    for sd_name in sd_names:
+        region_code = region_codes.get(sd_name)
+        if not region_code:
+            continue
+
+        payload = post_json(
+            POLICY_LIST_ENDPOINT,
+            {
+                "sgId": sg_id,
+                "subSgId": policy_sub_sg_id(sg_typecode, sg_id),
+                "hRegionId": region_code,
+                "hGuId": "",
+                "hSggId": "",
+                "sgTypecode": sg_typecode,
+                "pageIndex": "1",
+                "phGuId": "",
+                "elecEndYn": "N",
+            },
+        )
+        for row in payload.get("list") or []:
+            huboid = str(row.get("huboid") or "").strip()
+            if not huboid:
+                continue
+            index[huboid] = {
+                "files": parse_policy_fileinfo(str(row.get("fileinfo") or "")),
+                "photoUrl": f"https://cdn.nec.go.kr/photo_{row.get('sgId')}/{row.get('filename')}"
+                if row.get("filename") else "",
+            }
+    return index
+
+
+def clean_pdf_line(line: str) -> str:
+    line = re.sub(r"\s+", " ", line or "").strip()
+    line = re.sub(r"^[•ㆍ·\-\*○◦▪▶\s]+", "", line).strip()
+    line = line.replace("", "증가").replace("", "감소")
+    return line
+
+
+def is_policy_like_line(line: str) -> bool:
+    if len(line) < 12 or len(line) > 120:
+        return False
+    if not re.search(r"[가-힣]", line):
+        return False
+    if any(keyword in line for keyword in BROCHURE_SKIP_KEYWORDS):
+        return False
+    digit_ratio = sum(ch.isdigit() for ch in line) / max(len(line), 1)
+    if digit_ratio > 0.35:
+        return False
+    return any(keyword in line for keyword in BROCHURE_ACTION_KEYWORDS)
+
+
+def extract_brochure_pledges(pdf_bytes: bytes, max_items: int = BROCHURE_MAX_ITEMS) -> list[dict[str, str]]:
+    try:
+        from pypdf import PdfReader
+    except ImportError as exc:
+        raise RuntimeError("pypdf가 설치되어 있지 않아 선거공보 PDF를 읽을 수 없습니다.") from exc
+
+    reader = PdfReader(io.BytesIO(pdf_bytes))
+    text = "\n".join(page.extract_text() or "" for page in reader.pages)
+    seen: set[str] = set()
+    pledges: list[dict[str, str]] = []
+
+    for raw_line in text.splitlines():
+        line = clean_pdf_line(raw_line)
+        key = normalize_key(line)
+        if not is_policy_like_line(line) or key in seen:
+            continue
+
+        seen.add(key)
+        pledges.append({"realm": "선거공보", "title": line, "content": "", "source": "brochure_pdf"})
+        if len(pledges) >= max_items:
+            break
+
+    return pledges
+
+
+def fetch_brochure_pledges(policy_files: dict[str, Any], pause: float) -> list[dict[str, str]]:
+    brochure = (policy_files.get("files") or {}).get("선거공보")
+    if not brochure or not brochure.get("url"):
+        return []
+
+    pdf_bytes = download_bytes(brochure["url"])
+    pledges = extract_brochure_pledges(pdf_bytes)
+    if pause:
+        time.sleep(pause)
+    return pledges
+
+
 def pledge_group_for(pledge: dict[str, str]) -> str:
     haystack = f"{pledge.get('realm', '')} {pledge.get('title', '')} {pledge.get('content', '')}"
     for group, keywords in PLEDGE_GROUPS.items():
@@ -748,6 +966,49 @@ def merge_existing_fields(candidate: dict[str, Any], existing_index: dict[tuple[
     return candidate
 
 
+def existing_candidate_for_row(
+    row: dict[str, Any],
+    existing_index: dict[tuple[str, str, str, str], dict[str, Any]],
+) -> dict[str, Any] | None:
+    sg_typecode = str(row.get("sgTypecode") or "").strip()
+    election_type = ELECTION_TYPE_MAP.get(sg_typecode, "")
+    sd_name = str(row.get("sdName") or "").strip()
+    slug = SD_NAME_TO_SLUG.get(sd_name)
+    name = str(row.get("name") or row.get("krName") or "").strip()
+    district = "" if election_type in METRO_LEVEL_TYPES or not slug else district_for_row(row, slug)
+    key = (
+        normalize_key(sd_name),
+        normalize_key(district),
+        normalize_key(election_type),
+        normalize_key(name),
+    )
+    return existing_index.get(key)
+
+
+def reusable_existing_pledge_items(candidate: dict[str, Any] | None) -> list[dict[str, str]]:
+    if not candidate:
+        return []
+
+    items = candidate.get("pledgeItems") or []
+    reusable: list[dict[str, str]] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        title = str(item.get("title") or "").strip()
+        content = str(item.get("content") or "").strip()
+        if not title and not content:
+            continue
+        if is_placeholder_pledges({"pending": f"{title} {content}"}):
+            continue
+        reusable.append({
+            "realm": str(item.get("realm") or "").strip(),
+            "title": title,
+            "content": content,
+            **({"source": str(item.get("source"))} if item.get("source") else {}),
+        })
+    return reusable
+
+
 def convert_row(
     row: dict[str, Any],
     kind: str,
@@ -879,6 +1140,14 @@ def should_fetch_pledges(args: argparse.Namespace, kind: str) -> bool:
     return kind == "candidate"
 
 
+def should_fetch_brochures(args: argparse.Namespace, kind: str) -> bool:
+    if args.with_brochures:
+        return True
+    if args.no_brochures:
+        return False
+    return kind == "candidate"
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Sync NEC official candidate data into Poly Fit region JSON files.")
     parser.add_argument(
@@ -902,6 +1171,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--sg-typecode", action="append", choices=list(ELECTION_TYPE_MAP), help="Limit sync to a NEC election type code. Can be repeated.")
     parser.add_argument("--with-pledges", action="store_true", help="Fetch candidate pledge API too.")
     parser.add_argument("--no-pledges", action="store_true", help="Skip candidate pledge API.")
+    parser.add_argument("--with-brochures", action="store_true", help="Supplement governor pledges from official NEC campaign brochure PDFs.")
+    parser.add_argument("--no-brochures", action="store_true", help="Skip official campaign brochure PDF supplementation.")
     parser.add_argument("--write-raw", action="store_true", help="Write raw NEC rows to data/nec/latest.json.")
     parser.add_argument("--dry-run", action="store_true", help="Fetch and summarize without writing data/regions.")
     parser.add_argument("--pause", type=float, default=0.08, help="Pause between API requests in seconds.")
@@ -925,6 +1196,7 @@ def main() -> int:
     sd_names = args.sd_name or [config["metro"] for config in METRO_CONFIG.values()]
     sg_typecodes = args.sg_typecode or list(ELECTION_TYPE_MAP)
     fetch_pledges = should_fetch_pledges(args, kind)
+    fetch_brochures = should_fetch_brochures(args, kind)
     if fetch_pledges and not args.pledge_service_key:
         print(
             "ERROR: pledge API key is required when pledge sync is enabled. "
@@ -957,11 +1229,22 @@ def main() -> int:
 
     existing_index = existing_candidates()
     candidates: list[dict[str, Any]] = []
+    policy_file_index: dict[str, dict[str, Any]] = {}
+
+    if fetch_brochures:
+        for sg_typecode in sorted(BROCHURE_SUPPORTED_CODES.intersection(sg_typecodes)):
+            try:
+                policy_file_index.update(fetch_policy_candidate_files(args.sg_id, sg_typecode, sd_names))
+            except RuntimeError as exc:
+                log(f"선거공보 PDF 목록 조회 실패: {ELECTION_TYPE_NAMES.get(sg_typecode, sg_typecode)} / {exc}")
+        if policy_file_index:
+            log(f"선거공보 PDF 후보 매핑: {len(policy_file_index)}명")
 
     for idx, row in enumerate(raw_rows, start=1):
         sg_typecode = str(row.get("sgTypecode") or "").strip()
         huboid = str(row.get("huboid") or row.get("cnddtId") or "").strip()
         pledge_items: list[dict[str, str]] = []
+        existing_candidate = existing_candidate_for_row(row, existing_index)
 
         if fetch_pledges and huboid and sg_typecode in PLEDGE_SUPPORTED_CODES:
             try:
@@ -969,7 +1252,39 @@ def main() -> int:
             except RuntimeError as exc:
                 log(f"  공약 조회 실패: {row.get('name', '?')} / {exc}")
 
+        if not pledge_items:
+            pledge_items = reusable_existing_pledge_items(existing_candidate)
+
+        if fetch_brochures and huboid and sg_typecode in BROCHURE_SUPPORTED_CODES:
+            policy_files = policy_file_index.get(huboid) or {}
+            try:
+                brochure_items = fetch_brochure_pledges(policy_files, args.pause)
+            except RuntimeError as exc:
+                log(f"  선거공보 PDF 보강 실패: {row.get('name', '?')} / {exc}")
+                brochure_items = []
+
+            if brochure_items:
+                existing_titles = {normalize_key(item.get("title", "")) for item in pledge_items}
+                extras = [
+                    item for item in brochure_items
+                    if normalize_key(item.get("title", "")) not in existing_titles
+                ]
+                pledge_items.extend(extras)
+                log(f"  선거공보 PDF 보강: {row.get('name', '?')} / {len(extras)}건")
+
         candidate = convert_row(row, kind, pledge_items, existing_index)
+        if candidate and huboid in policy_file_index:
+            files = policy_file_index[huboid].get("files") or {}
+            brochure = files.get("선거공보")
+            five_pledges = files.get("5대공약")
+            if brochure:
+                candidate["brochureUrl"] = brochure.get("url")
+            if five_pledges:
+                candidate["pledgeSourceUrl"] = five_pledges.get("url")
+            if any(item.get("source") == "brochure_pdf" for item in pledge_items):
+                candidate["pledgeSource"] = "nec_official_brochure"
+                candidate["pledgeSourceLabel"] = "선관위 공식 공약·선거공보"
+                candidate["desc"] = "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다."
         if candidate:
             candidates.append(candidate)
 
