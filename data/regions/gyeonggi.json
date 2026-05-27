@@ -12,14 +12,14 @@
       "party": "더불어민주당",
       "bio": "정당인 | 한양대학교 법학과 졸업 | (전)더불어민주당 당대표 | (전)국회법제사법위원회 위원장",
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%B6%94%EB%AF%B8%EC%95%A0&background=1e40af&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "든든한 안심·복지 및 문화 향유 / 안심생활·안전일터 및 혁신행정",
         "transport": "교통생활권 주거",
         "environment": "수도권 30분 출근 대전환 / 함께 성장하는 대한민국 경제 1번지"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -57,8 +57,58 @@
           "realm": "",
           "title": "안심생활·안전일터 및 혁신행정",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "법과 정의가 국민을 위해 작동하도록 만들기 위해",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "이제 그 원칙과 추진력을 경기도를 위해 쓰겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "경기도의 변화를 만들겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "시민의 힘으로 참여정부 탄생의 밑거름을 만들었습니다",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "당대표가 된 후 시스템 공천으로 민주당의 체질을 바꾸고, 대통령선거와 지방선거 대승을 이끌며",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "국무회의 생중계, 일하는 정부를 만들고 있습니다",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "경기를 다시 ‘빠르고 강하고 공정하게’ 바꾸겠습니다",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "중앙 정부의 지원을 이끌어 낼 수 있는 리더",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/4100/003_100163148_20260525_2.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/4100/001_100163148_20260515_1.pdf"
     },
     {
       "id": 100163432,
@@ -118,7 +168,9 @@
           "title": "성장·전환·재도전 등 ‘삶을 바꾸는 복지’ 실현",
           "content": ""
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/4100/003_100163432_20260525_2.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/4100/001_100163432_20260515_1.pdf"
     },
     {
       "id": 100163471,
@@ -175,7 +227,9 @@
           "title": "AI 민원행정·악성민원 대응·1인 가구 안전망, 합리적이고 포용적인 경기도로 가는 시민 맞춤 정책",
           "content": ""
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/4100/003_100163471_20260523_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/4100/001_100163471_20260515_1.pdf"
     },
     {
       "id": 100153796,
@@ -187,13 +241,13 @@
       "party": "진보당",
       "bio": "정당인 | 서울대학교 대학원 정치학과 졸업(정치학 석사) | (전)진보당 수석대변인 | (현)화성노동인권센터 소장",
       "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%84%B1%EA%B7%9C&background=7c3aed&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "welfare": "경기도가 책임지는 '공공통합돌봄' 실현",
+        "welfare": "경기도가 책임지는 '공공통합돌봄' 실현 / \u0007 현)경기도\u0007교육청\u0007명예산업안전감독관",
         "environment": "노동부지사 임명, 노·정교섭 정례화 / 경기도형 '순환경제 모델' 로 수도권 쓰레기 문제 근본 해결"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -231,8 +285,58 @@
           "realm": "",
           "title": "차별금지조례 제정, 누구도 소외되지 않는 '평등한 경기도'",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "내란청산과 이재명 정부 사회대개혁 완성을 위해",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "\u0007 현)경기도\u0007교육청\u0007명예산업안전감독관",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "현)경기청년진보당\u0007대학생위원장",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "‘다시만들세계\u00072030위원회’\u0007부위원장",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "경기도가 책임지는 ‘공공통합돌봄’ 실현!",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "‘경기공공은행’ 설립으로 지역경제 선순환",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "‘경기도형 순환경제 모델’로 수도 문제 근본 해결",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "경기도형 ‘월 3만원 청년·서민 프리패스’ 도입",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/4100/003_100153796_20260523_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/4100/001_100153796_20260515_1.pdf"
     },
     {
       "id": 100158402,
@@ -291,7 +395,9 @@
           "title": "무상주택 실현",
           "content": ""
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/4100/003_100158402_20260523_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/4100/001_100158402_20260515_1.pdf"
     }
   ],
   "superintendent": [
@@ -3200,7 +3306,34 @@
             "status": "등록",
             "regdate": "",
             "kind": "candidate"
-          }
+          },
+          "pledgeItems": [
+            {
+              "realm": "",
+              "title": "재건축·재개발 직접 지원 2조 원 및 10조 원 기금 조성 지원",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "성남 글로벌 첨단산업 다이아몬드형 벨트 완성",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "청년 기초자산 쌓기 5종 세트(청년 미래 희망 프로젝트)",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "존엄한 죽음을 맞이하는 성남형 「내집 생애말기 케어」및 무료접종 확대",
+              "content": ""
+            },
+            {
+              "realm": "",
+              "title": "지하철 사각지대 해소 및 철도망 확충",
+              "content": ""
+            }
+          ]
         },
         {
           "id": 100157116,

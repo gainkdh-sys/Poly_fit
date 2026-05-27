@@ -12,14 +12,15 @@
       "party": "더불어민주당",
       "bio": "정당인 | 고려대학교 법학과 졸업 | (전) 제22대 울산 남구(갑) 국회의원 | (전) 국회 행정안전위원회 위원",
       "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%83%81%EC%9A%B1&background=1e40af&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
+        "welfare": "낡은 구조가 청년과 시민의",
         "transport": "시민의 이동권을 지키겠습니다. / 동북아 에너지 물류 허브 울산을 만들겠습니다.",
         "housing": "도시개발의 균형을 맞추겠습니다.",
         "environment": "노동이 존중받는 산업AX전환을 이루어내겠습니다. / 시민의 기본 삶을 지키겠습니다."
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -57,8 +58,58 @@
           "realm": "",
           "title": "도시개발의 균형을 맞추겠습니다.",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "낡은 구조가 청년과 시민의",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "공정한 혁신을 이끌겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "서민의 일자리는 사라집니다. AI 성과를",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "에너지 허브를 선점하겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "시민을 주인으로 받들고, 시민 이익에 충실하겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "오직, 시민 이익에 충실하겠다는 '대의'",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "오직 대의와 공심에 진정을 다하겠다는 '진심'",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "선거운동부터 바꾸겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/3100/003_100162996_20260521_2.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/3100/001_100162996_20260516_1.pdf"
     },
     {
       "id": 100163070,
@@ -70,14 +121,16 @@
       "party": "국민의힘",
       "bio": "울산광역시장 | 울산대학교 일반대학원 졸업(행정학박사) | (현)울산광역시장(민선 8대) | (전)울산광역시 남구청장(민선 3, 4대)",
       "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%91%90%EA%B2%B8&background=ef4444&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "welfare": "투자유치의 결실이 복지로 연결되도록 하겠습니다.",
+        "welfare": "투자유치의 결실이 복지로 연결되도록 하겠습니다. / 농어민 수당지급, 시립아동돌봄센터 운영,",
+        "education": "12만 학생에 친환경 농수산물 급식 공급,",
+        "transport": "어린이·어르신 버스요금 무료,",
         "housing": "일하기 좋은 도시로 만들겠습니다. / 즐겁고 품격있는 도시로 만들겠습니다.",
-        "environment": "미래 100년 산업을 키우겠습니다."
+        "environment": "미래 100년 산업을 키우겠습니다. / 신념과 추진력으로 위기의 울산을"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -115,8 +168,58 @@
           "realm": "",
           "title": "투자유치의 결실이 복지로 연결되도록 하겠습니다.",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "신념과 추진력으로 위기의 울산을",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "김두겸이 책임지고 열겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "“새로 만드는 위대한 울산의 완성,",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "여러분과 함께 만들어 가겠습니다.”",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "12만 학생에 친환경 농수산물 급식 공급,",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "어린이·어르신 버스요금 무료,",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "농어민 수당지급, 시립아동돌봄센터 운영,",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "급식비 지원, 청년주택공급, 염포산터널",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/3100/003_100163070_20260521_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/3100/001_100163070_20260514_1.pdf"
     },
     {
       "id": 100153854,
@@ -128,14 +231,15 @@
       "party": "진보당",
       "bio": "정당인 | 울산대학교 국어국문학과 졸업 | (전)제6대, 9대 울산광역시 동구청장 | (전)제20대 국회의원(울산광역시 동구)",
       "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EC%A2%85%ED%9B%88&background=7c3aed&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "울산의료원·24시간 어린이전문치료센터로 서울 치료원정 없는 울산 / 청년·문화·생활복지로 모두의 울산",
-        "transport": "버스노선 개편과 울산교통공사 설립으로 시민 이동권 보장",
+        "transport": "버스노선 개편과 울산교통공사 설립으로 시민 이동권 보장 / 시민중심 교통혁신 추진",
+        "housing": "청정에너지 수도 울산 실현 모두의 도시 울산",
         "environment": "사람중심 AI대전환으로 좋은 일자리 8만 개 창출 / 부유식 해상풍력과 울산에너지공사로 청정에너지 수도 울산 건설"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -173,8 +277,58 @@
           "realm": "",
           "title": "청년·문화·생활복지로 모두의 울산",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "은 민주인사들이 탄압받은 사건입니다. 특별사면복권되어 명예를 회복했습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "일자리가 걱정인 당신에게",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "전국 최초 ‘하청노동자 지원조례’를 시행하며",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "원·하청 격차 해소를 위해 노력했던 구청장",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "사람중심 AI대전환으로 일자리 8만개 창출 청년예산 5천억 원 시대!",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "5천억 고용상생기금으로 AI시대 일자리 보호 통합돌봄 전담기구 울산돌봄공사 설립",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "청정에너지 수도 울산 실현 모두의 도시 울산",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "시민중심 교통혁신 추진",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/3100/003_100153854_20260521_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/3100/001_100153854_20260516_1.pdf"
     },
     {
       "id": 100157730,
@@ -186,15 +340,16 @@
       "party": "무소속",
       "bio": "무직 | 동의대학교대학원 졸업(행정학박사) | (전)3,4,5대 울산광역시장 | (전)19,20대 국회의원(울산남구을)",
       "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%EB%A7%B9%EC%9A%B0&background=64748b&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "welfare": "청년이 떠나지 않는 도시 울산",
+        "welfare": "청년이 떠나지 않는 도시 울산 / 청년의 한숨과 자영업자의 탄식이 쌓여가도, 5천억원을 들여 공연장을 짓겠다고 합니다.",
+        "education": "근절하겠습니다. 부시장 직속의 감사관을 독립시켜 행정의 내부통제를 강화하고, 공무원 역량 교육",
         "culture": "역사와 미래가 공존하는 체류형 문화·관광 도시 울산",
         "housing": "저출산 정책, 아이키우기 좋은 도시 울산",
         "environment": "울산 경제주체가 참여하는 “울산경제진흥확대회의” 설립 및 운영 / 울산 산업 AI 대전환 및 신산업 육성"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -232,8 +387,58 @@
           "realm": "",
           "title": "청년이 떠나지 않는 도시 울산",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "청년의 한숨과 자영업자의 탄식이 쌓여가도, 5천억원을 들여 공연장을 짓겠다고 합니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "산업 경쟁력은 갈수록 떨어지고 인구는 회복 기미가 없습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "AGI시대 울산경제의 시대전환을 준비하겠습니다. AI산업혁신거점센터를 구축하고 울산형 반도체",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "청년의 창업과 일자리 대책 등 청년정책을 경제적 관점이 아니라 복지의 관점에서 추진하겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "의료 저출산 대책, 아이 키우기 좋은 울산, 노후를 위한 정책들도 더 과감하게 추진하겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "근절하겠습니다. 부시장 직속의 감사관을 독립시켜 행정의 내부통제를 강화하고, 공무원 역량 교육",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "시정혁신 취임과 동시에 추진하겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "복지혁신 복지의 개념을 ‘미래를 위한 투자’ 로 바꾸겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/3100/003_100157730_20260521_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/3100/001_100157730_20260516_1.pdf"
     }
   ],
   "superintendent": [

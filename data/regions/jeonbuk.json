@@ -12,13 +12,13 @@
       "party": "더불어민주당",
       "bio": "정당인 | 전북대학교 화학공업공학과 졸업 | (전)제21-22대 국회의원 | (전)전라북도 정무부지사",
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EC%9B%90%ED%83%9D&background=1e40af&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "housing": "국제에너지 도시 조성과 첨단산업 육성으로 전북 산업구조 대전환",
         "environment": "피지컬 AI 실증·테스트베드 구축 / 새만금 핵심 SOC 이재명 정부 임기내 완공 추진"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -56,8 +56,58 @@
           "realm": "",
           "title": "지갑은 채우고 골목은 살리는 ‘체감형 경제’ 실현",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "명예를 회복하였습니다.(민주화운동관련자 명예회복 및 보상 등에 관한 법률)",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "전북은 지금 중요한 전환점에 서 있습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "이재명 정부와 정청래 당대표의 전북 발전 의지를 실제 변화로 만들어야 합니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "그러기 위해서는 대통령실·중앙정부·민주당과 바로 연결되고,",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "성장하도록 모든 자원을 집중하겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "이를 통해 체감 경제를 살리고, 부가가치가 선순환하는",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "탄탄한 경제 생태계를 만들겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "기업 유치를 확대하고 미래 먹거리를 만들어가겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5300/003_100163170_20260518_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/5300/001_100163170_20260515_1.pdf"
     },
     {
       "id": 100163202,
@@ -115,7 +165,9 @@
           "title": "기업 유치 ‘인허가 고속도로팀’ 신설 및 대기업 세수 확대",
           "content": ""
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5300/003_100163202_20260522_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/5300/001_100163202_20260515_1.pdf"
     },
     {
       "id": 100162052,
@@ -173,7 +225,9 @@
           "title": "전통과 첨단이 결합한 K-컬처 관광객 2천만 시대",
           "content": ""
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5300/003_100162052_20260518_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/5300/001_100162052_20260515_1.pdf"
     },
     {
       "id": 100153829,
@@ -229,7 +283,9 @@
           "title": "지역순환경제시스템",
           "content": ""
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5300/003_100153829_20260522_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/5300/001_100153829_20260515_1.pdf"
     },
     {
       "id": 100163514,
@@ -286,7 +342,9 @@
           "title": "‘지방주도성장’대전환을 통해 전북을 5극 3특 체제의 핵심축으로 대도약",
           "content": ""
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5300/003_100163514_20260522_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/5300/001_100163514_20260515_1.pdf"
     }
   ],
   "superintendent": [

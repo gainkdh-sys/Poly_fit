@@ -12,14 +12,14 @@
       "party": "더불어민주당",
       "bio": "정당인 | 동국대학교 대학원 정치학과 졸업 | (전)부산 국회의원(제20대, 제21대, 제22대) | (전)해양수산부 장관",
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%84%EC%9E%AC%EC%88%98&background=1e40af&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "동행하는 돌봄·상생하는 복지, 바로 돌봄 도시 부산",
         "housing": "미래로 가는 AI 선도도시 부산",
         "environment": "행정·사법·금융·기업이 함께 완성하는 해양수도 부산 / 좋은 일자리가 넘쳐나는 부산"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -57,8 +57,58 @@
           "realm": "",
           "title": "동서를 잇고 남북을 열고 세계로 뻗어가는 부산",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "세상을 바꾸는 일을 하고 싶어",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "어머니 부산에 희망을 만들고 싶었습니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "일 잘하는 전재수가 부산을 살리겠습니다!",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "2030년 부산 엑스포 유치 실패,",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "해양·수산의 거대한 혁신이 시작되었습니다!",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "거대한 산업생태계와 엄청난 양질의 일자리가 만들어집니다!",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "부산 경제를 키우려면 산업에 돈이 돌아야 합니다.",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "혁신과 대형화를 이끌겠습니다.",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/2600/003_100163192_20260521_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/2600/001_100163192_20260515_1.pdf"
     },
     {
       "id": 100162954,
@@ -70,14 +120,15 @@
       "party": "국민의힘",
       "bio": "부산광역시장 | 고려대학교 대학원 사회학과 박사과정 졸업(문학박사) | (현)부산광역시장 | (전)국회사무총장",
       "imageUrl": "https://ui-avatars.com/api/?name=%EB%B0%95%ED%98%95%EC%A4%80&background=ef4444&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "부산찬스 - 30세에 1억, 청년이 부산에서 시작합니다.",
-        "transport": "월드클래스도시 부산 -가덕도신공항에서 글로벌 산업, 천만 관광도시까지",
+        "transport": "월드클래스도시 부산 -가덕도신공항에서 글로벌 산업, 천만 관광도시까지 / 어린이 교통요금 12세까지 무료 확대",
+        "housing": "AI 대전환 선도 도시",
         "environment": "부산형 AI- 부산의 미래 먹거리, 데이터산업과 AI로 만들겠습니다 / 동서남북 골고루 - 부산 어느곳이라도 더 가깝게"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -115,8 +166,58 @@
           "realm": "",
           "title": "부산최고시민 - 출발선부터 마지막 새벽까지, 부산이 곁에",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "5년간 투자 유치 19.4조원 역대 최고",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "어린이 교통요금 12세까지 무료 확대",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "어린이집 3~5세 무상보육 실시",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "동백패스 전국 최초 도입",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "조선 3사 R&D 센터 유치",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "AI 대전환 선도 도시",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "일자리 증가율 특•광역시 1위!",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "● 유료도로 출퇴근길 무료화",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/2600/003_100162954_20260521_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/2600/001_100162954_20260516_1.pdf"
     },
     {
       "id": 100155833,
@@ -128,12 +229,14 @@
       "party": "개혁신당",
       "bio": "개혁신당 대변인 | 부산대학교 행정대학원 행정학과 석사과정 재학 | (현) 개혁신당 중앙당 대변인 | (현) 개혁신당 부산시당위원장 직무대행",
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%A0%95%EC%9D%B4%ED%95%9C&background=f97316&color=fff&size=128",
-      "desc": "선관위 공식 후보자 데이터 기반 후보자입니다.",
+      "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
+        "welfare": "l 만6000J H ‘청년일자리’ 창출",
+        "transport": "가덕도 신공항과 연계 듀얼-허브 시스템 구축",
         "environment": "일자리 3대 공약 / 침례병원 재개원"
       },
-      "pledgeSource": "nec_official",
-      "pledgeSourceLabel": "선관위 공식 공약",
+      "pledgeSource": "nec_official_brochure",
+      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -171,8 +274,58 @@
           "realm": "",
           "title": "아이 낳고 키우기 좋은 부산 패키지",
           "content": ""
+        },
+        {
+          "realm": "선거공보",
+          "title": "가덕도 신공항과 연계 듀얼-허브 시스템 구축",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "3. 뎃플틱스 하우스’ 부산유치",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "l 만6000J H ‘청년일자리’ 창출",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "4. ‘스타링크 부산 ’ 프로젝트 유치",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "글로벌 조연결 인프라구축, 통신사각지대 해소",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "o~~國 건릴, 스포츠 OI i카 완성",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "=수 공급 (산청 덕산댐)",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "뱉길지하화및지상도심공원조성",
+          "content": "",
+          "source": "brochure_pdf"
         }
-      ]
+      ],
+      "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/2600/003_100155833_20260522_1.pdf",
+      "pledgeSourceUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/P5_PRMS_PUB/2600/001_100155833_20260515_1.pdf"
     }
   ],
   "superintendent": [
