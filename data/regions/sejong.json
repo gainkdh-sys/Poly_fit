@@ -59,7 +59,7 @@
         },
         {
           "realm": "선거공보",
-          "title": "국정과제 50번「행정수도 세종 완성」을 설계했습니다",
+          "title": "국정과제 50번행정수도 세종 완성을 설계했습니다",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -83,7 +83,7 @@
         },
         {
           "realm": "선거공보",
-          "title": "[행정수도 세종 완성] 설계",
+          "title": "행정수도 세종 완성] 설계",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -301,12 +301,6 @@
         {
           "realm": "선거공보",
           "title": "여민전 혜택 확대 등 세종시민들께",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "100% 사용하겠습니다!",
           "content": "",
           "source": "brochure_pdf"
         }

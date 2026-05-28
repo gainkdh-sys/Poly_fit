@@ -67,13 +67,13 @@
         },
         {
           "realm": "선거공보",
-          "title": "R&D센터 경남 이전 추진",
+          "title": "RD센터 경남 이전 추진",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "਋઱೦ҕ\u0001우주항공방산 메가클러스터 추진",
+          "title": "우주항공방산 메가클러스터 추진",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -125,7 +125,8 @@
       "pledges": {
         "welfare": "행복 UP 복지 - 경남도민 멤버십 카드 / 경남 청년연금",
         "transport": "경남과 대도시를 잇는 G-버스 도입 추진 / 경남형 대중교통 할인 서비스 경남패스 시행",
-        "environment": "글로벌 제조 피지컬 AI 기반 확충 / 30대 인구가 2년 연속 순유입으로 전환되었습니다."
+        "culture": "거제 기업혁신파크, 통영 복합 해양레저 관광도시 선정",
+        "environment": "글로벌 제조 피지컬 AI 기반 확충 / 대 인구가 2년 연속 순유입으로 전환되었습니다."
       },
       "pledgeSource": "nec_official_brochure",
       "pledgeSourceLabel": "선관위 공식 공약·선거공보",
@@ -181,13 +182,7 @@
         },
         {
           "realm": "선거공보",
-          "title": "30대 인구가 2년 연속 순유입으로 전환되었습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "1인 시위와 국회 방문, 국회의원 서한 전달까지 도민과 함께 끝까지 뛰어 ‘우주항공청’을 경남에 유치했습니다.",
+          "title": "대 인구가 2년 연속 순유입으로 전환되었습니다.",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -212,6 +207,12 @@
         {
           "realm": "선거공보",
           "title": "남해안 섬 연결 해상국도 노선 반영",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "거제 기업혁신파크, 통영 복합 해양레저 관광도시 선정",
           "content": "",
           "source": "brochure_pdf"
         }

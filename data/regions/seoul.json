@@ -15,7 +15,7 @@
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "도전과 실패가 경력이 되고 자산이 되는 청년창업수도 서울! / 24시간 공백 없는 아이돌봄 지원체계 구축",
-        "culture": "� 전국 최초 젠트리피케이션 방지 정책으로 소상공인 보호 추진",
+        "culture": "전국 최초 젠트리피케이션 방지 정책으로 소상공인 보호 추진",
         "housing": "30분 통근도시 실현으로 '시민에게 쉼표를'",
         "environment": "서울 공간 대전환 - 5도심·6광역중심 체계로의 전환 / 4050+센터와 시니어라이프캠퍼스로 서울시민 활력회복!"
       },
@@ -85,13 +85,13 @@
         },
         {
           "realm": "선거공보",
-          "title": "� 전국 최초 젠트리피케이션 방지 정책으로 소상공인 보호 추진",
+          "title": "전국 최초 젠트리피케이션 방지 정책으로 소상공인 보호 추진",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "� 정책으로 발전한 문자 민원: 전국 최초 65세 이상 대상포진 무료 예방 접종, 주차안심번호서비스 도입,",
+          "title": "정책으로 발전한 문자 민원: 전국 최초 65세 이상 대상포진 무료 예방 접종, 주차안심번호서비스 도입,",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -103,7 +103,7 @@
         },
         {
           "realm": "선거공보",
-          "title": "전국최초 「성동구 필수노동자 보호 및 지원에 관한 조례」(2020) → 「필수업무 지정 및 종사자 보호지원에 관한 법률」(2021)",
+          "title": "전국최초 성동구 필수노동자 보호 및 지원에 관한 조례(2020)  필수업무 지정 및 종사자 보호지원에 관한 법률(2021)",
           "content": "",
           "source": "brochure_pdf"
         }
@@ -183,13 +183,13 @@
         },
         {
           "realm": "선거공보",
-          "title": "\u0007여의도공원 3.3배 규모 생태공원 조성",
+          "title": "여의도공원 3.3배 규모 생태공원 조성",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "\u0007나들목·승강기 설치해 접근성 대폭 개선",
+          "title": "나들목·승강기 설치해 접근성 대폭 개선",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -279,7 +279,7 @@
         },
         {
           "realm": "선거공보",
-          "title": "4 개혁신당 7C1 又O＋ 云三」 남",
+          "title": "개혁신당 7C1 O  남",
           "content": "",
           "source": "brochure_pdf"
         }
@@ -364,8 +364,8 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%9D%B4%EA%B0%95%EC%82%B0&background=64748b&color=fff&size=128",
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "transport": "K-패스 지원 연 60만원 교통비 지급 / 03. 서울 어르신 교통비 무료화",
-        "housing": "04. 재개발/재건축 패스트 정책!",
+        "transport": "K-패스 지원 연 60만원 교통비 지급 / 서울 어르신 교통비 무료화",
+        "housing": "재개발/재건축 패스트 정책!",
         "environment": "자국민 보호 우선주의 / 종교 자유 수호"
       },
       "pledgeSource": "nec_official_brochure",
@@ -422,13 +422,13 @@
         },
         {
           "realm": "선거공보",
-          "title": "03. 서울 어르신 교통비 무료화",
+          "title": "서울 어르신 교통비 무료화",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "04. 재개발/재건축 패스트 정책!",
+          "title": "재개발/재건축 패스트 정책!",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -440,7 +440,7 @@
         },
         {
           "realm": "선거공보",
-          "title": "05. 외국인 불법 체류자 추방",
+          "title": "외국인 불법 체류자 추방",
           "content": "",
           "source": "brochure_pdf"
         }
@@ -461,7 +461,7 @@
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "주거·교통·의료·먹거리 기본서비스를 공공이 책임지는 서울 / 돌봄의 무게를 덜고, 돌봄이 활력이 되는 공공돌봄도시 서울",
-        "transport": "3 무상대중교통, 버스완전공영제",
+        "transport": "무상대중교통, 버스완전공영제",
         "housing": "세입자 계속 거주권, 공공임대주택 20%",
         "environment": "모든 시민이 노동권의 주체가 되는 서울 / 에너지자립과 자원순환으로 기후위기에 대응하고, 지역과 상생하는 서울"
       },
@@ -507,37 +507,31 @@
         },
         {
           "realm": "선거공보",
-          "title": "1 청년부터 무상주택,",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
           "title": "세입자 계속 거주권, 공공임대주택 20%",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "2 병원비 연100만 원 상한제,",
+          "title": "병원비 연100만 원 상한제,",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "25개 자치구 공공통합돌봄센터 설치",
+          "title": "개 자치구 공공통합돌봄센터 설치",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "3 무상대중교통, 버스완전공영제",
+          "title": "무상대중교통, 버스완전공영제",
           "content": "",
           "source": "brochure_pdf"
         },
         {
           "realm": "선거공보",
-          "title": "4 공공조식, 공유부엌 도입",
+          "title": "공공조식, 공유부엌 도입",
           "content": "",
           "source": "brochure_pdf"
         },
@@ -550,6 +544,12 @@
         {
           "realm": "선거공보",
           "title": "플랫폼노동자 최저보수제",
+          "content": "",
+          "source": "brochure_pdf"
+        },
+        {
+          "realm": "선거공보",
+          "title": "공공재생에너지로 체제전환",
           "content": "",
           "source": "brochure_pdf"
         }
@@ -16110,7 +16110,7 @@
             "sggName": "마포구제3선거구",
             "sdName": "서울특별시",
             "wiwName": "마포구",
-            "status": "등록",
+            "status": "사퇴",
             "regdate": "",
             "kind": "candidate"
           },
