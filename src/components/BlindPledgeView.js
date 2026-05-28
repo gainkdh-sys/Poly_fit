@@ -25,7 +25,9 @@ export default class BlindPledgeView extends Component {
       district,
       selectedElectionId,
       selectedConstituency,
-      regionData
+      regionData,
+      metro,
+      partyPolicyFallbacks
     } = appStore.getState();
 
     this.answerIdx = blindAnswers.length;
@@ -33,7 +35,11 @@ export default class BlindPledgeView extends Component {
 
     if ((!this.queue || this.queue.length === 0) && coreData && regionData && selectedElectionId) {
       const candidates = getCandidatesForElection(regionData, district, selectedElectionId, selectedConstituency);
-      this.queue = buildBlindEvaluationQueue(coreData, candidates);
+      this.queue = buildBlindEvaluationQueue(coreData, candidates, {
+        metro,
+        district,
+        partyPolicyFallbacks
+      });
     }
 
     this.currentItem = this.queue?.[this.answerIdx] || null;
@@ -49,7 +55,8 @@ export default class BlindPledgeView extends Component {
     const { selectedElectionId, selectedConstituency } = appStore.getState();
     const electionName = getElectionDisplayName(selectedElectionId, selectedConstituency);
     const progressPct = Math.round((this.answerIdx / this.queue.length) * 100);
-    const sourceLabel = this.currentItem.sourceLabel || '익명 후보 공약';
+    const mergedLabel = this.currentItem.mergedCount > 1 ? ` · 후보 ${this.currentItem.mergedCount}명 공통` : '';
+    const sourceLabel = `${this.currentItem.sourceLabel || '익명 후보 공약'}${mergedLabel}`;
     const agreementHtml = AGREEMENT_OPTIONS.map((option, idx) => `
       <button class="likert-btn agreement-btn slide-up"
               style="animation-delay: ${idx * 0.04}s"
@@ -84,17 +91,18 @@ export default class BlindPledgeView extends Component {
     this.target.querySelectorAll('.agreement-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const score = parseInt(e.currentTarget.dataset.score, 10);
+        const candIds = this.currentItem.candIds || [this.currentItem.candId];
         const newBlindAnswers = [
           ...blindAnswers,
-          {
-            candId: this.currentItem.candId,
+          ...candIds.map(candId => ({
+            candId,
             catId: this.currentItem.catId,
             catName: this.currentItem.catName,
             group: this.currentItem.group,
             pledge: this.currentItem.pledge,
             sourceLabel: this.currentItem.sourceLabel,
             score
-          }
+          }))
         ];
 
         appStore.setState({ blindQueue: this.queue, blindAnswers: newBlindAnswers });

@@ -124,9 +124,13 @@ export default class ElectionListView extends Component {
 
         const elecId = selectedElection.id;
         const constituency = selectedElection.constituency || '';
-        const { coreData, regionData, district } = appStore.getState();
+        const { coreData, regionData, district, metro, partyPolicyFallbacks } = appStore.getState();
         const candidates = getCandidatesForElection(regionData, district, elecId, constituency);
-        const blindQueue = buildBlindEvaluationQueue(coreData, candidates);
+        const blindQueue = buildBlindEvaluationQueue(coreData, candidates, {
+          metro,
+          district,
+          partyPolicyFallbacks
+        });
 
         appStore.setState({
           selectedElectionId: elecId,

@@ -35,10 +35,10 @@ export const appStore = new Store({
   finalRank: [],
   isResultRevealed: false,
   feedbacks: [],
-  communityPosts: [],
   // 공통 데이터 (초기 로딩 시 채워짐)
   coreData: null,
   locations: [],    // 광역자치단체 목록 [{ name, slug }]
   candidatePhotos: { photos: {} },
-  constituencyAreas: { regions: {} }
+  constituencyAreas: { regions: {} },
+  partyPolicyFallbacks: { parties: {}, regionalParties: {} }
 });

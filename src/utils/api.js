@@ -11,11 +11,12 @@ export async function fetchAppData() {
   console.log('[API] Loading initial application data...');
   try {
     const t = Date.now();
-    const [coreRes, locRes, photoRes, constituencyRes] = await Promise.all([
+    const [coreRes, locRes, photoRes, constituencyRes, partyPolicyRes] = await Promise.all([
       fetch(`./data/core.json?t=${t}`),
       fetch(`./data/locations.json?t=${t}`),
       fetch(`./data/candidate-photos.json?t=${t}`).catch(() => null),
-      fetch(`./data/constituency-areas.json?t=${t}`).catch(() => null)
+      fetch(`./data/constituency-areas.json?t=${t}`).catch(() => null),
+      fetch(`./data/party-policy-fallbacks.json?t=${t}`).catch(() => null)
     ]);
 
     if (!coreRes.ok || !locRes.ok) {
@@ -27,7 +28,8 @@ export async function fetchAppData() {
       core: await coreRes.json(),
       locations: await locRes.json(),
       candidatePhotos: photoRes?.ok ? await photoRes.json() : { photos: {} },
-      constituencyAreas: constituencyRes?.ok ? await constituencyRes.json() : { regions: {} }
+      constituencyAreas: constituencyRes?.ok ? await constituencyRes.json() : { regions: {} },
+      partyPolicyFallbacks: partyPolicyRes?.ok ? await partyPolicyRes.json() : { parties: {}, regionalParties: {} }
     };
 
     console.log('[API] Initial data loaded successfully');

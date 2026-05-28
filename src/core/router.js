@@ -85,7 +85,7 @@ export const Router = {
       });
       this.navigate('electionList');
     }
-    else if (['learning', 'community'].includes(view)) {
+    else if (view === 'learning') {
       this.navigate('intro');
     }
   }

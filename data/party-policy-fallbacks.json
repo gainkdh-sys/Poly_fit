@@ -2,6 +2,31 @@
   "sourceLabel": "선관위 정책·공약마당 정당정책 기반 참고",
   "sourceUrl": "https://policy.nec.go.kr/plc/policy/initUPAPolicy.do?menuId=PARTY5",
   "defaultGroups": ["welfare", "transport", "housing"],
+  "regionalSourceLabel": "시·도당 지역정책 기반 참고",
+  "regionalParties": {
+    "gwangju": {
+      "더불어민주당": {
+        "sourceLabel": "더불어민주당 광주광역시당 지역정책 참고",
+        "sourceUrl": "https://gwangju.theminjoo.kr/party/sub/news/view.php?brd=241&post=831",
+        "pledges": {
+          "welfare": "광주 시민이 일상에서 겪는 불편을 줄이는 생활 밀착 정책을 발굴하고 추진합니다.",
+          "transport": "광주·전남 행정통합과 서남권 메가시티 논의를 통해 생활권 이동과 지역 균형발전을 함께 살핍니다.",
+          "environment": "AI 국가 시범도시 조성과 지역 미래산업 육성으로 광주의 새 일자리를 만듭니다."
+        }
+      }
+    },
+    "jeonbuk": {
+      "더불어민주당": {
+        "sourceLabel": "더불어민주당 전북 지역 교통·균형발전 공약 참고",
+        "sourceUrl": "https://jeonbuk.theminjoo.kr/main/sub/news/view.php?brd=230&post=1218591",
+        "pledges": {
+          "transport": "강릉에서 목포까지 이어지는 강호축 철도망으로 전북의 이동 시간을 줄이고 지역 연결성을 높입니다.",
+          "environment": "도시와 농촌이 함께 살아날 수 있도록 지역 경제와 생활 기반을 고르게 키웁니다.",
+          "welfare": "일 잘하는 지방정부를 통해 주민 생활에 필요한 정책과 공약을 빠르게 추진합니다."
+        }
+      }
+    }
+  },
   "pending": {
     "source": "pending_public_search",
     "sourceLabel": "개별 공약 공개자료 확인 중",

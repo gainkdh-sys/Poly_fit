@@ -45,6 +45,74 @@ const GROUP_LABELS = {
   environment: '산업'
 };
 
+const METRO_NAME_TO_SLUG = {
+  서울특별시: 'seoul',
+  부산광역시: 'busan',
+  대구광역시: 'daegu',
+  인천광역시: 'incheon',
+  광주광역시: 'gwangju',
+  대전광역시: 'daejeon',
+  울산광역시: 'ulsan',
+  세종특별자치시: 'sejong',
+  경기도: 'gyeonggi',
+  강원특별자치도: 'gangwon',
+  충청북도: 'chungbuk',
+  충청남도: 'chungnam',
+  전북특별자치도: 'jeonbuk',
+  전라남도: 'jeonnam',
+  경상북도: 'gyeongbuk',
+  경상남도: 'gyeongnam',
+  제주특별자치도: 'jeju'
+};
+
+const PLAIN_LANGUAGE_REPLACEMENTS = [
+  ['정당정책:', ''],
+  ['균형발전 행정·재정 기반 구축', '지역 간 격차를 줄이기 위한 예산과 행정 지원'],
+  ['지방 핵심산업 육성', '지역의 주요 산업과 일자리 키우기'],
+  ['지방 생활기반시설', '동네 생활시설'],
+  ['생활기반시설', '동네 생활시설'],
+  ['광역·도시철도', '지역 간 철도와 도시철도'],
+  ['BRT·광역버스', '빠른 버스와 광역버스'],
+  ['저출생·고령화 대응', '아이 키우기와 어르신 지원'],
+  ['지역 필수의료', '가까운 병원과 응급의료'],
+  ['반값 전세', '전세 비용을 낮추는 정책'],
+  ['월세 세액공제', '월세 세금 혜택'],
+  ['재개발·재건축 정상화', '낡은 동네와 아파트 정비 절차 개선'],
+  ['디딤돌소득', '소득이 적은 가구 지원'],
+  ['생애주기 맞춤형', '나이와 상황에 맞춘'],
+  ['지역 의료격차 해소', '지역마다 다른 의료 접근성 차이를 줄이기'],
+  ['단계적 무상교통', '교통비를 단계적으로 낮추거나 무료화'],
+  ['생활권 공공교통', '동네에서 이용하기 쉬운 대중교통'],
+  ['지역공공재생에너지', '지역이 함께 만드는 재생에너지'],
+  ['자원순환', '재활용과 쓰레기 줄이기'],
+  ['기후위기 대응', '폭염·폭우와 탄소 배출에 대비'],
+  ['지역공공 통합돌봄', '동네에서 의료·돌봄을 함께 받는 체계'],
+  ['사회권', '기본적인 생활 권리'],
+  ['대중교통 그린 캐시백', '대중교통 이용 보상'],
+  ['광역교통망', '지역 사이를 잇는 교통망'],
+  ['지방정부형 기본소득', '지자체가 주는 기본소득'],
+  ['공공서비스 보편 보장', '누구나 기본 공공서비스를 이용하게 보장'],
+  ['토지세·탄소세 배당', '토지와 탄소 배출 세금을 주민에게 돌려주는 정책'],
+  ['재생에너지 공유부 배당', '재생에너지 수익을 주민과 나누는 정책'],
+  ['공정임대료제', '임대료가 지나치게 오르지 않게 관리'],
+  ['교통권', '이동할 권리'],
+  ['에너지 기본권', '기본적인 에너지 사용을 보장받을 권리'],
+  ['계속거주권', '세입자가 오래 살 수 있게 보호하는 권리'],
+  ['농어촌 무상공공버스', '농어촌 버스비를 무료로 낮추는 정책'],
+  ['AI 불평등과 고용불안', 'AI 때문에 생길 수 있는 일자리 불안과 격차'],
+  ['소득보장·일자리보장', '소득과 일자리를 함께 지키기'],
+  ['의료 데이터 디지털화', '병원 정보를 디지털로 관리'],
+  ['종교사학 자율성', '종교계 학교 운영의 자율성'],
+  ['미래산업 육성', '미래산업 키우기'],
+  ['산업 육성', '산업 키우기'],
+  ['인프라', '기반시설'],
+  ['추진합니다', '진행하겠습니다'],
+  ['구축합니다', '만들겠습니다'],
+  ['확충합니다', '늘리겠습니다'],
+  ['육성합니다', '키우겠습니다'],
+  ['보장합니다', '지키겠습니다']
+];
+
 export const ELECTION_ORDER = [
   'governor',
   'superintendent',
@@ -181,12 +249,68 @@ export function getAvailableElections(regionData, district) {
   return elections;
 }
 
-export function getPledgeText(candidate, category) {
+function getMetroSlug(candidate, context = {}) {
+  return context.metro
+    || METRO_NAME_TO_SLUG[candidate?.region?.[0]]
+    || candidate?.metroSlug
+    || '';
+}
+
+function getRegionalPartyConfig(candidate, context = {}) {
+  if (!candidate || candidate.pledgeSource !== 'party_policy') return null;
+
+  const metroSlug = getMetroSlug(candidate, context);
+  const regionalParties = context.partyPolicyFallbacks?.regionalParties || {};
+  return regionalParties[metroSlug]?.[candidate.party] || null;
+}
+
+function getRegionalPledges(candidate, context = {}) {
+  return getRegionalPartyConfig(candidate, context)?.pledges || null;
+}
+
+export function toPlainPledgeText(text) {
+  let value = String(text || '').replace(/\s+/g, ' ').trim();
+
+  PLAIN_LANGUAGE_REPLACEMENTS.forEach(([from, to]) => {
+    value = value.split(from).join(to);
+  });
+
+  return value
+    .replace(/키우기을/g, '키우는 일을')
+    .replace(/지원과 지역/g, '지원, 지역')
+    .replace(/대비을/g, '대비를')
+    .replace(/권리을/g, '권리를')
+    .replace(/체계을/g, '체계를')
+    .replace(/조성을 진행하겠습니다/g, '조성하겠습니다')
+    .replace(/보장을 진행하겠습니다/g, '보장하겠습니다')
+    .replace(/강화를 진행하겠습니다/g, '강화하겠습니다')
+    .replace(/확충을 진행하겠습니다/g, '늘리겠습니다')
+    .replace(/발굴하고 진행하겠습니다/g, '찾아 실행하겠습니다')
+    .replace(/\s*및\s*/g, '와 ')
+    .replace(/\s*등\s*/g, ' 등 ')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/^[:：\s]+/, '')
+    .trim();
+}
+
+function normalizePledgeSignature(text) {
+  return toPlainPledgeText(text)
+    .replace(/[^\p{L}\p{N}]+/gu, '')
+    .replace(/하겠습니다|합니다|추진|확대|강화|지원|구축/g, '')
+    .toLowerCase();
+}
+
+export function getPledgeText(candidate, category, context = {}) {
   if (!candidate || !category) return '';
 
-  const directPledge = candidate.pledges?.[category.id] || candidate.pledges?.[category.group];
+  const regionalPledges = getRegionalPledges(candidate, context);
+  const directPledge = regionalPledges?.[category.id]
+    || regionalPledges?.[category.group]
+    || candidate.pledges?.[category.id]
+    || candidate.pledges?.[category.group];
+
   if (directPledge && !isPendingPledgeText(directPledge)) {
-    return directPledge;
+    return toPlainPledgeText(directPledge);
   }
 
   return '';
@@ -202,8 +326,8 @@ function formatPledgeItem(item) {
   const content = String(item?.content || '').trim();
 
   if (!title && !content) return '';
-  if (!content || content === title || content.includes(title)) return title || content;
-  return `${title} - ${content}`;
+  if (!content || content === title || content.includes(title)) return toPlainPledgeText(title || content);
+  return toPlainPledgeText(`${title} - ${content}`);
 }
 
 function getFirstCategoryByGroup(categories) {
@@ -245,17 +369,18 @@ function categoryForGroup(coreData, group) {
   };
 }
 
-function buildOfficialPledgeItems(coreData, candidate) {
+function buildOfficialPledgeItems(coreData, candidate, context = {}) {
   const seen = new Set();
   const queueItems = [];
 
   (candidate.pledgeItems || []).forEach((item, index) => {
     const pledge = formatPledgeItem(item);
-    if (isPendingPledgeText(pledge) || seen.has(pledge)) return;
+    const signature = normalizePledgeSignature(pledge);
+    if (isPendingPledgeText(pledge) || seen.has(signature)) return;
 
     const group = inferPledgeGroup(item.realm, pledge);
     const category = categoryForGroup(coreData, group);
-    seen.add(pledge);
+    seen.add(signature);
     queueItems.push({
       id: `pledge:${candidate.id}:${index}`,
       candId: candidate.id,
@@ -263,34 +388,36 @@ function buildOfficialPledgeItems(coreData, candidate) {
       catName: category.name,
       group: category.group,
       pledge,
-      sourceLabel: getPledgeSourceLabel(candidate)
+      sourceLabel: getPledgeSourceLabel(candidate, context)
     });
   });
 
   if (queueItems.length > 0) return queueItems;
 
   return Object.entries(candidate.pledges || {}).reduce((items, [group, pledge]) => {
-    if (isPendingPledgeText(pledge) || seen.has(pledge)) return items;
+    const plainPledge = toPlainPledgeText(pledge);
+    const signature = normalizePledgeSignature(plainPledge);
+    if (isPendingPledgeText(plainPledge) || seen.has(signature)) return items;
 
     const category = categoryForGroup(coreData, group);
-    seen.add(pledge);
+    seen.add(signature);
     items.push({
       id: `pledge:${candidate.id}:${group}`,
       candId: candidate.id,
       catId: category.id,
       catName: category.name,
       group: category.group,
-      pledge,
-      sourceLabel: getPledgeSourceLabel(candidate)
+      pledge: plainPledge,
+      sourceLabel: getPledgeSourceLabel(candidate, context)
     });
     return items;
   }, []);
 }
 
-function getCouncilPolicyCategories(coreData, candidate) {
+function getCouncilPolicyCategories(coreData, candidate, context = {}) {
   const categories = coreData.categories || [];
   const firstByGroup = getFirstCategoryByGroup(categories);
-  const pledgeGroups = Object.keys(candidate.pledges || {});
+  const pledgeGroups = Object.keys(getRegionalPledges(candidate, context) || candidate.pledges || {});
   const groups = [...pledgeGroups, ...COUNCIL_DEFAULT_GROUPS]
     .filter((group, index, all) => group && all.indexOf(group) === index);
 
@@ -300,7 +427,10 @@ function getCouncilPolicyCategories(coreData, candidate) {
     .slice(0, COUNCIL_POLICY_LIMIT);
 }
 
-function getPledgeSourceLabel(candidate) {
+function getPledgeSourceLabel(candidate, context = {}) {
+  const regionalConfig = getRegionalPartyConfig(candidate, context);
+  if (regionalConfig?.sourceLabel) return regionalConfig.sourceLabel;
+
   if (candidate?.pledgeSourceLabel) return candidate.pledgeSourceLabel;
 
   const sourceLabels = {
@@ -314,14 +444,43 @@ function getPledgeSourceLabel(candidate) {
   return sourceLabels[candidate?.pledgeSource] || '익명 후보 공약';
 }
 
-export function buildBlindEvaluationQueue(coreData, candidates) {
+function mergeDuplicateQueueItems(items) {
+  const merged = new Map();
+
+  items.forEach((item) => {
+    const key = [
+      item.group,
+      normalizePledgeSignature(item.pledge),
+      item.sourceLabel || ''
+    ].join(':');
+    const existing = merged.get(key);
+
+    if (!existing) {
+      merged.set(key, {
+        ...item,
+        candIds: [item.candId],
+        mergedCount: 1
+      });
+      return;
+    }
+
+    if (!existing.candIds.includes(item.candId)) {
+      existing.candIds.push(item.candId);
+      existing.mergedCount += 1;
+    }
+  });
+
+  return [...merged.values()];
+}
+
+export function buildBlindEvaluationQueue(coreData, candidates, context = {}) {
   if (!coreData || !Array.isArray(candidates)) return [];
 
   const isCouncilElection = candidates.some(candidate => CONSTITUENCY_ELECTIONS.has(candidate.electionType));
 
   if (isCouncilElection) {
-    return candidates.flatMap((candidate) => {
-      const categories = getCouncilPolicyCategories(coreData, candidate);
+    const queue = candidates.flatMap((candidate) => {
+      const categories = getCouncilPolicyCategories(coreData, candidate, context);
 
       return categories.map((category) => ({
         id: `${category.id}:${candidate.id}`,
@@ -329,16 +488,18 @@ export function buildBlindEvaluationQueue(coreData, candidates) {
         catId: category.id,
         catName: category.name,
         group: category.group,
-        pledge: getPledgeText(candidate, category),
-        sourceLabel: getPledgeSourceLabel(candidate)
+        pledge: getPledgeText(candidate, category, context),
+        sourceLabel: getPledgeSourceLabel(candidate, context)
       })).filter(item => !isPendingPledgeText(item.pledge));
-    }).sort(() => Math.random() - 0.5);
+    });
+
+    return mergeDuplicateQueueItems(queue).sort(() => Math.random() - 0.5);
   }
 
-  const officialQueue = candidates.flatMap(candidate => buildOfficialPledgeItems(coreData, candidate));
+  const officialQueue = candidates.flatMap(candidate => buildOfficialPledgeItems(coreData, candidate, context));
 
   if (officialQueue.length > 0) {
-    return officialQueue.sort(() => Math.random() - 0.5);
+    return mergeDuplicateQueueItems(officialQueue).sort(() => Math.random() - 0.5);
   }
 
   const queue = coreData.categories.flatMap((category) => (
@@ -348,13 +509,13 @@ export function buildBlindEvaluationQueue(coreData, candidates) {
       catId: category.id,
       catName: category.name,
       group: category.group,
-      pledge: getPledgeText(candidate, category),
-      sourceLabel: getPledgeSourceLabel(candidate)
+      pledge: getPledgeText(candidate, category, context),
+      sourceLabel: getPledgeSourceLabel(candidate, context)
     })).filter(item => !isPendingPledgeText(item.pledge))
   ));
 
   // 전체 질문을 완벽히 무작위로 섞어 동일 카테고리나 질문이 연속 노출되는 피로도를 차단
-  return queue.sort(() => Math.random() - 0.5);
+  return mergeDuplicateQueueItems(queue).sort(() => Math.random() - 0.5);
 }
 
 export function createCampaignSearchUrl(candidate) {

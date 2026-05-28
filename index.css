@@ -140,23 +140,23 @@ p { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1.5rem; }
 .other-profile { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; border: 2px solid #e2e8f0; background: #f1f5f9; margin-right: 0.2rem; }
 .result-card-header { display: flex; flex-direction: column; align-items: center; margin-top: 1rem; }
 .candidate-desc { background: #f8fafc; padding: 1rem; border-radius: 8px; font-size: 0.95rem; margin-top: 1rem; color: #334155; }
-.result-section, .feedback-panel, .community-form, .learning-section { margin-top: 1.6rem; text-align: left; }
-.result-section h3, .feedback-panel h3, .community-form h3, .learning-section h3 { font-size: 1.08rem; margin-bottom: 0.8rem; color: var(--text); }
+.result-section, .feedback-panel, .learning-section { margin-top: 1.6rem; text-align: left; }
+.result-section h3, .feedback-panel h3, .learning-section h3 { font-size: 1.08rem; margin-bottom: 0.8rem; color: var(--text); }
 .policy-recap-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
 .policy-recap-item { padding-bottom: 0.8rem; border-bottom: 1px solid #e2e8f0; }
 .policy-recap-item p { margin: 0.35rem 0 0; font-size: 0.96rem; color: #334155; }
 .policy-recap-meta { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; font-size: 0.86rem; color: var(--text-muted); font-weight: 800; }
 .policy-recap-meta strong { color: var(--policy); }
 .empty-copy { margin: 0; font-size: 0.95rem; }
-.rank-list, .community-list, .learning-list { display: flex; flex-direction: column; gap: 0.8rem; }
-.rank-card, .community-post, .learning-term { padding: 1rem; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; box-shadow: var(--shadow-sm); }
+.rank-list, .learning-list { display: flex; flex-direction: column; gap: 0.8rem; }
+.rank-card, .learning-term { padding: 1rem; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; box-shadow: var(--shadow-sm); }
 .rank-main { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 0.75rem; }
 .rank-eyebrow { font-size: 0.78rem; color: var(--primary); font-weight: 900; }
 .rank-bio { font-size: 0.92rem; margin: 0.8rem 0 0.4rem; color: var(--text-muted); }
 .photo-credit { margin: 0.2rem 0 0.5rem; font-size: 0.75rem; color: #64748b; font-weight: 700; }
 .match-meter { width: 100%; height: 8px; background: #e2e8f0; border-radius: 8px; overflow: hidden; margin-top: 0.8rem; }
 .match-meter div { height: 100%; background: var(--policy); border-radius: 8px; }
-.feedback-panel, .community-form { border-top: 1px solid #e2e8f0; padding-top: 1.3rem; }
+.feedback-panel { border-top: 1px solid #e2e8f0; padding-top: 1.3rem; }
 .rating-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.45rem; margin-bottom: 0.8rem; }
 .rating-btn { min-height: 42px; border-radius: 8px; border: 1px solid #cbd5e1; background: #fff; color: #334155; font-weight: 900; cursor: pointer; font-family: inherit; }
 .rating-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
@@ -164,9 +164,7 @@ p { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1.5rem; }
 .feedback-textarea, .select-input { width: 100%; border: 2px solid var(--card-border); border-radius: 8px; padding: 0.95rem; font-size: 1rem; font-family: inherit; color: var(--text); background: #fff; resize: vertical; margin-bottom: 0.8rem; }
 .feedback-textarea:focus, .select-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 4px rgba(37,99,235,0.1); }
 .field-label { display: block; font-size: 0.9rem; font-weight: 900; color: var(--text); margin-bottom: 0.35rem; }
-.post-meta { display: flex; justify-content: space-between; color: var(--text-muted); font-size: 0.86rem; margin-bottom: 0.5rem; }
-.post-meta strong { color: var(--civic); }
-.community-post p, .learning-term p, .learning-section p { margin: 0; font-size: 0.96rem; color: #334155; }
+.learning-term p, .learning-section p { margin: 0; font-size: 0.96rem; color: #334155; }
 .voting-steps { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
 .voting-steps li { display: grid; grid-template-columns: 32px 1fr; gap: 0.7rem; align-items: start; }
 .voting-steps span { display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 8px; background: #eff6ff; color: var(--primary); font-weight: 900; }

@@ -808,9 +808,22 @@ def is_placeholder_pledges(pledges: Any) -> bool:
     return all(any(marker in text for marker in PLACEHOLDER_MARKERS) for text in texts)
 
 
-def council_policy_fallback(party: str) -> dict[str, Any]:
+def council_policy_fallback(party: str, sd_name: str = "") -> dict[str, Any]:
     config = load_party_policy_fallbacks()
+    metro_slug = SD_NAME_TO_SLUG.get(sd_name, "")
+    regional_config = (config.get("regionalParties") or {}).get(metro_slug, {}).get(party)
     party_config = (config.get("parties") or {}).get(party)
+
+    if regional_config:
+        return {
+            "pledges": regional_config.get("pledges", {}),
+            "pledgeSource": "party_policy",
+            "pledgeSourceLabel": regional_config.get("sourceLabel")
+            or config.get("regionalSourceLabel", "시·도당 지역정책 기반 참고"),
+            "pledgeSourceUrl": regional_config.get("sourceUrl")
+            or (party_config.get("sourceUrl") if party_config else "")
+            or config.get("sourceUrl"),
+        }
 
     if party_config:
         return {
@@ -1037,7 +1050,7 @@ def convert_row(
 
     if not pledges:
         if election_type in COUNCIL_ELECTION_TYPES:
-            fallback = council_policy_fallback(party)
+            fallback = council_policy_fallback(party, sd_name)
             pledges = fallback.get("pledges") or placeholder_pledges(kind)
             pledge_source = fallback.get("pledgeSource", "pending_public_search")
             pledge_source_label = fallback.get("pledgeSourceLabel", "개별 공약 공개자료 확인 중")

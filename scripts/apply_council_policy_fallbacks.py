@@ -13,6 +13,25 @@ REGION_DIR = ROOT_DIR / "data" / "regions"
 FALLBACK_PATH = ROOT_DIR / "data" / "party-policy-fallbacks.json"
 
 COUNCIL_TYPES = {"provincial_council", "city_council"}
+METRO_NAME_TO_SLUG = {
+    "서울특별시": "seoul",
+    "부산광역시": "busan",
+    "대구광역시": "daegu",
+    "인천광역시": "incheon",
+    "광주광역시": "gwangju",
+    "대전광역시": "daejeon",
+    "울산광역시": "ulsan",
+    "세종특별자치시": "sejong",
+    "경기도": "gyeonggi",
+    "강원특별자치도": "gangwon",
+    "충청북도": "chungbuk",
+    "충청남도": "chungnam",
+    "전북특별자치도": "jeonbuk",
+    "전라남도": "jeonnam",
+    "경상북도": "gyeongbuk",
+    "경상남도": "gyeongnam",
+    "제주특별자치도": "jeju",
+}
 PLACEHOLDER_MARKERS = (
     "공식 공약 데이터가 선관위에 공개되면",
     "공약 자료 준비 중",
@@ -31,7 +50,20 @@ def is_placeholder_pledges(pledges: Any) -> bool:
 
 def fallback_for(candidate: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
     party = str(candidate.get("party") or "무소속")
+    metro_name = str((candidate.get("region") or [""])[0] or "")
+    metro_slug = METRO_NAME_TO_SLUG.get(metro_name, "")
+    regional_config = config.get("regionalParties", {}).get(metro_slug, {}).get(party)
     party_config = config.get("parties", {}).get(party)
+
+    if regional_config:
+        party_source_url = party_config.get("sourceUrl") if party_config else ""
+        return {
+            "pledges": regional_config.get("pledges", {}),
+            "pledgeSource": "party_policy",
+            "pledgeSourceLabel": regional_config.get("sourceLabel")
+            or config.get("regionalSourceLabel", "시·도당 지역정책 기반 참고"),
+            "pledgeSourceUrl": regional_config.get("sourceUrl") or party_source_url or config.get("sourceUrl"),
+        }
 
     if party_config:
         return {

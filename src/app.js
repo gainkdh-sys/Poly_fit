@@ -12,7 +12,6 @@ import BlindPledgeView from './components/BlindPledgeView.js';
 import LoadingView from './components/LoadingView.js';
 import ResultView from './components/ResultView.js';
 import LearningCenterView from './components/LearningCenterView.js';
-import CommunityView from './components/CommunityView.js';
 
 const DOM = {
   app: document.getElementById('app')
@@ -28,8 +27,7 @@ const viewMap = {
   blindPledge: BlindPledgeView,
   loading: LoadingView,
   result: ResultView,
-  learning: LearningCenterView,
-  community: CommunityView
+  learning: LearningCenterView
 };
 
 /**
@@ -50,7 +48,8 @@ const App = {
       coreData: data.core,
       locations: data.locations,   // [{ name, slug }] 광역 목록
       candidatePhotos: data.candidatePhotos,
-      constituencyAreas: data.constituencyAreas
+      constituencyAreas: data.constituencyAreas,
+      partyPolicyFallbacks: data.partyPolicyFallbacks
     });
 
     // 3. 상태 변경 감시 (View 전환 시 렌더링)

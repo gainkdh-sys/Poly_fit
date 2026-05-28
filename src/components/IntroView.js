@@ -16,7 +16,6 @@ export default class IntroView extends Component {
           <button id="start-btn" class="btn-primary">블라인드 정책 매칭 시작</button>
           <button id="mbti-btn" class="btn-mbti">정치 MBTI 테스트 열기</button>
           <button id="learning-btn" class="btn-secondary">정치 학습 센터</button>
-          <button id="community-btn" class="btn-secondary">익명 정책 게시판</button>
           <a class="btn-secondary feedback-link"
              href="${FEEDBACK_FORM_URL}"
              target="_blank"
@@ -34,10 +33,6 @@ export default class IntroView extends Component {
 
     this.target.querySelector('#learning-btn').addEventListener('click', () => {
       Router.navigate('learning');
-    });
-
-    this.target.querySelector('#community-btn').addEventListener('click', () => {
-      Router.navigate('community');
     });
 
     this.target.querySelector('#mbti-btn').addEventListener('click', () => {
