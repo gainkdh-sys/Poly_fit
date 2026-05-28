@@ -26,6 +26,17 @@ const PENDING_PLEDGE_MARKERS = [
   '공개자료 확인 후 반영',
   '해당 분야 공약 데이터 준비 중'
 ];
+const NOISY_PLEDGE_MARKERS = [
+  '1인 시위',
+  '국회 방문',
+  '서한 전달',
+  '끝까지 뛰어',
+  '유치했습니다',
+  '완료했습니다',
+  '달성했습니다',
+  '수립했습니다',
+  '추진했습니다'
+];
 
 const PLEDGE_GROUP_KEYWORDS = {
   welfare: ['복지', '돌봄', '의료', '보건', '약자', '청년', '노인', '아동', '여성', '출산', '안전', '먹거리'],
@@ -67,6 +78,18 @@ const METRO_NAME_TO_SLUG = {
 
 const PLAIN_LANGUAGE_REPLACEMENTS = [
   ['정당정책:', ''],
+  ['첨단·우주항공산업도시 건설위한 100-10-3(113)플랜 수립', '우주항공 산업도시를 만들기 위한 구체적인 발전 계획을 세우겠습니다'],
+  ['첨단·우주항공산업도시 건설위한 100-10-3(113) 플랜 수립', '우주항공 산업도시를 만들기 위한 구체적인 발전 계획을 세우겠습니다'],
+  ['100만 첨단우주항공 복합도시 조성', '인구와 산업이 함께 성장하는 우주항공 복합도시를 만들겠습니다'],
+  ['100만 첨단 우주항공 복합도시 조성', '인구와 산업이 함께 성장하는 우주항공 복합도시를 만들겠습니다'],
+  ['100-10-3(113)플랜 수립', '구체적인 발전 계획 세우기'],
+  ['100-10-3(113) 플랜 수립', '구체적인 발전 계획 세우기'],
+  ['우주항공방산 메가클러스터 추진', '우주항공·방위산업 기업과 연구기관을 모아 키우겠습니다'],
+  ['우주항공방산 메가클러스터', '우주항공·방위산업 중심지'],
+  ['메가클러스터', '산업 중심지'],
+  ['방산', '방위산업'],
+  ['첨단·우주항공산업도시', '우주항공 산업도시'],
+  ['첨단우주항공 복합도시', '우주항공 산업과 생활이 함께 있는 도시'],
   ['균형발전 행정·재정 기반 구축', '지역 간 격차를 줄이기 위한 예산과 행정 지원'],
   ['지방 핵심산업 육성', '지역의 주요 산업과 일자리 키우기'],
   ['지방 생활기반시설', '동네 생활시설'],
@@ -269,13 +292,20 @@ function getRegionalPledges(candidate, context = {}) {
 }
 
 export function toPlainPledgeText(text) {
-  let value = String(text || '').replace(/\s+/g, ' ').trim();
+  let value = String(text || '')
+    .replace(/[^\uAC00-\uD7A3A-Za-z0-9\s·ㆍ.,:;!?%㎡㎢~+\-/()[\]'“”‘’]/g, '')
+    .replace(/^\s*\[[^\]]+\]\s*/g, '')
+    .replace(/^\s*[가-힣A-Za-z]+대전환\]\s*/g, '')
+    .replace(/^[0-9\s·ㆍ.,:;!?%㎡㎢~+\-/()[\]'“”‘’]+(?=(?!만)[가-힣A-Za-z])/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 
   PLAIN_LANGUAGE_REPLACEMENTS.forEach(([from, to]) => {
     value = value.split(from).join(to);
   });
 
   return value
+    .replace(/건설위한/g, '만들기 위한')
     .replace(/키우기을/g, '키우는 일을')
     .replace(/지원과 지역/g, '지원, 지역')
     .replace(/대비을/g, '대비를')
@@ -286,6 +316,7 @@ export function toPlainPledgeText(text) {
     .replace(/강화를 진행하겠습니다/g, '강화하겠습니다')
     .replace(/확충을 진행하겠습니다/g, '늘리겠습니다')
     .replace(/발굴하고 진행하겠습니다/g, '찾아 실행하겠습니다')
+    .replace(/계획 세우기$/g, '계획을 세우겠습니다')
     .replace(/\s*및\s*/g, '와 ')
     .replace(/\s*등\s*/g, ' 등 ')
     .replace(/\s{2,}/g, ' ')
@@ -319,6 +350,11 @@ export function getPledgeText(candidate, category, context = {}) {
 function isPendingPledgeText(text) {
   const value = String(text || '').trim();
   return !value || PENDING_PLEDGE_MARKERS.some(marker => value.includes(marker));
+}
+
+function isNoisyPledgeText(text) {
+  const value = String(text || '').trim();
+  return NOISY_PLEDGE_MARKERS.some(marker => value.includes(marker));
 }
 
 function formatPledgeItem(item) {
@@ -376,7 +412,7 @@ function buildOfficialPledgeItems(coreData, candidate, context = {}) {
   (candidate.pledgeItems || []).forEach((item, index) => {
     const pledge = formatPledgeItem(item);
     const signature = normalizePledgeSignature(pledge);
-    if (isPendingPledgeText(pledge) || seen.has(signature)) return;
+    if (isPendingPledgeText(pledge) || isNoisyPledgeText(pledge) || seen.has(signature)) return;
 
     const group = inferPledgeGroup(item.realm, pledge);
     const category = categoryForGroup(coreData, group);
@@ -397,7 +433,7 @@ function buildOfficialPledgeItems(coreData, candidate, context = {}) {
   return Object.entries(candidate.pledges || {}).reduce((items, [group, pledge]) => {
     const plainPledge = toPlainPledgeText(pledge);
     const signature = normalizePledgeSignature(plainPledge);
-    if (isPendingPledgeText(plainPledge) || seen.has(signature)) return items;
+    if (isPendingPledgeText(plainPledge) || isNoisyPledgeText(plainPledge) || seen.has(signature)) return items;
 
     const category = categoryForGroup(coreData, group);
     seen.add(signature);
@@ -490,7 +526,7 @@ export function buildBlindEvaluationQueue(coreData, candidates, context = {}) {
         group: category.group,
         pledge: getPledgeText(candidate, category, context),
         sourceLabel: getPledgeSourceLabel(candidate, context)
-      })).filter(item => !isPendingPledgeText(item.pledge));
+      })).filter(item => !isPendingPledgeText(item.pledge) && !isNoisyPledgeText(item.pledge));
     });
 
     return mergeDuplicateQueueItems(queue).sort(() => Math.random() - 0.5);
@@ -511,7 +547,7 @@ export function buildBlindEvaluationQueue(coreData, candidates, context = {}) {
       group: category.group,
       pledge: getPledgeText(candidate, category, context),
       sourceLabel: getPledgeSourceLabel(candidate, context)
-    })).filter(item => !isPendingPledgeText(item.pledge))
+    })).filter(item => !isPendingPledgeText(item.pledge) && !isNoisyPledgeText(item.pledge))
   ));
 
   // 전체 질문을 완벽히 무작위로 섞어 동일 카테고리나 질문이 연속 노출되는 피로도를 차단
