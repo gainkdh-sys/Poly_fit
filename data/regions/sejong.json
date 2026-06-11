@@ -17,8 +17,8 @@
         "housing": "인구 80만 자족도시 프로젝트 추진",
         "environment": "행정수도 세종 완성 / 도농 상생 균형발전"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -56,54 +56,6 @@
           "realm": "",
           "title": "시민주권 확립을 위한 시민청(市民聽) 설립",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "국정과제 50번행정수도 세종 완성을 설계했습니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "행정수도 완성이 진행 중인 현실에",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "행정수도 세종을 완성하겠습니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "이재명처럼 일하겠습니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "행정수도 세종 완성] 설계",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "조상호강한 추진력! 조상호일하는 세종시장",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "대한민국 국가균형성장과 수도권 과밀 해소라는",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "이재명 정부는 행정수도 세종을 완성할 준비를 마쳤습니다",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5100/003_100153754_20260522_1.pdf",
@@ -121,12 +73,11 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%B5%9C%EB%AF%BC%ED%98%B8&background=ef4444&color=fff&size=128",
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "transport": "세종시 저상버스 이용 활성화를 위한 연구 용역의",
         "housing": "자족경제의 활발한 젊은 도시 세종을 건설하겠습니다. / 「주 4일 근무 시대」를 여는 ‘한국 최초 AI 혁신도시 세종’을 만들겠습니다.",
         "environment": "행정수도 기필고 완성하겠습니다. / 저녁과 휴일이 있는 행복한 가족의 삶이 있는 세종을 만들겠습니다."
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -164,54 +115,6 @@
           "realm": "",
           "title": "「주 4일 근무 시대」를 여는 ‘한국 최초 AI 혁신도시 세종’을 만들겠습니다.",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "세종시 코로나19 지원금 0원",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "세종시 저상버스 이용 활성화를 위한 연구 용역의",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "중간 결과, 효율성 개선이 시급한 것으로 나타났다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "여당이 행정수도 이전 추진 방침을 밝힌 이후 세종",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "전 추진이 더해져 세종시 아파트값이 더 뛰었습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "값을 또 서울처럼 만들고 있네. 이 무능한 사람들아.”",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "민들은 타 도시와 다르게 정부지원금 100만원 뿐",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "차상위층 가족에게 최대 정부지원금포함(4인기준)",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5100/003_100161690_20260522_1.pdf",
@@ -231,11 +134,10 @@
       "pledges": {
         "transport": "내 차보다 편한 대중교통",
         "culture": "행정수도 명문화 개헌 추진",
-        "housing": "행정수도 완성 그리고 자족도시 어렵습니다. / 전통과 신도시의 인프라를 연결해",
         "environment": "'금강 르네상스' 프로젝트 / 공짜 정부청사는 그만! '세종형 PILOT'으로 연간 200억 재정 확보"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -273,36 +175,6 @@
           "realm": "",
           "title": "내 차보다 편한 대중교통",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "행정수도 완성 그리고 자족도시 어렵습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "다시 뛰는 세종시 만들어주십시오.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "완전히 재설계하겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "전통과 신도시의 인프라를 연결해",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "여민전 혜택 확대 등 세종시민들께",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5100/003_100158883_20260522_1.pdf",

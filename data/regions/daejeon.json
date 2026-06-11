@@ -16,10 +16,10 @@
       "pledges": {
         "welfare": "청년특별시 대전 / 촘촘한 복지도시",
         "housing": "기후위기 대응을 위한 탄소중립 도시 / 대한민국 대표 AI 선도도시",
-        "environment": "민생경제 회복 / 기회로 바꾸며, 대한민국의 회복과 성장을"
+        "environment": "민생경제 회복"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -57,54 +57,6 @@
           "realm": "",
           "title": "촘촘한 복지도시",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "기회로 바꾸며, 대한민국의 회복과 성장을",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "진짜 대한민국’이 실현되고 있는 것입니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "동시추진 하겠다던 약속도 지켜지지 않았습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "허태정이 추진했던 지역화폐 온통대전 발행,",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "혁신도시 조성 및 공공기관 유치,",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "해결하고 대전의 미래를 준비할 역량있는 시장이 필요합니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "대한민국 혁신성장의 거점’",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "GPU 거점센터 구축 추진, AI 실증단지 조성을 통한 AI 산업 인프라 구축",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/3000/003_100153736_20260514_1.pdf",
@@ -123,12 +75,12 @@
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "청년이 찾고 여성이 살기 좋은 대전! 더 나아집니다.",
-        "education": "‘아이 기르기 좋은 대전’에서 ‘일류교육도시’로 / 대전형 인재육성 교육지원금 지원 / 우주기술혁신인재양성센터 건립 등",
+        "education": "‘아이 기르기 좋은 대전’에서 ‘일류교육도시’로 / 대전형 인재육성 교육지원금 지원",
         "culture": "문화예술 인프라 확충, 문화예술 활동 전폭 지원 / ‘K-문화예술 허브’ 도약,",
         "environment": "7대 전략산업 기반, 대전의 새로운 성장동력 육성 / 빠르고 편리한 첨단 ‘무궤도 트램’ 3·4·5·6호선 임기내 완공"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -166,54 +118,6 @@
           "realm": "",
           "title": "문화예술 인프라 확충, 문화예술 활동 전폭 지원 / ‘K-문화예술 허브’ 도약,",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "숙원 사업 해결사!이장우",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "년만에 증가세로 전환!",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "글로벌 경제과학수도 대전으로 만들겠습니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "우주기업 성장기반 추진",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "년 50개 기업 9조원 투자 유치",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "탑립, 전민 바이오혁신 클러스터",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "육성과 2차전지 생태계 구축 등",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "우주기술혁신인재양성센터 건립 등",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/3000/003_100163200_20260515_1.pdf",
@@ -233,12 +137,12 @@
       "pledges": {
         "welfare": "안전한 대전 (화재,안전,체육,정신건강)",
         "education": "똑똑한 대전 (교육, 과학)",
-        "transport": "연결되는 대전 (커뮤니티, 교통) / 교통과 일자리 등의 문제들이 산적해 있는데 이는 결코 쉽게 풀 수 있는 것이",
-        "culture": "살기좋은 대전 (일자리, 관광) / 카이스트에서 공부하며 과학기술과 문화가 만들어 내는 대전의 가능성을",
-        "environment": "소통하는 대전 (언론, 시민사회) / 개혁신당 대전광역시장 후보 강희린입니다."
+        "transport": "연결되는 대전 (커뮤니티, 교통)",
+        "culture": "살기좋은 대전 (일자리, 관광)",
+        "environment": "소통하는 대전 (언론, 시민사회)"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -276,54 +180,6 @@
           "realm": "",
           "title": "똑똑한 대전 (교육, 과학)",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "개혁신당 대전광역시장 후보 강희린입니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "카이스트에서 공부하며 과학기술과 문화가 만들어 내는 대전의 가능성을",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "보았습니다. 그러나 이 잠재력을 잘 살리지 못하고 심지어 과학기술 예산을",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "대폭 삭감하는 중앙과 대전의 정치 현실을 바라보며, 누군가는 대전을",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "정치가 제 역할을 하지 못하고 있기 때문입니다. 대전에는 원도심 활성화,",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "교통과 일자리 등의 문제들이 산적해 있는데 이는 결코 쉽게 풀 수 있는 것이",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "해결하지 못한 채 정체되어 있습니다. 기성 정치는 시민 삶의 문제",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "해결보다는 양당의 진영논리 속에서 소모적이고 피로한 정쟁만 지속합니다.",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/3000/003_100153978_20260522_2.pdf",

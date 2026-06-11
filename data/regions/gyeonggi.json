@@ -18,8 +18,8 @@
         "transport": "교통생활권 주거",
         "environment": "수도권 30분 출근 대전환 / 함께 성장하는 대한민국 경제 1번지"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -57,54 +57,6 @@
           "realm": "",
           "title": "안심생활·안전일터 및 혁신행정",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "법과 정의가 국민을 위해 작동하도록 만들기 위해",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "이제 그 원칙과 추진력을 경기도를 위해 쓰겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "경기도의 변화를 만들겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "시민의 힘으로 참여정부 탄생의 밑거름을 만들었습니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "당대표가 된 후 시스템 공천으로 민주당의 체질을 바꾸고, 대통령선거와 지방선거 대승을 이끌며",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "국무회의 생중계, 일하는 정부를 만들고 있습니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "경기를 다시 ‘빠르고 강하고 공정하게’ 바꾸겠습니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "중앙 정부의 지원을 이끌어 낼 수 있는 리더",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/4100/003_100163148_20260525_2.pdf",
@@ -243,11 +195,11 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%ED%99%8D%EC%84%B1%EA%B7%9C&background=7c3aed&color=fff&size=128",
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "welfare": "경기도가 책임지는 '공공통합돌봄' 실현 / 현)경기도교육청명예산업안전감독관",
+        "welfare": "경기도가 책임지는 '공공통합돌봄' 실현",
         "environment": "노동부지사 임명, 노·정교섭 정례화 / 경기도형 '순환경제 모델' 로 수도권 쓰레기 문제 근본 해결"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -285,54 +237,6 @@
           "realm": "",
           "title": "차별금지조례 제정, 누구도 소외되지 않는 '평등한 경기도'",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "내란청산과 이재명 정부 사회대개혁 완성을 위해",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "현)경기도교육청명예산업안전감독관",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "현)경기청년진보당대학생위원장",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "다시만들세계2030위원회’부위원장",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "경기도가 책임지는 ‘공공통합돌봄’ 실현!",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "경기공공은행’ 설립으로 지역경제 선순환",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "경기도형 순환경제 모델’로 수도 문제 근본 해결",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "경기도형 ‘월 3만원 청년·서민 프리패스’ 도입",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/4100/003_100153796_20260523_1.pdf",

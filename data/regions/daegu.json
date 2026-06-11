@@ -14,14 +14,13 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EA%B9%80%EB%B6%80%EA%B2%B8&background=1e40af&color=fff&size=128",
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "welfare": "청년에게는 더 특별한 지원을 아이와 어르신, 장애인에게는 더 따뜻한 돌봄을, 내 삶을 지키는 대구 / 대구 달서구 출신으로 김해에서 직장 생활하는 청년입니다.",
+        "welfare": "청년에게는 더 특별한 지원을 아이와 어르신, 장애인에게는 더 따뜻한 돌봄을, 내 삶을 지키는 대구",
         "transport": "행정통합과 신공항으로 완성되는 더 큰 대구 / 내 집 앞 10분 역세권, 30분 국제공항세권",
         "culture": "대구 민생경제를 살리고 소상공인과 자영업자의 든든한 버팀목이 되겠습니다.",
-        "housing": "인공지능(AI)로봇 수도, 인공지능 전환(AX) 중심도시 대구, 산업대전환 프로젝트 추진",
-        "environment": "최저임금조차 못 받는 젊은이들, / 일자리가 없어 타지로 떠나야 하는 아들딸들,"
+        "housing": "인공지능(AI)로봇 수도, 인공지능 전환(AX) 중심도시 대구, 산업대전환 프로젝트 추진"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -59,54 +58,6 @@
           "realm": "",
           "title": "청년에게는 더 특별한 지원을 아이와 어르신, 장애인에게는 더 따뜻한 돌봄을, 내 삶을 지키는 대구",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "최저임금조차 못 받는 젊은이들,",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "일자리가 없어 타지로 떠나야 하는 아들딸들,",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "대구 달서구 출신으로 김해에서 직장 생활하는 청년입니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "떠났습니다. 대구를 사랑하는 고향민으로서 꼭 대구를 바꾸어",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "저는 92년생 대구가 고향인 한 청년입니다. 내 고향 대구가",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "일자리가 많아져서 활기가 돌고 다시 젊은이들이 돌아오는 지역",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "으로 대전환 부탁드립니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "대구에서 자영업을 하고 있는 청년입니다. 4월 폐업을 앞두고",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/2700/003_100162026_20260522_1.pdf",
@@ -124,13 +75,12 @@
       "imageUrl": "https://ui-avatars.com/api/?name=%EC%B6%94%EA%B2%BD%ED%98%B8&background=ef4444&color=fff&size=128",
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
-        "welfare": "휴머노이드·서비스로봇 시험용 ‘로봇 안전인증센터’ 설립",
         "transport": "대구경북 통합신공항 국가사업 전환 / 도시철도망 및 도로망 확충",
-        "housing": "대구를 국가대표 창업도시로 도약·발전 / 로봇테스트필드 연계 특화 캠퍼스 조성, 세계 Top5 로봇도시 진입",
+        "housing": "대구를 국가대표 창업도시로 도약·발전",
         "environment": "반도체 산업단지 조성 / 행정 대혁신으로 공공서비스의 질 개선"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -168,54 +118,6 @@
           "realm": "",
           "title": "행정 대혁신으로 공공서비스의 질 개선",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "당선 즉시, 추경 편성 작업에 착수해 민생경제부터 살리겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "비상경제대책회의를 운영하겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "국가 예산의 물줄기를 설계하고 정책을 실현시킨 그 경험과 네트워크를",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "탑재하여대구경제를대개조하겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "반도체 산업 클러스터 조성!",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "로봇테스트필드 연계 특화 캠퍼스 조성, 세계 Top5 로봇도시 진입",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "휴머노이드·서비스로봇 시험용 ‘로봇 안전인증센터’ 설립",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "K-테슬라’ 프로젝트 : 완성차 생산 도시 도약!",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/2700/003_100163199_20260522_1.pdf",
@@ -234,13 +136,12 @@
       "desc": "선관위 후보자 데이터와 공식 선거공보 PDF를 함께 참고한 후보자입니다.",
       "pledges": {
         "welfare": "매년 1조 원 규모 ‘청년창업 일자리 펀드’ 조성 / 영천댐 1급수 상수원 확보 및 안전한 물 공급체계 구축",
-        "transport": "대구공항 도심존치 및 군공항 전액 국비 이전 추진 / 군공항은 전액 국비 이전 추진",
+        "transport": "대구공항 도심존치 및 군공항 전액 국비 이전 추진",
         "culture": "반려인과 공존하는 안심 반려문화 친화도시 조성",
-        "housing": "소음피해 지역 사유지 공공수용 및 생활 주거 안정기금 지원",
-        "environment": "대구 행정혁신, 생활권·경제권 중심의 '2대 통합구' 신설 및 자치분권 실현 / 대구의 행정구역 대혁신"
+        "environment": "대구 행정혁신, 생활권·경제권 중심의 '2대 통합구' 신설 및 자치분권 실현"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -278,54 +179,6 @@
           "realm": "",
           "title": "반려인과 공존하는 안심 반려문화 친화도시 조성",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "군공항은 전액 국비 이전 추진",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "소음피해 지역 사유지 공공수용 및 생활 주거 안정기금 지원",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "공공수용부지를‘첨단물류산업특구’ 조성",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "청년의 꿈에 투자합니다",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "조 청년 창업 일자리 펀드' 조성 (H)",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "청년 지식산업 스타트업 : 에듀테크 및 대학연계 산학 창업 투자",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "대구의 행정구역 대혁신",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "다사  하빈  성서권 통합 ‘성서구’ 독립 추진",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/2700/003_100156890_20260522_1.pdf",

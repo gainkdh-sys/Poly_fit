@@ -17,8 +17,8 @@
         "housing": "국제에너지 도시 조성과 첨단산업 육성으로 전북 산업구조 대전환",
         "environment": "피지컬 AI 실증·테스트베드 구축 / 새만금 핵심 SOC 이재명 정부 임기내 완공 추진"
       },
-      "pledgeSource": "nec_official_brochure",
-      "pledgeSourceLabel": "선관위 공식 공약·선거공보",
+      "pledgeSource": "nec_official",
+      "pledgeSourceLabel": "선관위 공식 공약",
       "source": "nec",
       "nec": {
         "sgId": "20260603",
@@ -56,54 +56,6 @@
           "realm": "",
           "title": "지갑은 채우고 골목은 살리는 ‘체감형 경제’ 실현",
           "content": ""
-        },
-        {
-          "realm": "선거공보",
-          "title": "명예를 회복하였습니다.(민주화운동관련자 명예회복 및 보상 등에 관한 법률)",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "전북은 지금 중요한 전환점에 서 있습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "이재명 정부와 정청래 당대표의 전북 발전 의지를 실제 변화로 만들어야 합니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "그러기 위해서는 대통령실·중앙정부·민주당과 바로 연결되고,",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "성장하도록 모든 자원을 집중하겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "이를 통해 체감 경제를 살리고, 부가가치가 선순환하는",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "탄탄한 경제 생태계를 만들겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
-        },
-        {
-          "realm": "선거공보",
-          "title": "기업 유치를 확대하고 미래 먹거리를 만들어가겠습니다.",
-          "content": "",
-          "source": "brochure_pdf"
         }
       ],
       "brochureUrl": "https://cdn.nec.go.kr/policy_pdf/20260603/PDF/PBINFO/5300/003_100163170_20260518_1.pdf",
